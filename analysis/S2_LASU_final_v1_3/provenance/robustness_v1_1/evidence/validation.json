@@ -1,0 +1,191 @@
+[
+  {
+    "check": "v1 directory file set and bytes unchanged",
+    "passed": true,
+    "detail": 85
+  },
+  {
+    "check": "Exact v1 code reuse run_analysis.py",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Exact v1 code reuse models.py",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "All 24 age-year denominators",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Age denominators add to total within rounding",
+    "passed": true,
+    "detail": [
+      0.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      0.0,
+      -1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "check": "2024 old denominator equals v1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "120 rate cells and arithmetic",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Rule-based rate bounds ordered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R1 visible numerator matches v1 ge65 SU",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R1 visible numerator matches v1 ge65 long",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R1 visible numerator matches v1 lt65 SU",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R1 visible numerator matches v1 lt65 long",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 age conservation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 allocation within derived volume bounds",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Small-age imputed fills bounded by claims-based envelope",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 uses original flags separately",
+    "passed": true,
+    "detail": {
+      "#": 5784,
+      "*": 384
+    }
+  },
+  {
+    "check": "R2 panel completeness old_lower_young_upper",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 panel completeness old_upper_young_lower",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 panel completeness primary_small_lower",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 panel completeness primary_small_upper",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 panel completeness share_old_lower_young_upper",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 panel completeness share_old_upper_young_lower",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Complete subset 103 state-years in 41 states",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "All 10 model fits vs independent paired-age WLS",
+    "passed": true,
+    "detail": {
+      "max_beta_error": 2.073841098848561e-12,
+      "max_se_error": 4.1262132599584334e-13
+    }
+  },
+  {
+    "check": "R3 baseline reproduces v1",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "ER reclassification preserves SU denominator",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Actual combination generic names verified",
+    "passed": true,
+    "detail": [
+      "Glipizide/Metformin Hcl",
+      "Glyburide/Metformin Hcl",
+      "Pioglitazone Hcl/Glimepiride",
+      "Rosiglitazone/Glimepiride"
+    ]
+  },
+  {
+    "check": "R4 independent spline ge65",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R4 independent spline lt65",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R4 independent spline gap",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Published beneficiary union bounds ordered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R5 long max/sum verified",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "R2 decision matches prespecified four-scenario rule",
+    "passed": true,
+    "detail": "ROBUST"
+  }
+]

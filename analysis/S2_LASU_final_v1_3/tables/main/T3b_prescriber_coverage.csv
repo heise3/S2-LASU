@@ -1,0 +1,3 @@
+year,age,scenario,n_prescribers,A_SU,B_SU_lower,B_SU_upper,SU_recovery_lower_pct,SU_recovery_upper_pct,A_long,B_long_lower,B_long_upper,long_recovery_lower_pct,long_recovery_upper_pct
+2019,all_age,primary,159089,27639771.3,32393523.4,32393523.4,85.3249921557,85.3249921557,12306974.6,13948262.7,13948262.7,88.233028476,88.233028476
+2024,all_age,primary,152695,26500885.5,31224753,31224753,84.8714015448,84.8714015448,10158498.2,11864896.7,11864896.7,85.6180922334,85.6180922334

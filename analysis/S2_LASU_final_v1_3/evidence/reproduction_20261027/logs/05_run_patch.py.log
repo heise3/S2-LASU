@@ -1,0 +1,14 @@
+R2 ROBUST
+             scenario  coefficient   ci_low  ci_high
+  primary_small_lower     0.574925 0.444204 0.705645
+  primary_small_upper     0.569183 0.437152 0.701215
+old_lower_young_upper     0.569288 0.437315 0.701262
+old_upper_young_lower     0.574820 0.444041 0.705598
+R1 reversals
+ age      family  start_year  end_year  raw_volume_change_pct  standardized_rate_change_pct  denominator_change_pct  direction_reversed  rate_change_lower_pct  rate_change_upper_pct
+ge65          SU        2013      2024              13.482736                    -31.495470               65.657271                True             -31.495470             -31.495470
+ge65 glimepiride        2013      2024              31.250972                    -20.769568               65.657271                True             -20.769568             -20.769568
+ge65   glipizide        2013      2024              40.752825                    -15.033718               65.657271                True             -15.033718             -15.033718
+ge65   glipizide        2019      2024               8.661766                    -12.216713               23.784117                True             -12.216713             -12.216713
+ge65   glipizide        2020      2024               4.499015                    -11.989951               18.735322                True             -11.989951             -11.989951
+lt65   glipizide        2013      2024              -7.733397                      0.086115               -7.812784                True               0.086115               0.086115

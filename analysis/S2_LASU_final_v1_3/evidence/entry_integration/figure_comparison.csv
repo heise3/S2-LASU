@@ -1,0 +1,9 @@
+figure_id,format,byte_equal,reference_sha256,rerun_sha256,pixel_equal,different_pixels,max_channel_difference,reference_shape,rerun_shape,status,normalized_content_and_resources_equal,metadata_equal,pages_reference,pages_rerun,vector_no_image_XObjects
+F1,png,True,ffa8d6ece8f736da350e7d9bd8227ac65d1f956c691b1aa8544b345870f8c620,ffa8d6ece8f736da350e7d9bd8227ac65d1f956c691b1aa8544b345870f8c620,True,0,0,"[1396, 2156, 4]","[1396, 2156, 4]",PASS,,,,,
+F1,pdf,True,56698af501983b2bc403ee988e670c8b4fd78ce08afcb11393c16cd968d01cf6,56698af501983b2bc403ee988e670c8b4fd78ce08afcb11393c16cd968d01cf6,True,0,0,,,PASS,True,True,1.0,1.0,True
+F2,png,True,7350b5a25f4819f968800fac320642357c2bb76449e071a160fb909640e5d050,7350b5a25f4819f968800fac320642357c2bb76449e071a160fb909640e5d050,True,0,0,"[1335, 2963, 4]","[1335, 2963, 4]",PASS,,,,,
+F2,pdf,True,cb30c237839404bf2b39db2f5722281c458a4505e067736234fa2217913f4ea2,cb30c237839404bf2b39db2f5722281c458a4505e067736234fa2217913f4ea2,True,0,0,,,PASS,True,True,1.0,1.0,True
+F3,png,True,7a429aa0e2c4e42a53b63a6a1e1fe9a0ccaaf67757c2b3fac01eb79cc58fb473,7a429aa0e2c4e42a53b63a6a1e1fe9a0ccaaf67757c2b3fac01eb79cc58fb473,True,0,0,"[3730, 2180, 4]","[3730, 2180, 4]",PASS,,,,,
+F3,pdf,True,3d0d4167258972ca1373a463da5b1ec82e77cfc0940836dffc2b6ccbbd13e41a,3d0d4167258972ca1373a463da5b1ec82e77cfc0940836dffc2b6ccbbd13e41a,True,0,0,,,PASS,True,True,1.0,1.0,True
+F4,png,True,461d47120b6bc0204713d383685065ee0bbbee14be695716faa27a0919c365b3,461d47120b6bc0204713d383685065ee0bbbee14be695716faa27a0919c365b3,True,0,0,"[2860, 3300, 4]","[2860, 3300, 4]",PASS,,,,,
+F4,pdf,True,1436a5de8ba02a67ef4a4846298422ffd100194612ed6eb13c263e39824f3bd6,1436a5de8ba02a67ef4a4846298422ffd100194612ed6eb13c263e39824f3bd6,True,0,0,,,PASS,True,True,1.0,1.0,True

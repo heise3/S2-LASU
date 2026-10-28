@@ -1,0 +1,13 @@
+{
+  "prior_files_checked": 732,
+  "prior_files_changed": [],
+  "frozen_mapping_files_verified": 29,
+  "share_models_independently_verified": 68,
+  "Table2_entries_each_approach": 33,
+  "nested_LASU_benchmark_not_counted_in_reference": true,
+  "unchanged_effects_outside_corrected_entry": true,
+  "literature_old_rows_preserved": 18,
+  "literature_added_rows": 1,
+  "all_transforms_and_integrity_sensitivity_same_quartile": true,
+  "decision": "INCLUDE"
+}

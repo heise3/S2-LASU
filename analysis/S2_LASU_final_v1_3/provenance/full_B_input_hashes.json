@@ -1,0 +1,62 @@
+[
+  {
+    "year": 2013,
+    "path": "work/full_csv/B_2013.csv",
+    "sha256": "4c374c259f2e23c6ab580d9ee9559613f30e7cf4ae9a5f8cb8a3449662c547dd"
+  },
+  {
+    "year": 2014,
+    "path": "work/full_csv/B_2014.csv",
+    "sha256": "a9ae8dc7adfeacfaf27a2764c910b156a820efed19f2a8722f9550eaa84ed177"
+  },
+  {
+    "year": 2015,
+    "path": "work/full_csv/B_2015.csv",
+    "sha256": "a80dabcd5c6d34d49fe7ec0c70a8fe18994636c70e766b1ac095f7ce10d55f33"
+  },
+  {
+    "year": 2016,
+    "path": "work/full_csv/B_2016.csv",
+    "sha256": "c4e1dcf7df052f8061ea8aae4775cfaa231699f1ae35d2da4a767e3bc03242f5"
+  },
+  {
+    "year": 2017,
+    "path": "work/full_csv/B_2017.csv",
+    "sha256": "155212b8ec0e143728dc6be7df23a5d58335406bde6f44f7b16ebd8a3f316633"
+  },
+  {
+    "year": 2018,
+    "path": "work/full_csv/B_2018.csv",
+    "sha256": "ceae64852d4997c7d02bac64cc251861c5d897e0cd0a3b83c7b6ebc56c3d4123"
+  },
+  {
+    "year": 2019,
+    "path": "work/full_csv/B_2019.csv",
+    "sha256": "d87977e5aed2ba7c862165bba0a32e844823ecd1f8cbeebe52a8bcd4f1892e01"
+  },
+  {
+    "year": 2020,
+    "path": "work/full_csv/B_2020.csv",
+    "sha256": "28a7f5558435ac99cb98b113ad054e54cb4fa487b623ae55dc89f6b152a9f57b"
+  },
+  {
+    "year": 2021,
+    "path": "work/full_csv/B_2021.csv",
+    "sha256": "e345008b016df5d1e7362f82a0139a57f2d42ceae8f37c3ddc981168c9286535"
+  },
+  {
+    "year": 2022,
+    "path": "work/full_csv/B_2022.csv",
+    "sha256": "a26588a60a1e6dbb1d39b83d750ed68029b76d35bb08bd72a418172eca867f87"
+  },
+  {
+    "year": 2023,
+    "path": "work/full_csv/B_2023.csv",
+    "sha256": "876ff262c8a3eb0b8fca312f2004f14d42a8bfd01829e0695d64e34b5191f4f8"
+  },
+  {
+    "year": 2024,
+    "path": "work/full_csv/B_2024.csv",
+    "sha256": "c84a834ffb34fa1e46c6b8566d1e89d87f40390120393342e050f7203ef3ed68"
+  }
+]

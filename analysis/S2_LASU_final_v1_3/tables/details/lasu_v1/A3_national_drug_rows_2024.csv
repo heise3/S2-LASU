@@ -1,0 +1,11 @@
+Prscrbr_Geo_Lvl,Prscrbr_Geo_Cd,Prscrbr_Geo_Desc,Brnd_Name,Gnrc_Name,Tot_Prscrbrs,Tot_Clms,Tot_30day_Fills,Tot_Drug_Cst,Tot_Benes,GE65_Sprsn_Flag,GE65_Tot_Clms,GE65_Tot_30day_Fills,GE65_Tot_Drug_Cst,GE65_Bene_Sprsn_Flag,GE65_Tot_Benes,LIS_Bene_Cst_Shr,NonLIS_Bene_Cst_Shr,Opioid_Drug_Flag,Opioid_LA_Drug_Flag,Antbtc_Drug_Flag,Antpsyct_Drug_Flag,class,glipizide_er_xl,LT65_Tot_Clms,LT65_Tot_30day_Fills,LT65_Tot_Benes
+National,,National,Glimepiride,Glimepiride,215659,4595732,11275245.6,41400541.51,1161995,,4161398,10357865,37762261.97,,1061523,565788.04,8224147.66,N,N,N,N,long,False,434334,917380.6,100472
+National,,National,Glipizide,Glipizide,248328,4522171,10762364.8,43166639.89,1167750,,4022019,9742352.1,38897134.04,,1048338,676104.39,6363190.84,N,N,N,N,short,False,500152,1020012.7,119412
+National,,National,Glipizide Er,Glipizide,208853,3266284,8016939.4,47206261.17,852852,,2939352,7331341.9,42993023.39,,773197,575455.63,9213093.37,N,N,N,N,short,True,326932,685597.5,79655
+National,,National,Glipizide Xl,Glipizide,5372,20926,36424.1,324058.81,7535,,17759,31561.3,279412.65,,6458,6143.79,34362.7,N,N,N,N,short,True,3167,4862.8,1077
+National,,National,Glipizide-Metformin,Glipizide/Metformin Hcl,33559,224250,542070,11785429.27,58097,,206243,503918.7,10924942.51,,53690,37353.03,716018.6,N,N,N,N,short,False,18007,38151.3,4407
+National,,National,Glucotrol Xl,Glipizide,338,901,2058,51976.72,293,,835,1939.9,48346.45,,272,817.33,16343.64,N,N,N,N,short,True,66,118.1,21
+National,,National,Glyburide,Glyburide,46421,196396,446671.7,2967370.21,57761,,174780,405217.8,2679675.45,,51784,55335.47,904076.67,N,N,N,N,long,False,21616,41453.9,5977
+National,,National,Glyburide Micronized,"Glyburide,micronized",1851,6470,15154,180310.21,1906,,6009,14249.1,170530.28,,1766,1045.55,47998.01,N,N,N,N,long,False,461,904.9,140
+National,,National,Glyburide-Metformin Hcl,Glyburide/Metformin Hcl,14077,51948,119496.4,1077364.59,15587,,47994,111706.7,1011599.1,,14476,12897.14,336698.19,N,N,N,N,long,False,3954,7789.7,1111
+National,,National,Pioglitazone-Glimepiride,Pioglitazone Hcl/Glimepiride,1046,3581,8329,1201033.34,1208,,3127,7387.7,1080841.7,,1047,756.36,24027.3,N,N,N,N,long,False,454,941.3,161

@@ -1,0 +1,157 @@
+[
+  {
+    "check": "Reused input hashes",
+    "passed": true,
+    "detail": "20"
+  },
+  {
+    "check": "Prior precheck SHA256 preservation",
+    "passed": true,
+    "detail": "240"
+  },
+  {
+    "check": "50 states x 12 years x 2 age cells",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Age shares within suppression bounds",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Positive observed state age SU and bounded long volume",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "M1 absorbed coefficients vs full WLS",
+    "passed": true,
+    "detail": "7.815970093361102e-14"
+  },
+  {
+    "check": "M1 clustered SE vs statsmodels",
+    "passed": true,
+    "detail": "2.142730437526552e-14"
+  },
+  {
+    "check": "M2 absorbed coefficients vs full WLS",
+    "passed": true,
+    "detail": "1.794120407794253e-13"
+  },
+  {
+    "check": "M2 clustered SE vs statsmodels",
+    "passed": true,
+    "detail": "2.55351295663786e-14"
+  },
+  {
+    "check": "Independent MixedLM converged",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Weighted REML state variance vs statsmodels",
+    "passed": true,
+    "detail": "{'ours': np.float64(0.2814840640459558), 'independent': 0.28142781008916157}"
+  },
+  {
+    "check": "Weighted REML residual variance vs statsmodels",
+    "passed": true,
+    "detail": "{'ours': np.float64(0.6585969938108003), 'independent': np.float64(0.6585982161793136)}"
+  },
+  {
+    "check": "All production mixed models converged",
+    "passed": true,
+    "detail": "18"
+  },
+  {
+    "check": "B all years LT65 no negative fills",
+    "passed": true,
+    "detail": "{'negative': 0, 'missing_preserved': 1200}"
+  },
+  {
+    "check": "A 2019 LT65 no negative fills",
+    "passed": true,
+    "detail": "{'missing_preserved': 130009}"
+  },
+  {
+    "check": "A 2019 specialty/state present",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A 2023 LT65 no negative fills",
+    "passed": true,
+    "detail": "{'missing_preserved': 118371}"
+  },
+  {
+    "check": "A 2023 specialty/state present",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A 2024 LT65 no negative fills",
+    "passed": true,
+    "detail": "{'missing_preserved': 113244}"
+  },
+  {
+    "check": "A 2024 specialty/state present",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A4 2019 profile count and volume",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A4 2019 top 1% concentration",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A4 2019 top 10% concentration",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A4 2024 profile count and volume",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A4 2024 top 1% concentration",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A4 2024 top 10% concentration",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Enrollment source workbook unchanged",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "A3 rate arithmetic",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "F1_national_long_acting_share.pdf is one-page vector PDF",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "F2_glimepiride_glyburide_share.pdf is one-page vector PDF",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "F3_state_age_gap_2024.pdf is one-page vector PDF",
+    "passed": true,
+    "detail": ""
+  }
+]

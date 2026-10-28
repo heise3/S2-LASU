@@ -1,0 +1,124 @@
+[
+  {
+    "year": 2013,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2013-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL_2.zip",
+    "sha256": "f2e92e66aa2e217feae8e2a9f341cd300b2f5598130923d06a4c2a8193c9b47e",
+    "files": [
+      "evidence/enrollment/2013/CPS_MDCR_ENROLL_D_1.XLSX",
+      "evidence/enrollment/2013/CPS_MDCR_ENROLL_D_2.XLSX",
+      "evidence/enrollment/2013/CPS_MDCR_ENROLL_D_3.XLSX"
+    ]
+  },
+  {
+    "year": 2014,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2014-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL_1.zip",
+    "sha256": "6e1dcbac39f8eb23253264f1cbc9d69b5c296c9530ec9453c9f09c3405b539a1",
+    "files": [
+      "evidence/enrollment/2014/CPS_MDCR_ENROLL_D_1.XLSX",
+      "evidence/enrollment/2014/CPS_MDCR_ENROLL_D_2.XLSX",
+      "evidence/enrollment/2014/CPS_MDCR_ENROLL_D_3.XLSX"
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2015-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL_0.zip",
+    "sha256": "c8771b38bb74c8fc3640806f57433b7c2679d7c87740c64bfecfe8b9a7c323d9",
+    "files": [
+      "evidence/enrollment/2015/CPS_MDCR_ENROLL_D_1.XLSX",
+      "evidence/enrollment/2015/CPS_MDCR_ENROLL_D_2.XLSX",
+      "evidence/enrollment/2015/CPS_MDCR_ENROLL_D_3.XLSX"
+    ]
+  },
+  {
+    "year": 2016,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2016-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL.zip",
+    "sha256": "ae8d00ab14425243ad84a8e6590bf785611bd7bcf5f690ffd5a5660392f603fe",
+    "files": [
+      "evidence/enrollment/2016/CPS_MDCR_ENROLL_D_1.XLSX",
+      "evidence/enrollment/2016/CPS_MDCR_ENROLL_D_2.XLSX",
+      "evidence/enrollment/2016/CPS_MDCR_ENROLL_D_3.XLSX"
+    ]
+  },
+  {
+    "year": 2017,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2017-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2019-12/CPS_MDCR_ENROLL_D_2017.zip",
+    "sha256": "d3cc0a9eff6a4614be4c09eb4e68b73c2b8624cd4cad7b6f640b161c5cb6e279",
+    "files": [
+      "evidence/enrollment/2017/CPS_MDCR_ENROLL_D_1.XLSX",
+      "evidence/enrollment/2017/CPS_MDCR_ENROLL_D_2.XLSX",
+      "evidence/enrollment/2017/CPS_MDCR_ENROLL_D_3.XLSX"
+    ]
+  },
+  {
+    "year": 2018,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2018-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2021-01/CPS%20MDCR%20TOTAL%20ENROLL%20D.zip",
+    "sha256": "dfe5b87345352d8748c7168c4ed9da067278218cbd2ed32357602295e637d0a5",
+    "files": [
+      "evidence/enrollment/2018/CPS MDCR ENROLL D 1.XLSX",
+      "evidence/enrollment/2018/CPS MDCR ENROLL D 2.XLSX",
+      "evidence/enrollment/2018/CPS MDCR ENROLL D 3.XLSX"
+    ]
+  },
+  {
+    "year": 2019,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2019-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2021-01/CPS_MDCR_ENROLL_D_1-3.zip",
+    "sha256": "246ff580d96b52996b2673a0e9e85aaf95d814cc3b53696244e009fe833a8ace",
+    "files": [
+      "evidence/enrollment/2019/CPS_MDCR_ENROLL_D_1.XLSX",
+      "evidence/enrollment/2019/CPS_MDCR_ENROLL_D_2.XLSX",
+      "evidence/enrollment/2019/CPS_MDCR_ENROLL_D_3.XLSX"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2020-12-31",
+    "url": "https://data.cms.gov/sites/default/files/2022-02/CPS%20MDCR%20ENROLL%20D%202020.zip",
+    "sha256": "f2ad398c4ed784e21d3ad0ff322cd3b203c6bd094e5283b65c106367911f126b",
+    "files": [
+      "evidence/enrollment/2020/CPS MDCR ENROLL D 2020.xlsx"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2021-01-01",
+    "url": "https://data.cms.gov/sites/default/files/2023-02/CPS%20MDCR%20ENROLL%20D%202021.zip",
+    "sha256": "0925b07ce895a1e901f09c76f91d690293478202796365c5440109efc29124a1",
+    "files": [
+      "evidence/enrollment/2021/CPS MDCR ENROLL D 2021.xlsx"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2022-01-01",
+    "url": "https://data.cms.gov/sites/default/files/2025-09/3b6620c9-ee79-4472-8fef-a234638070c5/MDCR%20ENROLL%20D_CPS_03EPD_2022.zip",
+    "sha256": "48b14111ba48e0425e5678320e7e3c6e2016f36f8ceefaae6fef84a825d67fbc",
+    "files": [
+      "evidence/enrollment/2022/MDCR ENROLL D_CPS_03EPD_2022.xlsx"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2023-01-01",
+    "url": "https://data.cms.gov/sites/default/files/2025-09/c0458b01-5731-43b4-a45c-16944a8253e7/MDCR%20ENROLL%20D_CPS_03EPD_2023.zip",
+    "sha256": "e1b0dfa92b707d44d2a2fe6f616bb1aa79393d1154a61dca362adea5e9178a22",
+    "files": [
+      "evidence/enrollment/2023/MDCR ENROLL D_CPS_03EPD_2023.xlsx"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2024-01-01",
+    "url": "https://data.cms.gov/sites/default/files/2026-09/34722ca9-3ac4-47fa-87b9-0b7856a51d7d/MDCR%20ENROLL%20D_CPS_03EPD_2024.zip",
+    "sha256": "2fe211432c720cc665a4382f79913a4d84367b7adce7970eaa4590dfdbb9ae1c",
+    "files": [
+      "evidence/enrollment/2024/MDCR ENROLL D_CPS_03EPD_2024.xlsx"
+    ]
+  }
+]

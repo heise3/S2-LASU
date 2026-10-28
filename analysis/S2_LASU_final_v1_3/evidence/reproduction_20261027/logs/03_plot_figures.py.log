@@ -1,0 +1,7 @@
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/feishuduobang/.cache/fontconfig
+	/Users/feishuduobang/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+Saved F1–F3 as vector PDF and 300-dpi PNG.

@@ -1,0 +1,1101 @@
+Gnrc_Name,ATC_class,rxcui,RxNorm_name,TTY
+Sucralfate,A02,10156,sucralfate,IN
+Rabeprazole Sodium,A02,114979,rabeprazole,IN
+Lansoprazole,A02,17128,lansoprazole,IN
+Lansoprazole/Amoxiciln/Clarith,A02,17128,lansoprazole,IN
+Calcium Carbonate/Mag Carb/Fa,A02,1897,calcium carbonate,IN
+Calcium Carbonate/Vitamin D3,A02,1897,calcium carbonate,IN
+Cimetidine,A02,2541,cimetidine,IN
+Cimetidine Hcl,A02,2541,cimetidine,IN
+Vonoprazan Fumarate,A02,2604577,vonoprazan,IN
+Vonoprazan/Amoxicillin,A02,2604577,vonoprazan,IN
+Vonoprazan/Amoxicillin/Clarith,A02,2604577,vonoprazan,IN
+Esomeprazole Magnesium,A02,283742,esomeprazole,IN
+Esomeprazole Sodium,A02,283742,esomeprazole,IN
+Esomeprazole Strontium,A02,283742,esomeprazole,IN
+Naproxen/Esomeprazole Mag,A02,283742,esomeprazole,IN
+Pantoprazole Sodium,A02,40790,pantoprazole,IN
+Nizatidine,A02,42319,nizatidine,IN
+Diclofenac Sodium/Misoprostol,A02,42331,misoprostol,IN
+Misoprostol,A02,42331,misoprostol,IN
+Famotidine,A02,4278,famotidine,IN
+"Famotidine In Nacl,iso-Osm/Pf",A02,4278,famotidine,IN
+Famotidine/Pf,A02,4278,famotidine,IN
+Ibuprofen/Famotidine,A02,4278,famotidine,IN
+Aspirin/Omeprazole,A02,7646,omeprazole,IN
+Omeprazole,A02,7646,omeprazole,IN
+Omeprazole Magnesium,A02,7646,omeprazole,IN
+Omeprazole/Amoxicill/Rifabutin,A02,7646,omeprazole,IN
+Omeprazole/Clarith/Amoxicillin,A02,7646,omeprazole,IN
+Omeprazole/Sodium Bicarbonate,A02,7646,omeprazole,IN
+Dexlansoprazole,A02,816346,dexlansoprazole,IN
+Ranitidine Hcl,A02,9143,ranitidine,IN
+Mepenzolate Bromide,A03,107770,mepenzolate,IN
+Atropine Sulfate,A03,1223,atropine,IN
+Atropine Sulfate/Pf,A03,1223,atropine,IN
+Difenoxin Hcl/Atropine Sulfate,A03,1223,atropine,IN
+Diphenoxylate Hcl/Atropine,A03,1223,atropine,IN
+Phenobarb/Hyoscy/Atropine/Scop,A03,1223,atropine,IN
+Hyoscyamine Sulfate,A03,153970,hyoscyamine,IN
+Dicyclomine Hcl,A03,3361,dicyclomine,IN
+Metoclopramide Hcl,A03,6915,metoclopramide,IN
+Papaverine Hcl,A03,7895,papaverine,IN
+Alosetron Hcl,A03,85248,alosetron,IN
+Propantheline Bromide,A03,8761,propantheline,IN
+Methscopolamine Bromide,A03,89785,methscopolamine,IN
+Saxagliptin Hcl/Metformin Hcl,A10,1043562,metformin / saxagliptin,MIN
+Tolazamide,A10,10633,tolazamide,IN
+Tolbutamide,A10,10635,tolbutamide,IN
+Empagliflozin/Linagliptin,A10,1100699,linagliptin,IN
+Linagliptin,A10,1100699,linagliptin,IN
+Linagliptin/Metformin Hcl,A10,1100699,linagliptin,IN
+Sitagliptin/Simvastatin,A10,1189803,simvastatin / sitagliptin,MIN
+Linagliptin/Metformin Hcl,A10,1243019,linagliptin / metformin,MIN
+Alogliptin Benz/Metformin Hcl,A10,1368001,alogliptin,IN
+Alogliptin Benz/Pioglitazone,A10,1368001,alogliptin,IN
+Alogliptin Benz/Pioglitzone,A10,1368001,alogliptin,IN
+Alogliptin Benzoate,A10,1368001,alogliptin,IN
+Alogliptin Benz/Metformin Hcl,A10,1368384,alogliptin / metformin,MIN
+Alogliptin Benz/Pioglitazone,A10,1368402,alogliptin / pioglitazone,MIN
+Canagliflozin,A10,1373458,canagliflozin,IN
+Canagliflozin/Metformin Hcl,A10,1373458,canagliflozin,IN
+Insulin Detemir,A10,139825,insulin detemir,IN
+Pramlintide Acetate,A10,139953,pramlintide,IN
+Insulin Glargine/Lixisenatide,A10,1440051,lixisenatide,IN
+Lixisenatide,A10,1440051,lixisenatide,IN
+Dapagliflozin/Metformin Hcl,A10,1486436,dapagliflozin / metformin,MIN
+Dapagliflozin Propanediol,A10,1488564,dapagliflozin,IN
+Dapagliflozin/Metformin Hcl,A10,1488564,dapagliflozin,IN
+Dapagliflozin/Saxagliptin Hcl,A10,1488564,dapagliflozin,IN
+Albiglutide,A10,1534763,albiglutide,IN
+Canagliflozin/Metformin Hcl,A10,1545149,canagliflozin / metformin,MIN
+Empagliflozin,A10,1545653,empagliflozin,IN
+Empagliflozin/Linagliptin,A10,1545653,empagliflozin,IN
+Empagliflozin/Metformin Hcl,A10,1545653,empagliflozin,IN
+Dulaglutide,A10,1551291,dulaglutide,IN
+Empagliflozin/Linagliptin,A10,1598392,empagliflozin / linagliptin,MIN
+Empagliflozin/Metformin Hcl,A10,1664314,empagliflozin / metformin,MIN
+Acarbose,A10,16681,acarbose,IN
+Insulin Degludec,A10,1670007,insulin degludec,IN
+Insulin Degludec/Liraglutide,A10,1670007,insulin degludec,IN
+Insulin Degludec/Liraglutide,A10,1727493,insulin degludec / liraglutide,MIN
+Dapagliflozin/Saxagliptin Hcl,A10,1727500,dapagliflozin / saxagliptin,MIN
+Insulin Glargine/Lixisenatide,A10,1858994,insulin glargine / lixisenatide,MIN
+Semaglutide,A10,1991302,semaglutide,IN
+Ertugliflozin Pidolate,A10,1992672,ertugliflozin,IN
+Ertugliflozin/Metformin,A10,1992672,ertugliflozin,IN
+Ertugliflozin/Sitagliptin,A10,1992672,ertugliflozin,IN
+Ertugliflozin/Sitagliptin Phos,A10,1992672,ertugliflozin,IN
+Ertugliflozin/Metformin,A10,1992684,ertugliflozin / metformin,MIN
+Ertugliflozin/Sitagliptin,A10,1992825,ertugliflozin / sitagliptin,MIN
+Ertugliflozin/Sitagliptin Phos,A10,1992825,ertugliflozin / sitagliptin,MIN
+Chlorpropamide,A10,2404,chlorpropamide,IN
+Insulin Regular In 0.9 % Nacl,A10,253182,"insulin, regular, human",IN
+"Insulin Regular, Human",A10,253182,"insulin, regular, human",IN
+Glimepiride,A10,25789,glimepiride,IN
+Pioglitazone Hcl/Glimepiride,A10,25789,glimepiride,IN
+Rosiglitazone/Glimepiride,A10,25789,glimepiride,IN
+Tirzepatide,A10,2601723,tirzepatide,IN
+Sotagliflozin,A10,2638675,sotagliflozin,IN
+Nateglinide,A10,274332,nateglinide,IN
+"Insulin Glargine,hum.Rec.Anlog",A10,274783,insulin glargine,IN
+Insulin Glargine-Aglr,A10,274783,insulin glargine,IN
+Insulin Glargine-Yfgn,A10,274783,insulin glargine,IN
+Insulin Glargine/Lixisenatide,A10,274783,insulin glargine,IN
+Miglitol,A10,30009,miglitol,IN
+Alogliptin Benz/Pioglitazone,A10,33738,pioglitazone,IN
+Pioglitazone Hcl,A10,33738,pioglitazone,IN
+Pioglitazone Hcl/Glimepiride,A10,33738,pioglitazone,IN
+Pioglitazone Hcl/Metformin Hcl,A10,33738,pioglitazone,IN
+Insulin Glulisine,A10,400008,"insulin glulisine, human",IN
+Insulin Degludec/Liraglutide,A10,475968,liraglutide,IN
+Liraglutide,A10,475968,liraglutide,IN
+Glyburide,A10,4815,glyburide,IN
+"Glyburide,micronized",A10,4815,glyburide,IN
+Glyburide/Metformin Hcl,A10,4815,glyburide,IN
+Glipizide,A10,4821,glipizide,IN
+Glipizide/Metformin Hcl,A10,4821,glipizide,IN
+Insulin Aspart,A10,51428,"insulin aspart, human",IN
+Insulin Aspart (Niacinamide),A10,51428,"insulin aspart, human",IN
+Insulin Aspart Prot/Insuln Asp,A10,51428,"insulin aspart, human",IN
+Insulin Aspart Protam & Aspart,A10,51428,"insulin aspart, human",IN
+Insulin Aspart/B3/Pump Cart,A10,51428,"insulin aspart, human",IN
+Insuln Asp Prt/Insulin Aspart,A10,51428,"insulin aspart, human",IN
+Ertugliflozin/Sitagliptin,A10,593411,sitagliptin,IN
+Ertugliflozin/Sitagliptin Phos,A10,593411,sitagliptin,IN
+Sitagliptin,A10,593411,sitagliptin,IN
+Sitagliptin Phos/Metformin Hcl,A10,593411,sitagliptin,IN
+Sitagliptin Phosphate,A10,593411,sitagliptin,IN
+Sitagliptin/Metformin Hcl,A10,593411,sitagliptin,IN
+Sitagliptin/Simvastatin,A10,593411,sitagliptin,IN
+Exenatide,A10,60548,exenatide,IN
+Exenatide Microspheres,A10,60548,exenatide,IN
+Rosiglitazone/Glimepiride,A10,606253,glimepiride / rosiglitazone,MIN
+Pioglitazone Hcl/Metformin Hcl,A10,607999,metformin / pioglitazone,MIN
+Rosiglitazone/Metformin Hcl,A10,614348,metformin / rosiglitazone,MIN
+Pioglitazone Hcl/Glimepiride,A10,647235,glimepiride / pioglitazone,MIN
+Alogliptin Benz/Metformin Hcl,A10,6809,metformin,IN
+Canagliflozin/Metformin Hcl,A10,6809,metformin,IN
+Dapaglifloz Propaned/Metformin,A10,6809,metformin,IN
+Dapagliflozin/Metformin Hcl,A10,6809,metformin,IN
+Empaglifloz/Linaglip/Metformin,A10,6809,metformin,IN
+Empagliflozin/Metformin Hcl,A10,6809,metformin,IN
+Ertugliflozin/Metformin,A10,6809,metformin,IN
+Glipizide/Metformin Hcl,A10,6809,metformin,IN
+Glyburide/Metformin Hcl,A10,6809,metformin,IN
+Linagliptin/Metformin Hcl,A10,6809,metformin,IN
+Metformin Hcl,A10,6809,metformin,IN
+Pioglitazone Hcl/Metformin Hcl,A10,6809,metformin,IN
+Repaglinide/Metformin Hcl,A10,6809,metformin,IN
+Rosiglitazone/Metformin Hcl,A10,6809,metformin,IN
+Saxagliptin Hcl/Metformin Hcl,A10,6809,metformin,IN
+Sitagliptin Phos/Metformin Hcl,A10,6809,metformin,IN
+Sitagliptin/Metformin Hcl,A10,6809,metformin,IN
+Sitagliptin Phos/Metformin Hcl,A10,729717,metformin / sitagliptin,MIN
+Sitagliptin/Metformin Hcl,A10,729717,metformin / sitagliptin,MIN
+Repaglinide,A10,73044,repaglinide,IN
+Repaglinide/Metformin Hcl,A10,73044,repaglinide,IN
+Repaglinide/Metformin Hcl,A10,802646,metformin / repaglinide,MIN
+Rosiglitazone Maleate,A10,84108,rosiglitazone,IN
+Rosiglitazone/Glimepiride,A10,84108,rosiglitazone,IN
+Rosiglitazone/Metformin Hcl,A10,84108,rosiglitazone,IN
+Dapagliflozin/Saxagliptin Hcl,A10,857974,saxagliptin,IN
+Saxagliptin Hcl,A10,857974,saxagliptin,IN
+Saxagliptin Hcl/Metformin Hcl,A10,857974,saxagliptin,IN
+Insulin Lispro,A10,86009,insulin lispro,IN
+Insulin Lispro Protamin/Lispro,A10,86009,insulin lispro,IN
+Insulin Lispro-Aabc,A10,86009,insulin lispro,IN
+Insulin Npl/Insulin Lispro,A10,86009,insulin lispro,IN
+Tolazamide,A10BB,10633,tolazamide,IN
+Tolbutamide,A10BB,10635,tolbutamide,IN
+Chlorpropamide,A10BB,2404,chlorpropamide,IN
+Glimepiride,A10BB,25789,glimepiride,IN
+Pioglitazone Hcl/Glimepiride,A10BB,25789,glimepiride,IN
+Rosiglitazone/Glimepiride,A10BB,25789,glimepiride,IN
+Glyburide,A10BB,4815,glyburide,IN
+"Glyburide,micronized",A10BB,4815,glyburide,IN
+Glyburide/Metformin Hcl,A10BB,4815,glyburide,IN
+Glipizide,A10BB,4821,glipizide,IN
+Glipizide/Metformin Hcl,A10BB,4821,glipizide,IN
+Dabigatran Etexilate Mesylate,B01,1037042,dabigatran etexilate,IN
+Ticlopidine Hcl,B01,10594,ticlopidine,IN
+Rivaroxaban,B01,1114195,rivaroxaban,IN
+Ticagrelor,B01,1116632,ticagrelor,IN
+Warfarin Sodium,B01,11289,warfarin,IN
+Aspirin,B01,1191,aspirin,IN
+Aspirin/Caffein/Dihydrocodeine,B01,1191,aspirin,IN
+Aspirin/Dipyridamole,B01,1191,aspirin,IN
+Aspirin/Omeprazole,B01,1191,aspirin,IN
+Butalbital/Aspirin/Caffeine,B01,1191,aspirin,IN
+Carisoprodol/Aspirin,B01,1191,aspirin,IN
+Carisoprodol/Aspirin/Codeine,B01,1191,aspirin,IN
+Codeine/Carisoprodol/Aspirin,B01,1191,aspirin,IN
+Dihydrocodeine/Aspirin/Caffein,B01,1191,aspirin,IN
+Orphenadrine/Aspirin/Caffeine,B01,1191,aspirin,IN
+Oxycodone Hcl/Aspirin,B01,1191,aspirin,IN
+Apixaban,B01,1364430,apixaban,IN
+Vorapaxar Sulfate,B01,1537034,vorapaxar,IN
+Edoxaban Tosylate,B01,1599538,edoxaban,IN
+Selexipag,B01,1729002,selexipag,IN
+Betrixaban Maleate,B01,1927851,betrixaban,IN
+Caplacizumab-Yhdp,B01,2110605,caplacizumab,IN
+Cilostazol,B01,21107,cilostazol,IN
+Fondaparinux Sodium,B01,321208,fondaparinux,IN
+Clopidogrel Bisulfate,B01,32968,clopidogrel,IN
+Treprostinil,B01,343048,treprostinil,IN
+Treprostinil Diolamine,B01,343048,treprostinil,IN
+Treprostinil Sodium,B01,343048,treprostinil,IN
+Treprostinil/Neb Accessories,B01,343048,treprostinil,IN
+Treprostinil/Nebulizer/Accesor,B01,343048,treprostinil,IN
+Aspirin/Dipyridamole,B01,3521,dipyridamole,IN
+Dipyridamole,B01,3521,dipyridamole,IN
+Iloprost Tromethamine,B01,40138,iloprost,IN
+"Heparin Sod,pork In 0.45% Nacl",B01,5224,heparin,IN
+"Heparin Sodium,porcine",B01,5224,heparin,IN
+"Heparin Sodium,porcine/D5w",B01,5224,heparin,IN
+"Heparin Sodium,porcine/Pf",B01,5224,heparin,IN
+Prasugrel Hcl,B01,613391,prasugrel,IN
+Enoxaparin Sodium,B01,67108,enoxaparin,IN
+"Dalteparin Sodium,porcine",B01,67109,dalteparin,IN
+Epoprostenol Sodium,B01,8814,epoprostenol,IN
+Epoprostenol Sodium (Arginine),B01,8814,epoprostenol,IN
+Epoprostenol Sodium (Glycine),B01,8814,epoprostenol,IN
+"Protein C, Human",B01,8834,protein C,IN
+Droxidopa,C01,1489913,droxidopa,IN
+Ivabradine Hcl,C01,1649480,ivabradine,IN
+Ubidecarenone,C01,21406,ubidecarenone,IN
+Dronedarone Hcl,C01,233698,dronedarone,IN
+Vericiguat,C01,2475830,vericiguat,IN
+Mavacamten,C01,2600867,mavacamten,IN
+Acoramidis Hcl,C01,2698312,acoramidis,IN
+Isosorbide Mononitrate,C01,28004,isosorbide mononitrate,PIN
+Digoxin,C01,3407,digoxin,IN
+Disopyramide Phosphate,C01,3541,disopyramide,IN
+Ranolazine,C01,35829,ranolazine,IN
+Dobutamine Hcl,C01,3616,dobutamine,IN
+Dobutamine Hcl In Dextrose 5 %,C01,3616,dobutamine,IN
+Dobutamine Hcl/D5w,C01,3616,dobutamine,IN
+Dopamine Hcl,C01,3628,dopamine,IN
+Dopamine Hcl In Dextrose 5 %,C01,3628,dopamine,IN
+Dopamine Hcl/D5w,C01,3628,dopamine,IN
+Ephedrine Sulfate,C01,3966,ephedrine,IN
+Epinephrine,C01,3992,epinephrine,IN
+Epinephrine Hcl/Pf,C01,3992,epinephrine,IN
+Epinephrine/Pf,C01,3992,epinephrine,IN
+Lidocaine Hcl/Epinephrine,C01,3992,epinephrine,IN
+Lidocaine Hcl/Epinephrine/Pf,C01,3992,epinephrine,IN
+Flecainide Acetate,C01,4441,flecainide,IN
+Nitroglycerin,C01,4917,nitroglycerin,IN
+Nitroglycerin/D5w,C01,4917,nitroglycerin,IN
+Dofetilide,C01,49247,dofetilide,IN
+Milrinone Lactate,C01,52769,milrinone,IN
+Milrinone Lactate/D5w,C01,52769,milrinone,IN
+Hydrocodone/Ibuprofen,C01,5640,ibuprofen,IN
+Ibuprofen,C01,5640,ibuprofen,IN
+Ibuprofen/Famotidine,C01,5640,ibuprofen,IN
+Ibuprofen/Oxycodone Hcl,C01,5640,ibuprofen,IN
+Indomethacin,C01,5781,indomethacin,IN
+"Indomethacin, Submicronized",C01,5781,indomethacin,IN
+Alprostadil,C01,598,alprostadil,IN
+Isosorbide Dinitrate,C01,6058,isosorbide dinitrate,IN
+Acyclovir/Lidocaine Hcl,C01,6387,lidocaine,IN
+Hydrocortisone Ac/Lidocaine,C01,6387,lidocaine,IN
+Hydrocortisone/Lidocaine/Aloe,C01,6387,lidocaine,IN
+Lidocaine,C01,6387,lidocaine,IN
+Lidocaine Hcl,C01,6387,lidocaine,IN
+Lidocaine Hcl/Epinephrine,C01,6387,lidocaine,IN
+Lidocaine Hcl/Epinephrine/Pf,C01,6387,lidocaine,IN
+Lidocaine Hcl/Glycerin,C01,6387,lidocaine,IN
+Lidocaine Hcl/Menthol,C01,6387,lidocaine,IN
+Lidocaine Hcl/Pf,C01,6387,lidocaine,IN
+Lidocaine/Hydrocortisone Ac,C01,6387,lidocaine,IN
+Lidocaine/Prilocaine,C01,6387,lidocaine,IN
+Lidocaine/Tetracaine,C01,6387,lidocaine,IN
+Mag&al/Sim/Diphenhyd/Lidocaine,C01,6387,lidocaine,IN
+Mexiletine Hcl,C01,6926,mexiletine,IN
+Midodrine Hcl,C01,6963,midodrine,IN
+Amiodarone Hcl,C01,703,amiodarone,IN
+Norepinephrine Bitartrate,C01,7512,norepinephrine,IN
+Cyclopentolate/Phenylephrine,C01,8163,phenylephrine,IN
+Guaifenesin/Phenylephrine Hcl,C01,8163,phenylephrine,IN
+Phenylephrine Hcl,C01,8163,phenylephrine,IN
+Phenylephrine Hcl/Dihydroco Bt,C01,8163,phenylephrine,IN
+Phenylephrine Hcl/Prometh Hcl,C01,8163,phenylephrine,IN
+Phenylephrine/Chlor-Tan,C01,8163,phenylephrine,IN
+Phenylephrine/Pyrilamine Ma/Cp,C01,8163,phenylephrine,IN
+Propafenone Hcl,C01,8754,propafenone,IN
+Dextromethorphan Hbr/Quinidine,C01,9068,quinidine,IN
+Quinidine Gluconate,C01,9068,quinidine,IN
+Quinidine Sulfate,C01,9068,quinidine,IN
+Riociguat,C02,1439816,riociguat,IN
+Macitentan,C02,1442132,macitentan,IN
+Macitentan/Tadalafil,C02,1442132,macitentan,IN
+Clonidine,C02,2599,clonidine,IN
+Clonidine Hcl,C02,2599,clonidine,IN
+Clonidine Hcl/Chlorthalidone,C02,2599,clonidine,IN
+Clonidine Hcl/Pf,C02,2599,clonidine,IN
+Macitentan/Tadalafil,C02,2631887,macitentan / tadalafil,MIN
+Metyrosine,C02,266604,metyrosine,IN
+Sotatercept-Csrk,C02,2678930,sotatercept,IN
+Diazoxide,C02,3327,diazoxide,IN
+Ambrisentan,C02,358274,ambrisentan,IN
+Guanfacine Hcl,C02,40114,guanfacine,IN
+Doxazosin Mesylate,C02,49276,doxazosin,IN
+Hydralazine Hcl,C02,5470,hydralazine,IN
+Isosorb Dinit/Hydralazine Hcl,C02,5470,hydralazine,IN
+Isosorbibe Dinit/Hydralazine,C02,5470,hydralazine,IN
+Isosorbide Dinit/Hydralazine,C02,5470,hydralazine,IN
+Mecamylamine Hcl,C02,6673,mecamylamine,IN
+Methyldopa,C02,6876,methyldopa,IN
+Methyldopa/Hydrochlorothiazide,C02,6876,methyldopa,IN
+Minoxidil,C02,6984,minoxidil,IN
+Bosentan,C02,75207,bosentan,IN
+Prazosin Hcl,C02,8629,prazosin,IN
+Reserpine,C02,9260,reserpine,IN
+Trandolapril/Verapamil Hcl,C08,11170,verapamil,IN
+Verapamil Hcl,C08,11170,verapamil,IN
+Aliskiren/Amlodipine Besylate,C08,17767,amlodipine,IN
+Amlodipine Benzoate,C08,17767,amlodipine,IN
+Amlodipine Bes/Olmesartan Med,C08,17767,amlodipine,IN
+Amlodipine Besylate,C08,17767,amlodipine,IN
+Amlodipine Besylate/Benazepril,C08,17767,amlodipine,IN
+Amlodipine Besylate/Valsartan,C08,17767,amlodipine,IN
+Amlodipine/Atorvastatin,C08,17767,amlodipine,IN
+Amlodipine/Valsartan,C08,17767,amlodipine,IN
+Amlodipine/Valsartan/Hcthiazid,C08,17767,amlodipine,IN
+Perindopril Arg/Amlodipine Bes,C08,17767,amlodipine,IN
+Telmisartan/Amlodipine,C08,17767,amlodipine,IN
+Levamlodipine Maleate,C08,2376944,levamlodipine,IN
+Isradipine,C08,33910,isradipine,IN
+Diltiazem Hcl,C08,3443,diltiazem,IN
+Felodipine,C08,4316,felodipine,IN
+Nicardipine Hcl,C08,7396,nicardipine,IN
+Nifedipine,C08,7417,nifedipine,IN
+Nimodipine,C08,7426,nimodipine,IN
+Nisoldipine,C08,7435,nisoldipine,IN
+Ulipristal Acetate,G03,1005921,ulipristal,IN
+Testosterone,G03,10379,testosterone,IN
+Testosterone Cypionate,G03,10379,testosterone,IN
+Testosterone Enanthate,G03,10379,testosterone,IN
+Testosterone Undecanoate,G03,10379,testosterone,IN
+Drospirenone,G03,11636,drospirenone,IN
+Drospirenone/Estetrol,G03,11636,drospirenone,IN
+Drospirenone/Estradiol,G03,11636,drospirenone,IN
+Ethinyl Estradiol/Drospirenone,G03,11636,drospirenone,IN
+Ospemifene,G03,1370971,ospemifene,IN
+"Estrogens,conj/Bazedoxifene",G03,1441386,bazedoxifene,IN
+Etonogestrel,G03,14584,etonogestrel,IN
+Etonogestrel/Ethinyl Estradiol,G03,14584,etonogestrel,IN
+Norgestimate-Ethinyl Estradiol,G03,214559,ethinyl estradiol / norgestimate,MIN
+Desogestrel-Ethinyl Estradiol,G03,22656,desogestrel,IN
+Estradiol Valerate/Dienogest,G03,22968,dienogest,IN
+Ethynodiol D-Ethinyl Estradiol,G03,24591,ethynodiol,IN
+Drospirenone/Estetrol,G03,2539031,estetrol,IN
+Drospirenone/Estetrol,G03,2539037,drospirenone / estetrol,MIN
+Clomiphene Citrate,G03,2596,clomiphene,IN
+Choriogonadotropin Alfa,G03,283550,choriogonadotropin alfa,PIN
+Danazol,G03,3102,danazol,IN
+Prasterone (Dhea),G03,3143,prasterone,IN
+Desogestrel-Ethinyl Estradiol,G03,324044,desogestrel / ethinyl estradiol,MIN
+Desog-E.Estradiol/E.Estradiol,G03,4083,estradiol,IN
+Desogestrel-Ethinyl Estradiol,G03,4083,estradiol,IN
+Drospirenone/Estradiol,G03,4083,estradiol,IN
+Elagolix/Estradiol/Norethindrn,G03,4083,estradiol,IN
+Estradiol,G03,4083,estradiol,IN
+Estradiol Acetate,G03,4083,estradiol,IN
+Estradiol Cypionate,G03,4083,estradiol,IN
+Estradiol Valerate,G03,4083,estradiol,IN
+Estradiol Valerate/Dienogest,G03,4083,estradiol,IN
+Estradiol/Levonorgestrel,G03,4083,estradiol,IN
+Estradiol/Norethindrone Acet,G03,4083,estradiol,IN
+Estradiol/Norgestimate,G03,4083,estradiol,IN
+Estradiol/Progesterone,G03,4083,estradiol,IN
+Ethinyl Estradiol/Drospirenone,G03,4083,estradiol,IN
+Ethynodiol D-Ethinyl Estradiol,G03,4083,estradiol,IN
+Etonogestrel/Ethinyl Estradiol,G03,4083,estradiol,IN
+L-Norgest/E.Estradiol-E.Estrad,G03,4083,estradiol,IN
+Levonorgest/Eth.Estradiol/Iron,G03,4083,estradiol,IN
+Levonorgestrel-Eth Estradiol,G03,4083,estradiol,IN
+Levonorgestrel-Ethin Estradiol,G03,4083,estradiol,IN
+Levonorgestrel/Ethin.Estradiol,G03,4083,estradiol,IN
+Norelgestromin/Ethin.Estradiol,G03,4083,estradiol,IN
+Noreth-Ethinyl Estradiol/Iron,G03,4083,estradiol,IN
+Norethind Ac/Ethinyl Estradiol,G03,4083,estradiol,IN
+Norethindrone A-E Estradiol,G03,4083,estradiol,IN
+Norethindrone Ac-Eth Estradiol,G03,4083,estradiol,IN
+Norethindrone Ac/Eth Estradiol,G03,4083,estradiol,IN
+Norethindrone-E.Estradiol-Iron,G03,4083,estradiol,IN
+Norethindrone-Ethin. Estradiol,G03,4083,estradiol,IN
+Norgestimate-Ethinyl Estradiol,G03,4083,estradiol,IN
+Norgestrel-Ethinyl Estradiol,G03,4083,estradiol,IN
+Relugolix/Estradiol/Norethindr,G03,4083,estradiol,IN
+Segesterone Ac/Ethin Estradiol,G03,4083,estradiol,IN
+Desogestrel-Ethinyl Estradiol,G03,4124,ethinyl estradiol,IN
+Ethinyl Estradiol/Drospirenone,G03,4124,ethinyl estradiol,IN
+Ethynodiol D-Ethinyl Estradiol,G03,4124,ethinyl estradiol,IN
+Etonogestrel/Ethinyl Estradiol,G03,4124,ethinyl estradiol,IN
+Noreth-Ethinyl Estradiol/Iron,G03,4124,ethinyl estradiol,IN
+Norethind Ac/Ethinyl Estradiol,G03,4124,ethinyl estradiol,IN
+Norgestimate-Ethinyl Estradiol,G03,4124,ethinyl estradiol,IN
+Norgestrel-Ethinyl Estradiol,G03,4124,ethinyl estradiol,IN
+Fluoxymesterone,G03,4494,fluoxymesterone,IN
+"Chorionic Gonadotropin, Human",G03,4986,chorionic gonadotropin,IN
+Estradiol/Levonorgestrel,G03,6373,levonorgestrel,IN
+Levonorgestrel,G03,6373,levonorgestrel,IN
+Levonorgestrel-Eth Estradiol,G03,6373,levonorgestrel,IN
+Levonorgestrel-Ethin Estradiol,G03,6373,levonorgestrel,IN
+Levonorgestrel/Ethin.Estradiol,G03,6373,levonorgestrel,IN
+Medroxyprogesterone Acetate,G03,6691,medroxyprogesterone,IN
+Megestrol Acetate,G03,6703,megestrol,IN
+Methyltestosterone,G03,6904,methyltestosterone,IN
+Mifepristone,G03,6964,mifepristone,IN
+Raloxifene Hcl,G03,72143,raloxifene,IN
+Estradiol/Norethindrone Acet,G03,7514,norethindrone,IN
+Leuprolide/Norethindrone Acet,G03,7514,norethindrone,IN
+Norethindrone,G03,7514,norethindrone,IN
+Norethindrone A-E Estradiol,G03,7514,norethindrone,IN
+Norethindrone Ac-Eth Estradiol,G03,7514,norethindrone,IN
+Norethindrone Ac/Eth Estradiol,G03,7514,norethindrone,IN
+Norethindrone Acetate,G03,7514,norethindrone,IN
+Norethindrone-E.Estradiol-Iron,G03,7514,norethindrone,IN
+Norethindrone-Ethin. Estradiol,G03,7514,norethindrone,IN
+Norethindrone-Ethinyl Estrad,G03,7514,norethindrone,IN
+Norethindrone-Mestranol,G03,7514,norethindrone,IN
+Ethinyl Estradiol/Drospirenone,G03,840781,drospirenone / ethinyl estradiol,MIN
+Estradiol/Progesterone,G03,8727,progesterone,IN
+Progesterone,G03,8727,progesterone,IN
+"Progesterone, Micronized",G03,8727,progesterone,IN
+"Progesterone,micronized",G03,8727,progesterone,IN
+Estradiol Valerate/Dienogest,G03,994203,dienogest / estradiol,MIN
+Tesamorelin Acetate,H01,1044584,tesamorelin,IN
+Pasireotide Diaspartate,H01,1364105,pasireotide,IN
+Pasireotide Pamoate,H01,1364105,pasireotide,IN
+Elagolix Sodium,H01,2049846,elagolix,IN
+Elagolix/Estradiol/Norethindrn,H01,2049846,elagolix,IN
+Somapacitan-Beco,H01,2557373,somapacitan,IN
+Lonapegsomatropin-Tcgd,H01,2569562,lonapegsomatropin,IN
+Pegvisomant,H01,278739,pegvisomant,IN
+Nafarelin Acetate,H01,28656,nafarelin,IN
+Desmopressin (Nonrefrigerated),H01,3251,desmopressin,IN
+Desmopressin Acetate,H01,3251,desmopressin,IN
+Corticotropin,H01,376,corticotropin,IN
+Thyrotropin Alfa,H01,4952,thyrotropin alfa,IN
+Somatropin,H01,61148,somatropin,IN
+Lanreotide Acetate,H01,68092,lanreotide,IN
+Octreotide Acetate,H01,7617,octreotide,IN
+"Octreotide Acetate,mi-Spheres",H01,7617,octreotide,IN
+Oxytocin,H01,7824,oxytocin,IN
+Liothyronine Sodium,H03,142448,liothyronine sodium,PIN
+Levothyroxine Sodium,H03,40144,levothyroxine sodium,PIN
+Methimazole,H03,6835,methimazole,IN
+Propylthiouracil,H03,8794,propylthiouracil,IN
+Ampicillin Sod/Sulbactam Sod,J01,1009148,ampicillin / sulbactam,MIN
+Ampicillin Sodium/Sulbactam Na,J01,1009148,ampicillin / sulbactam,MIN
+Streptomycin Sulfate,J01,10109,streptomycin,IN
+Ampicillin Sod/Sulbactam Sod,J01,10167,sulbactam,IN
+Ampicillin Sodium/Sulbactam Na,J01,10167,sulbactam,IN
+Silver Sulfadiazine,J01,10171,sulfadiazine,IN
+Sulfadiazine,J01,10171,sulfadiazine,IN
+Sulfamethoxazole/Trimethoprim,J01,10180,sulfamethoxazole,IN
+Sulfanilamide,J01,10184,sulfanilamide,IN
+Ery E-Succ/Sulfisoxazole,J01,10207,sulfisoxazole,IN
+Bismuth/Metronid/Tetracycline,J01,10395,tetracycline,IN
+Tetracycline Hcl,J01,10395,tetracycline,IN
+Ceftaroline Fosamil Acetate,J01,1040004,ceftaroline fosamil,IN
+Ticarcillin/K Clavulanate,J01,10591,ticarcillin,IN
+Tinidazole,J01,10612,tinidazole,IN
+Tobramycin,J01,10627,tobramycin,IN
+Tobramycin In 0.225% Nacl,J01,10627,tobramycin,IN
+Tobramycin In 0.225% Sod Chlor,J01,10627,tobramycin,IN
+Tobramycin Sulfate,J01,10627,tobramycin,IN
+Tobramycin/Dexamethasone,J01,10627,tobramycin,IN
+Tobramycin/Lotepred Etab,J01,10627,tobramycin,IN
+Tobramycin/Nebulizer,J01,10627,tobramycin,IN
+Tobramycin/Sodium Chloride,J01,10627,tobramycin,IN
+Polymyxin B Sulf/Trimethoprim,J01,10829,trimethoprim,IN
+Sulfamethoxazole/Trimethoprim,J01,10829,trimethoprim,IN
+Trimethoprim,J01,10829,trimethoprim,IN
+Sulfamethoxazole/Trimethoprim,J01,10831,sulfamethoxazole / trimethoprim,MIN
+Vancomycin Hcl,J01,11124,vancomycin,IN
+Vancomycin Hcl In 5 % Dextrose,J01,11124,vancomycin,IN
+Vancomycin Hcl In Dextrose 5 %,J01,11124,vancomycin,IN
+Vancomycin Hcl/D5w,J01,11124,vancomycin,IN
+"Vancomycin In Dextrose,iso-Osm",J01,11124,vancomycin,IN
+Vancomycin/0.9 % Sod Chloride,J01,11124,vancomycin,IN
+Vancomycin/Water For Inj (Peg),J01,11124,vancomycin,IN
+Doripenem,J01,119771,doripenem,IN
+Aztreonam,J01,1272,aztreonam,IN
+Aztreonam Lysine,J01,1272,aztreonam,IN
+Aztreonam/Dextrose-Water,J01,1272,aztreonam,IN
+Bacitracin,J01,1291,bacitracin,IN
+Bacitracin/Polymyxin B Sulfate,J01,1291,bacitracin,IN
+Neomycin Sulf/Bacitracin/Poly,J01,1291,bacitracin,IN
+Neomycin/Bacitracin/Polymyxinb,J01,1291,bacitracin,IN
+Quinupristin/Dalfopristin,J01,135098,dalfopristin / quinupristin,MIN
+Gemifloxacin Mesylate,J01,138099,gemifloxacin,IN
+Moxifloxacin Hcl,J01,139462,moxifloxacin,IN
+Moxifloxacin In Nacl (Iso-Osm),J01,139462,moxifloxacin,IN
+Moxifloxacin-Sod.Chloride(Iso),J01,139462,moxifloxacin,IN
+"Moxifloxacin/Sod.Ace,sul/Water",J01,139462,moxifloxacin,IN
+Dalbavancin Hcl,J01,1539239,dalbavancin,IN
+Tedizolid Phosphate,J01,1540825,tedizolid,IN
+Oritavancin Diphosphate,J01,1547611,oritavancin,IN
+"Gentamicin In Nacl, Iso-Osm",J01,1596450,gentamicin,IN
+Gentamicin Sulf/Prednisolone,J01,1596450,gentamicin,IN
+Gentamicin Sulfate,J01,1596450,gentamicin,IN
+Gentamicin Sulfate/Pf,J01,1596450,gentamicin,IN
+Gentamicin/Prednisol Ac,J01,1596450,gentamicin,IN
+Azithromycin,J01,18631,azithromycin,IN
+Linezolid,J01,190376,linezolid,IN
+Linezolid In 0.9% Sodium Chlor,J01,190376,linezolid,IN
+Linezolid In Dextrose 5%,J01,190376,linezolid,IN
+Linezolid-0.9% Sodium Chloride,J01,190376,linezolid,IN
+Delafloxacin Meglumine,J01,1927663,delafloxacin,IN
+Meropenem/Vaborbactam,J01,1945217,meropenem / vaborbactam,MIN
+Cefprozil,J01,19552,cefprozil,IN
+Cefepime Hcl,J01,20481,cefepime,IN
+Cefepime Hcl In Dextrose 5 %,J01,20481,cefepime,IN
+Cefepime Hcl/D5w,J01,20481,cefepime,IN
+"Cefepime Hcl/Dextrose, Iso-Osm",J01,20481,cefepime,IN
+Cefepime In Iso-Osm Dextrose,J01,20481,cefepime,IN
+Cefpodoxime Proxetil,J01,20489,cefpodoxime,IN
+Ceftibuten,J01,20492,ceftibuten,IN
+Ceftibuten Dihydrate,J01,20492,ceftibuten,IN
+Plazomicin Sulfate,J01,2049549,plazomicin,IN
+Eravacycline Di-Hydrochloride,J01,2055906,eravacycline,IN
+Sarecycline Hcl,J01,2059018,sarecycline,IN
+Omadacycline Tosylate,J01,2059269,omadacycline,IN
+Clarithromycin,J01,21212,clarithromycin,IN
+Cefaclor,J01,2176,cefaclor,IN
+Cefadroxil,J01,2177,cefadroxil,IN
+Cefadroxil Hydrate,J01,2177,cefadroxil,IN
+Cefazolin Sodium,J01,2180,cefazolin,IN
+"Cefazolin Sodium/Dextrose,iso",J01,2180,cefazolin,IN
+Imipenem/Cilastatin/Relebactam,J01,2184141,cilastatin / imipenem / relebactam,MIN
+Cefotaxime Sodium,J01,2186,cefotaxime,IN
+"Cefotetan Disod/Dextrose,iso",J01,2187,cefotetan,IN
+Cefotetan Disod/Isosm Dextrose,J01,2187,cefotetan,IN
+Cefotetan Disodium,J01,2187,cefotetan,IN
+Cefoxitin Sodium,J01,2189,cefoxitin,IN
+"Cefoxitin Sodium/Dextrose,iso",J01,2189,cefoxitin,IN
+Ceftazidime,J01,2191,ceftazidime,IN
+Ceftazidime In Dextrose5%water,J01,2191,ceftazidime,IN
+Ceftazidime In Is-Osm Dextrose,J01,2191,ceftazidime,IN
+"Ceftazidime Na/Dextrose,iso",J01,2191,ceftazidime,IN
+Ceftazidime Pentahydrate,J01,2191,ceftazidime,IN
+Ceftazidime Pentahydrate/D5w,J01,2191,ceftazidime,IN
+Ceftazidime/Avibactam,J01,2191,ceftazidime,IN
+Ceftriaxone In Is-Osm Dextrose,J01,2193,ceftriaxone,IN
+"Ceftriaxone Na/Dextrose,iso",J01,2193,ceftriaxone,IN
+Ceftriaxone Sodium,J01,2193,ceftriaxone,IN
+Cefuroxime Axetil,J01,2194,cefuroxime,IN
+Cefuroxime Sodium,J01,2194,cefuroxime,IN
+Lefamulin Acetate,J01,2198944,lefamulin,IN
+Daptomycin,J01,22299,daptomycin,IN
+Daptomycin In 0.9 % Sod Chlor,J01,22299,daptomycin,IN
+Cephalexin,J01,2231,cephalexin,IN
+Cefiderocol Sulfate Tosylate,J01,2265702,cefiderocol,IN
+Gatifloxacin,J01,228476,gatifloxacin,IN
+Cefixime,J01,25033,cefixime,IN
+Cefdinir,J01,25037,cefdinir,IN
+Ciprofloxacin,J01,2551,ciprofloxacin,IN
+Ciprofloxacin Hcl,J01,2551,ciprofloxacin,IN
+Ciprofloxacin Hcl/Dexameth,J01,2551,ciprofloxacin,IN
+Ciprofloxacin Hcl/Fluocinolone,J01,2551,ciprofloxacin,IN
+Ciprofloxacin In 5 % Dextrose,J01,2551,ciprofloxacin,IN
+Ciprofloxacin Lactate,J01,2551,ciprofloxacin,IN
+Ciprofloxacin Lactate/D5w,J01,2551,ciprofloxacin,IN
+Ciprofloxacin/Ciprofloxa Hcl,J01,2551,ciprofloxacin,IN
+Ciprofloxacin/Hydrocortisone,J01,2551,ciprofloxacin,IN
+Adapalene/Benzoyl/Clindamycin,J01,2582,clindamycin,IN
+Clindamycin Hcl,J01,2582,clindamycin,IN
+Clindamycin In 0.9 % Sod Chlor,J01,2582,clindamycin,IN
+Clindamycin Palmitate Hcl,J01,2582,clindamycin,IN
+Clindamycin Phos/Benzoyl Perox,J01,2582,clindamycin,IN
+Clindamycin Phos/Skin Clnsr 19,J01,2582,clindamycin,IN
+Clindamycin Phosphate,J01,2582,clindamycin,IN
+Clindamycin Phosphate/D5w,J01,2582,clindamycin,IN
+Clindamycin/Tretinoin,J01,2582,clindamycin,IN
+Colistin (Colistimethate Na),J01,2709,colistin,IN
+Telithromycin,J01,274786,telithromycin,IN
+Meropenem,J01,29561,meropenem,IN
+Meropenem-0.9% Sodium Chloride,J01,29561,meropenem,IN
+Meropenem/Vaborbactam,J01,29561,meropenem,IN
+Demeclocycline Hcl,J01,3154,demeclocycline,IN
+Ertapenem Sodium,J01,325642,ertapenem,IN
+Dicloxacillin Sodium,J01,3356,dicloxacillin,IN
+Imipenem/Cilastatin Sodium,J01,34482,cilastatin / imipenem,MIN
+Imipenem/Cilastatin/Relebactam,J01,34482,cilastatin / imipenem,MIN
+Doxycycline Calcium,J01,3640,doxycycline,IN
+Doxycycline Hyclate,J01,3640,doxycycline,IN
+Doxycycline Monohydrate,J01,3640,doxycycline,IN
+Doxycycline/Skin Cleanser #19,J01,3640,doxycycline,IN
+Ceftolozane/Tazobactam,J01,37617,tazobactam,IN
+Piperacillin Sodium/Tazobactam,J01,37617,tazobactam,IN
+Tigecycline,J01,384455,tigecycline,IN
+Erythromycin Base,J01,4053,erythromycin,IN
+Erythromycin Base In Ethanol,J01,4053,erythromycin,IN
+Erythromycin Base/Ethanol,J01,4053,erythromycin,IN
+Erythromycin Ethylsuccinate,J01,4053,erythromycin,IN
+Erythromycin Lactobionate,J01,4053,erythromycin,IN
+Erythromycin Stearate,J01,4053,erythromycin,IN
+Erythromycin/Benzoyl Peroxide,J01,4053,erythromycin,IN
+Fosfomycin Tromethamine,J01,4550,fosfomycin,IN
+Telavancin Hcl,J01,473837,telavancin,IN
+Lincomycin Hcl,J01,6398,lincomycin,IN
+Amikacin Liposomal/Neb.Accessr,J01,641,amikacin,IN
+Amikacin Sulfate,J01,641,amikacin,IN
+Methenamine Hippurate,J01,6832,methenamine,IN
+Methenamine Mandelate,J01,6832,methenamine,IN
+Metronidazole,J01,6922,metronidazole,IN
+Metronidazole/Skin Cleanser 23,J01,6922,metronidazole,IN
+Metronidazole/Skin Cleansr #23,J01,6922,metronidazole,IN
+Metronidazole/Sodium Chloride,J01,6922,metronidazole,IN
+Minocycline Hcl,J01,6980,minocycline,IN
+Minocycline Hcl Microspheres,J01,6980,minocycline,IN
+Minocycline Hcl/Skin Cl No.4,J01,6980,minocycline,IN
+Amoxicillin,J01,723,amoxicillin,IN
+Amoxicillin/Potassium Clav,J01,723,amoxicillin,IN
+Omeprazole/Clarith/Amoxicillin,J01,723,amoxicillin,IN
+Vonoprazan/Amoxicillin,J01,723,amoxicillin,IN
+Vonoprazan/Amoxicillin/Clarith,J01,723,amoxicillin,IN
+"Nafcillin In Dextrose,iso-Osm",J01,7233,nafcillin,IN
+Nafcillin Sodium,J01,7233,nafcillin,IN
+Neomycin Su/Baci Zn/Poly/Hc,J01,7299,neomycin,IN
+Neomycin Su/Bacitra/Polymyxin,J01,7299,neomycin,IN
+Neomycin Su/Colist/Hc/Thonzon,J01,7299,neomycin,IN
+Neomycin Su/Polymyx B Sulf,J01,7299,neomycin,IN
+Neomycin Sulf/Bacitracin/Poly,J01,7299,neomycin,IN
+Neomycin Sulf/Polymyxin B Sulf,J01,7299,neomycin,IN
+Neomycin Sulfate,J01,7299,neomycin,IN
+Neomycin Sulfate/Fluocinolone,J01,7299,neomycin,IN
+Neomycin/Bacit/P-Myx/Hydrocort,J01,7299,neomycin,IN
+Neomycin/Bacitra/Polymyxin/Hc,J01,7299,neomycin,IN
+Neomycin/Bacitracin/Polymyxinb,J01,7299,neomycin,IN
+Neomycin/Fluocinolone/Emol #65,J01,7299,neomycin,IN
+Neomycin/Polymyxin B Sulf/Hc,J01,7299,neomycin,IN
+Neomycin/Polymyxin B/Dexametha,J01,7299,neomycin,IN
+Neomycin/Polymyxin B/Hydrocort,J01,7299,neomycin,IN
+Neomycin/Polymyxn B/Gramicidin,J01,7299,neomycin,IN
+Ampicillin Sod/Sulbactam Sod,J01,733,ampicillin,IN
+Ampicillin Sodium,J01,733,ampicillin,IN
+Ampicillin Sodium/Sulbactam Na,J01,733,ampicillin,IN
+Ampicillin Trihydrate,J01,733,ampicillin,IN
+Nitrofurantoin,J01,7454,nitrofurantoin,IN
+Nitrofurantoin Macrocrystal,J01,7454,nitrofurantoin,IN
+Nitrofurantoin Monohyd/M-Cryst,J01,7454,nitrofurantoin,IN
+Norfloxacin,J01,7517,norfloxacin,IN
+Ofloxacin,J01,7623,ofloxacin,IN
+Oxacillin In Dextrose(Iso-Osm),J01,7773,oxacillin,IN
+Oxacillin Sodium,J01,7773,oxacillin,IN
+"Oxacillin Sodium/Dextrose,iso",J01,7773,oxacillin,IN
+Penicillin G Benzathine,J01,7980,penicillin G,IN
+Penicillin G Potassium,J01,7980,penicillin G,IN
+Penicillin G Procaine,J01,7980,penicillin G,IN
+Penicillin G Sodium,J01,7980,penicillin G,IN
+Penicillin G Benzathine,J01,7982,penicillin G benzathine,PIN
+Penicillin G Procaine,J01,7983,penicillin G procaine,PIN
+Penicillin V Potassium,J01,7984,penicillin V,IN
+Levofloxacin,J01,82122,levofloxacin,IN
+Levofloxacin In Dextrose 5 %,J01,82122,levofloxacin,IN
+Levofloxacin/D5w,J01,82122,levofloxacin,IN
+Piperacillin Sodium/Tazobactam,J01,8339,piperacillin,IN
+"Piperacillin-Tazo-Dextrose,iso",J01,8339,piperacillin,IN
+Cefditoren Pivoxil,J01,83682,cefditoren,IN
+Bacitracin/Polymyxin B Sulfate,J01,8536,polymyxin B,IN
+Neomy Sulf/Bacitra/Polymyxin B,J01,8536,polymyxin B,IN
+Neomy Sulf/Polymyxin B Sulfate,J01,8536,polymyxin B,IN
+Neomycin Sulf/Polymyxin B Sulf,J01,8536,polymyxin B,IN
+Neomycin/Polymyxin B Sulf/Hc,J01,8536,polymyxin B,IN
+Neomycin/Polymyxin B/Dexametha,J01,8536,polymyxin B,IN
+Neomycin/Polymyxin B/Hydrocort,J01,8536,polymyxin B,IN
+Polymyxin B Sulf/Trimethoprim,J01,8536,polymyxin B,IN
+Polymyxin B Sulfate,J01,8536,polymyxin B,IN
+Tamoxifen Citrate,L02,10324,tamoxifen,IN
+"Abiraterone Acet,submicronized",L02,1100072,abiraterone,IN
+Abiraterone Acetate,L02,1100072,abiraterone,IN
+Niraparib/Abiraterone,L02,1100072,abiraterone,IN
+Enzalutamide,L02,1307298,enzalutamide,IN
+Apalutamide,L02,1999574,apalutamide,IN
+Darolutamide,L02,2180325,darolutamide,IN
+Relugolix,L02,2472778,relugolix,IN
+Relugolix/Estradiol/Norethindr,L02,2472778,relugolix,IN
+Exemestane,L02,258494,exemestane,IN
+Elacestrant Hcl,L02,2628469,elacestrant,IN
+Fulvestrant,L02,282357,fulvestrant,IN
+Nilutamide,L02,31805,nilutamide,IN
+Toremifene Citrate,L02,38409,toremifene,IN
+Triptorelin Pamoate,L02,38782,triptorelin,IN
+Desogestrel-Ethinyl Estradiol,L02,4124,ethinyl estradiol,IN
+Ethinyl Estradiol/Drospirenone,L02,4124,ethinyl estradiol,IN
+Ethynodiol D-Ethinyl Estradiol,L02,4124,ethinyl estradiol,IN
+Etonogestrel/Ethinyl Estradiol,L02,4124,ethinyl estradiol,IN
+Noreth-Ethinyl Estradiol/Iron,L02,4124,ethinyl estradiol,IN
+Norethind Ac/Ethinyl Estradiol,L02,4124,ethinyl estradiol,IN
+Norgestimate-Ethinyl Estradiol,L02,4124,ethinyl estradiol,IN
+Norgestrel-Ethinyl Estradiol,L02,4124,ethinyl estradiol,IN
+Leuprolide Acetate,L02,42375,leuprolide,IN
+Leuprolide/Norethindrone Acet,L02,42375,leuprolide,IN
+Flutamide,L02,4508,flutamide,IN
+Degarelix Acetate,L02,475230,degarelix,IN
+Goserelin Acetate,L02,50610,goserelin,IN
+Histrelin Ac,L02,50975,histrelin,IN
+Histrelin Acetate,L02,50975,histrelin,IN
+Medroxyprogesterone Acetate,L02,6691,medroxyprogesterone,IN
+Megestrol Acetate,L02,6703,megestrol,IN
+Letrozole,L02,72965,letrozole,IN
+Ribociclib Succinate/Letrozole,L02,72965,letrozole,IN
+Bicalutamide,L02,83008,bicalutamide,IN
+Anastrozole,L02,84857,anastrozole,IN
+Sulindac,M01,10237,sulindac,IN
+Tolmetin Sodium,M01,10636,tolmetin,IN
+Auranofin,M01,1227,auranofin,IN
+Celecoxib,M01,140587,celecoxib,IN
+Tramadol Hcl/Celecoxib,M01,140587,celecoxib,IN
+Etodolac,M01,24605,etodolac,IN
+Nabumetone,M01,31448,nabumetone,IN
+Oxaprozin,M01,32613,oxaprozin,IN
+Diclofenac Epolamine,M01,3355,diclofenac,IN
+Diclofenac Potassium,M01,3355,diclofenac,IN
+Diclofenac Sodium,M01,3355,diclofenac,IN
+Diclofenac Sodium/Misoprostol,M01,3355,diclofenac,IN
+Diclofenac Submicronized,M01,3355,diclofenac,IN
+Diclofenac/Capsicum,M01,3355,diclofenac,IN
+Diclofenac/Capsicum Oleoresin,M01,3355,diclofenac,IN
+Ketorolac Tromethamine,M01,35827,ketorolac,IN
+Ketorolac Tromethamine/Pf,M01,35827,ketorolac,IN
+Meloxicam,M01,41493,meloxicam,IN
+"Meloxicam, Submicronized",M01,41493,meloxicam,IN
+Fenoprofen Calcium,M01,4331,fenoprofen,IN
+Flurbiprofen,M01,4502,flurbiprofen,IN
+Flurbiprofen Sodium,M01,4502,flurbiprofen,IN
+Hydrocodone/Ibuprofen,M01,5640,ibuprofen,IN
+Ibuprofen,M01,5640,ibuprofen,IN
+Ibuprofen/Famotidine,M01,5640,ibuprofen,IN
+Ibuprofen/Oxycodone Hcl,M01,5640,ibuprofen,IN
+Indomethacin,M01,5781,indomethacin,IN
+"Indomethacin, Submicronized",M01,5781,indomethacin,IN
+Ketoprofen,M01,6142,ketoprofen,IN
+Mefenamic Acid,M01,6693,mefenamic acid,PIN
+Naproxen,M01,7258,naproxen,IN
+Naproxen Sodium,M01,7258,naproxen,IN
+Naproxen/Esomeprazole Mag,M01,7258,naproxen,IN
+Sumatriptan Succ/Naproxen Sod,M01,7258,naproxen,IN
+Penicillamine,M01,7975,penicillamine,IN
+Piroxicam,M01,8356,piroxicam,IN
+Naproxen/Esomeprazole Mag,M01,994202,esomeprazole / naproxen,MIN
+Succinylcholine Chloride,M03,10154,succinylcholine,IN
+Baclofen,M03,1292,baclofen,IN
+Carisoprodol,M03,2101,carisoprodol,IN
+Carisoprodol/Aspirin,M03,2101,carisoprodol,IN
+Carisoprodol/Aspirin/Codeine,M03,2101,carisoprodol,IN
+Codeine/Carisoprodol/Aspirin,M03,2101,carisoprodol,IN
+Cyclobenzaprine Hcl,M03,21949,cyclobenzaprine,IN
+Chlorzoxazone,M03,2410,chlorzoxazone,IN
+Dantrolene Sodium,M03,3105,dantrolene,IN
+Rocuronium Bromide,M03,32521,rocuronium bromide,PIN
+Tizanidine Hcl,M03,57258,tizanidine,IN
+Methocarbamol,M03,6845,methocarbamol,IN
+Orphenadrine Citrate,M03,7716,orphenadrine citrate,PIN
+Antipyrine/Benzocain/Gly/Zinc,N02,1001,antipyrine,IN
+Antipyrine/Benzocaine,N02,1001,antipyrine,IN
+Antipyrine/Benzocaine/Glycerin,N02,1001,antipyrine,IN
+Tramadol Hcl,N02,10689,tramadol,IN
+Tramadol Hcl/Acetaminophen,N02,10689,tramadol,IN
+Tramadol Hcl/Celecoxib,N02,10689,tramadol,IN
+Aspirin,N02,1191,aspirin,IN
+Aspirin/Caffein/Dihydrocodeine,N02,1191,aspirin,IN
+Aspirin/Dipyridamole,N02,1191,aspirin,IN
+Aspirin/Omeprazole,N02,1191,aspirin,IN
+Butalbital/Aspirin/Caffeine,N02,1191,aspirin,IN
+Carisoprodol/Aspirin,N02,1191,aspirin,IN
+Carisoprodol/Aspirin/Codeine,N02,1191,aspirin,IN
+Codeine/Carisoprodol/Aspirin,N02,1191,aspirin,IN
+Dihydrocodeine/Aspirin/Caffein,N02,1191,aspirin,IN
+Orphenadrine/Aspirin/Caffeine,N02,1191,aspirin,IN
+Oxycodone Hcl/Aspirin,N02,1191,aspirin,IN
+Carisoprodol/Aspirin/Codeine,N02,135095,aspirin / codeine,MIN
+Codeine/Carisoprodol/Aspirin,N02,135095,aspirin / codeine,MIN
+Zolmitriptan,N02,135775,zolmitriptan,IN
+Naratriptan Hcl,N02,141366,naratriptan,IN
+Acetaminophen,N02,161,acetaminophen,IN
+Acetaminophen With Codeine,N02,161,acetaminophen,IN
+Acetaminophen/Caff/Dihydrocod,N02,161,acetaminophen,IN
+Acetaminophen/Phenyltolx,N02,161,acetaminophen,IN
+Acetaminophen/Phenyltolx Cit,N02,161,acetaminophen,IN
+Butalb/Acetaminophen/Caffeine,N02,161,acetaminophen,IN
+Butalbital/Acetaminophen,N02,161,acetaminophen,IN
+Hydrocodone/Acetaminophen,N02,161,acetaminophen,IN
+Oxycodone Hcl/Acetaminophen,N02,161,acetaminophen,IN
+Pentazocine Hcl/Acetaminophen,N02,161,acetaminophen,IN
+Tramadol Hcl/Acetaminophen,N02,161,acetaminophen,IN
+Buprenorphine,N02,1819,buprenorphine,IN
+Buprenorphine Hcl,N02,1819,buprenorphine,IN
+Buprenorphine Hcl/Naloxone Hcl,N02,1819,buprenorphine,IN
+Butorphanol Tartrate,N02,1841,butorphanol,IN
+Pregabalin,N02,187832,pregabalin,IN
+Erenumab-Aooe,N02,2045613,erenumab,IN
+Fremanezumab-Vfrm,N02,2056691,fremanezumab,IN
+Galcanezumab-Gnlm,N02,2058846,galcanezumab,IN
+Hydrocodone/Ibuprofen,N02,214627,hydrocodone / ibuprofen,MIN
+Pentazocine Hcl/Naloxone Hcl,N02,214721,naloxone / pentazocine,MIN
+Lasmiditan Succinate,N02,2256930,lasmiditan,IN
+Ubrogepant,N02,2268216,ubrogepant,IN
+Rimegepant Sulfate,N02,2282307,rimegepant,IN
+Eptinezumab-Jjmr,N02,2282660,eptinezumab,IN
+Frovatriptan Succinate,N02,228783,frovatriptan,IN
+Aspirin/Caffein/Dihydrocodeine,N02,23088,dihydrocodeine,IN
+Brompheniram/Pe/Dihydrocodeine,N02,23088,dihydrocodeine,IN
+Dihydrocodeine/Aspirin/Caffein,N02,23088,dihydrocodeine,IN
+Dihydrocodeine/Guaifenesin,N02,23088,dihydrocodeine,IN
+Eletriptan Hbr,N02,231049,eletriptan,IN
+Eletriptan Hydrobromide,N02,231049,eletriptan,IN
+Gabapentin,N02,25480,gabapentin,IN
+Gabapentin Enacarbil,N02,25480,gabapentin,IN
+Atogepant,N02,2571813,atogepant,IN
+Tramadol Hcl/Celecoxib,N02,2588474,celecoxib / tramadol,MIN
+Clonidine,N02,2599,clonidine,IN
+Clonidine Hcl,N02,2599,clonidine,IN
+Clonidine Hcl/Chlorthalidone,N02,2599,clonidine,IN
+Clonidine Hcl/Pf,N02,2599,clonidine,IN
+Zavegepant Hcl,N02,2637955,zavegepant,IN
+Almotriptan Malate,N02,279645,almotriptan,IN
+Diflunisal,N02,3393,diflunisal,IN
+Dihydroergotamine Mesylate,N02,3418,dihydroergotamine,IN
+Hydromorphone Hcl,N02,3423,hydromorphone,IN
+Hydromorphone Hcl/Pf,N02,3423,hydromorphone,IN
+Tramadol Hcl/Acetaminophen,N02,352362,acetaminophen / tramadol,MIN
+Salsalate,N02,36108,salsalate,IN
+Sumatriptan,N02,37418,sumatriptan,IN
+Sumatriptan Succ/Naproxen Sod,N02,37418,sumatriptan,IN
+Sumatriptan Succinate,N02,37418,sumatriptan,IN
+Ergotamine Tartrate,N02,4025,ergotamine,IN
+Ergotamine Tartrate/Caffeine,N02,4025,ergotamine,IN
+Fentanyl,N02,4337,fentanyl,IN
+Fentanyl Citrate,N02,4337,fentanyl,IN
+Fentanyl Citrate/Pf,N02,4337,fentanyl,IN
+Ibuprofen/Oxycodone Hcl,N02,484259,ibuprofen / oxycodone,MIN
+Meperidine Hcl,N02,6754,meperidine,IN
+Meperidine Hcl/Pf,N02,6754,meperidine,IN
+Ziconotide Acetate,N02,68503,ziconotide,IN
+Morphine Sulfate,N02,7052,morphine,IN
+Morphine Sulfate/Naltrexone,N02,7052,morphine,IN
+Morphine Sulfate/Pf,N02,7052,morphine,IN
+Nalbuphine Hcl,N02,7238,nalbuphine,IN
+Opium Tincture,N02,7676,opium,IN
+Opium/Belladonna Alkaloids,N02,7676,opium,IN
+Ibuprofen/Oxycodone Hcl,N02,7804,oxycodone,IN
+Oxycodone Hcl,N02,7804,oxycodone,IN
+Oxycodone Hcl/Acetaminophen,N02,7804,oxycodone,IN
+Oxycodone Hcl/Aspirin,N02,7804,oxycodone,IN
+Oxycodone Hcl/Oxycodon Ter/Asa,N02,7804,oxycodone,IN
+Oxycodone Myristate,N02,7804,oxycodone,IN
+Oxymorphone Hcl,N02,7814,oxymorphone,IN
+Tapentadol Hcl,N02,787390,tapentadol,IN
+Sumatriptan Succ/Naproxen Sod,N02,797426,naproxen / sumatriptan,MIN
+Pentazocine Hcl/Acetaminophen,N02,8001,pentazocine,IN
+Pentazocine Hcl/Naloxone Hcl,N02,8001,pentazocine,IN
+Pentazocine Lactate,N02,8001,pentazocine,IN
+Acetaminophen With Codeine,N02,817579,acetaminophen / codeine,MIN
+Rizatriptan Benzoate,N02,88014,rizatriptan,IN
+Valproic Acid,N03,11118,valproic acid,PIN
+Valproic Acid (As Sodium Salt),N03,11118,valproic acid,PIN
+Ezogabine,N03,1112990,ezogabine,IN
+Levetiracetam,N03,114477,levetiracetam,IN
+Levetiracetam In Nacl (Iso-Os),N03,114477,levetiracetam,IN
+Perampanel,N03,1356552,perampanel,IN
+Eslicarbazepine Acetate,N03,1482502,eslicarbazepine,IN
+Vigabatrin,N03,14851,vigabatrin,IN
+Brivaracetam,N03,1739745,brivaracetam,IN
+Carbamazepine,N03,2002,carbamazepine,IN
+Cannabidiol (Cbd),N03,2045371,cannabidiol,IN
+Cannabidiol (Cbd) Extract,N03,2045371,cannabidiol,IN
+Stiripentol,N03,2054968,stiripentol,IN
+Cenobamate,N03,2265690,cenobamate,IN
+Felbamate,N03,24812,felbamate,IN
+Clonazepam,N03,2598,clonazepam,IN
+Ganaxolone,N03,2604689,ganaxolone,IN
+Lamotrigine,N03,28439,lamotrigine,IN
+Tiagabine Hcl,N03,31914,tiagabine,IN
+Oxcarbazepine,N03,32624,oxcarbazepine,IN
+Phentermine/Topiramate,N03,38404,topiramate,IN
+Topiramate,N03,38404,topiramate,IN
+Zonisamide,N03,39998,zonisamide,IN
+Ethosuximide,N03,4135,ethosuximide,IN
+Ethotoin,N03,4136,ethotoin,IN
+Fenfluramine Hcl,N03,4328,fenfluramine,IN
+Methsuximide,N03,47858,methsuximide,IN
+Lacosamide,N03,623400,lacosamide,IN
+Rufinamide,N03,69036,rufinamide,IN
+Fosphenytoin Sodium,N03,72236,fosphenytoin,IN
+Phenobarbital,N03,8134,phenobarbital,IN
+Phenobarbital Sodium,N03,8134,phenobarbital,IN
+Phenytoin,N03,8183,phenytoin,IN
+Phenytoin Sodium,N03,8183,phenytoin,IN
+Phenytoin Sodium Extended,N03,8183,phenytoin,IN
+Primidone,N03,8691,primidone,IN
+Apomorphine Hcl,N04,1043,apomorphine,IN
+Trihexyphenidyl Hcl,N04,10811,trihexyphenidyl,IN
+Rasagiline Mesylate,N04,134748,rasagiline,IN
+Benztropine Mesylate,N04,1424,benztropine,IN
+Bromocriptine Mesylate,N04,1760,bromocriptine,IN
+Safinamide Mesylate,N04,1922448,safinamide,IN
+Istradefylline,N04,2199015,istradefylline,IN
+Opicapone,N04,2362167,opicapone,IN
+Cabergoline,N04,47579,cabergoline,IN
+Carbidopa/Levodopa/Entacapone,N04,60307,entacapone,IN
+Entacapone,N04,60307,entacapone,IN
+Rotigotine,N04,616739,rotigotine,IN
+Amantadine Hcl,N04,620,amantadine,IN
+Carbidopa/Levodopa,N04,6375,levodopa,IN
+Carbidopa/Levodopa/Entacapone,N04,6375,levodopa,IN
+Levodopa,N04,6375,levodopa,IN
+Ropinirole Hcl,N04,72302,ropinirole,IN
+Tolcapone,N04,72937,tolcapone,IN
+Pramipexole Di-Hcl,N04,746741,pramipexole,IN
+Selegiline,N04,9639,selegiline,IN
+Selegiline Hcl,N04,9639,selegiline,IN
+Temazepam,N05,10355,temazepam,IN
+Lurasidone Hcl,N05,1040028,lurasidone,IN
+Thioridazine Hcl,N05,10502,thioridazine,IN
+Thiothixene,N05,10510,thiothixene,IN
+Triazolam,N05,10767,triazolam,IN
+Trifluoperazine Hcl,N05,10800,trifluoperazine,IN
+Ziprasidone Hcl,N05,115698,ziprasidone,IN
+Ziprasidone Mesylate,N05,115698,ziprasidone,IN
+Tasimelteon,N05,1490468,tasimelteon,IN
+Suvorexant,N05,1547099,suvorexant,IN
+Brexpiprazole,N05,1658314,brexpiprazole,IN
+Cariprazine Hcl,N05,1667655,cariprazine,IN
+Pimavanserin Tartrate,N05,1791685,pimavanserin,IN
+Buspirone Hcl,N05,1827,buspirone,IN
+Clobazam,N05,21241,clobazam,IN
+Lemborexant,N05,2272403,lemborexant,IN
+Lumateperone Tosylate,N05,2275602,lumateperone,IN
+Chloral Hydrate,N05,2344,chloral hydrate,PIN
+Amitrip Hcl/Chlordiazepoxide,N05,2356,chlordiazepoxide,IN
+Amitriptyline/Chlordiazepoxide,N05,2356,chlordiazepoxide,IN
+Chlordiazepoxide Hcl,N05,2356,chlordiazepoxide,IN
+Chlordiazepoxide/Clidinium Br,N05,2356,chlordiazepoxide,IN
+Chlorpromazine Hcl,N05,2403,chlorpromazine,IN
+Olanzapine/Samidorphan Malate,N05,2562108,olanzapine / samidorphan,MIN
+Daridorexant Hcl,N05,2591497,daridorexant,IN
+Clorazepate Dipotassium,N05,2607,clorazepate dipotassium,PIN
+Clozapine,N05,2626,clozapine,IN
+Xanomeline Tart/Trospium Chlor,N05,2694836,trospium / xanomeline,MIN
+Diazepam,N05,3322,diazepam,IN
+Quazepam,N05,35185,quazepam,IN
+Risperidone,N05,35636,risperidone,IN
+Risperidone Microspheres,N05,35636,risperidone,IN
+Droperidol,N05,3648,droperidol,IN
+Zolpidem Tartrate,N05,39993,zolpidem,IN
+Estazolam,N05,4077,estazolam,IN
+Fluphenazine Decanoate,N05,4496,fluphenazine,IN
+Fluphenazine Hcl,N05,4496,fluphenazine,IN
+Flurazepam Hcl,N05,4501,flurazepam,IN
+Eszopiclone,N05,461016,eszopiclone,IN
+Dexmedetomidine Hcl,N05,48937,dexmedetomidine,IN
+Haloperidol,N05,5093,haloperidol,IN
+Haloperidol Decanoate,N05,5093,haloperidol,IN
+Haloperidol Lactate,N05,5093,haloperidol,IN
+Quetiapine Fumarate,N05,51272,quetiapine,IN
+Hydroxyzine Hcl,N05,5553,hydroxyzine,IN
+Hydroxyzine Pamoate,N05,5553,hydroxyzine,IN
+Alprazolam,N05,596,alprazolam,IN
+Ramelteon,N05,596205,ramelteon,IN
+Olanzapine,N05,61381,olanzapine,IN
+Olanzapine Pamoate,N05,61381,olanzapine,IN
+Olanzapine/Fluoxetine Hcl,N05,61381,olanzapine,IN
+Olanzapine/Samidorphan Malate,N05,61381,olanzapine,IN
+Lithium Carbonate,N05,6448,lithium,IN
+Lithium Citrate,N05,6448,lithium,IN
+Lorazepam,N05,6470,lorazepam,IN
+Loxapine Succinate,N05,6475,loxapine,IN
+Meprobamate,N05,6760,meprobamate,IN
+Paliperidone,N05,679314,paliperidone,IN
+Paliperidone Palmitate,N05,679314,paliperidone,IN
+Midazolam,N05,6960,midazolam,IN
+Midazolam Hcl,N05,6960,midazolam,IN
+Midazolam Hcl/Pf,N05,6960,midazolam,IN
+Molindone Hcl,N05,7019,molindone,IN
+Iloperidone,N05,73178,iloperidone,IN
+Zaleplon,N05,74667,zaleplon,IN
+Oxazepam,N05,7781,oxazepam,IN
+Asenapine,N05,784649,asenapine,IN
+Asenapine Maleate,N05,784649,asenapine,IN
+Perphenazine,N05,8076,perphenazine,IN
+Perphenazine/Amitriptyline Hcl,N05,8076,perphenazine,IN
+Pimozide,N05,8331,pimozide,IN
+Prochlorperazine,N05,8704,prochlorperazine,IN
+Prochlorperazine Edisylate,N05,8704,prochlorperazine,IN
+Prochlorperazine Maleate,N05,8704,prochlorperazine,IN
+Aripiprazole,N05,89013,aripiprazole,IN
+Aripiprazole Lauroxil,N05,89013,aripiprazole,IN
+"Aripiprazole Lauroxil,submicr.",N05,89013,aripiprazole,IN
+Scopolamine,N05,9601,scopolamine,IN
+Scopolamine Hydrobromide,N05,9601,scopolamine,IN
+Secobarbital Sodium,N05,9624,secobarbital,IN
+Tranylcypromine Sulfate,N06,10734,tranylcypromine,IN
+Trazodone Hcl,N06,10737,trazodone,IN
+Trimipramine Maleate,N06,10834,trimipramine,IN
+Vilazodone Hcl,N06,1086769,vilazodone,IN
+Vilazodone Hydrochloride,N06,1086769,vilazodone,IN
+Viloxazine Hcl,N06,11196,viloxazine,IN
+Donepezil Hcl,N06,135447,donepezil,IN
+Memantine Hcl/Donepezil Hcl,N06,135447,donepezil,IN
+Memantine Hcl/Donepezil Hcl,N06,1430990,donepezil / memantine,MIN
+Levomilnacipran Hcl,N06,1433212,levomilnacipran,IN
+Levomilnacipran Hydrochloride,N06,1433212,levomilnacipran,IN
+Vortioxetine Hydrobromide,N06,1455099,vortioxetine,IN
+Mirtazapine,N06,15996,mirtazapine,IN
+Rivastigmine,N06,183379,rivastigmine,IN
+Rivastigmine Tartrate,N06,183379,rivastigmine,IN
+Butalb/Acetaminophen/Caffeine,N06,1886,caffeine,IN
+Butalbital/Aspirin/Caffeine,N06,1886,caffeine,IN
+Caffeine Citrate,N06,1886,caffeine,IN
+Caffeine Citrated,N06,1886,caffeine,IN
+Ergotamine Tartrate/Caffeine,N06,1886,caffeine,IN
+Orphenadrine/Aspirin/Caffeine,N06,1886,caffeine,IN
+Esketamine Hcl,N06,2119365,esketamine,IN
+Solriamfetol Hcl,N06,2121751,solriamfetol,IN
+Citalopram Hydrobromide,N06,2556,citalopram,IN
+Clomipramine Hcl,N06,2597,clomipramine,IN
+Dextromethorphan Hbr/Bupropion,N06,2611256,bupropion / dextromethorphan,MIN
+Lecanemab-Irmb,N06,2626143,lecanemab,IN
+Zuranolone,N06,2669905,zuranolone,IN
+Donanemab-Azbt,N06,2687966,donanemab,IN
+Modafinil,N06,30125,modafinil,IN
+Nefazodone Hcl,N06,31565,nefazodone,IN
+Escitalopram Oxalate,N06,321988,escitalopram,IN
+Desipramine Hcl,N06,3247,desipramine,IN
+Dextroamphetamine,N06,3288,dextroamphetamine,IN
+Dextroamphetamine Sulfate,N06,3288,dextroamphetamine,IN
+Dextroamphetamine/Amphetamine,N06,3288,dextroamphetamine,IN
+Paroxetine Hcl,N06,32937,paroxetine,IN
+Paroxetine Mesylate,N06,32937,paroxetine,IN
+Dexmethylphenidate Hcl,N06,352372,dexmethylphenidate,IN
+Doxepin Hcl,N06,3638,doxepin,IN
+Sertraline Hcl,N06,36437,sertraline,IN
+Atomoxetine Hcl,N06,38400,atomoxetine,IN
+Venlafaxine Besylate,N06,39786,venlafaxine,IN
+Venlafaxine Hcl,N06,39786,venlafaxine,IN
+Bupropion Hbr,N06,42347,bupropion,IN
+Bupropion Hcl,N06,42347,bupropion,IN
+Dextromethorphan Hbr/Bupropion,N06,42347,bupropion,IN
+Naltrexone Hcl/Bupropion Hcl,N06,42347,bupropion,IN
+Fluvoxamine Maleate,N06,42355,fluvoxamine,IN
+Fluoxetine Hcl,N06,4493,fluoxetine,IN
+Olanzapine/Fluoxetine Hcl,N06,4493,fluoxetine,IN
+Galantamine Hbr,N06,4637,galantamine,IN
+Imipramine Hcl,N06,5691,imipramine,IN
+Imipramine Pamoate,N06,5691,imipramine,IN
+Milnacipran Hcl,N06,588250,milnacipran,IN
+Isocarboxazid,N06,6011,isocarboxazid,IN
+Armodafinil,N06,641465,armodafinil,IN
+Maprotiline Hcl,N06,6646,maprotiline,IN
+Memantine Hcl,N06,6719,memantine,IN
+Memantine Hcl/Donepezil Hcl,N06,6719,memantine,IN
+Methamphetamine Hcl,N06,6816,methamphetamine,IN
+Methylphenidate,N06,6901,methylphenidate,IN
+Methylphenidate Hcl,N06,6901,methylphenidate,IN
+Lisdexamfetamine Dimesylate,N06,700810,lisdexamfetamine,IN
+Amitriptyline Hcl,N06,704,amitriptyline,IN
+Amitriptyline/Chlordiazepoxide,N06,704,amitriptyline,IN
+Perphenazine/Amitriptyline Hcl,N06,704,amitriptyline,IN
+Amoxapine,N06,722,amoxapine,IN
+Amphetamine,N06,725,amphetamine,IN
+Amphetamine Sulfate,N06,725,amphetamine,IN
+Dextroamphetamine/Amphetamine,N06,725,amphetamine,IN
+Duloxetine Hcl,N06,72625,duloxetine,IN
+Desvenlafaxine,N06,734064,desvenlafaxine,IN
+Desvenlafaxine Fumarate,N06,734064,desvenlafaxine,IN
+Desvenlafaxine Succinate,N06,734064,desvenlafaxine,IN
+Nortriptyline Hcl,N06,7531,nortriptyline,IN
+Phenelzine Sulfate,N06,8123,phenelzine,IN
+Protriptyline Hcl,N06,8886,protriptyline,IN
+Brompheniramine/Pseudoephed/Dm,R06,1767,brompheniramine,IN
+Azelastine Hcl,R06,18603,azelastine,IN
+Azelastine/Fluticasone,R06,18603,azelastine,IN
+Carbinoxamine Maleate,R06,20220,carbinoxamine,IN
+Cetirizine Hcl,R06,20610,cetirizine,IN
+Dexchlorpheniramine Maleate,R06,22697,dexchlorpheniramine,IN
+Chlorpheniramine/Codeine Phos,R06,2400,chlorpheniramine,IN
+Hydrocodone/Chlorpheniramine,R06,2400,chlorpheniramine,IN
+Clemastine Fumarate,R06,2578,clemastine,IN
+Desloratadine,R06,275635,desloratadine,IN
+Desloratadine/Pseudoephedrine,R06,275635,desloratadine,IN
+Cyproheptadine Hcl,R06,3013,cyproheptadine,IN
+Dimenhydrinate,R06,3444,dimenhydrinate,IN
+Diphenhydramine Hcl,R06,3498,diphenhydramine,IN
+Levocetirizine Dihydrochloride,R06,356887,levocetirizine,IN
+Doxylamine Succinate/Vit B6,R06,3642,doxylamine,IN
+Trimethobenzamide Hcl,R06,38685,trimethobenzamide,IN
+Epinastine Hcl,R06,39684,epinastine,IN
+Meclizine Hcl,R06,6676,meclizine,IN
+Promethazine Hcl,R06,8745,promethazine,IN
+Promethazine Hcl/Codeine,R06,8745,promethazine,IN
+Promethazine/Dextromethorphan,R06,8745,promethazine,IN
+Promethazine/Phenyleph/Codeine,R06,8745,promethazine,IN
+Fexofenadine Hcl,R06,87636,fexofenadine,IN
+Fexofenadine/Pseudoephedrine,R06,87636,fexofenadine,IN
+Phenylephrine/Pyrilamine Ma/Cp,R06,9009,pyrilamine,IN

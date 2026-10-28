@@ -1,0 +1,13 @@
+family,metric,scenario,age,segment,start,end,annual_points_in_interval,slope_pp_per_year,model
+long,fills30,primary,ge65,2013–2015,2013,2015,3,-3.47666058098,continuous_hinge_OLS_12_years
+long,fills30,primary,ge65,2015–2019,2015,2019,5,0.11252707811,continuous_hinge_OLS_12_years
+long,fills30,primary,ge65,2019–2023,2019,2023,5,-1.07585057622,continuous_hinge_OLS_12_years
+long,fills30,primary,ge65,2023–2024,2023,2024,2,-0.843485323809,continuous_hinge_OLS_12_years
+long,fills30,primary,lt65,2013–2015,2013,2015,3,-4.08742866327,continuous_hinge_OLS_12_years
+long,fills30,primary,lt65,2015–2019,2015,2019,5,-0.938141512636,continuous_hinge_OLS_12_years
+long,fills30,primary,lt65,2019–2023,2019,2023,5,-0.877800998793,continuous_hinge_OLS_12_years
+long,fills30,primary,lt65,2023–2024,2023,2024,2,-1.41908742018,continuous_hinge_OLS_12_years
+long,fills30,primary,gap,2013–2015,2013,2015,3,0.610768082281,continuous_hinge_OLS_12_years
+long,fills30,primary,gap,2015–2019,2015,2019,5,1.05066859075,continuous_hinge_OLS_12_years
+long,fills30,primary,gap,2019–2023,2019,2023,5,-0.19804957743,continuous_hinge_OLS_12_years
+long,fills30,primary,gap,2023–2024,2023,2024,2,0.575602096371,continuous_hinge_OLS_12_years

@@ -1,0 +1,97 @@
+Term Name Variable Name Definition
+Geography Level Prscrbr_Geo_Lvl
+Identifies the level of geography that the data in the row has been aggregated. A 
+value of 'State' indicates the data in the row is aggregated to a single state identified 
+in the Referring Provider State column for a given HCPCS Code Level. A value of 
+'National' indicates the data in the row is aggregated across all states for a given 
+HCPCS Code Level.
+Prescriber Geography  Code Prscrbr_Geo_Cd FIPS code of the referring provider state. This variable is blank when reported at the 
+national level.
+Prescriber Geography 
+Description Prscrbr_Geo_Desc
+The state name where the provider is located, as reported in NPPES. The values 
+include the 50 United States, District of Columbia, U.S. territories, Armed Forces 
+areas, Unknown and Foreign Country. Data aggregated at the National level are 
+identified by the word 'National'.
+Brand Name Brnd_Name The trademarked name of the drug filled. Brand Name is derived by linking the 
+National Drug Codes (NDCs) from PDEs to a drug information database.
+Generic Name Gnrc_Name
+A term referring to the chemical ingredient of a drug rather than the trademarked 
+brand name under which the drug is sold. Generic Name is derived by linking the 
+National Drug Codes (NDCs) from PDEs to a drug information database.
+Total Prescribers Tot_Prscrbrs Number of unique prescribers of Medicare Part D claims
+Total Claims Tot_Clms
+The number of Medicare Part D claims. This includes original prescriptions and 
+refills. Aggregated records based on Tot_Clms  fewer than 11 are not included in the 
+data file
+Total 30 Day Fills Tot30_Day_Fills Number of Standardized 30-Day Fills, Including Refills
+Total Drug Cost Tot_Drug_Cst
+The aggregate drug cost paid for all associated claims. This amount includes 
+ingredient cost, dispensing fee, sales tax, and any applicable vaccine administration 
+fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, 
+government subsidies, and any other third-party payers.
+Total Beneficiaries Tot_Benes The total number of unique Medicare Part D beneficiaries with at least one claim for 
+the drug. Counts fewer than 11 are suppressed and are indicated by a blank.
+GE65 Supress Flag GE65_Sprsn_Flag
+A flag that indicates the reason the GE65_Tot_Clms, GE65_Tot_30day_Fills, 
+GE65_Tot_Drug_Cst and GE65_Tot_Day_Suply variables are suppressed
+GE65 Total Claims GE65_Tot_Clms
+The number of Medicare Part D claims for beneficiaries age 65 and older. This 
+includes original prescriptions and refills. A blank indicates the value is suppressed. 
+See GE65_Bene_Sprsn_Flag regarding suppression of data.
+GE65 Total 30 Day Fills GE65_Tot_30day_Fills
+The number of Medicare Part D standardized 30-day fills for beneficiaries age 65 
+and older. The standardized 30-day fill is derived from the number of days supplied 
+on each Part D claim divided by 30. Standardized 30-day fill values less than 1.0 
+were bottom-coded with a value of 1.0 and standardized 30-day fill values greater 
+than 12.0 were top-coded with a value of 12.0. If GE65_Tot_Clms is suppressed, this 
+variable is suppressed. A blank indicates the value is suppressed. 
+GE65_Bene_Sprsn_Flag regarding suppression of data.
+GE65 Total Drug Cost GE65_Tot_Drug_Cst
+The aggregate total drug cost paid for all associated claims for beneficiaries age 65 
+and older. This amount includes ingredient cost, dispensing fee, sales tax, and any 
+applicable vaccine administration fees and is based on the amounts paid by the Part 
+D plan, Medicare beneficiary, government subsidies, and any other third-party 
+payers. If GE65_Tot_Clms is suppressed, this variable is suppressed. A blank 
+indicates the value is suppressed. See GE65_Bene_Sprsn_Flag regarding suppression 
+of data.
+GE65 Beneficary Supress Flag GE65_Bene_Sprsn_Flag
+A flag indicating the reason the GE65_Tot_Benes variable is suppressed.
+GE65 Total Beneficaries GE65_Tot_Benes
+The total number of unique Medicare Part D beneficiaries age 65 and older with at 
+least one claim for the drug. A blank indicates the value is suppressed. See 
+GE65_Bene_Sprsn_Flag regarding suppression of data.
+LIS Beneficary Cost Share LIS_Bene_Cst_Shr The aggregate total cost that beneficiaries using a drug, with a low-income subsidy, 
+paid during the year.
+Non-LIS Beneficary Cost Share NonLIS_Bene_Cst_Shr The aggregate total cost that beneficiaries using a drug, with no low-income subsidy, 
+paid during the year.
+Medicare Part D Prescribers - by Geography and Drug Data Dictionary
+Term Name Variable Name Definition
+Medicare Part D Prescribers - by Geography and Drug Data Dictionary
+Opioid Drug Flag Opioid_Drug_Flag
+A flag indicating whether drugs in this Drug Name/ Generic Name combination are 
+identified as an opioid drug. The list for opioids are based upon drugs included in the 
+Medicare Part D Overutilization Monitoring System (OMS). The list originates from 
+the Centers for Disease Control and Prevention. The list originates from the Centers 
+for Disease Control and Prevention. Please visit the Medicare Part D OMS site for 
+additional information.
+Long Acting Opioid Drug Flag Opioid_LA_Drug_Flag
+A flag indicating whether drugs in this Drug Name/ Generic Name combination are 
+identified as an long-acting opioid drug. The list for long-acting opioids are based 
+upon drugs included in the Medicare Part D Overutilization Monitoring System 
+(OMS). Those drugs were then identified by the National Center for Injury 
+Prevention and Control. CDC compilation of benzodiazepines, muscle relaxants, 
+stimulants, zolpidem, and opioid analgesics with oral morphine milligram equivalent 
+conversion factors, 2018 version. 
+Antibiotic Drug Flag Antbtc_Drug_Flag
+A flag indicating whether drugs in this Drug Name/ Generic Name combination are 
+identified as an antibiotic drug. The list for antibiotics was created by identifying 
+antibiotic subcategories with the exclusion of the following types of products: 
+tuberculosis agents, antimalarials, topical agents (topical ophthalmic, optic, vaginal, 
+and dermatological agents, etc.).
+Antipsychotic Drug Flag Antpsyct_Drug_Flag
+A flag indicating whether drugs in this Drug Name/ Generic Name combination are 
+identified as an antipsychotic drug. The list for antipsychotics was created by 
+identifying antipsychotic subcategories, including first and second generation 
+antipsychotics, as well as antipsychotics included in combination with other drugs, 
+(e.g., OLANZAPINE/FLUOXETINE HCL).

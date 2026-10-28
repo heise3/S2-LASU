@@ -1,0 +1,34 @@
+{
+  "version": "v1.3",
+  "LASU_A2": "PASS",
+  "LASU_R2": "ROBUST",
+  "LASU_R2_caveat": "103 fully visible state-years in41states; CI crosses0; four endpoint gate is not global optimization",
+  "BEERS": "INCLUDE_AS_LASU_DESCRIPTIVE_CONTEXT",
+  "BEERS_independent_paper": "STOP",
+  "benchmark_percentiles": [
+    {
+      "approach": "a_national_denominator",
+      "percentile": 78.7878787879,
+      "quartile": 4
+    },
+    {
+      "approach": "b_share_log",
+      "percentile": 84.8484848485,
+      "quartile": 4
+    },
+    {
+      "approach": "b_share_logit",
+      "percentile": 84.8484848485,
+      "quartile": 4
+    },
+    {
+      "approach": "c_raw_state_volume",
+      "percentile": 78.7878787879,
+      "quartile": 4
+    }
+  ],
+  "warning": "Under65 PartD predominantly disability-based eligibility; interactions are age-group trend differences, not Beers policy effects",
+  "results_source": "VERIFIED_FULL_STATISTICAL_RECOMPUTE",
+  "statistical_reproduction_status": "PASS",
+  "freeze_step_refits_models": false
+}

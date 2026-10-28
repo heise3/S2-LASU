@@ -1,0 +1,11 @@
+{
+  "status": "ROBUST",
+  "reference_direction": "positive",
+  "n_scenarios": 4,
+  "n_states": 50,
+  "n_cells": 1200,
+  "definition": "four primary small-cell/age-volume endpoint allocations; t49 state-cluster CI; full-rank CR1",
+  "complete_state_years": 103,
+  "complete_states": 41,
+  "does_not_claim_global_optimization": true
+}

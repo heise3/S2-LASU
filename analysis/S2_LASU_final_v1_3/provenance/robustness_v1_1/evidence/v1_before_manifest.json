@@ -1,0 +1,342 @@
+[
+  {
+    "path": "A2_decision.json",
+    "sha256": "4d3859be5dbc301d0f83b7a537b785674640f6f47e55663178832d1913b3cf83"
+  },
+  {
+    "path": "README.md",
+    "sha256": "fea33e69ae0ddcb1432992b620c37709e546f5ba0affbc7f7beed11d02c1d846"
+  },
+  {
+    "path": "S2_LASU_formal_v1_summary.md",
+    "sha256": "57685a0391d5ca77dac9c9bc3dbb9d0793f8458274176c51cc67a2d2b7bdcdda"
+  },
+  {
+    "path": "SHA256SUMS",
+    "sha256": "37e0e96078e76cdb8b3ba439e1ba3086901783f937199c556964553db28a3b00"
+  },
+  {
+    "path": "TABLE_INDEX.md",
+    "sha256": "25161882f67babe44d9c3ce8368143bd27a526a48d9ba24a732798e66c80b04f"
+  },
+  {
+    "path": "analysis_contract.md",
+    "sha256": "a47d47b230671dd61373ec81ed6c3905d09245f692635ae18c672b46ed57a8d2"
+  },
+  {
+    "path": "code/__pycache__/models.cpython-312.pyc",
+    "sha256": "773e1e4f6ec07a13a61505fee250382c7ef6a7b86bb22d66b999d88b5636b23b"
+  },
+  {
+    "path": "code/build_report.py",
+    "sha256": "482ff2e7994da7f88288caeb919af1007e9e9abda2c83faea75a4042c1dbabd6"
+  },
+  {
+    "path": "code/check_enrollment.py",
+    "sha256": "3031d664bb521d1ac84381e1ba79ecbc89e628ade779db0e18a967b8eab919f5"
+  },
+  {
+    "path": "code/extract_enrollment.py",
+    "sha256": "095f9c629a1946f4f3cb703d90b2391f1a678f43c5ad03e8b8adc8ea279a3d9f"
+  },
+  {
+    "path": "code/models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "code/package_outputs.py",
+    "sha256": "4b63a3d56876b7a779506a7e2ae68409a074073d24e42903437197fecd8a9559"
+  },
+  {
+    "path": "code/plot_figures.py",
+    "sha256": "87f707504b16b8248ee9a9829a4092c3a6f7ce1ad13191b44446914d1e56d5c3"
+  },
+  {
+    "path": "code/requirements.txt",
+    "sha256": "166e31d2e6882657a08a3fbd3105270057b3f0dbde20cf95f6e8b092e5b76f48"
+  },
+  {
+    "path": "code/run_analysis.py",
+    "sha256": "424409b5a1c31d799c924cff13037503e7262b27432ce76e142f10f07389d56b"
+  },
+  {
+    "path": "code/validate.py",
+    "sha256": "2f2615264fb489b536b253dfa05812a9a3d743699bdc50dc2e313684f12dfc63"
+  },
+  {
+    "path": "evidence/MDCR ENROLL D_CPS_03EPD_2024.xlsx",
+    "sha256": "7d334a47fb837b25aaf16e8676d787ceb45cf5e1ab8c3482236e151c9ea4104f"
+  },
+  {
+    "path": "evidence/PartD_enrollment_2024.zip",
+    "sha256": "2fe211432c720cc665a4382f79913a4d84367b7adce7970eaa4590dfdbb9ae1c"
+  },
+  {
+    "path": "evidence/enrollment_catalog_selected.json",
+    "sha256": "ec87f3bb884ee15b30e81b4d5a346375fc653faab95221e1732e73b3008c759c"
+  },
+  {
+    "path": "evidence/enrollment_denominator.json",
+    "sha256": "8696d28948f159ff5f21aff0023217a4f322b4058651437662c2eb83eb68c3c4"
+  },
+  {
+    "path": "evidence/matplotlib_cache/fontlist-v3.11.0.json",
+    "sha256": "19eab83447b103efa3f3a7e04d558e42d4e3c47a8a6bcbaa36b8e5f7d33b2326"
+  },
+  {
+    "path": "evidence/monthly_enrollment_actual_sample.json",
+    "sha256": "894dded6f52a0eb3d0b0199b37e543a3d61a37877135c1623096a195a26fab55"
+  },
+  {
+    "path": "evidence/monthly_enrollment_dictionary.pdf",
+    "sha256": "e7f3f3f6f98c2c0f0b2bd74a20021d24f3e71900c71a9ba8c70348c21bc7e83c"
+  },
+  {
+    "path": "evidence/reused_input_manifest.json",
+    "sha256": "56bd8da18ba6bc26692b00606f98799d081e3e8ee20df62bec886ab0ab8e585a"
+  },
+  {
+    "path": "evidence/runtime.json",
+    "sha256": "dfc72bbdde09f5589117e5be57dac1832b7bae58f8602c765976527942739509"
+  },
+  {
+    "path": "evidence/validation.json",
+    "sha256": "4802a46e628ac08dbe19ed769215627615e7784d1d94d3d6e1d21791754ff7d9"
+  },
+  {
+    "path": "figures/F1_national_long_acting_share.pdf",
+    "sha256": "3952c365f34e94cb35f400e5c204c60c161eac04274033ba6d292c209417df24"
+  },
+  {
+    "path": "figures/F1_national_long_acting_share.png",
+    "sha256": "ffa8d6ece8f736da350e7d9bd8227ac65d1f956c691b1aa8544b345870f8c620"
+  },
+  {
+    "path": "figures/F2_glimepiride_glyburide_share.pdf",
+    "sha256": "88cedc68fdba534d3cacb8657e33bca4402186af44b8afb2a96de1fdd4f9c6e5"
+  },
+  {
+    "path": "figures/F2_glimepiride_glyburide_share.png",
+    "sha256": "7350b5a25f4819f968800fac320642357c2bb76449e071a160fb909640e5d050"
+  },
+  {
+    "path": "figures/F3_state_age_gap_2024.pdf",
+    "sha256": "032bce4bd9026a70df956796ee65eeeaff78da53709a8da51da4575b1aa92c62"
+  },
+  {
+    "path": "figures/F3_state_age_gap_2024.png",
+    "sha256": "7a429aa0e2c4e42a53b63a6a1e1fe9a0ccaaf67757c2b3fac01eb79cc58fb473"
+  },
+  {
+    "path": "tables/A1_absolute_volumes.csv",
+    "sha256": "daa4ee3c8935da0a4eb1c59423d98a3be570f8ae497423a68cc218d617992c9f"
+  },
+  {
+    "path": "tables/A1_family_shares_wide.csv",
+    "sha256": "b8fe30a9ef8bc017606adf168ba07e267dd76d027b84f7874a48f37dcb360c23"
+  },
+  {
+    "path": "tables/A1_fit_diagnostics.csv",
+    "sha256": "0f8feafa2df062be0ac3c6d6382b1500e45b8232ad1635a7c78e10e05ccbe153"
+  },
+  {
+    "path": "tables/A1_fit_residuals.csv",
+    "sha256": "0a5d4ecab8242b90c5f53df2ad771ca0cf39bf658492e8db3a2808ad28c9a05a"
+  },
+  {
+    "path": "tables/A1_national_annual.csv",
+    "sha256": "4c2f4a3c3bb91e0f3228a9c8b20985026a364e84327a032f2e6455c344a8d0cf"
+  },
+  {
+    "path": "tables/A1_national_long.csv",
+    "sha256": "0daebd2271aec6429f51f08314b4f5601ff8316d9915b9c43c8e8849da704dca"
+  },
+  {
+    "path": "tables/A1_overall_slopes.csv",
+    "sha256": "028d9db41022a0949634f63d2b799f6d3d661fe1adb3a24e3de8e95535983d29"
+  },
+  {
+    "path": "tables/A1_piecewise_fitted.csv",
+    "sha256": "324f23db55af4f43b4d535f1439224e27e3e96e76d7368d3b49fae6e4db359b1"
+  },
+  {
+    "path": "tables/A1_segment_slopes.csv",
+    "sha256": "469fb964f523b11c88ba4803796ce6140449a5bab3553d1cb3ffe3ffdf3d4b2a"
+  },
+  {
+    "path": "tables/A1_volume_changes.csv",
+    "sha256": "bde89e80055c1ce3176864c0d1190ea26e80cce094d32c2a9069e87c6ddb7101"
+  },
+  {
+    "path": "tables/A2_excluded_age_cells.csv",
+    "sha256": "23717a30dfeb3f2cc6a246dc4a38c659ec3c63bfd7fa536139fe00573f7828a9"
+  },
+  {
+    "path": "tables/A2_excluded_geographic_units.csv",
+    "sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203"
+  },
+  {
+    "path": "tables/A2_interaction_suppression_bounds.csv",
+    "sha256": "8eb4eef8ed824ce27c5057d902f7192d9eea0da9c1bec19ef7638ec4487e5818"
+  },
+  {
+    "path": "tables/A2_model_coefficients.csv",
+    "sha256": "673754fc54cf7f349f808a6262075bbe464f7820b84ec98106c32863accd9c10"
+  },
+  {
+    "path": "tables/A2_state_age_panel.csv",
+    "sha256": "a873fe3e8143563f557b92c6c99164f38d611bfa6ac729009e4770bd3ef56747"
+  },
+  {
+    "path": "tables/A2_state_age_panel_all_scenarios.csv",
+    "sha256": "f9cd16cbc164bd97e3c4e272c7636b593387cf511a8ae6deb56628e23fa29b36"
+  },
+  {
+    "path": "tables/A2_state_gaps_2024.csv",
+    "sha256": "501518d64dc65506e6a0eafda97ee43866ea002b132b5a1324c8b0b95f573a21"
+  },
+  {
+    "path": "tables/A2_suppression_summary.csv",
+    "sha256": "0f264833281457f6d37c94c7db52314e7e309eb535c11d93f4084d73a58c1ce7"
+  },
+  {
+    "path": "tables/A3_enrollment_demographic_sheet_raw.csv",
+    "sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8"
+  },
+  {
+    "path": "tables/A3_national_drug_rows_2024.csv",
+    "sha256": "684d445433cf12f016dcd84292612f57a822049511ac534e9b96e619ae5a98b8"
+  },
+  {
+    "path": "tables/A3_national_scale_2024.csv",
+    "sha256": "59b9dc732bca5b827e476e1f2dfc7b210a6b11c4a9251504eb3dfa3af4490f40"
+  },
+  {
+    "path": "tables/A3_scale_with_enrollment_2024.csv",
+    "sha256": "074867fdafa23ec66ea13226357370eb39aaa41f039fc23e233cfad245a0dc24"
+  },
+  {
+    "path": "tables/A4_correlations.csv",
+    "sha256": "06a99930ed4f2a9abcdc119fb5696765d8db2d4491f2cad37589a10e5da24a7f"
+  },
+  {
+    "path": "tables/A4_mixed_fixed_effects.csv",
+    "sha256": "82d47fc56a815cf10ced8abcb8d8c3eb9f7baab37f2200d221ab2197912e53c2"
+  },
+  {
+    "path": "tables/A4_model_excluded_units.csv",
+    "sha256": "d243c1bdf072781c6b0960f2a81df77433a53ae6c9afe893247df49914e9d4d2"
+  },
+  {
+    "path": "tables/A4_profiles.csv",
+    "sha256": "70a81beec72356d150ba6a478e30cb33ab2f4c9f4a8cd019245ea844b4bf4d24"
+  },
+  {
+    "path": "tables/A4_providers_2019_all_age_GE65_visible_subset_exclude_ER_XL.csv.gz",
+    "sha256": "9bfbdd32add16e20e9aa02eee3e8568793f2354fcfc73bbebe2c6b1b93a530dd"
+  },
+  {
+    "path": "tables/A4_providers_2019_all_age_GE65_visible_subset_primary.csv.gz",
+    "sha256": "21eddcae18fee683faa4a22d8af403f916c291c7971a2f56637d58fbc2faf2b3"
+  },
+  {
+    "path": "tables/A4_providers_2019_all_age_exclude_ER_XL.csv.gz",
+    "sha256": "a95047241d4c72bbbd34a35097de7e3084b0302d47960410f9d3ccca4d1ea975"
+  },
+  {
+    "path": "tables/A4_providers_2019_all_age_primary.csv.gz",
+    "sha256": "0695ce2c24ed1cf819200a0fd0d529472e93016809e2d6a48394250f092e4250"
+  },
+  {
+    "path": "tables/A4_providers_2019_ge65_visible_complete_published_SU_rows.csv.gz",
+    "sha256": "5d4209c3a0c67dffcfbb98dc64f49c3ff8230ca87687528ebd903dd4b18b4d5d"
+  },
+  {
+    "path": "tables/A4_providers_2019_ge65_visible_exclude_ER_XL.csv.gz",
+    "sha256": "f48ab456f6ffe6734ec06979d039ffe0eedabb5259d85b2e30ed054874210219"
+  },
+  {
+    "path": "tables/A4_providers_2019_ge65_visible_primary.csv.gz",
+    "sha256": "d2e3167c1a5b99f6cf7af7baf3bc6815f65db3767488f40ae3db4c51ad251aa3"
+  },
+  {
+    "path": "tables/A4_providers_2024_all_age_GE65_visible_subset_exclude_ER_XL.csv.gz",
+    "sha256": "45cfb5bc3c2c7b0cc137bd8b32f53b93b7bcaacdd7ace7844fcdf0eee05ab315"
+  },
+  {
+    "path": "tables/A4_providers_2024_all_age_GE65_visible_subset_primary.csv.gz",
+    "sha256": "35fe63639576e423159c1f1f1ac982f45db92ee99d9da1946f78ba3511c1e879"
+  },
+  {
+    "path": "tables/A4_providers_2024_all_age_exclude_ER_XL.csv.gz",
+    "sha256": "0009566462fd3a1a13a4cdd000d141c5ccb2f233236737398263d1b249b8a9b4"
+  },
+  {
+    "path": "tables/A4_providers_2024_all_age_primary.csv.gz",
+    "sha256": "ef39f582727a1867e9ac853b1ed20745b05d9b0434a47a994d3f9c7a15a466ea"
+  },
+  {
+    "path": "tables/A4_providers_2024_ge65_visible_complete_published_SU_rows.csv.gz",
+    "sha256": "fa56e17b001a40a9b965f111dd5d1159228f295eae38bd531bbc6944ac63b561"
+  },
+  {
+    "path": "tables/A4_providers_2024_ge65_visible_exclude_ER_XL.csv.gz",
+    "sha256": "342e3ffbfd5ff39cd5b625fc401615f75ff3fd9af819522d3823f50bfb4dce9c"
+  },
+  {
+    "path": "tables/A4_providers_2024_ge65_visible_primary.csv.gz",
+    "sha256": "b40ddc1b546d2fdf9cf299aa066ac064febf079ff214ec799044720675d14d4a"
+  },
+  {
+    "path": "tables/A4_recovery.csv",
+    "sha256": "4558eb9ee9dea94bede43d150cddf3586f73fdfbf64018e9c1e6f7e24ae99c56"
+  },
+  {
+    "path": "tables/A4_specialties.csv",
+    "sha256": "71fff4f9254cdd8599e5c5ecbcde38447f5a44cf8b7c789be2de7201e8d79d87"
+  },
+  {
+    "path": "tables/A4_state_ICC.csv",
+    "sha256": "4e61bfa95613110d2b8a11865ba041e05ffce11bd5978de528dbb988be8f61c5"
+  },
+  {
+    "path": "tables/A4_state_random_intercepts.csv",
+    "sha256": "c61fd53557311bc9c80b42e05622a57f93ef4cc849e5c54af250c6f2e2274696"
+  },
+  {
+    "path": "tables/A4_suppressed_provider_drug_rows_2019.csv.gz",
+    "sha256": "0f23529041539b394d8ae20d95d3172603932c84c9e67dd61784b1364ca4a401"
+  },
+  {
+    "path": "tables/A4_suppressed_provider_drug_rows_2023.csv.gz",
+    "sha256": "aa361df109418a5e203759d3256223a436dcf9ee84bf86569fdc11611466461c"
+  },
+  {
+    "path": "tables/A4_suppressed_provider_drug_rows_2024.csv.gz",
+    "sha256": "a386a1e0d7da35a41d9f2e3bfbcc066b16e5975c50de8808c3a268bcd68ec584"
+  },
+  {
+    "path": "tables/A4_suppression_summary.csv",
+    "sha256": "e0e4a662319e674c264b3eefbe3923792639f0c1b4cd8435a578099fa12e9335"
+  },
+  {
+    "path": "tables/A4_visibility_NPI_2019.csv.gz",
+    "sha256": "36f83d3c734a1ce167533f0b2a31eb02f37f156bbd07f547eb7a4a704de38d11"
+  },
+  {
+    "path": "tables/A4_visibility_NPI_2024.csv.gz",
+    "sha256": "fb80b3f86e06de938da134fa14aa779bf96339b49719fb485ebb2fc886e8b023"
+  },
+  {
+    "path": "tables/A4_visibility_distributions.csv",
+    "sha256": "e66fd67b575aa7656cb1611b36d34bdd11a1866114f638785ca0d5aa50564984"
+  },
+  {
+    "path": "tables/B_age_suppression_rows.csv",
+    "sha256": "bc68ac649beb448ef25ae960fafebfb9e3b57a9c84ddbf418b80fa8788de4c79"
+  },
+  {
+    "path": "tables/table_inventory.csv",
+    "sha256": "d1cb561720761c3a9eccf8b7f78df4225945365f1684b9c34b3b42994817e1dd"
+  }
+]

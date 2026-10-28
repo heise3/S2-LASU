@@ -1,0 +1,1 @@
+year,age,old,family,metric,scenario,n_drug_rows,age_suppressed_rows,all_age_su,suppressed_all_age_volume,suppressed_target_volume,suppressed_nontarget_volume,su_observed,target_observed,su_lower,su_upper,target_lower,target_upper,share_pct,share_lower_pct,share_upper_pct,su_exact,target_exact,share_exact_pct,state,state_name,geo_code,reason

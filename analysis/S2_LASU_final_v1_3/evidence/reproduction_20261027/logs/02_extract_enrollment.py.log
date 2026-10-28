@@ -1,0 +1,18 @@
+{
+  "year": 2024,
+  "age": "ge65",
+  "denominator": 48439021.0,
+  "denominator_unit": "enrollee person-years, accounting for months enrolled; published rounded count",
+  "sheet": "MDCR ENROLL D 2_CPS_03EPD",
+  "cell": "C10",
+  "row_label": "65 Years and Over",
+  "column_label": "Total Part D Enrollees",
+  "source_url": "https://data.cms.gov/sites/default/files/2026-09/34722ca9-3ac4-47fa-87b9-0b7856a51d7d/MDCR%20ENROLL%20D_CPS_03EPD_2024.zip",
+  "source_title": "CMS Program Statistics - Medicare Part D Enrollment : 2024-01-01",
+  "source_notes": [
+    "NOTE:  Enrollee counts are determined using a person-year methodology that accounts for the number of months beneficiaries are enrolled in the calendar year. "
+  ],
+  "sha256": "7d334a47fb837b25aaf16e8676d787ceb45cf5e1ab8c3482236e151c9ea4104f",
+  "status": "AVAILABLE_PERSON_YEAR_DENOMINATOR",
+  "interpretation": "Annual beneficiary drug-row counts per 1000 enrollee person-years; not unique-person prevalence or incidence"
+}

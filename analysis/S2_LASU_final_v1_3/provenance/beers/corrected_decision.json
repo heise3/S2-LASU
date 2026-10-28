@@ -1,0 +1,126 @@
+{
+  "decision": "INCLUDE",
+  "rule": "User-approved same quartile across a,b_log,b_logit,c",
+  "requested_original_baselines_plus_corrected_share": [
+    {
+      "approach": "a_national_denominator",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.00601938359915,
+      "benchmark_ci_low": -0.000540661531376,
+      "benchmark_ci_high": 0.0125794287297,
+      "n_below": 25,
+      "n_tied": 0,
+      "percentile": 75.75757575757575,
+      "quartile": 4,
+      "negative_significant_n": 19,
+      "negative_significant_fraction": 0.5757575757575758
+    },
+    {
+      "approach": "b_share_log",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0152635022096,
+      "benchmark_ci_low": 0.012066463342,
+      "benchmark_ci_high": 0.0184605410773,
+      "n_below": 28,
+      "n_tied": 0,
+      "percentile": 84.84848484848484,
+      "quartile": 4,
+      "negative_significant_n": 13,
+      "negative_significant_fraction": 0.3939393939393939
+    },
+    {
+      "approach": "b_share_logit",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0249798638402,
+      "benchmark_ci_low": 0.020250423893,
+      "benchmark_ci_high": 0.0297093037874,
+      "n_below": 28,
+      "n_tied": 0,
+      "percentile": 84.84848484848484,
+      "quartile": 4,
+      "negative_significant_n": 12,
+      "negative_significant_fraction": 0.36363636363636365
+    },
+    {
+      "approach": "c_raw_state_volume",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0586942580347,
+      "benchmark_ci_low": 0.0521342129042,
+      "benchmark_ci_high": 0.0652543031653,
+      "n_below": 25,
+      "n_tied": 0,
+      "percentile": 75.75757575757575,
+      "quartile": 4,
+      "negative_significant_n": 2,
+      "negative_significant_fraction": 0.06060606060606061
+    }
+  ],
+  "all_approaches_name_corrected_sensitivity": [
+    {
+      "approach": "a_national_denominator",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.00601938359915,
+      "benchmark_ci_low": -0.000540661531376,
+      "benchmark_ci_high": 0.0125794287297,
+      "n_below": 26,
+      "n_tied": 0,
+      "percentile": 78.78787878787878,
+      "quartile": 4,
+      "negative_significant_n": 20,
+      "negative_significant_fraction": 0.6060606060606061
+    },
+    {
+      "approach": "b_share_log",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0152635022096,
+      "benchmark_ci_low": 0.012066463342,
+      "benchmark_ci_high": 0.0184605410773,
+      "n_below": 28,
+      "n_tied": 0,
+      "percentile": 84.84848484848484,
+      "quartile": 4,
+      "negative_significant_n": 13,
+      "negative_significant_fraction": 0.3939393939393939
+    },
+    {
+      "approach": "b_share_logit",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0249798638402,
+      "benchmark_ci_low": 0.020250423893,
+      "benchmark_ci_high": 0.0297093037874,
+      "n_below": 28,
+      "n_tied": 0,
+      "percentile": 84.84848484848484,
+      "quartile": 4,
+      "negative_significant_n": 12,
+      "negative_significant_fraction": 0.36363636363636365
+    },
+    {
+      "approach": "c_raw_state_volume",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0586942580347,
+      "benchmark_ci_low": 0.0521342129042,
+      "benchmark_ci_high": 0.0652543031653,
+      "n_below": 26,
+      "n_tied": 0,
+      "percentile": 78.78787878787878,
+      "quartile": 4,
+      "negative_significant_n": 2,
+      "negative_significant_fraction": 0.06060606060606061
+    }
+  ],
+  "mapping_changed": false,
+  "repair": "Remove aclidinium and umeclidinium false positives from GI antispasmodics; clidinium must have ingredient token boundaries",
+  "discovery": "Name-only exception audit before first inspection of new effect estimates; numeric files had already been computed. This is a documented implementation correction, not a claim of a new blinded preregistration.",
+  "removed_state_rows": 1640,
+  "removed_generic_names": [
+    "Aclidinium Bromide",
+    "Umeclidinium Brm/Vilanterol Tr",
+    "Umeclidinium Bromide"
+  ],
+  "corrected_utc": "2026-10-27T11:18:37.685883+00:00",
+  "sources": [
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6f92cceb-a63f-4470-99b6-56179d98f10f",
+    "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dbb64747-1505-49d7-9a33-99dd402e96d3"
+  ]
+}

@@ -1,0 +1,88 @@
+Panel year 2013
+Panel year 2014
+Panel year 2015
+Panel year 2016
+Panel year 2017
+Panel year 2018
+Panel year 2019
+Panel year 2020
+Panel year 2021
+Panel year 2022
+Panel year 2023
+Panel year 2024
+{
+  "decision": "INCLUDE",
+  "reason": "All four representations place LASU in the same quartile",
+  "rule": "same quartile for a, b_log, b_logit, c; all33 retained; exact user-approved rule",
+  "rank_inputs": [
+    {
+      "approach": "a_national_denominator",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.00601938359915,
+      "benchmark_ci_low": -0.000540661531376,
+      "benchmark_ci_high": 0.0125794287297,
+      "benchmark_n_cells": 1200,
+      "n_below": 25,
+      "n_tied": 0,
+      "percentile": 75.75757575757575,
+      "quartile": 4,
+      "negative_significant_n": 19,
+      "negative_significant_fraction": 0.5757575757575758,
+      "status": "OK"
+    },
+    {
+      "approach": "b_share_log",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.01526350220963777,
+      "benchmark_ci_low": 0.012066463341989036,
+      "benchmark_ci_high": 0.018460541077286508,
+      "benchmark_n_cells": 1200,
+      "n_below": 28,
+      "n_tied": 0,
+      "percentile": 84.84848484848484,
+      "quartile": 4,
+      "negative_significant_n": 13,
+      "negative_significant_fraction": 0.3939393939393939,
+      "status": "OK"
+    },
+    {
+      "approach": "b_share_logit",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.02497986384016209,
+      "benchmark_ci_low": 0.02025042389297009,
+      "benchmark_ci_high": 0.02970930378735409,
+      "benchmark_n_cells": 1200,
+      "n_below": 27,
+      "n_tied": 0,
+      "percentile": 81.81818181818181,
+      "quartile": 4,
+      "negative_significant_n": 12,
+      "negative_significant_fraction": 0.36363636363636365,
+      "status": "OK"
+    },
+    {
+      "approach": "c_raw_state_volume",
+      "n_estimable_Table2": 33,
+      "benchmark_beta": 0.0586942580347,
+      "benchmark_ci_low": 0.0521342129042,
+      "benchmark_ci_high": 0.0652543031653,
+      "benchmark_n_cells": 1200,
+      "n_below": 25,
+      "n_tied": 0,
+      "percentile": 75.75757575757575,
+      "quartile": 4,
+      "negative_significant_n": 2,
+      "negative_significant_fraction": 0.06060606060606061,
+      "status": "OK"
+    }
+  ],
+  "estimand": "Age-group trend differences; not a Beers policy effect",
+  "freeze_utc": "2026-10-27T11:02:15.401761+00:00",
+  "decision_utc": "2026-10-27T12:00:34.159208+00:00"
+}
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/feishuduobang/.cache/fontconfig
+	/Users/feishuduobang/.fontconfig
+Matplotlib is building the font cache; this may take a moment.

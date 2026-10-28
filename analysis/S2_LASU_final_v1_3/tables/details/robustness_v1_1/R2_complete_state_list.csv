@@ -1,0 +1,42 @@
+state,state_name,n_state_years,years
+AK,Alaska,2,"2013,2014"
+AL,Alabama,1,2021
+AR,Arkansas,6,"2015,2016,2019,2020,2021,2022"
+CA,California,1,2024
+CO,Colorado,1,2022
+DE,Delaware,3,"2016,2017,2018"
+FL,Florida,1,2020
+HI,Hawaii,1,2016
+IA,Iowa,1,2023
+ID,Idaho,1,2015
+IL,Illinois,1,2019
+IN,Indiana,2,"2020,2021"
+KS,Kansas,4,"2015,2016,2021,2022"
+KY,Kentucky,3,"2020,2022,2024"
+LA,Louisiana,1,2023
+ME,Maine,4,"2015,2018,2021,2022"
+MI,Michigan,1,2023
+MO,Missouri,3,"2020,2021,2022"
+MS,Mississippi,3,"2016,2017,2021"
+MT,Montana,6,"2014,2016,2017,2020,2021,2022"
+NC,North Carolina,3,"2017,2021,2022"
+ND,North Dakota,1,2013
+NE,Nebraska,5,"2018,2019,2020,2021,2023"
+NH,New Hampshire,2,"2014,2021"
+NM,New Mexico,1,2021
+NV,Nevada,2,"2021,2022"
+NY,New York,3,"2019,2020,2021"
+OH,Ohio,2,"2022,2024"
+OK,Oklahoma,1,2022
+PA,Pennsylvania,1,2015
+RI,Rhode Island,8,"2017,2018,2019,2020,2021,2022,2023,2024"
+SC,South Carolina,1,2019
+SD,South Dakota,2,"2018,2020"
+TN,Tennessee,2,"2022,2024"
+TX,Texas,2,"2023,2024"
+UT,Utah,5,"2014,2015,2021,2022,2023"
+VA,Virginia,1,2022
+VT,Vermont,3,"2014,2015,2016"
+WI,Wisconsin,2,"2021,2022"
+WV,West Virginia,5,"2020,2021,2022,2023,2024"
+WY,Wyoming,5,"2013,2014,2015,2017,2024"

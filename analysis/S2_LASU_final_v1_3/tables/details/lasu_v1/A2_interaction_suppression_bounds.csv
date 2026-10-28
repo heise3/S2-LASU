@@ -1,0 +1,5 @@
+metric,scenario,term,observed_coefficient,fixed_weight_lower,fixed_weight_upper,note
+claims,exclude_ER_XL,old_t,0.619201922118,0.588621787583,0.640255570724,Conservative independent-cell relaxation; weights fixed at visible SU volumes; not a CI
+claims,primary,old_t,0.620194517919,0.588037431456,0.64368577471,Conservative independent-cell relaxation; weights fixed at visible SU volumes; not a CI
+fills30,exclude_ER_XL,old_t,0.570112343231,0.53625021502,0.593496978998,Conservative independent-cell relaxation; weights fixed at visible SU volumes; not a CI
+fills30,primary,old_t,0.574270802756,0.538119598556,0.60029200333,Conservative independent-cell relaxation; weights fixed at visible SU volumes; not a CI

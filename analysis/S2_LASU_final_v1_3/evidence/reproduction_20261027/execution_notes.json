@@ -1,0 +1,9 @@
+[
+  {
+    "event": "audit_attempt01_stopped",
+    "reason": "Freshness assertion detected six copied supplementary tables generated only by build_report.py, not by the frozen eight-step entry.",
+    "resolution": "Ran unchanged staged build_report.py, promoted six regenerated CSVs only; preserved first error log.",
+    "statistical_script_edits": 0,
+    "statistical_mismatch": false
+  }
+]

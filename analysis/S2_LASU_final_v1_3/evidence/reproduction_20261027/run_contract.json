@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-10-27T11:57:26.969531+00:00",
+  "source_project": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2",
+  "reference_package": "outputs/S2_LASU_final_v1_2",
+  "isolated_workspace": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027",
+  "preserved_files": 1166,
+  "table_comparison": "All16 canonical main CSVs; same schemas and text; numeric rtol=1e-7 atol=1e-8; exact-byte equality reported separately",
+  "figures": "F1-F4 both PNG and PDF; PNG decoded pixel equality; PDF normalized content/resources and rendered pixels, metadata separately",
+  "models": "Execute frozen unified entry; supplement any inherited baseline fits and all canonical table assembly; no changing estimands, classification or thresholds",
+  "failure_policy": "Preserve first errors; only isolated engineering fixes allowed; distinguish scientific/numeric failure from entrypoint failure"
+}

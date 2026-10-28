@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data/B_2013_su.csv.gz",
+    "sha256": "f828096dce2dfa188948231d9646dd6b7511680313d606998022c5d4095d40d3"
+  },
+  {
+    "path": "data/B_2014_su.csv.gz",
+    "sha256": "89d92f99acd3e552b7bf89e96e44ddf9eff75338bea2b46e509fc334d02088c8"
+  },
+  {
+    "path": "data/B_2015_su.csv.gz",
+    "sha256": "b4aa9253a2fd3059ba6230135cd3095b9ecac8661d36072f166896eec565b4c0"
+  },
+  {
+    "path": "data/B_2016_su.csv.gz",
+    "sha256": "b5795e9ae5de5b5ed48752e71499f5ea3103b826a5fee989f433d1e5391b2fc1"
+  },
+  {
+    "path": "data/B_2017_su.csv.gz",
+    "sha256": "983de1f4e703edf41481fa6600b0ae738b19742404c2671d6b1f1cca6b98042f"
+  },
+  {
+    "path": "data/B_2018_su.csv.gz",
+    "sha256": "1d19adfe2622ba3ebba8cc4292d28201c7a5c67c30e7cdbd3304078121de7276"
+  },
+  {
+    "path": "data/B_2019_su.csv.gz",
+    "sha256": "592a0bc150e9098706a003ef698c80d50a7aeddb3d05053ca0c96f185e0934ac"
+  },
+  {
+    "path": "data/B_2020_su.csv.gz",
+    "sha256": "f349fc29d2eef9cd1b84f9ead4d92cd5226ef43401a064bb302f188e41564167"
+  },
+  {
+    "path": "data/B_2021_su.csv.gz",
+    "sha256": "7b7f19abc7d71eb6920308e4822c1d3989025a9d5623554466d1b0e9edb53085"
+  },
+  {
+    "path": "data/B_2022_su.csv.gz",
+    "sha256": "41a7d2ff34453e81fa404ac8938b791653195482f29334f106f00790691ac839"
+  },
+  {
+    "path": "data/B_2023_su.csv.gz",
+    "sha256": "177e6dd7d5acb5d72d50d0cf1f885716139845c4f9f8d8e8f9d8e2c240ffa36a"
+  },
+  {
+    "path": "data/B_2024_su.csv.gz",
+    "sha256": "83b975527a287ac29b4d6dd0cd24ba8b2c4cc76a38515860525754661c78c609"
+  },
+  {
+    "path": "code/analyze.py",
+    "sha256": "0406dd29680ac773a148f056a734c783793222cfade8ff576979693011aec010"
+  },
+  {
+    "path": "field_mapping.csv",
+    "sha256": "6f4e3af6ba564def57edf1badbfcd47b4006c742c65a3f18cbfc8c7f2007ca19"
+  },
+  {
+    "path": "matched_generic_names.csv",
+    "sha256": "e3fa1787dfed9945ebc282364681ff3e507d4f9533b06031341355769058eb94"
+  },
+  {
+    "path": "matched_generic_brand_names.csv",
+    "sha256": "71d228ad75a18915959882bba7a588844835a45dc92fb61d0867159c76eb38a9"
+  },
+  {
+    "path": "S2_LASU_formal_v1/code/run_analysis.py",
+    "sha256": "424409b5a1c31d799c924cff13037503e7262b27432ce76e142f10f07389d56b"
+  },
+  {
+    "path": "S2_LASU_formal_v1/code/models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  }
+]

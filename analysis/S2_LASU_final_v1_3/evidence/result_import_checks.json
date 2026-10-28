@@ -1,0 +1,622 @@
+[
+  {
+    "path": "tables/main/T6a_BEERS_three_approach_comparison.csv",
+    "sha256": "5a78d97396672f4fff676d6a1721bff48fa7b355e46008c727cc1dd5bb0dd5ed",
+    "verified_source_sha256": "5a78d97396672f4fff676d6a1721bff48fa7b355e46008c727cc1dd5bb0dd5ed"
+  },
+  {
+    "path": "tables/main/T4c_piecewise_slopes.csv",
+    "sha256": "b98979cd575256460ef553e878bf57e380bc1ac59e786e3ca93fd0a004f36b3c",
+    "verified_source_sha256": "b98979cd575256460ef553e878bf57e380bc1ac59e786e3ca93fd0a004f36b3c"
+  },
+  {
+    "path": "tables/main/T3d_prescriber_correlations.csv",
+    "sha256": "48b574d4557169bc8006e4d667628ae53941a9f7b7bf43451941368d0050dd89",
+    "verified_source_sha256": "48b574d4557169bc8006e4d667628ae53941a9f7b7bf43451941368d0050dd89"
+  },
+  {
+    "path": "tables/main/T3b_prescriber_coverage.csv",
+    "sha256": "aa88ba48d88b634563fa6ecec3492c44725d58fb526db87955efef124c23a3de",
+    "verified_source_sha256": "aa88ba48d88b634563fa6ecec3492c44725d58fb526db87955efef124c23a3de"
+  },
+  {
+    "path": "tables/main/T2_state_panel_main_and_post2023.csv",
+    "sha256": "cfa4301b7c933af0d9adecfc5c9d0b95c1180ca57c43056950bb49b4a9c46a42",
+    "verified_source_sha256": "cfa4301b7c933af0d9adecfc5c9d0b95c1180ca57c43056950bb49b4a9c46a42"
+  },
+  {
+    "path": "tables/main/T4b_standardization_direction_checks.csv",
+    "sha256": "33308b70439713472438b52bb4cc4dd1715fb1934e310a7ed884a96f26c93834",
+    "verified_source_sha256": "33308b70439713472438b52bb4cc4dd1715fb1934e310a7ed884a96f26c93834"
+  },
+  {
+    "path": "tables/main/T7_literature_comparison.csv",
+    "sha256": "79b874e6841c8f97a6fbebf9ce3d7b6d18765f45bcf24223aaf9767792ac675a",
+    "verified_source_sha256": "79b874e6841c8f97a6fbebf9ce3d7b6d18765f45bcf24223aaf9767792ac675a"
+  },
+  {
+    "path": "tables/main/T6b_BEERS_three_approach_long.csv",
+    "sha256": "8fcd0c43ce5c2d010baad5d07d7263f001e4c11ca4cc35e20ccd88e58c2c4539",
+    "verified_source_sha256": "8fcd0c43ce5c2d010baad5d07d7263f001e4c11ca4cc35e20ccd88e58c2c4539"
+  },
+  {
+    "path": "tables/main/T3c_prescriber_specialties.csv",
+    "sha256": "aac10f1dd6d3eb83385a1d930c292232e2dce279431a2ea4d949df15b26254cd",
+    "verified_source_sha256": "aac10f1dd6d3eb83385a1d930c292232e2dce279431a2ea4d949df15b26254cd"
+  },
+  {
+    "path": "tables/main/T3a_prescriber_profiles.csv",
+    "sha256": "b2e8daa6191e4811d50076440d2bd2ec73036a801933dda9f3bc8a577e0c35e0",
+    "verified_source_sha256": "b2e8daa6191e4811d50076440d2bd2ec73036a801933dda9f3bc8a577e0c35e0"
+  },
+  {
+    "path": "tables/main/T1_national_age_trends.csv",
+    "sha256": "8bce1cbc2b1de25c669fea2163f6eeece2539d1eeadfd7bf182fe5bd7bbfef28",
+    "verified_source_sha256": "8bce1cbc2b1de25c669fea2163f6eeece2539d1eeadfd7bf182fe5bd7bbfef28"
+  },
+  {
+    "path": "tables/main/T3e_prescriber_state_ICC.csv",
+    "sha256": "03d1bad6e24fb992572a68cca2396f984267492d23dd36dffe6bf1e8c1fe6d72",
+    "verified_source_sha256": "03d1bad6e24fb992572a68cca2396f984267492d23dd36dffe6bf1e8c1fe6d72"
+  },
+  {
+    "path": "tables/main/T6c_BEERS_percentiles.csv",
+    "sha256": "e37470905329176fe05c5414048840603426e39d43d8482bf52b60e5d14df4a6",
+    "verified_source_sha256": "e37470905329176fe05c5414048840603426e39d43d8482bf52b60e5d14df4a6"
+  },
+  {
+    "path": "tables/main/T5_beneficiary_scale_bounds.csv",
+    "sha256": "962b67f7f8146675cee55eba1a26dc737d5400062d2ebf6f0773043afebe08f3",
+    "verified_source_sha256": "962b67f7f8146675cee55eba1a26dc737d5400062d2ebf6f0773043afebe08f3"
+  },
+  {
+    "path": "tables/main/T4a_robustness_interactions.csv",
+    "sha256": "514a112faac1d3c11796faa88ba386e2356e9ba3077d12113520b3dd550c9ec0",
+    "verified_source_sha256": "514a112faac1d3c11796faa88ba386e2356e9ba3077d12113520b3dd550c9ec0"
+  },
+  {
+    "path": "tables/main/MAIN_RESULTS.csv",
+    "sha256": "485722dc3b4512f9380b9c0910d8f6dd4e4c49c890defdc1afed5d76823c53e7",
+    "verified_source_sha256": "485722dc3b4512f9380b9c0910d8f6dd4e4c49c890defdc1afed5d76823c53e7"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_national_annual.csv",
+    "sha256": "4c2f4a3c3bb91e0f3228a9c8b20985026a364e84327a032f2e6455c344a8d0cf",
+    "verified_source_sha256": "4c2f4a3c3bb91e0f3228a9c8b20985026a364e84327a032f2e6455c344a8d0cf"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_ge65_visible_exclude_ER_XL.csv.gz",
+    "sha256": "570f5b7c9c50efba8c3b920bcfb62e5fe7d9c578a48017cb49568efb1854cdb3",
+    "verified_source_sha256": "570f5b7c9c50efba8c3b920bcfb62e5fe7d9c578a48017cb49568efb1854cdb3"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_all_age_exclude_ER_XL.csv.gz",
+    "sha256": "c8975456fe451e179f82ff8ce2ed0ad8e15631b8e21a8904abf2e4ef30cbe150",
+    "verified_source_sha256": "c8975456fe451e179f82ff8ce2ed0ad8e15631b8e21a8904abf2e4ef30cbe150"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_specialties.csv",
+    "sha256": "71fff4f9254cdd8599e5c5ecbcde38447f5a44cf8b7c789be2de7201e8d79d87",
+    "verified_source_sha256": "71fff4f9254cdd8599e5c5ecbcde38447f5a44cf8b7c789be2de7201e8d79d87"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_suppressed_provider_drug_rows_2024.csv.gz",
+    "sha256": "df634da5a36e21f097d06d4b89a705236bdfd351fcde0cc92a72a63f7f21fa72",
+    "verified_source_sha256": "df634da5a36e21f097d06d4b89a705236bdfd351fcde0cc92a72a63f7f21fa72"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_mixed_fixed_effects.csv",
+    "sha256": "82d47fc56a815cf10ced8abcb8d8c3eb9f7baab37f2200d221ab2197912e53c2",
+    "verified_source_sha256": "82d47fc56a815cf10ced8abcb8d8c3eb9f7baab37f2200d221ab2197912e53c2"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_correlations.csv",
+    "sha256": "06a99930ed4f2a9abcdc119fb5696765d8db2d4491f2cad37589a10e5da24a7f",
+    "verified_source_sha256": "06a99930ed4f2a9abcdc119fb5696765d8db2d4491f2cad37589a10e5da24a7f"
+  },
+  {
+    "path": "tables/details/lasu_v1/B_age_suppression_rows.csv",
+    "sha256": "bc68ac649beb448ef25ae960fafebfb9e3b57a9c84ddbf418b80fa8788de4c79",
+    "verified_source_sha256": "bc68ac649beb448ef25ae960fafebfb9e3b57a9c84ddbf418b80fa8788de4c79"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_model_excluded_units.csv",
+    "sha256": "d243c1bdf072781c6b0960f2a81df77433a53ae6c9afe893247df49914e9d4d2",
+    "verified_source_sha256": "d243c1bdf072781c6b0960f2a81df77433a53ae6c9afe893247df49914e9d4d2"
+  },
+  {
+    "path": "tables/details/lasu_v1/A3_scale_with_enrollment_2024.csv",
+    "sha256": "074867fdafa23ec66ea13226357370eb39aaa41f039fc23e233cfad245a0dc24",
+    "verified_source_sha256": "074867fdafa23ec66ea13226357370eb39aaa41f039fc23e233cfad245a0dc24"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_ge65_visible_complete_published_SU_rows.csv.gz",
+    "sha256": "30c94d06bec2e0270c8b1d89395fd0dcea895dd4bcde9752cb6c48e8fc2cb182",
+    "verified_source_sha256": "30c94d06bec2e0270c8b1d89395fd0dcea895dd4bcde9752cb6c48e8fc2cb182"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_state_age_panel.csv",
+    "sha256": "a873fe3e8143563f557b92c6c99164f38d611bfa6ac729009e4770bd3ef56747",
+    "verified_source_sha256": "a873fe3e8143563f557b92c6c99164f38d611bfa6ac729009e4770bd3ef56747"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_family_shares_wide.csv",
+    "sha256": "b8fe30a9ef8bc017606adf168ba07e267dd76d027b84f7874a48f37dcb360c23",
+    "verified_source_sha256": "b8fe30a9ef8bc017606adf168ba07e267dd76d027b84f7874a48f37dcb360c23"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_ge65_visible_complete_published_SU_rows.csv.gz",
+    "sha256": "55460574a3cf6e793c6ae6d79ca276e2c10cf5e1a5d3482e11fc393849f62407",
+    "verified_source_sha256": "55460574a3cf6e793c6ae6d79ca276e2c10cf5e1a5d3482e11fc393849f62407"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_all_age_GE65_visible_subset_primary.csv.gz",
+    "sha256": "c59b8ac0fc32ac2285a08755892daa75530dd8679c82e6e5c913c1e94d052f18",
+    "verified_source_sha256": "c59b8ac0fc32ac2285a08755892daa75530dd8679c82e6e5c913c1e94d052f18"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_fit_diagnostics.csv",
+    "sha256": "0f8feafa2df062be0ac3c6d6382b1500e45b8232ad1635a7c78e10e05ccbe153",
+    "verified_source_sha256": "0f8feafa2df062be0ac3c6d6382b1500e45b8232ad1635a7c78e10e05ccbe153"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_ge65_visible_primary.csv.gz",
+    "sha256": "e7daa4f4186649bca1068840567484aba3aecbb86368992c2f52508f4918ea33",
+    "verified_source_sha256": "e7daa4f4186649bca1068840567484aba3aecbb86368992c2f52508f4918ea33"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_interaction_suppression_bounds.csv",
+    "sha256": "8eb4eef8ed824ce27c5057d902f7192d9eea0da9c1bec19ef7638ec4487e5818",
+    "verified_source_sha256": "8eb4eef8ed824ce27c5057d902f7192d9eea0da9c1bec19ef7638ec4487e5818"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_visibility_distributions.csv",
+    "sha256": "e66fd67b575aa7656cb1611b36d34bdd11a1866114f638785ca0d5aa50564984",
+    "verified_source_sha256": "e66fd67b575aa7656cb1611b36d34bdd11a1866114f638785ca0d5aa50564984"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_suppression_summary.csv",
+    "sha256": "e0e4a662319e674c264b3eefbe3923792639f0c1b4cd8435a578099fa12e9335",
+    "verified_source_sha256": "e0e4a662319e674c264b3eefbe3923792639f0c1b4cd8435a578099fa12e9335"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_absolute_volumes.csv",
+    "sha256": "daa4ee3c8935da0a4eb1c59423d98a3be570f8ae497423a68cc218d617992c9f",
+    "verified_source_sha256": "daa4ee3c8935da0a4eb1c59423d98a3be570f8ae497423a68cc218d617992c9f"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_profiles.csv",
+    "sha256": "70a81beec72356d150ba6a478e30cb33ab2f4c9f4a8cd019245ea844b4bf4d24",
+    "verified_source_sha256": "70a81beec72356d150ba6a478e30cb33ab2f4c9f4a8cd019245ea844b4bf4d24"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_state_random_intercepts.csv",
+    "sha256": "c61fd53557311bc9c80b42e05622a57f93ef4cc849e5c54af250c6f2e2274696",
+    "verified_source_sha256": "c61fd53557311bc9c80b42e05622a57f93ef4cc849e5c54af250c6f2e2274696"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_visibility_NPI_2024.csv.gz",
+    "sha256": "c9303db8660b620223f5724c5870e031a485c7adb5017d189560d77f10fc17f9",
+    "verified_source_sha256": "c9303db8660b620223f5724c5870e031a485c7adb5017d189560d77f10fc17f9"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_suppression_summary.csv",
+    "sha256": "0f264833281457f6d37c94c7db52314e7e309eb535c11d93f4084d73a58c1ce7",
+    "verified_source_sha256": "0f264833281457f6d37c94c7db52314e7e309eb535c11d93f4084d73a58c1ce7"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_fit_residuals.csv",
+    "sha256": "0a5d4ecab8242b90c5f53df2ad771ca0cf39bf658492e8db3a2808ad28c9a05a",
+    "verified_source_sha256": "0a5d4ecab8242b90c5f53df2ad771ca0cf39bf658492e8db3a2808ad28c9a05a"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_recovery.csv",
+    "sha256": "4558eb9ee9dea94bede43d150cddf3586f73fdfbf64018e9c1e6f7e24ae99c56",
+    "verified_source_sha256": "4558eb9ee9dea94bede43d150cddf3586f73fdfbf64018e9c1e6f7e24ae99c56"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_state_ICC.csv",
+    "sha256": "4e61bfa95613110d2b8a11865ba041e05ffce11bd5978de528dbb988be8f61c5",
+    "verified_source_sha256": "4e61bfa95613110d2b8a11865ba041e05ffce11bd5978de528dbb988be8f61c5"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_model_coefficients.csv",
+    "sha256": "673754fc54cf7f349f808a6262075bbe464f7820b84ec98106c32863accd9c10",
+    "verified_source_sha256": "673754fc54cf7f349f808a6262075bbe464f7820b84ec98106c32863accd9c10"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_excluded_age_cells.csv",
+    "sha256": "23717a30dfeb3f2cc6a246dc4a38c659ec3c63bfd7fa536139fe00573f7828a9",
+    "verified_source_sha256": "23717a30dfeb3f2cc6a246dc4a38c659ec3c63bfd7fa536139fe00573f7828a9"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_all_age_primary.csv.gz",
+    "sha256": "d7fe4dcfcdb3fe0e4c23f2cb79a9f9b570e226103cfdbaf89fe516483dab694c",
+    "verified_source_sha256": "d7fe4dcfcdb3fe0e4c23f2cb79a9f9b570e226103cfdbaf89fe516483dab694c"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_state_age_panel_all_scenarios.csv",
+    "sha256": "f9cd16cbc164bd97e3c4e272c7636b593387cf511a8ae6deb56628e23fa29b36",
+    "verified_source_sha256": "f9cd16cbc164bd97e3c4e272c7636b593387cf511a8ae6deb56628e23fa29b36"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_all_age_GE65_visible_subset_exclude_ER_XL.csv.gz",
+    "sha256": "f7e3d9b1218fca626d8e8363d38dba87edae6ad41c140491a6345c4b4768d160",
+    "verified_source_sha256": "f7e3d9b1218fca626d8e8363d38dba87edae6ad41c140491a6345c4b4768d160"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_segment_slopes.csv",
+    "sha256": "469fb964f523b11c88ba4803796ce6140449a5bab3553d1cb3ffe3ffdf3d4b2a",
+    "verified_source_sha256": "469fb964f523b11c88ba4803796ce6140449a5bab3553d1cb3ffe3ffdf3d4b2a"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_visibility_NPI_2019.csv.gz",
+    "sha256": "a4e6673b70be4272f386a52e09adac772995cea29f38703c0677f39efbb779f7",
+    "verified_source_sha256": "a4e6673b70be4272f386a52e09adac772995cea29f38703c0677f39efbb779f7"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_all_age_GE65_visible_subset_primary.csv.gz",
+    "sha256": "c1c889b2b419160dc6197af0d818a9b84ebca2e4db375f0e555892b1f2dc00a3",
+    "verified_source_sha256": "c1c889b2b419160dc6197af0d818a9b84ebca2e4db375f0e555892b1f2dc00a3"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_national_long.csv",
+    "sha256": "0daebd2271aec6429f51f08314b4f5601ff8316d9915b9c43c8e8849da704dca",
+    "verified_source_sha256": "0daebd2271aec6429f51f08314b4f5601ff8316d9915b9c43c8e8849da704dca"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_all_age_primary.csv.gz",
+    "sha256": "5bd7deb83d25c0b913b1ce31aaeed1951d9f72c9da5098eb98d592fddbc1df14",
+    "verified_source_sha256": "5bd7deb83d25c0b913b1ce31aaeed1951d9f72c9da5098eb98d592fddbc1df14"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_all_age_GE65_visible_subset_exclude_ER_XL.csv.gz",
+    "sha256": "7abeb63f81d03a24e2f70e927945c3fd7bcbc5f7fbd6a040f5745e931490ad13",
+    "verified_source_sha256": "7abeb63f81d03a24e2f70e927945c3fd7bcbc5f7fbd6a040f5745e931490ad13"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2024_all_age_exclude_ER_XL.csv.gz",
+    "sha256": "2a174b12c84971907725e709e917d3cc6a9c656a32f4c9437241802f414eb97c",
+    "verified_source_sha256": "2a174b12c84971907725e709e917d3cc6a9c656a32f4c9437241802f414eb97c"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_ge65_visible_exclude_ER_XL.csv.gz",
+    "sha256": "3df01659255305fc063861eed69d75c05fa45e2d141ddd8589bfd41506675e8e",
+    "verified_source_sha256": "3df01659255305fc063861eed69d75c05fa45e2d141ddd8589bfd41506675e8e"
+  },
+  {
+    "path": "tables/details/lasu_v1/A3_national_scale_2024.csv",
+    "sha256": "59b9dc732bca5b827e476e1f2dfc7b210a6b11c4a9251504eb3dfa3af4490f40",
+    "verified_source_sha256": "59b9dc732bca5b827e476e1f2dfc7b210a6b11c4a9251504eb3dfa3af4490f40"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_volume_changes.csv",
+    "sha256": "bde89e80055c1ce3176864c0d1190ea26e80cce094d32c2a9069e87c6ddb7101",
+    "verified_source_sha256": "bde89e80055c1ce3176864c0d1190ea26e80cce094d32c2a9069e87c6ddb7101"
+  },
+  {
+    "path": "tables/details/lasu_v1/A3_enrollment_demographic_sheet_raw.csv",
+    "sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8",
+    "verified_source_sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_suppressed_provider_drug_rows_2023.csv.gz",
+    "sha256": "8ade6c2e5c9896cea165438e8741fa85152637ab15cc45c4297961f62d33f337",
+    "verified_source_sha256": "8ade6c2e5c9896cea165438e8741fa85152637ab15cc45c4297961f62d33f337"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_overall_slopes.csv",
+    "sha256": "028d9db41022a0949634f63d2b799f6d3d661fe1adb3a24e3de8e95535983d29",
+    "verified_source_sha256": "028d9db41022a0949634f63d2b799f6d3d661fe1adb3a24e3de8e95535983d29"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_excluded_geographic_units.csv",
+    "sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203",
+    "verified_source_sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_suppressed_provider_drug_rows_2019.csv.gz",
+    "sha256": "bc9887afd4a4cd9e81a7e8f58811eafec768024ac61c7037faf67bacb051eba1",
+    "verified_source_sha256": "bc9887afd4a4cd9e81a7e8f58811eafec768024ac61c7037faf67bacb051eba1"
+  },
+  {
+    "path": "tables/details/lasu_v1/A1_piecewise_fitted.csv",
+    "sha256": "324f23db55af4f43b4d535f1439224e27e3e96e76d7368d3b49fae6e4db359b1",
+    "verified_source_sha256": "324f23db55af4f43b4d535f1439224e27e3e96e76d7368d3b49fae6e4db359b1"
+  },
+  {
+    "path": "tables/details/lasu_v1/A2_state_gaps_2024.csv",
+    "sha256": "501518d64dc65506e6a0eafda97ee43866ea002b132b5a1324c8b0b95f573a21",
+    "verified_source_sha256": "501518d64dc65506e6a0eafda97ee43866ea002b132b5a1324c8b0b95f573a21"
+  },
+  {
+    "path": "tables/details/lasu_v1/A3_national_drug_rows_2024.csv",
+    "sha256": "684d445433cf12f016dcd84292612f57a822049511ac534e9b96e619ae5a98b8",
+    "verified_source_sha256": "684d445433cf12f016dcd84292612f57a822049511ac534e9b96e619ae5a98b8"
+  },
+  {
+    "path": "tables/details/lasu_v1/A4_providers_2019_ge65_visible_primary.csv.gz",
+    "sha256": "d40dd42c14ce0fdb85f1048bfdfb7a53a268cb702491bb9a37ff898ed7823143",
+    "verified_source_sha256": "d40dd42c14ce0fdb85f1048bfdfb7a53a268cb702491bb9a37ff898ed7823143"
+  },
+  {
+    "path": "tables/details/beers_corrected/corrected_all_approaches_sensitivity.csv",
+    "sha256": "8fcd0c43ce5c2d010baad5d07d7263f001e4c11ca4cc35e20ccd88e58c2c4539",
+    "verified_source_sha256": "8fcd0c43ce5c2d010baad5d07d7263f001e4c11ca4cc35e20ccd88e58c2c4539"
+  },
+  {
+    "path": "tables/details/beers_corrected/antispasmodic_model_exclusions.csv",
+    "sha256": "1371f32823d46d0b259251cdc65e4b1272178e85f20fbefca3e5784bfa48e76b",
+    "verified_source_sha256": "1371f32823d46d0b259251cdc65e4b1272178e85f20fbefca3e5784bfa48e76b"
+  },
+  {
+    "path": "tables/details/beers_corrected/share_all_coefficients.csv",
+    "sha256": "3f5fbed1b4b1bf6f3ad3c3fd49e386e672e69cef9536db8324971e31cb221926",
+    "verified_source_sha256": "3f5fbed1b4b1bf6f3ad3c3fd49e386e672e69cef9536db8324971e31cb221926"
+  },
+  {
+    "path": "tables/details/beers_corrected/excluded_false_positive_names.csv",
+    "sha256": "5468898f3d1a5db3a7ba0d282a5e41d4751fc25c32e328f0d6b2685f5c170981",
+    "verified_source_sha256": "5468898f3d1a5db3a7ba0d282a5e41d4751fc25c32e328f0d6b2685f5c170981"
+  },
+  {
+    "path": "tables/details/beers_corrected/excluded_false_positive_respiratory_rows.csv.gz",
+    "sha256": "404bd700f44f748823218abb65bb190f12c9eda7dbb89f8f7e2b79802a1b0cb3",
+    "verified_source_sha256": "404bd700f44f748823218abb65bb190f12c9eda7dbb89f8f7e2b79802a1b0cb3"
+  },
+  {
+    "path": "tables/details/beers_corrected/share_primary_model_panel.csv.gz",
+    "sha256": "d1675df1629926d55b56432b30a13db95c7f7680b4896164fe3378dcc21dbd77",
+    "verified_source_sha256": "d1675df1629926d55b56432b30a13db95c7f7680b4896164fe3378dcc21dbd77"
+  },
+  {
+    "path": "tables/details/beers_corrected/independent_model_checks.csv",
+    "sha256": "eab0d2dafdf8b5ddf079f596c2ec27863cdcfc7397e92afa6c3ce789a728e263",
+    "verified_source_sha256": "eab0d2dafdf8b5ddf079f596c2ec27863cdcfc7397e92afa6c3ce789a728e263"
+  },
+  {
+    "path": "tables/details/beers_corrected/fully_corrected_three_approach_comparison.csv",
+    "sha256": "b8737e310f0fd7017751031c654bd85ccbd5b47b6c56d7c17d9a5a3a536c9916",
+    "verified_source_sha256": "b8737e310f0fd7017751031c654bd85ccbd5b47b6c56d7c17d9a5a3a536c9916"
+  },
+  {
+    "path": "tables/details/beers_corrected/state_age_year_share_panel.csv",
+    "sha256": "a9cff34e1feadc8bb697bae7dea443eb2b6cac6f6bc6b28e1b327588887d6432",
+    "verified_source_sha256": "a9cff34e1feadc8bb697bae7dea443eb2b6cac6f6bc6b28e1b327588887d6432"
+  },
+  {
+    "path": "tables/details/beers_corrected/corrected_all_approaches_percentiles.csv",
+    "sha256": "e37470905329176fe05c5414048840603426e39d43d8482bf52b60e5d14df4a6",
+    "verified_source_sha256": "e37470905329176fe05c5414048840603426e39d43d8482bf52b60e5d14df4a6"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_direction_comparison.csv",
+    "sha256": "33308b70439713472438b52bb4cc4dd1715fb1934e310a7ed884a96f26c93834",
+    "verified_source_sha256": "33308b70439713472438b52bb4cc4dd1715fb1934e310a7ed884a96f26c93834"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2014.csv",
+    "sha256": "db91d1e5d8df760ece86a7953611393b23d3030009cad3f96be0d5b8ec756388",
+    "verified_source_sha256": "db91d1e5d8df760ece86a7953611393b23d3030009cad3f96be0d5b8ec756388"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_inherited_geographic_exclusions.csv",
+    "sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203",
+    "verified_source_sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2015.csv",
+    "sha256": "dec388cbf9bfc0fbf992d1e160b5cfe225413fa19b6f36e897b794f5628ac69b",
+    "verified_source_sha256": "dec388cbf9bfc0fbf992d1e160b5cfe225413fa19b6f36e897b794f5628ac69b"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2017.csv",
+    "sha256": "4c5759590fde44872369da5bf7b96a984778fd9f3f1b5a924fc4d01d08aea408",
+    "verified_source_sha256": "4c5759590fde44872369da5bf7b96a984778fd9f3f1b5a924fc4d01d08aea408"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_rates_long.csv",
+    "sha256": "5003b3528aedd0457e3df9869abba9fa721ee150709dd8beab538460e7881c08",
+    "verified_source_sha256": "5003b3528aedd0457e3df9869abba9fa721ee150709dd8beab538460e7881c08"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2016.csv",
+    "sha256": "fcdcb8297f31287584b85b99d592d34bce64dbb3f61d4004de3768ab363df1ac",
+    "verified_source_sha256": "fcdcb8297f31287584b85b99d592d34bce64dbb3f61d4004de3768ab363df1ac"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R3_state_age_panels.csv",
+    "sha256": "7559e097a0651025e6805c7697423226b7c9f593effd711e11b9b3c84c004d63",
+    "verified_source_sha256": "7559e097a0651025e6805c7697423226b7c9f593effd711e11b9b3c84c004d63"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/independent_paired_model_checks.csv",
+    "sha256": "ea510eb6db4a0746d46b7ea13b083c1759b21cffcd7cddc55c12f5120deb085e",
+    "verified_source_sha256": "ea510eb6db4a0746d46b7ea13b083c1759b21cffcd7cddc55c12f5120deb085e"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2013.csv",
+    "sha256": "141bcb36314f3130944ee6de3443888af06342634413d46dd0edad3328d6701f",
+    "verified_source_sha256": "141bcb36314f3130944ee6de3443888af06342634413d46dd0edad3328d6701f"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_complete_state_list.csv",
+    "sha256": "0ea83e11f206cecf911239f49ac134be4b5d5b38c46db3fc953249cc230e14b5",
+    "verified_source_sha256": "0ea83e11f206cecf911239f49ac134be4b5d5b38c46db3fc953249cc230e14b5"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_denominators.csv",
+    "sha256": "6dab97405b7f5f6daee4891cb5cb50ea814798dd7ccc8d67c79bb3ae5b40c589",
+    "verified_source_sha256": "6dab97405b7f5f6daee4891cb5cb50ea814798dd7ccc8d67c79bb3ae5b40c589"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_rounding_audit.csv",
+    "sha256": "52f7881c78418f5c3dc4fdfd590aa61f4bf61128367de9bb1e624bdb2b95c1b3",
+    "verified_source_sha256": "52f7881c78418f5c3dc4fdfd590aa61f4bf61128367de9bb1e624bdb2b95c1b3"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_imputed_drug_rows.csv",
+    "sha256": "34f04db9786e54583bb5048b61516a895dfa64bcbae6511d1a836f8c3f0178dd",
+    "verified_source_sha256": "34f04db9786e54583bb5048b61516a895dfa64bcbae6511d1a836f8c3f0178dd"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R4_v1_segment_slopes_long.csv",
+    "sha256": "b9472c127786c7c38ca2263d17e944491e208dbe60416a90b794ce3db45d9ea1",
+    "verified_source_sha256": "b9472c127786c7c38ca2263d17e944491e208dbe60416a90b794ce3db45d9ea1"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R3_national_age_long.csv",
+    "sha256": "181cb34e61f5151de6f1b00641451d34276ded1eff866dc64be95bf65e1a9803",
+    "verified_source_sha256": "181cb34e61f5151de6f1b00641451d34276ded1eff866dc64be95bf65e1a9803"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R3_excluded_combination_rows.csv",
+    "sha256": "7a8c9e76d2108820acc4dd410b20225988eb919b198a8c8322c9eb73bc21cc0c",
+    "verified_source_sha256": "7a8c9e76d2108820acc4dd410b20225988eb919b198a8c8322c9eb73bc21cc0c"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_allocation_QA.csv",
+    "sha256": "cb49fa6b4e4f2dff847f1b1346566a8c10ed72acf9ff6da3c68dd0ac2c342d91",
+    "verified_source_sha256": "cb49fa6b4e4f2dff847f1b1346566a8c10ed72acf9ff6da3c68dd0ac2c342d91"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R3_model2_coefficients.csv",
+    "sha256": "0d7229035fcad84b8b0b92a75a6f09be93893486da7df5de75e021e05b27d227",
+    "verified_source_sha256": "0d7229035fcad84b8b0b92a75a6f09be93893486da7df5de75e021e05b27d227"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_suppressed_drug_row_bounds.csv",
+    "sha256": "3f8fe91cd63a2b2b96456fea5b9fb651e0724aff97f1dd2f140e63732055cc0b",
+    "verified_source_sha256": "3f8fe91cd63a2b2b96456fea5b9fb651e0724aff97f1dd2f140e63732055cc0b"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/drug_definition_audit.csv",
+    "sha256": "5c8e6e1ee2c11826eca326fe88cc794fcdc10bda941a766d27d9fba1006d15a7",
+    "verified_source_sha256": "5c8e6e1ee2c11826eca326fe88cc794fcdc10bda941a766d27d9fba1006d15a7"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R3_national_annual.csv",
+    "sha256": "d7a51685163dcf7f2393cc210cab0366ddc2004b8dd897e4f009da1fc0f8dad2",
+    "verified_source_sha256": "d7a51685163dcf7f2393cc210cab0366ddc2004b8dd897e4f009da1fc0f8dad2"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_complete_state_year_age_panel.csv",
+    "sha256": "11ff8e157678034145abfce4930324f7ef6ad610b06278f26e567d29df3b0184",
+    "verified_source_sha256": "11ff8e157678034145abfce4930324f7ef6ad610b06278f26e567d29df3b0184"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_rates_wide.csv",
+    "sha256": "d1a8d7552ab751afc618d2221b77eb18f1df359edecb358b6b75c9f982f3a17e",
+    "verified_source_sha256": "d1a8d7552ab751afc618d2221b77eb18f1df359edecb358b6b75c9f982f3a17e"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2021.csv",
+    "sha256": "b1e1d400cf8124bc63e4584415052c8f692ec7989e720d86792bf52d6de77a44",
+    "verified_source_sha256": "b1e1d400cf8124bc63e4584415052c8f692ec7989e720d86792bf52d6de77a44"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_endpoint_panels.csv",
+    "sha256": "41fc94e56d83735ee95f7676322ce91f3899e04572347675ea1a18affdd8cecd",
+    "verified_source_sha256": "41fc94e56d83735ee95f7676322ce91f3899e04572347675ea1a18affdd8cecd"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2020.csv",
+    "sha256": "af144af4eac486f888811a94398f14ab5977f29fe2e8487221b9723c55507bfd",
+    "verified_source_sha256": "af144af4eac486f888811a94398f14ab5977f29fe2e8487221b9723c55507bfd"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_model2_coefficients.csv",
+    "sha256": "1cd6867355b88db09e0c2c1cd83b04b162534e141e78bfd6d240a84cd81cf1cf",
+    "verified_source_sha256": "1cd6867355b88db09e0c2c1cd83b04b162534e141e78bfd6d240a84cd81cf1cf"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2022.csv",
+    "sha256": "ac2a97017f062dcf53cca9e9a1fa0da2f21b294a83abcac74bebfab1e06dd840",
+    "verified_source_sha256": "ac2a97017f062dcf53cca9e9a1fa0da2f21b294a83abcac74bebfab1e06dd840"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R3_ER_XL_reclassified_rows.csv",
+    "sha256": "8d9ac5aa43bb80e72e04e757dbd99337fc659538b5aa04090e93373fc4bda91f",
+    "verified_source_sha256": "8d9ac5aa43bb80e72e04e757dbd99337fc659538b5aa04090e93373fc4bda91f"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2023.csv",
+    "sha256": "decca91ac85e2148c6370a5b1b9d24dc2feff5943f65e9c5ef0622abf7cc6b60",
+    "verified_source_sha256": "decca91ac85e2148c6370a5b1b9d24dc2feff5943f65e9c5ef0622abf7cc6b60"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R4_segment_slopes.csv",
+    "sha256": "b98979cd575256460ef553e878bf57e380bc1ac59e786e3ca93fd0a004f36b3c",
+    "verified_source_sha256": "b98979cd575256460ef553e878bf57e380bc1ac59e786e3ca93fd0a004f36b3c"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R2_complete_state_years.csv",
+    "sha256": "4c618ed7a18e02350848cbde37ea8f7d237e936c0b4ad695888ed14485a2f6f5",
+    "verified_source_sha256": "4c618ed7a18e02350848cbde37ea8f7d237e936c0b4ad695888ed14485a2f6f5"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R5_beneficiary_union_bounds.csv",
+    "sha256": "962b67f7f8146675cee55eba1a26dc737d5400062d2ebf6f0773043afebe08f3",
+    "verified_source_sha256": "962b67f7f8146675cee55eba1a26dc737d5400062d2ebf6f0773043afebe08f3"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R5_long_drug_beneficiary_rows.csv",
+    "sha256": "390f68bccc2978b415d824dc2cd0812e86af6f1af044568cbffea7b6805c6711",
+    "verified_source_sha256": "390f68bccc2978b415d824dc2cd0812e86af6f1af044568cbffea7b6805c6711"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2024.csv",
+    "sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8",
+    "verified_source_sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2018.csv",
+    "sha256": "dd73a0aa9196843389e29c014910f9e25f4b1a05b68695b6648ae3e11ff2fde1",
+    "verified_source_sha256": "dd73a0aa9196843389e29c014910f9e25f4b1a05b68695b6648ae3e11ff2fde1"
+  },
+  {
+    "path": "tables/details/robustness_v1_1/R1_enrollment_sheet_2019.csv",
+    "sha256": "081157568dccbcb23d038a742dae8ff4d5655042639bbe88e7882cf91bd2f3d4",
+    "verified_source_sha256": "081157568dccbcb23d038a742dae8ff4d5655042639bbe88e7882cf91bd2f3d4"
+  },
+  {
+    "path": "figures/F4_BEERS_within_class_benchmark.pdf",
+    "sha256": "1436a5de8ba02a67ef4a4846298422ffd100194612ed6eb13c263e39824f3bd6",
+    "verified_source_sha256": "1436a5de8ba02a67ef4a4846298422ffd100194612ed6eb13c263e39824f3bd6"
+  },
+  {
+    "path": "figures/F2_glimepiride_glyburide_share.png",
+    "sha256": "7350b5a25f4819f968800fac320642357c2bb76449e071a160fb909640e5d050",
+    "verified_source_sha256": "7350b5a25f4819f968800fac320642357c2bb76449e071a160fb909640e5d050"
+  },
+  {
+    "path": "figures/F4_BEERS_within_class_benchmark.png",
+    "sha256": "461d47120b6bc0204713d383685065ee0bbbee14be695716faa27a0919c365b3",
+    "verified_source_sha256": "461d47120b6bc0204713d383685065ee0bbbee14be695716faa27a0919c365b3"
+  },
+  {
+    "path": "figures/F2_glimepiride_glyburide_share.pdf",
+    "sha256": "cb30c237839404bf2b39db2f5722281c458a4505e067736234fa2217913f4ea2",
+    "verified_source_sha256": "cb30c237839404bf2b39db2f5722281c458a4505e067736234fa2217913f4ea2"
+  },
+  {
+    "path": "figures/F1_national_long_acting_share.pdf",
+    "sha256": "56698af501983b2bc403ee988e670c8b4fd78ce08afcb11393c16cd968d01cf6",
+    "verified_source_sha256": "56698af501983b2bc403ee988e670c8b4fd78ce08afcb11393c16cd968d01cf6"
+  },
+  {
+    "path": "figures/F1_national_long_acting_share.png",
+    "sha256": "ffa8d6ece8f736da350e7d9bd8227ac65d1f956c691b1aa8544b345870f8c620",
+    "verified_source_sha256": "ffa8d6ece8f736da350e7d9bd8227ac65d1f956c691b1aa8544b345870f8c620"
+  },
+  {
+    "path": "figures/F3_state_age_gap_2024.png",
+    "sha256": "7a429aa0e2c4e42a53b63a6a1e1fe9a0ccaaf67757c2b3fac01eb79cc58fb473",
+    "verified_source_sha256": "7a429aa0e2c4e42a53b63a6a1e1fe9a0ccaaf67757c2b3fac01eb79cc58fb473"
+  },
+  {
+    "path": "figures/F3_state_age_gap_2024.pdf",
+    "sha256": "3d0d4167258972ca1373a463da5b1ec82e77cfc0940836dffc2b6ccbbd13e41a",
+    "verified_source_sha256": "3d0d4167258972ca1373a463da5b1ec82e77cfc0940836dffc2b6ccbbd13e41a"
+  }
+]

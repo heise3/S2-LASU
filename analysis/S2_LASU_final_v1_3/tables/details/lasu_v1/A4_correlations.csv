@@ -1,0 +1,15 @@
+year_previous,year_current,age,scenario,matched_npi,spearman_rho
+2019,2024,all_age,primary,96607,0.672252772194
+2019,2024,all_age,exclude_ER_XL,86379,0.670899770553
+2019,2024,all_age_GE65_visible_subset,primary,59398,0.671297288803
+2019,2024,all_age_GE65_visible_subset,exclude_ER_XL,45538,0.654742611413
+2019,2024,ge65_visible,primary,58813,0.309140779267
+2019,2024,ge65_visible,exclude_ER_XL,45139,0.313237605524
+2019,2024,ge65_visible,complete_published_SU_rows,18525,0.648982736899
+2023,2024,all_age,primary,128206,0.852308001436
+2023,2024,all_age,exclude_ER_XL,113943,0.859625456552
+2023,2024,all_age_GE65_visible_subset,primary,82805,0.860375060389
+2023,2024,all_age_GE65_visible_subset,exclude_ER_XL,64678,0.859467712358
+2023,2024,ge65_visible,primary,82247,0.645581557893
+2023,2024,ge65_visible,exclude_ER_XL,64280,0.675742980958
+2023,2024,ge65_visible,complete_published_SU_rows,35545,0.858212857502

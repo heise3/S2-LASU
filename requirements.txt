@@ -1,0 +1,9 @@
+pandas==2.2.3
+numpy==2.3.5
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+pypdf==6.10.0
+pypdfium2==5.14.0
+Pillow==12.3.0
+openpyxl==3.1.5

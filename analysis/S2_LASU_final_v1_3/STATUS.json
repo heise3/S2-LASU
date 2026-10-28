@@ -1,0 +1,27 @@
+{
+  "version": "v1.3",
+  "freeze_status": "FROZEN",
+  "statistical_reproduction_status": "PASS",
+  "results_source": "VERIFIED_FULL_STATISTICAL_RECOMPUTE",
+  "source_reproduction_completed_utc": "2026-10-27T12:07:58.248098+00:00",
+  "models_refit_in_source_run": true,
+  "freeze_step_refits_models": false,
+  "manuscript_written": false,
+  "active_entry": "code/reproduce.py",
+  "main_tables": 16,
+  "main_result_rows": 44,
+  "supporting_tables": 100,
+  "figure_ids": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "figure_files": 8,
+  "material_differences_vs_v1_2": 0,
+  "BEERS": "INCLUDE_AS_LASU_DESCRIPTIVE_CONTEXT",
+  "old_clidinium_results": "DEPRECATED_NOT_FOR_ANALYTIC_USE",
+  "freeze_created_utc": "2026-10-27T13:20:44.704921+00:00",
+  "source_reproduction_report": "evidence/reproduction_20261027/REPRODUCTION_REPORT.md",
+  "source_reproduction_status": "evidence/reproduction_20261027/REPRODUCTION_STATUS.json"
+}

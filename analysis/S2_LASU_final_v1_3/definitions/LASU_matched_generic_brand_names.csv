@@ -1,0 +1,386 @@
+source,year,Gnrc_Name,Brnd_Name,class,glipizide_er_xl,rows
+B,2013,Chlorpropamide,Chlorpropamide,long,False,38
+B,2013,Glimepiride,Amaryl,long,False,49
+B,2013,Glimepiride,Glimepiride,long,False,58
+B,2013,Glipizide,Glipizide,short,False,59
+B,2013,Glipizide,Glipizide Er,short,True,57
+B,2013,Glipizide,Glipizide Xl,short,True,57
+B,2013,Glipizide,Glucotrol,short,False,32
+B,2013,Glipizide,Glucotrol Xl,short,True,50
+B,2013,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,55
+B,2013,Glyburide,Diabeta,long,False,25
+B,2013,Glyburide,Glyburide,long,False,58
+B,2013,"Glyburide,micronized",Glyburide Micronized,long,False,56
+B,2013,"Glyburide,micronized",Glynase,long,False,19
+B,2013,Glyburide/Metformin Hcl,Glucovance,long,False,40
+B,2013,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,56
+B,2013,Pioglitazone Hcl/Glimepiride,Duetact,long,False,44
+B,2013,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,46
+B,2013,Rosiglitazone/Glimepiride,Avandaryl,long,False,6
+B,2013,Tolazamide,Tolazamide,other,False,35
+B,2013,Tolbutamide,Tolbutamide,other,False,38
+A,2013,Chlorpropamide,Chlorpropamide,long,False,71
+A,2013,Glimepiride,Amaryl,long,False,233
+A,2013,Glimepiride,Glimepiride,long,False,91738
+A,2013,Glipizide,Glipizide,short,False,106950
+A,2013,Glipizide,Glipizide Er,short,True,53004
+A,2013,Glipizide,Glipizide Xl,short,True,43019
+A,2013,Glipizide,Glucotrol,short,False,44
+A,2013,Glipizide,Glucotrol Xl,short,True,285
+A,2013,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,5911
+A,2013,Glyburide,Diabeta,long,False,24
+A,2013,Glyburide,Glyburide,long,False,65364
+A,2013,"Glyburide,micronized",Glyburide Micronized,long,False,4401
+A,2013,"Glyburide,micronized",Glynase,long,False,8
+A,2013,Glyburide/Metformin Hcl,Glucovance,long,False,123
+A,2013,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,26526
+A,2013,Pioglitazone Hcl/Glimepiride,Duetact,long,False,125
+A,2013,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,212
+A,2013,Rosiglitazone/Glimepiride,Avandaryl,long,False,5
+A,2013,Tolazamide,Tolazamide,other,False,97
+A,2013,Tolbutamide,Tolbutamide,other,False,122
+B,2014,Chlorpropamide,Chlorpropamide,long,False,37
+B,2014,Glimepiride,Amaryl,long,False,48
+B,2014,Glimepiride,Glimepiride,long,False,59
+B,2014,Glipizide,Glipizide,short,False,59
+B,2014,Glipizide,Glipizide Er,short,True,58
+B,2014,Glipizide,Glipizide Xl,short,True,56
+B,2014,Glipizide,Glucotrol,short,False,31
+B,2014,Glipizide,Glucotrol Xl,short,True,49
+B,2014,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,54
+B,2014,Glyburide,Diabeta,long,False,22
+B,2014,Glyburide,Glyburide,long,False,59
+B,2014,"Glyburide,micronized",Glyburide Micronized,long,False,56
+B,2014,"Glyburide,micronized",Glynase,long,False,16
+B,2014,Glyburide/Metformin Hcl,Glucovance,long,False,37
+B,2014,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,56
+B,2014,Pioglitazone Hcl/Glimepiride,Duetact,long,False,22
+B,2014,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,46
+B,2014,Rosiglitazone/Glimepiride,Avandaryl,long,False,5
+B,2014,Tolazamide,Tolazamide,other,False,32
+B,2014,Tolbutamide,Tolbutamide,other,False,34
+A,2014,Chlorpropamide,Chlorpropamide,long,False,51
+A,2014,Glimepiride,Amaryl,long,False,211
+A,2014,Glimepiride,Glimepiride,long,False,95714
+A,2014,Glipizide,Glipizide,short,False,110692
+A,2014,Glipizide,Glipizide Er,short,True,56349
+A,2014,Glipizide,Glipizide Xl,short,True,37162
+A,2014,Glipizide,Glucotrol,short,False,36
+A,2014,Glipizide,Glucotrol Xl,short,True,197
+A,2014,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,8586
+A,2014,Glyburide,Diabeta,long,False,16
+A,2014,Glyburide,Glyburide,long,False,43782
+A,2014,"Glyburide,micronized",Glyburide Micronized,long,False,2562
+A,2014,"Glyburide,micronized",Glynase,long,False,6
+A,2014,Glyburide/Metformin Hcl,Glucovance,long,False,78
+A,2014,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,16809
+A,2014,Pioglitazone Hcl/Glimepiride,Duetact,long,False,24
+A,2014,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,297
+A,2014,Rosiglitazone/Glimepiride,Avandaryl,long,False,2
+A,2014,Tolazamide,Tolazamide,other,False,45
+A,2014,Tolbutamide,Tolbutamide,other,False,33
+B,2015,Chlorpropamide,Chlorpropamide,long,False,33
+B,2015,Glimepiride,Amaryl,long,False,45
+B,2015,Glimepiride,Glimepiride,long,False,59
+B,2015,Glipizide,Glipizide,short,False,59
+B,2015,Glipizide,Glipizide Er,short,True,59
+B,2015,Glipizide,Glipizide Xl,short,True,59
+B,2015,Glipizide,Glucotrol,short,False,31
+B,2015,Glipizide,Glucotrol Xl,short,True,49
+B,2015,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,54
+B,2015,Glyburide,Diabeta,long,False,19
+B,2015,Glyburide,Glyburide,long,False,58
+B,2015,"Glyburide,micronized",Glyburide Micronized,long,False,56
+B,2015,"Glyburide,micronized",Glynase,long,False,10
+B,2015,Glyburide/Metformin Hcl,Glucovance,long,False,30
+B,2015,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,57
+B,2015,Pioglitazone Hcl/Glimepiride,Duetact,long,False,13
+B,2015,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,47
+B,2015,Rosiglitazone/Glimepiride,Avandaryl,long,False,1
+B,2015,Tolazamide,Tolazamide,other,False,23
+B,2015,Tolbutamide,Tolbutamide,other,False,25
+A,2015,Chlorpropamide,Chlorpropamide,long,False,35
+A,2015,Glimepiride,Amaryl,long,False,176
+A,2015,Glimepiride,Glimepiride,long,False,99549
+A,2015,Glipizide,Glipizide,short,False,114187
+A,2015,Glipizide,Glipizide Er,short,True,57063
+A,2015,Glipizide,Glipizide Xl,short,True,36463
+A,2015,Glipizide,Glucotrol,short,False,35
+A,2015,Glipizide,Glucotrol Xl,short,True,180
+A,2015,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,9340
+A,2015,Glyburide,Diabeta,long,False,9
+A,2015,Glyburide,Glyburide,long,False,24450
+A,2015,"Glyburide,micronized",Glyburide Micronized,long,False,1162
+A,2015,"Glyburide,micronized",Glynase,long,False,4
+A,2015,Glyburide/Metformin Hcl,Glucovance,long,False,64
+A,2015,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,9231
+A,2015,Pioglitazone Hcl/Glimepiride,Duetact,long,False,11
+A,2015,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,202
+A,2015,Tolazamide,Tolazamide,other,False,11
+A,2015,Tolbutamide,Tolbutamide,other,False,24
+B,2016,Chlorpropamide,Chlorpropamide,long,False,29
+B,2016,Glimepiride,Amaryl,long,False,45
+B,2016,Glimepiride,Glimepiride,long,False,60
+B,2016,Glipizide,Glipizide,short,False,60
+B,2016,Glipizide,Glipizide Er,short,True,59
+B,2016,Glipizide,Glipizide Xl,short,True,58
+B,2016,Glipizide,Glucotrol,short,False,31
+B,2016,Glipizide,Glucotrol Xl,short,True,49
+B,2016,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,56
+B,2016,Glyburide,Diabeta,long,False,6
+B,2016,Glyburide,Glyburide,long,False,55
+B,2016,"Glyburide,micronized",Glyburide Micronized,long,False,54
+B,2016,"Glyburide,micronized",Glynase,long,False,7
+B,2016,Glyburide/Metformin Hcl,Glucovance,long,False,28
+B,2016,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,55
+B,2016,Pioglitazone Hcl/Glimepiride,Duetact,long,False,7
+B,2016,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,45
+B,2016,Tolazamide,Tolazamide,other,False,20
+B,2016,Tolbutamide,Tolbutamide,other,False,23
+A,2016,Chlorpropamide,Chlorpropamide,long,False,28
+A,2016,Glimepiride,Amaryl,long,False,148
+A,2016,Glimepiride,Glimepiride,long,False,102806
+A,2016,Glipizide,Glipizide,short,False,116184
+A,2016,Glipizide,Glipizide Er,short,True,60724
+A,2016,Glipizide,Glipizide Xl,short,True,30151
+A,2016,Glipizide,Glucotrol,short,False,34
+A,2016,Glipizide,Glucotrol Xl,short,True,172
+A,2016,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,9989
+A,2016,Glyburide,Glyburide,long,False,11443
+A,2016,"Glyburide,micronized",Glyburide Micronized,long,False,477
+A,2016,"Glyburide,micronized",Glynase,long,False,4
+A,2016,Glyburide/Metformin Hcl,Glucovance,long,False,58
+A,2016,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,4101
+A,2016,Pioglitazone Hcl/Glimepiride,Duetact,long,False,2
+A,2016,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,169
+A,2016,Tolazamide,Tolazamide,other,False,9
+A,2016,Tolbutamide,Tolbutamide,other,False,11
+B,2017,Chlorpropamide,Chlorpropamide,long,False,27
+B,2017,Glimepiride,Amaryl,long,False,42
+B,2017,Glimepiride,Glimepiride,long,False,60
+B,2017,Glipizide,Glipizide,short,False,60
+B,2017,Glipizide,Glipizide Er,short,True,60
+B,2017,Glipizide,Glipizide Xl,short,True,59
+B,2017,Glipizide,Glucotrol,short,False,30
+B,2017,Glipizide,Glucotrol Xl,short,True,49
+B,2017,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,58
+B,2017,Glyburide,Glyburide,long,False,54
+B,2017,"Glyburide,micronized",Glyburide Micronized,long,False,52
+B,2017,"Glyburide,micronized",Glynase,long,False,8
+B,2017,Glyburide/Metformin Hcl,Glucovance,long,False,26
+B,2017,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2017,Pioglitazone Hcl/Glimepiride,Duetact,long,False,7
+B,2017,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,43
+B,2017,Tolazamide,Tolazamide,other,False,11
+B,2017,Tolbutamide,Tolbutamide,other,False,18
+A,2017,Chlorpropamide,Chlorpropamide,long,False,19
+A,2017,Glimepiride,Amaryl,long,False,110
+A,2017,Glimepiride,Glimepiride,long,False,103939
+A,2017,Glipizide,Glipizide,short,False,115227
+A,2017,Glipizide,Glipizide Er,short,True,61470
+A,2017,Glipizide,Glipizide Xl,short,True,24836
+A,2017,Glipizide,Glucotrol,short,False,37
+A,2017,Glipizide,Glucotrol Xl,short,True,139
+A,2017,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,9141
+A,2017,Glyburide,Glyburide,long,False,9697
+A,2017,"Glyburide,micronized",Glyburide Micronized,long,False,416
+A,2017,"Glyburide,micronized",Glynase,long,False,4
+A,2017,Glyburide/Metformin Hcl,Glucovance,long,False,55
+A,2017,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,3038
+A,2017,Pioglitazone Hcl/Glimepiride,Duetact,long,False,3
+A,2017,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,68
+A,2017,Tolazamide,Tolazamide,other,False,4
+A,2017,Tolbutamide,Tolbutamide,other,False,8
+B,2018,Chlorpropamide,Chlorpropamide,long,False,19
+B,2018,Glimepiride,Amaryl,long,False,39
+B,2018,Glimepiride,Glimepiride,long,False,60
+B,2018,Glipizide,Glipizide,short,False,61
+B,2018,Glipizide,Glipizide Er,short,True,60
+B,2018,Glipizide,Glipizide Xl,short,True,58
+B,2018,Glipizide,Glucotrol,short,False,29
+B,2018,Glipizide,Glucotrol Xl,short,True,46
+B,2018,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,57
+B,2018,Glyburide,Glyburide,long,False,55
+B,2018,"Glyburide,micronized",Glyburide Micronized,long,False,51
+B,2018,"Glyburide,micronized",Glynase,long,False,5
+B,2018,Glyburide/Metformin Hcl,Glucovance,long,False,24
+B,2018,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2018,Pioglitazone Hcl/Glimepiride,Duetact,long,False,5
+B,2018,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,42
+B,2018,Tolazamide,Tolazamide,other,False,4
+B,2018,Tolbutamide,Tolbutamide,other,False,15
+A,2018,Chlorpropamide,Chlorpropamide,long,False,15
+A,2018,Glimepiride,Amaryl,long,False,93
+A,2018,Glimepiride,Glimepiride,long,False,103548
+A,2018,Glipizide,Glipizide,short,False,112778
+A,2018,Glipizide,Glipizide Er,short,True,68152
+A,2018,Glipizide,Glipizide Xl,short,True,12642
+A,2018,Glipizide,Glucotrol,short,False,29
+A,2018,Glipizide,Glucotrol Xl,short,True,103
+A,2018,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,7859
+A,2018,Glyburide,Glyburide,long,False,7030
+A,2018,"Glyburide,micronized",Glyburide Micronized,long,False,242
+A,2018,"Glyburide,micronized",Glynase,long,False,2
+A,2018,Glyburide/Metformin Hcl,Glucovance,long,False,19
+A,2018,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,1991
+A,2018,Pioglitazone Hcl/Glimepiride,Duetact,long,False,5
+A,2018,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,60
+A,2018,Tolazamide,Tolazamide,other,False,3
+A,2018,Tolbutamide,Tolbutamide,other,False,4
+B,2019,Chlorpropamide,Chlorpropamide,long,False,1
+B,2019,Glimepiride,Amaryl,long,False,39
+B,2019,Glimepiride,Glimepiride,long,False,60
+B,2019,Glipizide,Glipizide,short,False,60
+B,2019,Glipizide,Glipizide Er,short,True,60
+B,2019,Glipizide,Glipizide Xl,short,True,57
+B,2019,Glipizide,Glucotrol,short,False,25
+B,2019,Glipizide,Glucotrol Xl,short,True,43
+B,2019,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,55
+B,2019,Glyburide,Glyburide,long,False,55
+B,2019,"Glyburide,micronized",Glyburide Micronized,long,False,51
+B,2019,"Glyburide,micronized",Glynase,long,False,2
+B,2019,Glyburide/Metformin Hcl,Glucovance,long,False,1
+B,2019,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2019,Pioglitazone Hcl/Glimepiride,Duetact,long,False,5
+B,2019,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,40
+B,2019,Tolazamide,Tolazamide,other,False,4
+B,2019,Tolbutamide,Tolbutamide,other,False,13
+A,2019,Glimepiride,Amaryl,long,False,75
+A,2019,Glimepiride,Glimepiride,long,False,102721
+A,2019,Glipizide,Glipizide,short,False,109503
+A,2019,Glipizide,Glipizide Er,short,True,69744
+A,2019,Glipizide,Glipizide Xl,short,True,7089
+A,2019,Glipizide,Glucotrol,short,False,13
+A,2019,Glipizide,Glucotrol Xl,short,True,69
+A,2019,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,6881
+A,2019,Glyburide,Glyburide,long,False,6067
+A,2019,"Glyburide,micronized",Glyburide Micronized,long,False,195
+A,2019,"Glyburide,micronized",Glynase,long,False,1
+A,2019,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,1553
+A,2019,Pioglitazone Hcl/Glimepiride,Duetact,long,False,2
+A,2019,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,55
+A,2019,Tolazamide,Tolazamide,other,False,3
+A,2019,Tolbutamide,Tolbutamide,other,False,3
+B,2020,Glimepiride,Amaryl,long,False,35
+B,2020,Glimepiride,Glimepiride,long,False,60
+B,2020,Glipizide,Glipizide,short,False,60
+B,2020,Glipizide,Glipizide Er,short,True,60
+B,2020,Glipizide,Glipizide Xl,short,True,55
+B,2020,Glipizide,Glucotrol,short,False,21
+B,2020,Glipizide,Glucotrol Xl,short,True,38
+B,2020,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,55
+B,2020,Glyburide,Glyburide,long,False,54
+B,2020,"Glyburide,micronized",Glyburide Micronized,long,False,50
+B,2020,"Glyburide,micronized",Glynase,long,False,2
+B,2020,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2020,Pioglitazone Hcl/Glimepiride,Duetact,long,False,3
+B,2020,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,40
+B,2020,Tolbutamide,Tolbutamide,other,False,4
+A,2020,Glimepiride,Amaryl,long,False,59
+A,2020,Glimepiride,Glimepiride,long,False,101189
+A,2020,Glipizide,Glipizide,short,False,108717
+A,2020,Glipizide,Glipizide Er,short,True,72864
+A,2020,Glipizide,Glipizide Xl,short,True,3949
+A,2020,Glipizide,Glucotrol,short,False,15
+A,2020,Glipizide,Glucotrol Xl,short,True,54
+A,2020,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,6116
+A,2020,Glyburide,Glyburide,long,False,5732
+A,2020,"Glyburide,micronized",Glyburide Micronized,long,False,159
+A,2020,"Glyburide,micronized",Glynase,long,False,1
+A,2020,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,1421
+A,2020,Pioglitazone Hcl/Glimepiride,Duetact,long,False,1
+A,2020,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,43
+A,2020,Tolbutamide,Tolbutamide,other,False,1
+B,2021,Glimepiride,Amaryl,long,False,32
+B,2021,Glimepiride,Glimepiride,long,False,60
+B,2021,Glipizide,Glipizide,short,False,60
+B,2021,Glipizide,Glipizide Er,short,True,60
+B,2021,Glipizide,Glipizide Xl,short,True,55
+B,2021,Glipizide,Glucotrol,short,False,14
+B,2021,Glipizide,Glucotrol Xl,short,True,33
+B,2021,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,55
+B,2021,Glyburide,Glyburide,long,False,54
+B,2021,"Glyburide,micronized",Glyburide Micronized,long,False,50
+B,2021,"Glyburide,micronized",Glynase,long,False,2
+B,2021,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2021,Pioglitazone Hcl/Glimepiride,Duetact,long,False,1
+B,2021,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,39
+A,2021,Glimepiride,Amaryl,long,False,42
+A,2021,Glimepiride,Glimepiride,long,False,98572
+A,2021,Glipizide,Glipizide,short,False,106480
+A,2021,Glipizide,Glipizide Er,short,True,74700
+A,2021,Glipizide,Glipizide Xl,short,True,2648
+A,2021,Glipizide,Glucotrol,short,False,3
+A,2021,Glipizide,Glucotrol Xl,short,True,41
+A,2021,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,5472
+A,2021,Glyburide,Glyburide,long,False,4760
+A,2021,"Glyburide,micronized",Glyburide Micronized,long,False,120
+A,2021,"Glyburide,micronized",Glynase,long,False,1
+A,2021,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,1070
+A,2021,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,53
+B,2022,Glimepiride,Amaryl,long,False,24
+B,2022,Glimepiride,Glimepiride,long,False,60
+B,2022,Glipizide,Glipizide,short,False,61
+B,2022,Glipizide,Glipizide Er,short,True,60
+B,2022,Glipizide,Glipizide Xl,short,True,55
+B,2022,Glipizide,Glucotrol Xl,short,True,30
+B,2022,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,55
+B,2022,Glyburide,Glyburide,long,False,53
+B,2022,"Glyburide,micronized",Glyburide Micronized,long,False,49
+B,2022,"Glyburide,micronized",Glynase,long,False,1
+B,2022,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2022,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,41
+A,2022,Glimepiride,Amaryl,long,False,36
+A,2022,Glimepiride,Glimepiride,long,False,95796
+A,2022,Glipizide,Glipizide,short,False,104714
+A,2022,Glipizide,Glipizide Er,short,True,75997
+A,2022,Glipizide,Glipizide Xl,short,True,1955
+A,2022,Glipizide,Glucotrol Xl,short,True,28
+A,2022,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,4989
+A,2022,Glyburide,Glyburide,long,False,4259
+A,2022,"Glyburide,micronized",Glyburide Micronized,long,False,104
+A,2022,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,903
+A,2022,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,42
+B,2023,Glimepiride,Amaryl,long,False,15
+B,2023,Glimepiride,Glimepiride,long,False,60
+B,2023,Glipizide,Glipizide,short,False,60
+B,2023,Glipizide,Glipizide Er,short,True,60
+B,2023,Glipizide,Glipizide Xl,short,True,54
+B,2023,Glipizide,Glucotrol Xl,short,True,29
+B,2023,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,56
+B,2023,Glyburide,Glyburide,long,False,54
+B,2023,"Glyburide,micronized",Glyburide Micronized,long,False,46
+B,2023,"Glyburide,micronized",Glynase,long,False,1
+B,2023,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2023,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,41
+A,2023,Glimepiride,Amaryl,long,False,1
+A,2023,Glimepiride,Glimepiride,long,False,93240
+A,2023,Glipizide,Glipizide,short,False,102075
+A,2023,Glipizide,Glipizide Er,short,True,77503
+A,2023,Glipizide,Glipizide Xl,short,True,1224
+A,2023,Glipizide,Glucotrol Xl,short,True,12
+A,2023,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,4649
+A,2023,Glyburide,Glyburide,long,False,3675
+A,2023,"Glyburide,micronized",Glyburide Micronized,long,False,90
+A,2023,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,757
+A,2023,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,42
+B,2024,Glimepiride,Glimepiride,long,False,60
+B,2024,Glipizide,Glipizide,short,False,60
+B,2024,Glipizide,Glipizide Er,short,True,60
+B,2024,Glipizide,Glipizide Xl,short,True,49
+B,2024,Glipizide,Glucotrol Xl,short,True,23
+B,2024,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,56
+B,2024,Glyburide,Glyburide,long,False,56
+B,2024,"Glyburide,micronized",Glyburide Micronized,long,False,47
+B,2024,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,54
+B,2024,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,40
+A,2024,Glimepiride,Glimepiride,long,False,91745
+A,2024,Glipizide,Glipizide,short,False,100833
+A,2024,Glipizide,Glipizide Er,short,True,80018
+A,2024,Glipizide,Glipizide Xl,short,True,356
+A,2024,Glipizide,Glucotrol Xl,short,True,4
+A,2024,Glipizide/Metformin Hcl,Glipizide-Metformin,short,False,4400
+A,2024,Glyburide,Glyburide,long,False,3360
+A,2024,"Glyburide,micronized",Glyburide Micronized,long,False,72
+A,2024,Glyburide/Metformin Hcl,Glyburide-Metformin Hcl,long,False,679
+A,2024,Pioglitazone Hcl/Glimepiride,Pioglitazone-Glimepiride,long,False,36

@@ -1,0 +1,17 @@
+table,path,rows,columns,status
+MAIN_RESULTS.csv,tables/main/MAIN_RESULTS.csv,44,9,ACTIVE
+T1_national_age_trends.csv,tables/main/T1_national_age_trends.csv,24,16,ACTIVE
+T2_state_panel_main_and_post2023.csv,tables/main/T2_state_panel_main_and_post2023.csv,8,18,ACTIVE
+T3a_prescriber_profiles.csv,tables/main/T3a_prescriber_profiles.csv,2,24,ACTIVE
+T3b_prescriber_coverage.csv,tables/main/T3b_prescriber_coverage.csv,2,14,ACTIVE
+T3c_prescriber_specialties.csv,tables/main/T3c_prescriber_specialties.csv,194,12,ACTIVE
+T3d_prescriber_correlations.csv,tables/main/T3d_prescriber_correlations.csv,2,6,ACTIVE
+T3e_prescriber_state_ICC.csv,tables/main/T3e_prescriber_state_ICC.csv,2,23,ACTIVE
+T4a_robustness_interactions.csv,tables/main/T4a_robustness_interactions.csv,10,20,ACTIVE
+T4b_standardization_direction_checks.csv,tables/main/T4b_standardization_direction_checks.csv,30,10,ACTIVE
+T4c_piecewise_slopes.csv,tables/main/T4c_piecewise_slopes.csv,4,9,ACTIVE
+T5_beneficiary_scale_bounds.csv,tables/main/T5_beneficiary_scale_bounds.csv,3,13,ACTIVE
+T6a_BEERS_three_approach_comparison.csv,tables/main/T6a_BEERS_three_approach_comparison.csv,34,35,ACTIVE
+T6b_BEERS_three_approach_long.csv,tables/main/T6b_BEERS_three_approach_long.csv,136,29,ACTIVE
+T6c_BEERS_percentiles.csv,tables/main/T6c_BEERS_percentiles.csv,4,11,ACTIVE
+T7_literature_comparison.csv,tables/main/T7_literature_comparison.csv,19,11,ACTIVE

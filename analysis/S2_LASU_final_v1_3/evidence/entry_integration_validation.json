@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "mode": "POSTFIT_INTEGRATION_NO_FULL_MODEL_RERUN",
+  "version": "v1.3",
+  "main_tables_checked": 16,
+  "supporting_tables_checked": 100,
+  "figure_files_checked": 8,
+  "independent_models_checked": 78,
+  "material_differences": 0,
+  "source_results_byte_identical": 124,
+  "statistical_model_source_edits": 0,
+  "completed_utc": "2026-10-27T13:22:42.931701+00:00"
+}

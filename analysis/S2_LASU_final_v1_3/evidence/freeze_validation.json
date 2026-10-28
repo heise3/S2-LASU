@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "version": "v1.3",
+  "validated_utc": "2026-10-27T13:24:51.323265+00:00",
+  "source_reproduction": "PASS_FULL_STATISTICAL_RECOMPUTE",
+  "freeze_operation": "NO_FULL_MODEL_RERUN",
+  "verified_recomputed_files_byte_identical": 124,
+  "prior_files_checked": 2009,
+  "prior_files_changed": 0,
+  "v1_2_files_and_zip_preserved": 305,
+  "entry_preflight": {
+    "status": "PREFLIGHT_PASS_NOT_EXECUTED",
+    "source_files_verified": 457,
+    "runtime_versions": {
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "statsmodels": "0.15.0",
+      "matplotlib": "3.11.2",
+      "pypdf": "6.10.0",
+      "pypdfium2": "5.14.0",
+      "Pillow": "12.3.0",
+      "openpyxl": "3.1.5"
+    },
+    "reference_package": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/outputs/S2_LASU_final_v1_3",
+    "complete_pipeline_steps": 14,
+    "source_project": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2"
+  },
+  "existing_workspace_overwrite_rejected": true,
+  "postfit_integration": {
+    "status": "PASS",
+    "mode": "POSTFIT_INTEGRATION_NO_FULL_MODEL_RERUN",
+    "version": "v1.3",
+    "main_tables_checked": 16,
+    "supporting_tables_checked": 100,
+    "figure_files_checked": 8,
+    "independent_models_checked": 78,
+    "material_differences": 0,
+    "source_results_byte_identical": 124,
+    "statistical_model_source_edits": 0,
+    "completed_utc": "2026-10-27T13:22:42.931701+00:00"
+  },
+  "active_markdown_links_checked": 41,
+  "frozen_definition_or_statistical_model_changes": 0,
+  "active_entry_changes": "Only version/reference selection, complete orchestration, read-only verification and report/status packaging",
+  "historical_evidence_status": "Original bytes; not current release status"
+}

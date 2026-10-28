@@ -1,0 +1,11 @@
+term,coefficient,se,ci_low,ci_high,p_value,n_cells,n_states,n_FE_groups,full_rank,df_cluster,CR1_factor,correction,model,post_start,scenario,role,analysis,variant,definition
+old_t,0.57492462923,0.0650487099888,0.444204352429,0.705644906031,1.02800288867e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,primary_small_lower,primary_four,suppression,primary_small_lower,
+old_t,0.569183385202,0.0657010915355,0.4371520986,0.701214671804,1.88323705264e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,primary_small_upper,primary_four,suppression,primary_small_upper,
+old_t,0.569288386124,0.0656722208955,0.437315117245,0.701261655003,1.8482852051e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,old_lower_young_upper,primary_four,suppression,old_lower_young_upper,
+old_t,0.574819610662,0.0650776705251,0.444041135485,0.70559808584,1.04785474333e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,old_upper_young_lower,primary_four,suppression,old_upper_young_lower,
+old_t,0.570394615277,0.065715023218,0.438335331911,0.702453898643,1.77803287953e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,share_old_lower_young_upper,supplementary_share_extreme,suppression,share_old_lower_young_upper,
+old_t,0.573710525612,0.0650372510248,0.443013276461,0.704407774762,1.09049139082e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,share_old_upper_young_lower,supplementary_share_extreme,suppression,share_old_upper_young_lower,
+old_t,0.267706074012,0.241658852112,-0.220704684842,0.756116832866,0.27457168461,206,41,103,105,40,2.08044554455,full_rank,2,,complete_published_state_years,complete_subset,suppression,complete_published_state_years,
+old_t,0.574270802756,0.0651453043618,0.443356412296,0.705185193217,1.11341813415e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,,,definition,v1_primary,v1_primary
+old_t,0.332612970828,0.0798085824486,0.172231619829,0.492994321828,0.000124708747188,1200,50,600,602,49,2.04593543103,full_rank,2,,,,definition,ER_XL_as_long,ER_XL_as_long
+old_t,0.491695807081,0.0583558211001,0.374425394056,0.608966220106,4.29782225218e-11,1200,50,600,602,49,2.04593543103,full_rank,2,,,,definition,exclude_all_SU_combinations,exclude_all_SU_combinations

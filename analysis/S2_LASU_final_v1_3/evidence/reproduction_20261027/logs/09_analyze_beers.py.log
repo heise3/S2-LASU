@@ -1,0 +1,66 @@
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2013
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2014
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2015
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2016
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2017
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2018
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2019
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2020
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2021
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2022
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2023
+/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_BEERS_precheck/code/analyze_beers.py:26: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  z=d[d.Gnrc_Name.str.contains(pat,case=False,regex=True)].copy();z['entry']=id
+read 2024
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/feishuduobang/.cache/fontconfig
+	/Users/feishuduobang/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+{
+  "n_Table2": 36,
+  "n_eligible": 33,
+  "n_estimable": 33,
+  "negative_significant": 19,
+  "positive_significant": 6,
+  "negative_fraction": 0.5757575757575758,
+  "long_su_beta": 0.006019383599148054,
+  "long_su_percentile": 75.75757575757575,
+  "meta": {
+    "k": 33,
+    "pooled_beta": -0.015469522514479596,
+    "se_independence": 0.006242970960421658,
+    "ci_low_independence": -0.027705745596906042,
+    "ci_high_independence": -0.003233299432053147,
+    "tau2": 0.001220507843592438,
+    "Q": 1992.8407596405855,
+    "I2_pct": 98.39425203217084,
+    "method": "REML; independent-entry conventional CI descriptive",
+    "state_bootstrap_low": -0.019156196170197055,
+    "state_bootstrap_high": -0.011549200745751966,
+    "bootstrap_reps": 1000
+  }
+}

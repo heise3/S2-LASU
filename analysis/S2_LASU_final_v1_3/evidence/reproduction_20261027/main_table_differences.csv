@@ -1,0 +1,8 @@
+scope,artifact,difference_type,row,column,reference,rerun,material,entry,approach
+main,tables/main/T6a_BEERS_three_approach_comparison.csv,NUMERIC_WITHIN_TOLERANCE,10.0,coefficient__b_share_log,-0.0406432870761,-0.040643287076,False,aspirin,
+main,tables/main/T6b_BEERS_three_approach_long.csv,NUMERIC_WITHIN_TOLERANCE,52.0,coefficient,-0.0406432870761,-0.040643287076,False,aspirin,b_share_log
+main,tables/main/T6b_BEERS_three_approach_long.csv,NUMERIC_WITHIN_TOLERANCE,43.0,p_value,8.16135888955e-07,8.16135888956e-07,False,antidepressants,b_share_logit
+main,tables/main/T6b_BEERS_three_approach_long.csv,NUMERIC_WITHIN_TOLERANCE,82.0,p_value,9.67541333909e-16,9.67541333908e-16,False,metoclopramide,b_share_log
+main,tables/main/T6b_BEERS_three_approach_long.csv,NUMERIC_WITHIN_TOLERANCE,85.0,p_value,7.78654514347e-09,7.78654514348e-09,False,muscle_relaxants,b_share_logit
+main,tables/main/T6b_BEERS_three_approach_long.csv,NUMERIC_WITHIN_TOLERANCE,96.0,p_value,6.10144543139e-11,6.10144543138e-11,False,sulfonylureas,b_share_log
+main,tables/main/T6b_BEERS_three_approach_long.csv,NUMERIC_WITHIN_TOLERANCE,103.0,p_value,7.843635337260001e-26,7.84363533725e-26,False,zdrugs,b_share_logit

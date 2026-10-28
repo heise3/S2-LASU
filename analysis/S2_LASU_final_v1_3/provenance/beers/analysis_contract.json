@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-27T10:58:46.587398+00:00",
+  "status": "FROZEN_BEFORE_NEW_SHARE_RESULTS",
+  "numerators": "Frozen 33 included Table2 entries and nested long_su from S2_BEERS_precheck/tables/drug_filtered; no redefinition/volume filtering",
+  "denominators": "ATC second-level therapeutic groups; explicit unions for barbiturates/benzodiazepines/megestrol. Benchmark A10BB all SU as prior LASU. A denominator row counts once if any ingredient is in target class; combos not split. Retain all published denominator names, no low-volume threshold. Add each numerator row to denominator if ingredient classification misses it, record coverage exceptions; no outside therapeutic alternatives added post-fit.",
+  "classification": "NLM RxClass ATC ingredient members, trans=0; save version, members, official class labels and exact matching rules before models. Normalize punctuation and spaces, use ingredient-boundary name matches; targeted synonyms recorded before model. Unmapped names preserved.",
+  "outcome": "30-day fills; ge65 visible, lt65=total-ge65; positive paired state-age-year cells. log(share) requires 0<p<=1; logit requires 0<p<1, no pseudocount; boundary exclusions retained.",
+  "model": "old + old*(year-2013) + state*year FE; unweighted OLS; state-cluster CR1 full FE rank and t(G-1); same as original. No model tuning after outcomes.",
+  "comparators": "a original national-age-PY log-volume; b log-share and logit-share; c original raw state log-volume. Use original outputs, not enrollment estimates.",
+  "percentile": "100*(number of Table2 betas below long_su +0.5*ties)/33; ties isclose abs_tol=1e-12, Q=min(4,floor(percentile/25)+1); boundaries 25/50/75 assigned upper quartile. Reference benchmark excluded from 33.",
+  "decision": "INCLUDE iff all 33 Table2 betas and benchmark are estimable in each of a,b_log,b_logit,c and Q(a)==Q(b_log)==Q(b_logit)==Q(c). Otherwise DO_NOT_INCLUDE; no dropping entries to rescue percentile.",
+  "interpretation": "Age-group trend differences only; under65 PartD largely disability-based entitlement. No Beers policy effect or causal effect claim. ATC broad classes are not indication-matched alternatives.",
+  "sources": [
+    "https://lhncbc.nlm.nih.gov/RxNav/APIs/api-RxClass.getClassMembers.html",
+    "https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html"
+  ],
+  "user_rule": "same quartile across three approaches, both log and logit must satisfy"
+}

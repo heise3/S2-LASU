@@ -1,0 +1,195 @@
+specialty,n_prescribers,su_volume,long_volume,rank_by_SU,share_pct,is_endocrinology,display_top10_or_endocrine,year,age,scenario,SU_coverage_pct
+Internal Medicine,46411,10174261,4606922.8,1,45.2801712085,False,True,2019,all_age,primary,85.3249921557
+Family Practice,56831,10154633.9,4388870.4,2,43.2203705542,False,True,2019,all_age,primary,85.3249921557
+Nurse Practitioner,27961,2627421.9,1135137.8,3,43.2034839932,False,True,2019,all_age,primary,85.3249921557
+Endocrinology,4445,1676698,984092.8,4,58.6923107202,True,True,2019,all_age,primary,85.3249921557
+Physician Assistant,10413,1041962.4,432158.4,5,41.4754313591,False,True,2019,all_age,primary,85.3249921557
+General Practice,3995,961106,395110.6,6,41.10999203,False,True,2019,all_age,primary,85.3249921557
+Cardiology,1395,169045.7,87285.2,7,51.6340847475,False,True,2019,all_age,primary,85.3249921557
+Geriatric Medicine,1029,136016.6,47625.8,8,35.0146967355,False,True,2019,all_age,primary,85.3249921557
+Pharmacist,428,134654.4,13096.3,9,9.72586116755,False,True,2019,all_age,primary,85.3249921557
+Nephrology,1505,124559.9,42106.6,10,33.804298173,False,True,2019,all_age,primary,85.3249921557
+Emergency Medicine,675,105485.4,44598.8,11,42.2795950909,False,False,2019,all_age,primary,85.3249921557
+Pediatric Medicine,355,47149.2,19708.3,12,41.7998608672,False,False,2019,all_age,primary,85.3249921557
+Hospitalist,441,37092.4,14914.4,13,40.2087759218,False,False,2019,all_age,primary,85.3249921557
+Pulmonary Disease,374,36415.7,15266.1,14,41.9217535294,False,False,2019,all_age,primary,85.3249921557
+General Surgery,195,22967.1,8722.8,15,37.979544653,False,False,2019,all_age,primary,85.3249921557
+Student in an Organized Health Care Education/Training Program,480,19801.7,4789.3,16,24.1863072362,False,False,2019,all_age,primary,85.3249921557
+Infectious Disease,304,19196.9,7081.3,17,36.8877266642,False,False,2019,all_age,primary,85.3249921557
+Osteopathic Manipulative Medicine,126,17069.2,7511.3,18,44.0049914466,False,False,2019,all_age,primary,85.3249921557
+Gastroenterology,170,16879.9,5687.6,19,33.6945124082,False,False,2019,all_age,primary,85.3249921557
+Certified Clinical Nurse Specialist,121,13417.8,6896.3,20,51.3966522083,False,False,2019,all_age,primary,85.3249921557
+Hematology-Oncology,107,8206.9,3159.3,21,38.4956560943,False,False,2019,all_age,primary,85.3249921557
+Rheumatology,97,7905.6,2938.7,22,37.1723841328,False,False,2019,all_age,primary,85.3249921557
+Specialist,59,6818.8,3047.9,23,44.6984806711,False,False,2019,all_age,primary,85.3249921557
+Obstetrics & Gynecology,94,6123.8,2475.8,24,40.4291453019,False,False,2019,all_age,primary,85.3249921557
+Family Medicine,73,5924.8,1629.5,25,27.5030380772,False,False,2019,all_age,primary,85.3249921557
+Physical Medicine and Rehabilitation,93,4963.3,1825.2,26,36.773920577,False,False,2019,all_age,primary,85.3249921557
+Registered Nurse,48,4803.5,2328.2,27,48.4688248152,False,False,2019,all_age,primary,85.3249921557
+Psychiatry,140,3946.5,1235.1,28,31.2960851387,False,False,2019,all_age,primary,85.3249921557
+Critical Care (Intensivists),42,3664,1371.9,29,37.4426855895,False,False,2019,all_age,primary,85.3249921557
+Preventive Medicine,43,3403.7,947.6,30,27.8402914475,False,False,2019,all_age,primary,85.3249921557
+Allergy/ Immunology,30,3117.5,1726.3,31,55.3744987971,False,False,2019,all_age,primary,85.3249921557
+Interventional Cardiology,53,3063.2,1172,32,38.2606424654,False,False,2019,all_age,primary,85.3249921557
+Legal Medicine,18,3016.7,1198.5,33,39.7288427752,False,False,2019,all_age,primary,85.3249921557
+Clinic/Center,11,2761.2,926.6,34,33.5578733884,False,False,2019,all_age,primary,85.3249921557
+Neurology,60,2702.9,1022,35,37.8112397795,False,False,2019,all_age,primary,85.3249921557
+Community Health Worker,2,2447.3,767.9,36,31.3774363584,False,False,2019,all_age,primary,85.3249921557
+Hospice and Palliative Care,55,2385.8,801.6,37,33.5987928577,False,False,2019,all_age,primary,85.3249921557
+Diagnostic Radiology,14,1903.3,928.5,38,48.7836914832,False,False,2019,all_age,primary,85.3249921557
+Sports Medicine,23,1769.7,527.5,39,29.8073119738,False,False,2019,all_age,primary,85.3249921557
+Clinic or Group Practice,11,1742.1,773,40,44.371735262,False,False,2019,all_age,primary,85.3249921557
+Interventional Pain Management,9,1697.1,914.8,41,53.9037181074,False,False,2019,all_age,primary,85.3249921557
+Anesthesiology,29,1421.4,206,42,14.4927536232,False,False,2019,all_age,primary,85.3249921557
+"Medical Genetics, Ph.D. Medical Genetics",6,1320,340,43,25.7575757576,False,False,2019,all_age,primary,85.3249921557
+Addiction Medicine,18,1296.6,625.1,44,48.2107049206,False,False,2019,all_age,primary,85.3249921557
+Pathology,7,1284.7,366.7,45,28.5436288628,False,False,2019,all_age,primary,85.3249921557
+Interventional Radiology,5,1195.6,501,46,41.9036467046,False,False,2019,all_age,primary,85.3249921557
+Pain Management,10,1107.5,616.1,47,55.6297968397,False,False,2019,all_age,primary,85.3249921557
+Otolaryngology,14,997,329.2,48,33.0190571715,False,False,2019,all_age,primary,85.3249921557
+Nuclear Medicine,10,966.5,405.2,49,41.9244697362,False,False,2019,all_age,primary,85.3249921557
+Medical Oncology,22,939.5,321.2,50,34.1883980841,False,False,2019,all_age,primary,85.3249921557
+Vascular Surgery,6,895.6,315,51,35.1719517642,False,False,2019,all_age,primary,85.3249921557
+Dentist,21,646.1,301.2,52,46.6181705618,False,False,2019,all_age,primary,85.3249921557
+Psychiatry & Neurology,23,622.3,248.8,53,39.9807166961,False,False,2019,all_age,primary,85.3249921557
+Dermatology,9,612.5,169.8,54,27.7224489796,False,False,2019,all_age,primary,85.3249921557
+Geriatric Psychiatry,4,609.9,370.5,55,60.7476635514,False,False,2019,all_age,primary,85.3249921557
+Personal Emergency Response Attendant,5,558.5,182.5,56,32.6768128917,False,False,2019,all_age,primary,85.3249921557
+Cardiac Surgery,7,529.6,326.6,57,61.66918429,False,False,2019,all_age,primary,85.3249921557
+Thoracic Surgery,9,480.5,58,58,12.0707596254,False,False,2019,all_age,primary,85.3249921557
+General Acute Care Hospital,12,468,182.2,59,38.9316239316,False,False,2019,all_age,primary,85.3249921557
+Naturopath,3,423.9,278,60,65.581505072,False,False,2019,all_age,primary,85.3249921557
+Neurosurgery,5,417.3,79,61,18.9312245387,False,False,2019,all_age,primary,85.3249921557
+Licensed Practical Nurse,4,414,72,62,17.3913043478,False,False,2019,all_age,primary,85.3249921557
+Sleep Medicine,6,391.9,174.6,63,44.552181679,False,False,2019,all_age,primary,85.3249921557
+Urology,9,370.2,120,64,32.414910859,False,False,2019,all_age,primary,85.3249921557
+Certified Nurse Midwife,8,361.3,54,65,14.9460282314,False,False,2019,all_age,primary,85.3249921557
+Clinical Cardiac Electrophysiology,10,298.2,93.2,66,31.2541918176,False,False,2019,all_age,primary,85.3249921557
+Orthopedic Surgery,14,292.8,91,67,31.0792349727,False,False,2019,all_age,primary,85.3249921557
+Plastic and Reconstructive Surgery,5,245,29,68,11.8367346939,False,False,2019,all_age,primary,85.3249921557
+Ophthalmology,10,243.5,178.5,69,73.3059548255,False,False,2019,all_age,primary,85.3249921557
+Adult Companion,1,177.6,0,70,0,False,False,2019,all_age,primary,85.3249921557
+Orthopaedic Surgery,3,167.3,84.3,71,50.3885236103,False,False,2019,all_age,primary,85.3249921557
+Advanced Heart Failure and Transplant Cardiology,5,164,68,72,41.4634146341,False,False,2019,all_age,primary,85.3249921557
+Pain Medicine,2,152,0,73,0,False,False,2019,all_age,primary,85.3249921557
+Neuropsychiatry,7,150,49,74,32.6666666667,False,False,2019,all_age,primary,85.3249921557
+Radiation Oncology,4,135,13,75,9.62962962963,False,False,2019,all_age,primary,85.3249921557
+Undefined Physician type,5,128.9,15,76,11.636927851,False,False,2019,all_age,primary,85.3249921557
+Health Maintenance Organization,1,109,63,77,57.7981651376,False,False,2019,all_age,primary,85.3249921557
+"Specialist/Technologist, Health Information",1,88,0,78,0,False,False,2019,all_age,primary,85.3249921557
+Neurological Surgery,2,88,75,79,85.2272727273,False,False,2019,all_age,primary,85.3249921557
+Colorectal Surgery (Proctology),1,82,40,80,48.7804878049,False,False,2019,all_age,primary,85.3249921557
+Peripheral Vascular Disease,2,75,41,81,54.6666666667,False,False,2019,all_age,primary,85.3249921557
+Thoracic Surgery (Cardiothoracic Vascular Surgery),2,69,45,82,65.2173913043,False,False,2019,all_age,primary,85.3249921557
+Licensed Clinical Social Worker,1,48.5,13,83,26.8041237113,False,False,2019,all_age,primary,85.3249921557
+Optometry,4,48.2,12,84,24.8962655602,False,False,2019,all_age,primary,85.3249921557
+Acupuncturist,2,48,0,85,0,False,False,2019,all_age,primary,85.3249921557
+"Emergency Medical Technician, Paramedic",1,46,0,86,0,False,False,2019,all_age,primary,85.3249921557
+Chiropractic,1,40,0,87,0,False,False,2019,all_age,primary,85.3249921557
+Homeopath,1,39,39,88,100,False,False,2019,all_age,primary,85.3249921557
+Physical Therapy Assistant,1,36,21,89,58.3333333333,False,False,2019,all_age,primary,85.3249921557
+Hematology,2,36,11,90,30.5555555556,False,False,2019,all_age,primary,85.3249921557
+Hospital,1,36,0,91,0,False,False,2019,all_age,primary,85.3249921557
+Preferred Provider Organization,1,33,0,92,0,False,False,2019,all_age,primary,85.3249921557
+Military Health Care Provider,1,25.1,25.1,93,100,False,False,2019,all_age,primary,85.3249921557
+Podiatry,2,24,13,94,54.1666666667,False,False,2019,all_age,primary,85.3249921557
+Plastic Surgery,2,24,12,95,50,False,False,2019,all_age,primary,85.3249921557
+Oral Surgery (Dentist only),1,20,0,96,0,False,False,2019,all_age,primary,85.3249921557
+Hand Surgery,1,17,0,97,0,False,False,2019,all_age,primary,85.3249921557
+Other Clinic/Center,1,16,0,98,0,False,False,2019,all_age,primary,85.3249921557
+"Psychologist, Clinical",1,13,0,99,0,False,False,2019,all_age,primary,85.3249921557
+Clinical Neuropsychologist,1,12,0,100,0,False,False,2019,all_age,primary,85.3249921557
+Maxillofacial Surgery,1,11,0,101,0,False,False,2019,all_age,primary,85.3249921557
+Family Practice,51517,9440482.1,3469691.5,1,36.7533295784,False,True,2024,all_age,primary,84.8714015448
+Internal Medicine,38166,8124386.8,3292005.8,2,40.5200525411,False,True,2024,all_age,primary,84.8714015448
+Nurse Practitioner,36881,4152300.3,1478676.4,3,35.6110178255,False,True,2024,all_age,primary,84.8714015448
+Endocrinology,4494,1696887.5,838348.7,4,49.4050843088,True,True,2024,all_age,primary,84.8714015448
+Physician Assistant,11548,1306330.1,459463.2,5,35.1720594971,False,True,2024,all_age,primary,84.8714015448
+General Practice,3514,937468.1,372784.4,6,39.7650224045,False,True,2024,all_age,primary,84.8714015448
+Pharmacist,606,197165.4,14916.6,7,7.56552620287,False,True,2024,all_age,primary,84.8714015448
+Cardiology,786,99790.3,48854,8,48.9566621205,False,True,2024,all_age,primary,84.8714015448
+Geriatric Medicine,738,99227.9,33685.4,9,33.9475087148,False,True,2024,all_age,primary,84.8714015448
+Nephrology,1139,94573.7,27218.1,10,28.7797770416,False,True,2024,all_age,primary,84.8714015448
+Emergency Medicine,534,76363.4,26975.7,11,35.3254307692,False,False,2024,all_age,primary,84.8714015448
+Hospitalist,574,60444.9,17543.5,12,29.0239540474,False,False,2024,all_age,primary,84.8714015448
+Pediatric Medicine,275,37416.1,15330.8,13,40.9738053939,False,False,2024,all_age,primary,84.8714015448
+Osteopathic Manipulative Medicine,112,19285,7177.9,14,37.2201192637,False,False,2024,all_age,primary,84.8714015448
+Pulmonary Disease,195,18850.3,7785.1,15,41.2996079638,False,False,2024,all_age,primary,84.8714015448
+Certified Clinical Nurse Specialist,94,14603.1,6206.4,16,42.5005649485,False,False,2024,all_age,primary,84.8714015448
+General Surgery,106,12834.6,5627.7,17,43.8478799495,False,False,2024,all_age,primary,84.8714015448
+Student in an Organized Health Care Education/Training Program,218,11666.2,1736.5,18,14.8848811095,False,False,2024,all_age,primary,84.8714015448
+Infectious Disease,169,11273.7,4408.6,19,39.105173989,False,False,2024,all_age,primary,84.8714015448
+Gastroenterology,77,10056.5,2963.4,20,29.4675085765,False,False,2024,all_age,primary,84.8714015448
+Specialist,41,6701.7,3046.2,21,45.4541385022,False,False,2024,all_age,primary,84.8714015448
+Hospice and Palliative Care,70,5469.1,1200.7,22,21.9542520707,False,False,2024,all_age,primary,84.8714015448
+Obstetrics & Gynecology,60,5082.4,2104.9,23,41.4154730049,False,False,2024,all_age,primary,84.8714015448
+Preventive Medicine,36,4279.3,991.5,24,23.1696772837,False,False,2024,all_age,primary,84.8714015448
+Hematology-Oncology,47,4246,1516.1,25,35.7065473387,False,False,2024,all_age,primary,84.8714015448
+Family Medicine,52,4211.6,1207.9,26,28.6803115206,False,False,2024,all_age,primary,84.8714015448
+Physical Medicine and Rehabilitation,72,3581.3,1144.2,27,31.9492921565,False,False,2024,all_age,primary,84.8714015448
+Interventional Cardiology,57,3498.8,1555.3,28,44.4523836744,False,False,2024,all_age,primary,84.8714015448
+Registered Nurse,36,3439,920.4,29,26.763594068,False,False,2024,all_age,primary,84.8714015448
+Sports Medicine,38,3215.8,1113.6,30,34.6290192176,False,False,2024,all_age,primary,84.8714015448
+Clinic/Center,11,2978.3,1219,31,40.9293892489,False,False,2024,all_age,primary,84.8714015448
+Addiction Medicine,15,2816.3,1426.9,32,50.6657671413,False,False,2024,all_age,primary,84.8714015448
+Rheumatology,42,2715.7,1322.4,33,48.6946275362,False,False,2024,all_age,primary,84.8714015448
+Legal Medicine,8,2668.3,510,34,19.113293108,False,False,2024,all_age,primary,84.8714015448
+Psychiatry,66,1907,391.8,35,20.5453592029,False,False,2024,all_age,primary,84.8714015448
+Critical Care (Intensivists),26,1642.2,713.3,36,43.4356351236,False,False,2024,all_age,primary,84.8714015448
+Neurology,35,1603.6,413.7,37,25.7982040409,False,False,2024,all_age,primary,84.8714015448
+Allergy/ Immunology,20,1573.3,635.4,38,40.3864488654,False,False,2024,all_age,primary,84.8714015448
+Sleep Medicine,8,1347.3,475.6,39,35.3002300898,False,False,2024,all_age,primary,84.8714015448
+Clinic or Group Practice,3,1204.3,379,40,31.470563813,False,False,2024,all_age,primary,84.8714015448
+Anesthesiology,13,892.5,156,41,17.4789915966,False,False,2024,all_age,primary,84.8714015448
+Medical Oncology,12,781.2,199.7,42,25.5632360471,False,False,2024,all_age,primary,84.8714015448
+Naturopath,10,711,281,43,39.5218002813,False,False,2024,all_age,primary,84.8714015448
+Personal Emergency Response Attendant,4,698.2,483,44,69.1778859926,False,False,2024,all_age,primary,84.8714015448
+Diagnostic Radiology,8,678.4,180,45,26.5330188679,False,False,2024,all_age,primary,84.8714015448
+Vascular Surgery,7,672.2,200,46,29.7530496876,False,False,2024,all_age,primary,84.8714015448
+Psychiatry & Neurology,21,657.4,298.9,47,45.4669911774,False,False,2024,all_age,primary,84.8714015448
+Radiation Oncology,5,646.2,301,48,46.58000619,False,False,2024,all_age,primary,84.8714015448
+Licensed Practical Nurse,3,623,82,49,13.1621187801,False,False,2024,all_age,primary,84.8714015448
+Dermatology,7,524.6,80,50,15.2497140679,False,False,2024,all_age,primary,84.8714015448
+"Medical Genetics, Ph.D. Medical Genetics",3,515,242,51,46.9902912621,False,False,2024,all_age,primary,84.8714015448
+Medical Genetics and Genomics,1,458,75.7,52,16.5283842795,False,False,2024,all_age,primary,84.8714015448
+Undefined Physician type,4,454,56,53,12.3348017621,False,False,2024,all_age,primary,84.8714015448
+Pharmacy,3,451.6,45.3,54,10.0310008857,False,False,2024,all_age,primary,84.8714015448
+Pain Management,6,442.4,209,55,47.2423146474,False,False,2024,all_age,primary,84.8714015448
+Geriatric Psychiatry,1,432.3,197,56,45.5702058755,False,False,2024,all_age,primary,84.8714015448
+Otolaryngology,3,390.2,250,57,64.0697078421,False,False,2024,all_age,primary,84.8714015448
+Chiropractic,2,375,111.5,58,29.7333333333,False,False,2024,all_age,primary,84.8714015448
+Orthopaedic Surgery,2,357.7,156.2,59,43.6678781101,False,False,2024,all_age,primary,84.8714015448
+Urology,8,345.1,26,60,7.534048102,False,False,2024,all_age,primary,84.8714015448
+Cardiac Surgery,5,342.3,158.3,61,46.2459830558,False,False,2024,all_age,primary,84.8714015448
+Behavior Analyst,1,298.6,41,62,13.7307434695,False,False,2024,all_age,primary,84.8714015448
+Orthopedic Surgery,10,259,73.3,63,28.3011583012,False,False,2024,all_age,primary,84.8714015448
+Podiatry,3,237,12,64,5.06329113924,False,False,2024,all_age,primary,84.8714015448
+Clinical Cardiac Electrophysiology,4,236.6,151,65,63.82079459,False,False,2024,all_age,primary,84.8714015448
+Nuclear Medicine,6,236.3,146,66,61.7858654253,False,False,2024,all_age,primary,84.8714015448
+Thoracic Surgery,4,231.2,61,67,26.384083045,False,False,2024,all_age,primary,84.8714015448
+Pathology,8,229,47,68,20.5240174672,False,False,2024,all_age,primary,84.8714015448
+Colon & Rectal Surgery,1,214.7,80.7,69,37.5873311598,False,False,2024,all_age,primary,84.8714015448
+Plastic and Reconstructive Surgery,3,190,0,70,0,False,False,2024,all_age,primary,84.8714015448
+Interventional Pain Management,3,172,78,71,45.3488372093,False,False,2024,all_age,primary,84.8714015448
+Contractor,1,165,43,72,26.0606060606,False,False,2024,all_age,primary,84.8714015448
+Advanced Heart Failure and Transplant Cardiology,4,150.7,0,73,0,False,False,2024,all_age,primary,84.8714015448
+Ophthalmology,7,150,22,74,14.6666666667,False,False,2024,all_age,primary,84.8714015448
+Health Maintenance Organization,1,122,49,75,40.1639344262,False,False,2024,all_age,primary,84.8714015448
+Community Health Worker,1,120,18,76,15,False,False,2024,all_age,primary,84.8714015448
+Dentist,4,113.2,0,77,0,False,False,2024,all_age,primary,84.8714015448
+General Acute Care Hospital,1,98,29,78,29.5918367347,False,False,2024,all_age,primary,84.8714015448
+Certified Nurse Midwife,3,97,29,79,29.8969072165,False,False,2024,all_age,primary,84.8714015448
+Neurosurgery,1,90,0,80,0,False,False,2024,all_age,primary,84.8714015448
+Licensed Professional Counselor,1,88,0,81,0,False,False,2024,all_age,primary,84.8714015448
+Peripheral Vascular Disease,1,82,35,82,42.6829268293,False,False,2024,all_age,primary,84.8714015448
+Interventional Radiology,1,76,42,83,55.2631578947,False,False,2024,all_age,primary,84.8714015448
+Case Manager/Care Coordinator,1,34.6,0,84,0,False,False,2024,all_age,primary,84.8714015448
+Acupuncturist,1,31,19,85,61.2903225806,False,False,2024,all_age,primary,84.8714015448
+Optometry,2,29,11,86,37.9310344828,False,False,2024,all_age,primary,84.8714015448
+Hematology,2,27,0,87,0,False,False,2024,all_age,primary,84.8714015448
+Plastic Surgery,1,13,0,88,0,False,False,2024,all_age,primary,84.8714015448
+Surgery,1,12,0,89,0,False,False,2024,all_age,primary,84.8714015448
+Thoracic Surgery (Cardiothoracic Vascular Surgery),1,12,0,90,0,False,False,2024,all_age,primary,84.8714015448
+Rehabilitation Practitioner,1,12,12,91,100,False,False,2024,all_age,primary,84.8714015448
+Colorectal Surgery (Proctology),1,12,12,92,100,False,False,2024,all_age,primary,84.8714015448
+Neuropsychiatry,1,11,11,93,100,False,False,2024,all_age,primary,84.8714015448

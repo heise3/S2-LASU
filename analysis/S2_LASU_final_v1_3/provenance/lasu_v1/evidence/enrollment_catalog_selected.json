@@ -1,0 +1,1699 @@
+[
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/1829fdb3-a6f9-4036-856a-3af1f7828c8c/data-viewer",
+    "@type": "Dataset",
+    "title": "Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+    "description": "The Health Insurance Exchanges Monthly Effectuated Enrollment data provide select metrics on monthly effectuated enrollment across the Federally Facilitated Exchange (FFE) and State‑Based Exchanges on the Federal Platform (SBE‑FPs), which both use the federal enrollment platform (HealthCare.gov), as well as State‑Based Exchanges (SBEs) that operate their own eligibility and enrollment platforms. These metrics include effectuated enrollment counts by state, exchange platform type, year and month.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "Marketplace - CCIIO",
+      "hasEmail": "mailto:CCIIOwebpages@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/1829fdb3-a6f9-4036-856a-3af1f7828c8c/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2026-06-26",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2026-02-01",
+        "endDate": "2026-02-28"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Health Insurance Exchanges Monthly Effectuated Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/health-insurance-marketplace/health-insurance-exchanges-monthly-effectuated-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/health-insurance-exchanges-monthly-effectuated-enrollment-data-dictionary"
+    },
+    "keyword": [
+      "Health Insurance Marketplace",
+      "Federally Facilitated Exchanges",
+      "State Based Exchanges",
+      "Beneficiary Enrollment"
+    ],
+    "theme": [
+      "Health Insurance Marketplace"
+    ],
+    "accrualPeriodicity": "monthly",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/health-insurance-exchanges-monthly-effectuated-enrollment-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/1829fdb3-a6f9-4036-856a-3af1f7828c8c/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/1829fdb3-a6f9-4036-856a-3af1f7828c8c",
+        "description": "latest",
+        "title": "Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/1829fdb3-a6f9-4036-856a-3af1f7828c8c/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-06-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-28"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-06/f4dc299e-e04d-49af-8224-35b47f309735/Health%20Insurance%20Exchanges%20Monthly%20Effectuated%20Enrollment%20Data_asof_20260505.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/90d41853-9bbc-449c-87c7-5dcb39789de1",
+        "title": "Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/90d41853-9bbc-449c-87c7-5dcb39789de1/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-06-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-28"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/90d41853-9bbc-449c-87c7-5dcb39789de1/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/90d41853-9bbc-449c-87c7-5dcb39789de1",
+        "title": "Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Health Insurance Exchanges Monthly Effectuated Enrollment : 2026-02-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/90d41853-9bbc-449c-87c7-5dcb39789de1/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-06-26",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-28"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/1829fdb3-a6f9-4036-856a-3af1f7828c8c/data",
+        "@type": "DatasetSeries",
+        "title": "Health Insurance Exchanges Monthly Effectuated Enrollment",
+        "description": "The Health Insurance Exchanges Monthly Effectuated Enrollment data provide select metrics on monthly effectuated enrollment across the Federally Facilitated Exchange (FFE) and State‑Based Exchanges on the Federal Platform (SBE‑FPs), which both use the federal enrollment platform (HealthCare.gov), as well as State‑Based Exchanges (SBEs) that operate their own eligibility and enrollment platforms. These metrics include effectuated enrollment counts by state, exchange platform type, year and month.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "Marketplace - CCIIO",
+            "hasEmail": "mailto:CCIIOwebpages@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/1829fdb3-a6f9-4036-856a-3af1f7828c8c/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/adaca380-da17-4168-b2de-5779e48d969e/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2013-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/adaca380-da17-4168-b2de-5779e48d969e/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2013-01-01",
+        "endDate": "2013-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2013-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL_2.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/adaca380-da17-4168-b2de-5779e48d969e",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2013-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2013-01-01",
+            "endDate": "2013-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/ffb5fe92-a8a8-4b77-acf2-36fa62fa6bfa/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2014-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/ffb5fe92-a8a8-4b77-acf2-36fa62fa6bfa/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2014-01-01",
+        "endDate": "2014-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2014-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL_1.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/ffb5fe92-a8a8-4b77-acf2-36fa62fa6bfa",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2014-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2014-01-01",
+            "endDate": "2014-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/822b230b-ab2c-4f91-8591-169a5d056b9f/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2015-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/822b230b-ab2c-4f91-8591-169a5d056b9f/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2015-01-01",
+        "endDate": "2015-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2015-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL_0.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/822b230b-ab2c-4f91-8591-169a5d056b9f",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2015-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2015-01-01",
+            "endDate": "2015-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/78439d05-e8fd-4bdd-a3f5-613f0b9de781/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2016-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/78439d05-e8fd-4bdd-a3f5-613f0b9de781/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2016-01-01",
+        "endDate": "2016-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2016-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2020-01/CPS_MDCR_ENROLL_D_ALL.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/78439d05-e8fd-4bdd-a3f5-613f0b9de781",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2016-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2016-01-01",
+            "endDate": "2016-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/67ddfd83-be7c-414d-a194-cc70250d1d8d/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2017-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/67ddfd83-be7c-414d-a194-cc70250d1d8d/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2017-01-01",
+        "endDate": "2017-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2017-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2019-12/CPS_MDCR_ENROLL_D_2017.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/67ddfd83-be7c-414d-a194-cc70250d1d8d",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2017-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2017-01-01",
+            "endDate": "2017-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/123dd60a-acd9-4066-b9ed-f47893e86aad/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2018-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/123dd60a-acd9-4066-b9ed-f47893e86aad/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2018-01-01",
+        "endDate": "2018-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2018-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2021-01/CPS%20MDCR%20TOTAL%20ENROLL%20D.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/123dd60a-acd9-4066-b9ed-f47893e86aad",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2018-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2018-01-01",
+            "endDate": "2018-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/5f9e4acd-5996-4ebe-8ffc-0a33ed0d3c8f/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2019-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/5f9e4acd-5996-4ebe-8ffc-0a33ed0d3c8f/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2019-01-01",
+        "endDate": "2019-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2019-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2021-01/CPS_MDCR_ENROLL_D_1-3.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/5f9e4acd-5996-4ebe-8ffc-0a33ed0d3c8f",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2019-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2019-01-01",
+            "endDate": "2019-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/af0582a1-3706-405b-b974-cf0231f9be17/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2020-12-31",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/af0582a1-3706-405b-b974-cf0231f9be17/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-05-14",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2020-01-01",
+        "endDate": "2020-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2020-12-31 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2022-02/CPS%20MDCR%20ENROLL%20D%202020.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/af0582a1-3706-405b-b974-cf0231f9be17",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2020-12-31",
+        "modified": "2025-05-14",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/c62d1526-12b2-40ed-a8c0-446dc71d5f2a/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2021-01-01",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/c62d1526-12b2-40ed-a8c0-446dc71d5f2a/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-09-08",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2021-01-01",
+        "endDate": "2021-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2021-01-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2023-02/CPS%20MDCR%20ENROLL%20D%202021.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/c62d1526-12b2-40ed-a8c0-446dc71d5f2a",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2021-01-01",
+        "modified": "2025-09-08",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2021-01-01",
+            "endDate": "2021-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/89fb5d47-a17b-4cb9-ae3b-bdeb984119ec/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2022-01-01",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/89fb5d47-a17b-4cb9-ae3b-bdeb984119ec/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-09-30",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2022-01-01",
+        "endDate": "2022-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2022-01-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2025-09/3b6620c9-ee79-4472-8fef-a234638070c5/MDCR%20ENROLL%20D_CPS_03EPD_2022.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/89fb5d47-a17b-4cb9-ae3b-bdeb984119ec",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2022-01-01",
+        "modified": "2025-09-30",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2022-01-01",
+            "endDate": "2022-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/96ae3f16-9e68-4f58-a604-a61abbb71b38/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2023-01-01",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/96ae3f16-9e68-4f58-a604-a61abbb71b38/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2025-09-30",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2023-01-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2025-09/c0458b01-5731-43b4-a45c-16944a8253e7/MDCR%20ENROLL%20D_CPS_03EPD_2023.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/96ae3f16-9e68-4f58-a604-a61abbb71b38",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2023-01-01",
+        "modified": "2025-09-30",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2023-01-01",
+            "endDate": "2023-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/81d3fe8f-0f30-40c0-882b-6c917cd89611/data-viewer",
+    "@type": "Dataset",
+    "title": "CMS Program Statistics - Medicare Part D Enrollment : 2024-01-01",
+    "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/81d3fe8f-0f30-40c0-882b-6c917cd89611/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2026-09-30",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/cms-program-statistics-medicare-part-d-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "CMS Program Statistics - Medicare Part D Enrollment : 2024-01-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/cms-program-statistics-glossary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "annually",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/cms-program-statistics-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-09/34722ca9-3ac4-47fa-87b9-0b7856a51d7d/MDCR%20ENROLL%20D_CPS_03EPD_2024.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/81d3fe8f-0f30-40c0-882b-6c917cd89611",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment : 2024-01-01",
+        "modified": "2026-09-30",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2024-01-01",
+            "endDate": "2024-12-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data",
+        "@type": "DatasetSeries",
+        "title": "CMS Program Statistics - Medicare Part D Enrollment",
+        "description": "The CMS Program Statistics - Medicare Part D Enrollment tables provide data on characteristics of the Medicare Part D covered population. For additional information on enrollment, providers, and Medicare use and payment, visit the CMS Program Statistics page. Below is the list of tables: MDCR ENROLL D 1. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, Yearly Trend MDCR ENROLL D 2. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Demographic Characteristics MDCR ENROLL D 3. Medicare Part D Enrollment: Part D Enrollees by Type of Plan, Low Income Subsidy (LIS), and Retiree Drug Subsidy, by Area of Residence",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d8c69aca-2497-4a83-a181-706a960c77f0/data"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/data-viewer",
+    "@type": "Dataset",
+    "title": "Medicare Monthly Enrollment : 2026-07-01",
+    "description": "The Medicare Monthly Enrollment data provides current monthly information on the number of Medicare beneficiaries with hospital/medical coverage and prescription drug coverage, available for several geographic areas including national, state/territory, and county. The hospital/medical coverage data can be broken down further by health care delivery (Original Medicare versus Medicare Advantage and Other Health Plans) and the prescription drug coverage data can be examined by those enrolled in stand-alone Prescription Drug Plans and those enrolled in Medicare Advantage Prescription Drug plans. The dataset provides monthly and yearly enrollee trends.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Office of Enterprise Data and Analytics (OEDA)",
+      "subOrganizationOf": [
+        {
+          "@type": "Organization",
+          "name": "Centers for Medicare and Medicaid Services (CMS)"
+        }
+      ]
+    },
+    "contactPoint": {
+      "@type": "Kind",
+      "fn": "CMS Program Statistics - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/data-viewer",
+    "accessRights": "public",
+    "sourceSite": "data.cms.gov",
+    "sourceCatalog": "https://data.cms.gov/data.json",
+    "modified": "2026-10-22",
+    "language": [
+      "en"
+    ],
+    "temporal": [
+      {
+        "@type": "PeriodOfTime",
+        "startDate": "2026-07-01",
+        "endDate": "2026-07-31"
+      }
+    ],
+    "landingPage": {
+      "@type": "Document",
+      "title": "Medicare Monthly Enrollment",
+      "accessURL": "https://data.cms.gov/summary-statistics-on-beneficiary-enrollment/medicare-and-medicaid-reports/medicare-monthly-enrollment"
+    },
+    "describedBy": {
+      "@type": "Distribution",
+      "title": "Medicare Monthly Enrollment : 2026-07-01 data dictionary",
+      "downloadURL": "https://data.cms.gov/resources/medicare-monthly-enrollment-data-dictionary"
+    },
+    "keyword": [
+      "National",
+      "States & Territories",
+      "Counties",
+      "Medicare",
+      "Original Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "Beneficiary Enrollment",
+      "Health Equity"
+    ],
+    "theme": [
+      "Medicare"
+    ],
+    "accrualPeriodicity": "monthly",
+    "accessLevel": "public",
+    "bureauCode": [
+      "009:38"
+    ],
+    "programCode": [
+      "009:000"
+    ],
+    "references": [
+      "https://data.cms.gov/resources/medicare-monthly-enrollment-methodology"
+    ],
+    "distribution": [
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/d7fabe1e-d19b-4333-9eff-e80e0643f2fd",
+        "description": "latest",
+        "title": "Medicare Monthly Enrollment : 2026-07-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Monthly Enrollment : 2026-07-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-10-22",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-07-01",
+            "endDate": "2026-07-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-10/c41a8ac2-8229-4f3b-a4cb-423d9cd5328a/Medicare%20Monthly%20Enrollment%20Data_July%202026.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/cf1be15c-b102-4735-9bb1-1f5db074b76d",
+        "title": "Medicare Monthly Enrollment : 2026-07-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Monthly Enrollment : 2026-07-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/cf1be15c-b102-4735-9bb1-1f5db074b76d/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-10-22",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-07-01",
+            "endDate": "2026-07-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      },
+      {
+        "@type": "Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/cf1be15c-b102-4735-9bb1-1f5db074b76d/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/cf1be15c-b102-4735-9bb1-1f5db074b76d",
+        "title": "Medicare Monthly Enrollment : 2026-07-01",
+        "describedBy": {
+          "@type": "Distribution",
+          "title": "Data dictionary for Medicare Monthly Enrollment : 2026-07-01",
+          "downloadURL": "https://data.cms.gov/data-api/v1/dataset/cf1be15c-b102-4735-9bb1-1f5db074b76d/dictionary",
+          "mediaType": "application/json"
+        },
+        "modified": "2026-10-22",
+        "temporal": [
+          {
+            "@type": "PeriodOfTime",
+            "startDate": "2026-07-01",
+            "endDate": "2026-07-31"
+          }
+        ],
+        "license": "https://www.usa.gov/government-works"
+      }
+    ],
+    "inSeries": [
+      {
+        "@id": "https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/data",
+        "@type": "DatasetSeries",
+        "title": "Medicare Monthly Enrollment",
+        "description": "The Medicare Monthly Enrollment data provides current monthly information on the number of Medicare beneficiaries with hospital/medical coverage and prescription drug coverage, available for several geographic areas including national, state/territory, and county. The hospital/medical coverage data can be broken down further by health care delivery (Original Medicare versus Medicare Advantage and Other Health Plans) and the prescription drug coverage data can be examined by those enrolled in stand-alone Prescription Drug Plans and those enrolled in Medicare Advantage Prescription Drug plans. The dataset provides monthly and yearly enrollee trends.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Office of Enterprise Data and Analytics (OEDA)",
+          "subOrganizationOf": [
+            {
+              "@type": "Organization",
+              "name": "Centers for Medicare and Medicaid Services (CMS)"
+            }
+          ]
+        },
+        "contactPoint": [
+          {
+            "@type": "Kind",
+            "fn": "CMS Program Statistics - OEDA",
+            "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+          }
+        ],
+        "identifier": "https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/data"
+      }
+    ]
+  }
+]

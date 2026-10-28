@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "model2_interaction_pp_per_year": 0.5742708027564709,
+  "ci_low": 0.4433564122957887,
+  "ci_high": 0.7051851932171531,
+  "n_states": 50,
+  "n_cells": 1200,
+  "national_age_gap_slope_pp_per_year": 0.4869744705622206,
+  "states_old_above_young": 48,
+  "states_robust_old_above_young": 47,
+  "state_total": 50,
+  "rule": "User-prespecified direction + state-cluster 95% CI rule; numerical zero 1e-8 pp/year"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "v1.3",
+  "package": "S2_LASU_final_v1_3",
+  "date": "2026-10-27",
+  "status_file": "STATUS.json",
+  "scope": "Freeze verified statistical recomputation, completed reproduction entry and audit; no new models or manuscript during freeze",
+  "source_project": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2",
+  "previous_version": "S2_LASU_final_v1_2",
+  "previous_version_preserved": true,
+  "source_reproduction_workspace": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027",
+  "source_reproduction_audit": "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_audit_20261027",
+  "source_reproduction_status": "PASS",
+  "created_utc": "2026-10-27T13:20:44.704921+00:00"
+}

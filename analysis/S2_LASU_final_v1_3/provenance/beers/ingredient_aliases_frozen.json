@@ -1,0 +1,29 @@
+{
+  "insulin aspart human": [
+    "insulin aspart"
+  ],
+  "insulin lispro human": [
+    "insulin lispro"
+  ],
+  "insulin glulisine human": [
+    "insulin glulisine"
+  ],
+  "insulin regular human": [
+    "insulin regular"
+  ],
+  "nph insulin human": [
+    "insulin nph"
+  ],
+  "nph insulin pork": [
+    "insulin nph"
+  ],
+  "glyburide": [
+    "glibenclamide"
+  ],
+  "meperidine": [
+    "pethidine"
+  ],
+  "aspirin": [
+    "acetylsalicylic acid"
+  ]
+}

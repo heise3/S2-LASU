@@ -1,0 +1,4 @@
+year,family,n_published_rows,published_union_lower,published_union_upper,possible_duplicate_excess_max,largest_row_generic,largest_row_brand,combination_row_count,combination_beneficiary_row_sum,lower_per1000_enrollee_py,upper_per1000_enrollee_py,scope
+2024,glimepiride,2,1061523,1062570,1047,Glimepiride,Glimepiride,1,1047,21.9146254009,21.936240206,union of these published rows only; not a bound on omitted entire products
+2024,glyburide,3,51784,68026,16242,Glyburide,Glyburide,1,14476,1.06905546254,1.40436364311,union of these published rows only; not a bound on omitted entire products
+2024,long,5,1061523,1130596,69073,Glimepiride,Glimepiride,2,15523,21.9146254009,23.3406038491,union of these published rows only; not a bound on omitted entire products

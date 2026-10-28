@@ -1,0 +1,5 @@
+year,visibility_group,n_prescribers,all_age_SU_sum,all_age_SU_mean,visible_but_zero_n,p1_all_age_SU,p10_all_age_SU,p25_all_age_SU,p50_all_age_SU,p75_all_age_SU,p90_all_age_SU,p99_all_age_SU
+2019,at_least_one_GE65_value,115048,22991498.8,199.842663932,1718,12,28,56,131,267,454.43,1014.4
+2019,no_GE65_values,44041,4648272.5,105.544208805,0,13,24,36,65.5,134,240.7,530
+2024,at_least_one_GE65_value,114766,22013165.1,191.809116812,1093,12,30,52,123,251.8,436,1008.635
+2024,no_GE65_values,37929,4487720.4,118.318974927,0,14,27,39,73.3,150,269,601.144

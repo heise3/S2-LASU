@@ -1,0 +1,1048 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Medicare Fee-For Service  
+Provider Utilization & Payment Data   
+Part D Prescriber  
+ Public Use File:  
+A Methodological Overview  
+ 
+ 
+ 
+ 
+November 6, 2020 
+ 
+ 
+ 
+ 
+Prepared by: 
+The Centers for Medicare & Medicaid Services, 
+Office of Enterprise Data and Analytics
+
+ 
+ 
+Table of Contents 
+Table of Contents .......................................................................................................................................... 2 
+1. Background ............................................................................................................................................... 3 
+2. Key data sources ....................................................................................................................................... 3 
+3. Population ................................................................................................................................................. 3 
+4. Aggregation ............................................................................................................................................... 4 
+5. Data Contents ........................................................................................................................................... 4 
+5.1 Detailed Data File ................................................................................................................................ 4 
+5.2 Summary Tables .................................................................................................................................. 7 
+Part D Prescriber Summary Table ......................................................................................................... 7 
+Part D Drug National/State Summary Tables...................................................................................... 17 
+6. Data Limitations ...................................................................................................................................... 17 
+Data Redaction and Suppression ........................................................................................................ 18 
+7. Additional Information ............................................................................................................................ 19 
+8. Updates ................................................................................................................................................... 20 
+APPENDIX A – File Attributes ...................................................................................................................... 21 
+Table 1. NPI / Drug Name / Generic Name Detail File Layout ................................................................ 21 
+Table 2. NPI Summary File Layout .......................................................................................................... 22 
+Table 2. NPI Summary File Layout (Cont.) .............................................................................................. 23 
+APPENDIX B – Distribution of HCC Risk Scores ........................................................................................... 24 
+APPENDIX C – Part D Prescriber PUF Technical Specifications ................................................................... 25 
+ 
+ 
+3 
+ 
+1. Background 
+In an effort to make our healthcare system more transparent, affordable, and accountable, the Centers 
+for Medicare & Medicaid Services (CMS) has prepared a public dataset, the Part D Prescriber Public Use 
+File (herein referred to as the “Part D Prescriber PUF”), with information on prescription drug events 
+(PDEs) incurred by Medicare beneficiaries with a Part D prescription drug plan. The Part D Prescriber 
+PUF is organized by National Provider Identifier (NPI) and drug name and contains information on drug 
+utilization (claim counts and day supply) and total drug costs. The data in the Part D Prescriber PUF 
+cover calendar years 2013 through 2018. 
+2. Key data sources 
+The primary data source for these data is the CMS Chronic Conditions Data Warehouse, which contains 
+Medicare Part D PDE records received through the claims submission cut-off date. The submission cut-
+off date is June 30th following the end of the preceding calendar year. For instance, the 2018 Part D 
+Prescriber PUF includes PDEs received through June 30, 2018. These data contain 100 percent of 
+Medicare Part D final-action (i.e., all claim adjustments received through the cut-off date have been 
+resolved) PDE records for beneficiaries who are enrolled in the Part D program. Beneficiary counts, claim 
+counts, and total drug costs are summarized from these PDE data. PDE records for over-the-counter 
+drugs (indicated by drug coverage status code = “O”), which may be found in the PDE data due to their 
+inclusion in an approved step-therapy protocols, are excluded from all summarizations. Drug brand 
+names and generic names used in the summarization are obtained by linking the National Drug Codes 
+(NDCs) from PDE records to a commercially available drug information database. A small proportion of 
+PDE records with NDCs that do not match to the drug information database are excluded from all 
+summarizations. 
+Prescriber demographics are also incorporated in the Part D Prescriber PUF and include name, 
+credentials, gender, complete address, and entity type from the National Plan & Provider Enumeration 
+System (NPPES). The health care provider’s demographic information is collected at the time of 
+enrollment and updated periodically. The demographic information provided in the Part D Prescriber 
+PUF is based upon information extracted from NPPES as of the end of the subsequent calendar year 
+(e.g., The 2018 Part D Prescriber PUF includes NPPES information as of the end of calendar year 2019). 
+For additional information on NPPES, please visit https://nppes.cms.hhs.gov/. 
+3. Population 
+The Part D Prescriber PUF is based on beneficiaries enrolled in the Medicare Part D prescription drug 
+program who comprise over 70 percent of all Medicare beneficiaries. A slight majority of Part D 
+beneficiaries are enrolled in stand-alone Prescription Drug Plans (PDP) with the remaining enrolled in 
+Medicare Advantage Prescription Drug (MAPD) plans. 
+4 
+ 
+The Part D Prescriber PUF is restricted to prescribers who had a valid NPI and who were included on 
+Medicare Part D PDEs submitted by the Part D plan sponsors during the calendar year. The dataset 
+contains information predominantly from individual providers, but also includes a small proportion of 
+organizational providers, such as nursing homes, group practices, non-physician practitioners, 
+residential treatment facilities, ambulatory surgery centers, and other providers. 
+4. Aggregation 
+The spending and utilization data in the Part D Prescriber PUF are aggregated to the following: 
+a) the NPI of the prescriber, and 
+b) the drug name (brand name in the case of trademarked drugs) and generic name. 
+Each record in the dataset represents a distinct combination of NPI, drug (brand) name, and generic 
+name. There can be multiple records for a given NPI based on the number of distinct drugs that were 
+filled. For each prescriber and drug, the dataset includes the total number of prescriptions that were 
+dispensed (including original prescriptions and any refills), total 30-day standardized fill counts, total 
+day’s supply for these prescriptions, and the total drug cost. To protect the privacy of Medicare 
+beneficiaries, any aggregated records which are derived from 10 or fewer claims are excluded from the 
+Part D Prescriber PUF. Please see the section on Limitations for additional information about data 
+redactions and suppression in the Part D Prescriber PUF. 
+5. Data Contents 
+5.1 Detailed Data File 
+Providers with fewer than 11 claims are not included in the data file. The following variables are 
+included in the Part D Prescriber PUF detail data file: 
+npi – National Provider Identifier (NPI) for the performing provider on the claim. 
+nppes_provider_last_org_name – When the provider is registered in NPPES as an individual 
+(nppes_entity_code = “I”), this is the provider’s last name. When the provider is registered as an 
+organization (nppes_entity_code = “O”), this is the organization name. 
+nppes_provider_first_name – When the provider is registered in NPPES as an individual 
+(nppes_entity_code = “I”), this is the provider’s first name. When the provider is registered as an 
+organization (nppes_entity_code = “O”), this will be blank. 
+nppes_provider_city – The city where the provider is located, as reported in NPPES. 
+nppes_provider_state – The state where the provider is located, as reported in NPPES. The fifty U.S. 
+states and the District of Columbia are reported by the state postal abbreviation. The following values 
+are used for other areas: 
+5 
+ 
+“XX” = “Unknown” 
+“AA” = “Armed Forces Central/South America” 
+“AE” = “Armed Forces Europe” 
+“AP” = “Armed Forces Pacific” 
+“AS” = “American Samoa” 
+“GU” = “Guam” 
+“MP” = “Northern Mariana Islands” 
+“PR” = “Puerto Rico” 
+“VI” = “Virgin Islands” 
+“ZZ” = “Foreign Country” 
+specialty_description – Derived from the Medicare provider/supplier specialty code reported on the 
+NPI’s Part B claims. For providers that have more than one Medicare specialty code reported on their 
+claims, the Medicare specialty code associated with the largest number of services is reported. Where a 
+prescriber’s NPI did not have associated Part B claims, the taxonomy code associated with the NPI in 
+NPPES is mapped to a Medicare specialty code using an external crosswalk published here: 
+https://data.cms.gov/Medicare-Enrollment/CROSSWALK-MEDICARE-PROVIDER-SUPPLIER-to-
+HEALTHCARE/j75i-rw8y. For any taxonomy codes that could not be mapped to a Medicare specialty 
+code, the taxonomy classification description from the National Uniform Claim Committee (NUCC) 
+taxonomy code set is used. For more information on the NUCC taxonomy code set, please visit: 
+http://www.nucc.org/index.php?option=com_content&view=article&id=107&Itemid=132. 
+description_flag – A flag that indicates the source of the specialty_description. 
+“S” = Medicare Specialty Code description 
+“T” = Taxonomy Code Classification description. 
+drug_name – The name of the drug filled. This includes both brand names (drugs that have a 
+trademarked name) and generic names (drugs that do not have a trademarked name). 
+generic_name – A term referring to the chemical ingredient of a drug rather than the trademarked 
+brand name under which the drug is sold. 
+bene_count – The total number of unique Medicare Part D beneficiaries with at least one claim for the 
+drug. Counts fewer than 11 are suppressed and are indicated by a blank. 
+total_claim_count – The number of Medicare Part D claims. This includes original prescriptions and 
+refills. Aggregated records based on total_claim_count fewer than 11 are not included in the data file.  
+total_30_day_fill_count – The aggregate number of Medicare Part D standardized 30-day fills. The 
+standardized 30-day fill is derived from the number of days supplied on each Part D claim divided by 30. 
+Standardized 30-day fill values less than 1.0 were bottom-coded with a value of 1.0 and standardized 30-
+day fill values greater than 12.0 were top-coded with a value of 12.0. 
+total_day_supply – The aggregate number of day’s supply for which this drug was dispensed. 
+6 
+ 
+total_drug_cost – The aggregate drug cost paid for all associated claims. This amount includes 
+ingredient cost, dispensing fee, sales tax, and any applicable vaccine administration fees and is based on 
+the amounts paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-
+party payers. 
+bene_count_ge65 – The total number of unique Medicare Part D beneficiaries age 65 and older with at 
+least one claim for the drug. A blank indicates the value is suppressed. See 
+bene_count_ge65_suppress_flag regarding suppression of data. 
+bene_count_ge65_suppress_flag – A flag indicating the reason the bene_count_ge65 variable is 
+suppressed. 
+“*” = Primary suppressed due to bene_count_ge65 between 1 and 10. 
+“#” = Counter suppressed because the “less than 65 year old” group (not explicitly displayed) 
+contains a beneficiary count between 1 and 10, which can be mathematically determined 
+from bene_count_ge65 and bene_count. 
+total_claim_count_ge65 – The number of Medicare Part D claims for beneficiaries age 65 and older. 
+This includes original prescriptions and refills. A blank indicates the value is suppressed. See 
+ge65_suppress_flag regarding suppression of data. 
+ge65_suppress_flag – A flag that indicates the reason the total_claim_count_ge65, 
+total_30_day_fill_count_ge65, total_day_supply_ge65, and total_drug_cost_ge65 variables are 
+suppressed. 
+“*” = Primary suppressed due to total_claim_count_ge65 between 1 and 10. 
+“#” = Counter suppressed because the “less than 65 year old” group (not explicitly displayed) 
+contains a small claim count between 1 and 10, which can be mathematically determined 
+from the total_claim_count_ge65 and total_claim_count. 
+total_30_day_fill_count_ge65 – The number of Medicare Part D standardized 30-day fills for 
+beneficiaries age 65 and older. The standardized 30-day fill is derived from the number of days supplied 
+on each Part D claim divided by 30. Standardized 30-day fill values less than 1.0 were bottom-coded with 
+a value of 1.0 and standardized 30-day fill values greater than 12.0 were top-coded with a value of 12.0. 
+If total_claim_count_ge65 is suppressed, this variable is suppressed. A blank indicates the value is 
+suppressed. See ge65_suppress_flag regarding suppression of data. 
+total_day_supply_ge65 – The aggregate number of day’s supply for which this drug was dispensed, for 
+beneficiaries age 65 and older. If total_claim_count_ge65 is suppressed, this variable is suppressed. A 
+blank indicates the value is suppressed. See ge65_suppress_flag regarding suppression of data. 
+total_drug_cost_ge65 – The aggregate total drug cost paid for all associated claims for beneficiaries 
+age 65 and older. This amount includes ingredient cost, dispensing fee, sales tax, and any applicable 
+vaccine administration fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, 
+government subsidies, and any other third-party payers. If total_claim_count_ge65 is suppressed, this 
+7 
+ 
+variable is suppressed. A blank indicates the value is suppressed. See ge65_suppress_flag regarding 
+suppression of data. 
+5.2 Summary Tables 
+Two summary type tables have been created to supplement the information reported in the Part D 
+Prescriber PUF detail data described above: 1) aggregated information at the prescriber-level (i.e. one 
+summary record per NPI) that includes enhanced prescriber demographic information beyond what is 
+provided in the Part D Prescriber PUF detail data; and 2) aggregated drug information at the 
+State/National, brand name and generic name level. The aggregated summary tables are not restricted 
+to the redacted data reported in the Part D Prescriber PUF, but are aggregated based on all Medicare 
+Part D PDE data. 
+Part D Prescriber Summary Table 
+ 
+The “Part D Prescriber Summary Table” contains overall drug utilization (claims, 30-day standardized fill 
+counts and day’s supply), drug costs, and beneficiary counts organized by NPI. Drug utilization, drug 
+costs, and beneficiary counts are also included for each of the following sub group classifications: 
+• Beneficiaries age 65 and older; 
+• Brand drugs, generic drugs, and other drugs; 
+• Medicare Advantage Prescription Drug (MAPD) and stand-alone Prescription Drug Plans (PDP); 
+• Low-income subsidy (LIS) and no low-income subsidy (nonLIS); and 
+• Opioids, long-acting opioids, antibiotics, and antipsychotics in the elderly. 
+In addition, beneficiary demographic and health characteristics are provided which include age, sex, 
+race, Medicare and Medicaid entitlement and risk scores. 
+The following variables correspond to the same variables reported in the Part D Prescriber PUF detail 
+data. See “5.1 Detailed Data File” section above for descriptions: 
+npi 
+nppes_provider_last_org_name 
+nppes_provider_first_name 
+nppes_provider_city 
+nppes_provider_state 
+specialty_description 
+description_flag 
+total_claim_count 
+total_30_day_fill_count 
+total_drug_cost 
+total_day_supply 
+bene_count 
+ge65_suppress_flag 
+8 
+ 
+total_claim_count_ge65 
+total_30_day_fill_count_ge65 
+total_drug_cost_ge65 
+total_day_supply_ge65 
+bene_count_ge65_suppress_flag 
+bene_count_ge65 
+ 
+The following variables are specific to the “Part D Prescriber Summary Table”: 
+nppes_provider_mi – When the provider is registered in NPPES as an individual (nppes_entity_code = 
+“I”), this is the provider’s middle initial. When the provider is registered as an organization 
+(nppes_entity_code = “O”), this will be blank. 
+nppes_credentials – When the provider is registered in NPPES as an individual (nppes_entity_code = 
+“I”), these are the provider’s credentials. When the provider is registered as an organization 
+(nppes_entity_code = “O”), this will be blank. 
+nppes_provider_gender – When the provider is registered in NPPES as an individual 
+(nppes_entity_code = “I”), this is the provider’s gender. A value of “M” indicates male and a value of “F” 
+indicates female. When the provider is registered as an organization (nppes_entity_code = “O”), this will 
+be blank. 
+nppes_entity_code – Type of entity reported in NPPES. An entity code of “I” identifies providers 
+registered as individuals and an entity type code of “O” identifies providers registered as organizations. 
+nppes_provider_street1 – The first line of the provider’s street address, as reported in NPPES. 
+nppes_provider_street2 – The second line of the provider’s street address, as reported in NPPES. 
+nppes_provider_zip5 – The first 5 digits of the provider’s ZIP code, as reported in NPPES. 
+nppes_provider_zip4 – The 6th through 9th digits of the provider’s ZIP code, as reported in NPPES. 
+nppes_provider_country – The country where the provider is located, as reported in NPPES. The 
+country code will be “US” for any state or U.S. territory. For foreign countries (i.e., nppes_provider_state 
+= “ZZ”), the provider country values may include the following: 
+“AE” = “United Arab Emirates” “ IS” = “Iceland” 
+“AI” = “Anguilla” “IT” = “Italy” 
+“AR” = “Argentina” “JO” = “Jordan” 
+“AU” = “Australia” “JP” = “Japan” 
+“BH” = “Bahrain” “KR” = “Korea” 
+“BM” = “Bermuda” “KW” = “Kuwait” 
+“BR” = “Brazil” “KY” = “Cayman Islands” 
+“CA” = “Canada” “LY” = “Libya” 
+“C H ” = “Switzerland” “ MG” = “Madagascar” 
+9 
+ 
+“CN” = “China” “MX” = “Mexico” 
+“CO” = “Colombia” “NL” = “Netherlands” 
+“DE” = “Germany” “NO” = “Norway” 
+“EC” = “Ecuador” “NZ” = “New Zealand” 
+“EG” = “Egypt” “OM” = “Oman” 
+“ES” = “Spain” “PA” = “Panama” 
+“FR” = “France” “PK”= “Pakistan” 
+“GB” = “Great Britain” “ SA”= “Saudi Arabia” 
+“GR” = “Greece” “SE”= “Sweden” 
+“HU” = “Hungary” “TH” = “Thailand” 
+“IE” = “Ireland” “TR”= “Turkey” 
+“IL” = “Israel” “UG” = “Uganda” 
+“IN” = “India” “VE” = “Venezuela” 
+“IQ” = “Iraq” “ZA” = “South Africa” 
+ 
+medicare_prvdr_enroll_status – A status to indicate whether the prescriber is enrolled in the 
+Medicare Program.  
+“E” = Providers who are enrolled in the Medicare Program as of end of the data reporting year. 
+“N” = Providers who are not enrolled in the Medicare Program as of the end of the data 
+reporting year. 
+“O” = Providers who did not wish to enroll in the Medicare program as of end of the data 
+reporting year but have signed a written affidavit to opt out that states neither the provider 
+nor the beneficiary can receive payment from Medicare for services performed. 
+brand_suppress_flag – A flag indicating the reason the brand_claim_count and brand_drug_cost 
+variables are suppressed.  
+“*” = Primary suppressed due to brand_claim_count between 1 and 10. 
+“#” = Counter suppressed because the claim count from at least one of the corresponding claim 
+count categories (generic_claim_count or other_claim_count) is between 1 and 10. Counter 
+suppression prevents the disclosure of a primary suppressed value when all categories sum 
+to the total value. 
+brand_claim_count – Total claims of brand-name drugs, including refills. A drug is classified as “brand” 
+using the Food and Drug Administration (FDA) approval category of New Drug Application (NDA), NDA 
+authorized generic, or Biologic License Application (BLA). A blank indicates the value is suppressed. See 
+brand_suppress_flag regarding suppression of data. 
+brand_d rug_cost  – Aggregate drug cost paid for brand-name drugs. This amount includes ingredient 
+cost, dispensing fee, sales tax, and any applicable vaccine administration fees and is based on the 
+amounts paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-party 
+payers. A drug is classified as “brand” using the FDA approval category of NDA, NDA authorized generic, 
+or BLA. If brand_claim_count is suppressed this variable is suppressed. A blank indicates the value is 
+suppressed. See brand_suppress_flag regarding suppression of data. 
+10 
+ 
+generic_suppress_flag – A flag indicating the reason the generic_claim_count and generic_drug_cost 
+variables are suppressed. 
+“*” = Primary suppressed due to generic_claim_count between 1 and 10. 
+“#” = Counter suppressed because the claim count from at least one of the corresponding claim 
+count categories (brand_claim_count or other_claim_count) is between 1 and 10. Counter 
+suppression prevents the disclosure of a primary suppressed value when all categories sum 
+to the total value. 
+generic_claim_count – Total claims of generic drugs, including refills. A drug is classified as “generic” 
+using the FDA approval category of Abbreviated New Drug Application (ANDA). A blank indicates the 
+value is suppressed. See generic_suppress_flag regarding suppression of data. 
+generic_drug_cost – Aggregate cost paid for generic drugs. This amount includes ingredient cost, 
+dispensing fee, sales tax, and any applicable vaccine administration fees and is based on the amounts 
+paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-party payers. A 
+drug is classified as “generic” using the FDA approval category of ANDA. If generic_claim_count is 
+suppressed this variable is suppressed. A blank indicates the value is suppressed. See 
+generic_suppress_flag regarding suppression of data. 
+other_suppress_flag – A flag indicating the reason other_claim_count and other_drug_cost variables 
+are suppressed. 
+“*” = Primary suppressed due to other_claim_count between 1 and 10. 
+“#” = Counter suppressed because the claim count from at least one of the corresponding claim 
+count categories (brand_claim_count or generic_claim_count) is between 1 and 10. Counter 
+suppression prevents the disclosure of a primary suppressed value when all categories sum 
+to the total value. 
+other_claim_count – Total claims of other drugs, including refills. A drug is classified as “other” using 
+any FDA approval categories not included in the brand or generic definitions above. A blank indicates 
+the value is suppressed. See other_suppress_flag regarding suppression of data. 
+other_drug_cost – Aggregate cost paid for all other drugs not classified as brand or generic. This 
+amount includes ingredient cost, dispensing fee, sales tax, and any applicable vaccine administration 
+fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, government subsidies, 
+and any other third-party payers. A drug is classified as “other” using any FDA approval categories not 
+included in the brand or generic definitions above. If other_claim_count is suppressed this variable is 
+suppressed. A blank indicates the value is suppressed. See other_suppress_flag regarding suppression of 
+data. 
+mapd_suppress_flag – A flag indicating the reason the mapd_claim_count and mapd_drug_cost 
+variables are suppressed. 
+“*” = Primary suppressed due to mapd_claim_count between 1 and 10. 
+11 
+ 
+“#” = Counter suppressed because the pdp_claim_count contains a claim count between 1 and 
+10, which can be mathematically determined from the mapd_claim_count and 
+total_claim_count. 
+mapd_claim_count – The number of claims for beneficiaries covered by MAPD plans. A blank indicates 
+the value is suppressed. See mapd_suppress_flag regarding suppression of data. 
+mapd_drug_cost – Aggregate cost paid for claims filled by beneficiaries in MAPD plans. This amount 
+includes ingredient cost, dispensing fee, sales tax, and any applicable vaccine administration fees and is 
+based on the amounts paid by the Part D plan, Medicare beneficiary, government subsidies, and any 
+other third-party payers. If mapd_claim_count is suppressed this variable is suppressed. A blank 
+indicates the value is suppressed. See mapd_suppress_flag regarding suppression of data. 
+pdp_suppress_flag – A flag indicating the reason the pdp_claim_count and pdp_drug_cost variables are 
+suppressed. 
+“*” = Primary suppressed due to pdp_claim_count between 1 and 10. 
+“#” = Counter suppressed because the mapd_claim_count contains a claim count between 1 and 
+10, which can be mathematically determined from the pdp_claim_count and 
+total_claim_count. 
+pdp_claim_count – The number of claims for beneficiaries covered by standalone PDPs. A blank 
+indicates the value is suppressed. See pdp_suppress_flag regarding suppression of data. 
+pdp_drug_cost – Aggregate drug cost paid for claims filled by beneficiaries in standalone PDPs. This 
+amount includes ingredient cost, dispensing fee, sales tax, and any applicable vaccine administration 
+fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, government subsidies, 
+and any other third-party payers. If pdp_claim_count is suppressed this variable is suppressed. A blank 
+indicates the value is suppressed. See pdp_suppress_flag regarding suppression of data. 
+lis_suppress_flag – A flag indicating the reason the lis_claim_count and lis_drug_cost variables are 
+suppressed.  
+“*” = Primary suppressed due to lis_claim_count between 1 and 10. 
+“#” = Counter suppressed because nonlis_claim_count contains a claim count between 1 and 10, 
+which can be mathematically determined from the lis_claim_count and total_claim_count. 
+lis_claim_count – Total number of claims from this prescriber, including refills, for beneficiaries with a 
+Part D low-income subsidy. A blank indicates the value is suppressed. See lis_suppress_flag regarding 
+suppression of data. 
+lis_drug_cost – Aggregate drug cost paid for claims for beneficiaries with a Part D low-income subsidy. 
+This amount includes ingredient cost, dispensing fee, sales tax, and any applicable vaccine 
+administration fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, 
+government subsidies, and any other third-party payers. If lis_claim_count is suppressed this variable is 
+12 
+ 
+suppressed. A blank indicates the value is suppressed. See lis_suppress_flag regarding suppression of 
+data. 
+nonlis_suppress_flag – A flag indicating the reason the nonlis_claim_count and nonlis_drug_cost 
+variables are suppressed. 
+“*” = Primary suppressed due to nonlis_claim_count between 1 and 10. 
+“#” = Counter suppressed because lis_claim_count contains a claim count between 1 and 10, 
+which can be mathematically determined from the nonlis_claim_count and 
+total_claim_count. 
+nonlis_claim_count – Total number of claims from this prescriber, including refills, for beneficiaries 
+without a Part D low-income subsidy. A blank indicates the value is suppressed. See 
+nonlis_suppress_flag regarding suppression of data. 
+nonlis_drug_cost – Aggregate drug cost paid for claims for beneficiaries without a Part D low-income 
+subsidy. This amount includes ingredient cost, dispensing fee, sales tax, and any applicable vaccine 
+administration fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, 
+government subsidies, and any other third-party payers. If nonlis_claim_count is suppressed this 
+variable is suppressed. A blank indicates the value is suppressed. See nonlis_suppress_flag regarding 
+suppression of data. 
+opioid_claim_count – Total claims of opioid drugs, including refills. The opioid_claim_count is 
+suppressed when opioid_claim_count is between 1 and 10. A blank indicates the value is suppressed. 
+For a list of drug names that include opioids, see the “Drug Category Lists” available within the “NPI 
+Summary Table” Section of each calendar year’s web page. Please refer to the “Additional Information” 
+section of this document for more details about the source used in classifying opioids. 
+opioid_drug_cost – Aggregate cost paid for opioid drugs. This amount includes ingredient cost, 
+dispensing fee, sales tax, and any applicable vaccine administration fees and is based on the amounts 
+paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-party payers. If 
+opioid_claim_count is suppressed this variable is suppressed. A blank indicates the value is suppressed. 
+For a list of drug names that include opioids, see the “Drug Category Lists” available within the “NPI 
+Summary Table” Section of each calendar year’s web page. Please refer to the “Additional Information” 
+section of this document for more details about the source used in classifying opioids. 
+opioid_day_supply – The aggregate number of day’s supply for opioid drugs. If opioid_claim_count is 
+suppressed this variable is suppressed. A blank indicates the value is suppressed. For a list of drug names 
+that include opioids, see the “Drug Category Lists” available within the “NPI Summary Table” Section of 
+each calendar year’s web page. Please refer to the “Additional Information” section of this document for 
+more details about the source used in classifying opioids. 
+opioid_bene_count – The total number of unique Medicare Part D beneficiaries with at least one opioid 
+claim. The opioid_bene_count is suppressed when opioid_bene_count is between 1 and 10. A blank 
+indicates the value is suppressed. For a list of drug names that include opioids, see the “Drug Category 
+13 
+ 
+Lists” available within the “NPI Summary Table” Section of each calendar year’s web page. Please refer 
+to the “Additional Information” section of this document for more details about the source used in 
+classifying opioids. 
+opioid_prescriber_rate – The percent of the total_claim_count represented by the 
+opioid_claim_count. If opioid_claim_count is suppressed this variable is suppressed. A blank indicates 
+the value is suppressed. For a list of drug names that include opioids, see the “Drug Category Lists” 
+available within the “NPI Summary Table” Section of each calendar year’s web page. Please refer to the 
+“Additional Information” section of this document for more details about the source used in classifying 
+opioids. 
+la_opioid_claim_count – Total claims of long-acting opioid drugs, including refills. The 
+la_opioid_claim_count is suppressed when la_opioid_claim_count is between 1 and 10. A blank 
+indicates the value is suppressed. For a list of drug names that include long-acting opioids, see the “Drug 
+Category Lists” available within the “NPI Summary Table” Section of each calendar year’s web page. 
+Please refer to the “Additional Information” section of this document for more details about the source 
+used in classifying opioids. 
+la_opioid_drug_cost – Aggregate cost paid for long-acting opioid drugs. This amount includes 
+ingredient cost, dispensing fee, sales tax, and any applicable vaccine administration fees and is based on 
+the amounts paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-
+party payers. If la_opioid_claim_count is suppressed this variable is suppressed. A blank indicates the 
+value is suppressed. For a list of drug names that include long-acting opioids, see the “Drug Category 
+Lists” available within the “NPI Summary Table” Section of each calendar year’s web page. Please refer 
+to the “Additional Information” section of this document for more details about the source used in 
+classifying opioids. 
+la_opioid_day_supply – The aggregate number of day’s supply for long-acting opioid drugs. If 
+la_opioid_claim_count is suppressed this variable is suppressed. A blank indicates the value is 
+suppressed. For a list of drug names that include long-acting opioids, see the “Drug Category Lists” 
+available within the “NPI Summary Table” Section of each calendar year’s web page. Please refer to the 
+“Additional Information” section of this document for more details about the source used in classifying 
+opioids. 
+la_opioid_bene_count – The total number of unique Medicare Part D beneficiaries with at least one 
+long-acting opioid claim. The la_opioid_bene_count is suppressed when la_opioid_bene_count is 
+between 1 and 10. A blank indicates the value is suppressed. For a list of drug names that include long-
+acting opioids, see the “Drug Category Lists” available within the “NPI Summary Table” Section of each 
+calendar year’s web page. Please refer to the “Additional Information” section of this document for 
+more details about the source used in classifying opioids. 
+la_opioid_prescriber_rate – The percent of the opioid_claim_count represented by the 
+la_opioid_claim_count. If la_opioid_claim_count is suppressed this variable is suppressed. A blank 
+indicates the value is suppressed. For a list of drug names that include long-acting opioids, see the “Drug 
+14 
+ 
+Category Lists” available within the “NPI Summary Table” Section of each calendar year’s web page. 
+Please refer to the “Additional Information” section of this document for more details about the source 
+used in classifying opioids. 
+antibiotic_claim_count – Total claims of antibiotic drugs, including refills. The antibiotic_claim_count is 
+suppressed when antibiotic_claim_count is between 1 and 10. A blank indicates the value is suppressed. 
+For a list of drug names that include antibiotics, see the “Drug Category Lists” available within the “NPI 
+Summary Table” Section of each calendar year’s web page. 
+antibiotic_drug_cost – Aggregate cost paid for antibiotic drugs. This amount includes ingredient cost, 
+dispensing fee, sales tax, and any applicable vaccine administration fees and is based on the amounts 
+paid by the Part D plan, Medicare beneficiary, government subsidies, and any other third-party payers. If 
+antibiotic_claim_count is suppressed this variable is suppressed. A blank indicates the value is 
+suppressed. For a list of drug names that include antibiotics, see the “Drug Category Lists” available 
+within the “NPI Summary Table” Section of each calendar year’s web page. 
+antibiotic_bene_count – The total number of unique Medicare Part D beneficiaries with at least one 
+antibiotic claim. The antibiotic_bene_count is suppressed when antibiotic_bene_count is between 1 and 
+10. A blank indicates the value is suppressed. For a list of drug names that include antibiotics, see the 
+“Drug Category Lists” available within the “NPI Summary Table” Section of each calendar year’s web 
+page. 
+antipsych_ge65_suppress_flag – A flag indicating the reason the antipsych_claim_count_ge65 and 
+antipsych_drug_cost_ge65 variables are suppressed. For a list of drug names that include antipsychotics 
+in the elderly, see the “Drug Category Lists” available within the “NPI Summary Table” Section of each 
+calendar year’s web page.  
+ “*” = Primary suppressed due to antipsych_claim_count_ge65 between 1 and 10. 
+“#” = Counter suppressed because total_claim_count_ge65 is suppressed. See 
+ge65_suppress_flag regarding suppression of total_claim_count_ge65. 
+antipsych_claim_count_ge65 – Total claims of antipsychotic drugs, including refills, for beneficiaries 
+age 65 and older. A blank indicates the value is suppressed. See antipsych_ge65_suppress_flag 
+regarding suppression of data. For a list of drug names that include antipsychotics in the elderly, see the 
+“Drug Category Lists” available within the “NPI Summary Table” Section of each calendar year’s web 
+page. 
+antipsych_drug_cost_ge65 – Aggregate cost paid for antipsychotic drugs for beneficiaries age 65 and 
+older. This amount includes ingredient cost, dispensing fee, sales tax, and any applicable vaccine 
+administration fees and is based on the amounts paid by the Part D plan, Medicare beneficiary, 
+government subsidies, and any other third-party payers. If antipsych_claim_count_ge65 is suppressed 
+this variable is suppressed. A blank indicates the value is suppressed. See antipsych_ge65_suppress_flag 
+regarding suppression of data. For a list of drug names that include antipsychotics in the elderly, see the 
+“Drug Category Lists” available within the “NPI Summary Table” Section of each calendar year’s web 
+page. 
+15 
+ 
+antipsych_bene_ge65_suppress_flag – A flag indicating the reason the antipsych_bene_count_ge65 
+variable is suppressed. For a list of drug names that include antipsychotics in the elderly, see the “Drug 
+Category Lists” available within the “NPI Summary Table” Section of each calendar year’s web page. 
+  “*” = Primary suppressed due to antipsych_bene_count_ge65 counts between 1 and 10. 
+“#” = Counter suppressed because the bene_count_ge65 is suppressed. See 
+bene_count_ge65_suppress_flag regarding suppression of bene_count_ge65. 
+antipsych_bene_count_ge65 – The total number of unique Medicare Part D beneficiaries age 65 and 
+older with at least one antipsychotic claim. A blank indicates the value is suppressed. See 
+antipsych_bene_ge65_suppress_flag regarding suppression of data. For a list of drug names that include 
+antipsychotics in the elderly, see the “Drug Category Lists” available within the “NPI Summary Table” 
+Section of each calendar year’s web page. 
+average_age_of_beneficiaries – Average age of beneficiaries. Beneficiary age is calculated at the end 
+of the calendar year or at the time of death. The average_age_of_beneficiaries is suppressed when 
+bene_count is between 1 and 10. A blank indicates the value is suppressed. 
+beneficiary_age_less_65_count – Number of beneficiaries under the age of 65. Beneficiary age is 
+calculated at the end of the calendar year or at the time of death. The beneficiary_age_less_65_count is 
+suppressed when beneficiary_age_less_65_count is between 1 and 10 and may be counter suppressed 
+when a count in one of the other age categories is suppressed or when the bene_count_ge65 is 
+suppressed. A blank indicates the value is suppressed. 
+beneficiary_age_65_74_count – Number of beneficiaries between the ages of 65 and 74. Beneficiary 
+age is calculated at the end of the calendar year or at the time of death. The 
+beneficiary_age_65_74_count is suppressed when the beneficiary_age_65_74_count is between 1 and 
+10 and may be counter suppressed when a count in one of the other age categories is suppressed or 
+when the bene_count_ge65 is suppressed. A blank indicates the value is suppressed. 
+beneficiary_age_75_84_count – Number of beneficiaries between the ages of 75 and 84. Beneficiary 
+age is calculated at the end of the calendar year or at the time of death. The 
+beneficiary_age_75_84_count is suppressed when beneficiary_age_75_84_count is between 1 and 10 
+and may be counter suppressed when a count in one of the other age categories is suppressed or when 
+the bene_count_ge65 is suppressed. A blank indicates the value is suppressed. 
+beneficiary_age_greater_84_count – Number of beneficiaries over the age of 84. Beneficiary age is 
+calculated at the end of the calendar year or at the time of death. The 
+beneficiary_age_greater_84_count is suppressed when beneficiary_age_greater_84_count is between 1 
+and 10 and may be counter suppressed when a count in one of the other age categories is suppressed or 
+when the bene_count_ge65 is suppressed. A blank indicates the value is suppressed. 
+beneficiary_female_count – Number of female beneficiaries. The beneficiary_female_count is 
+suppressed when beneficiary_female_count is between 1 and 10 and counter suppressed when 
+beneficiary_male_count is between 1 and 10. A blank indicates the value is suppressed. 
+16 
+ 
+beneficiary_male_count – Number of male beneficiaries. The beneficiary_male_count is suppressed 
+when beneficiary_male_count is between 1 and 10 and counter suppressed when 
+beneficiary_female_count is between 1 and 10. A blank indicates the value is suppressed. 
+beneficiary_race_white_count1 – Number of non-Hispanic white beneficiaries. The 
+beneficiary_race_white_count is suppressed when beneficiary_race_white_count is between 1 and 10 
+and may be counter suppressed when a count in one of the other race categories is suppressed. A blank 
+indicates the value is suppressed. 
+beneficiary_race_black_count1 – Number of non-Hispanic black or African American beneficiaries. The 
+beneficiary_race_black_count is suppressed when beneficiary_race_black_count is between 1 and 10 
+and may be counter suppressed when a count in one of the other race categories is suppressed. A blank 
+indicates the value is suppressed. 
+beneficiary_race_asian_pi_count
+1 – Number of Asian or Pacific Islander beneficiaries. The 
+beneficiary_race_asian_pi_count is suppressed when beneficiary_race_asian_pi_count is between 1 and 
+10 and may be counter suppressed when a count in one of the other race categories is suppressed. A 
+blank indicates the value is suppressed. 
+beneficiary_race_hispanic_count1 – Number of Hispanic beneficiaries. The 
+beneficiary_race_hispanic_count is suppressed when beneficiary_race_hispanic_count is between 1 and 
+10 and may be counter suppressed when a count in one of the other race categories is suppressed. A 
+blank indicates the value is suppressed. 
+beneficiary_race_nat_ind_count1 – Number of American Indian or Alaska Native beneficiaries. The 
+beneficiary_race_nat_ind_count is suppressed when beneficiary_race_nat_ind_count is between 1 and 
+10 and may be counter suppressed when a count in one of the other race categories is suppressed. A 
+blank indicates the value is suppressed. 
+beneficiary_race_other_count
+1 – Number of beneficiaries with race not elsewhere classified. The 
+beneficiary_race_other_count is suppressed when beneficiary_race_other_count is between 1 and 10 
+and may be counter suppressed when a count in one of the other race categories is suppressed. A blank 
+indicates the value is suppressed. 
+beneficiary_nondual_count – Number of Medicare beneficiaries qualified to receive Medicare only 
+benefits. Beneficiaries are classified as Medicare only entitlement if they received zero months of any 
+Medicaid benefits (full or partial) in the given calendar year. The beneficiary_nondual_count is 
+suppressed when beneficiary_nondual_count is between 1 and 10 and counter suppressed when 
+beneficiary_dual_count is between 1 and 10. A blank indicates the value is suppressed. 
+                                                           
+1 Race/ethnicity information is based on the variable RTI_RACE_CD from the CMS CCW enrollment database. The 
+RTI_RACE_CD variable is based upon a validated algorithm that uses Census surname lists and geography to 
+improve the accuracy of race/ethnicity classification, particularly for those  who are Hispanic or Asian/Pacific 
+Islanders. 
+17 
+ 
+beneficiary_dual_count – Number of Medicare beneficiaries qualified to receive Medicare and 
+Medicaid benefits. Beneficiaries are classified as Medicare and Medicaid entitlement if in any month in 
+the given calendar year they were receiving full or partial Medicaid benefits. The beneficiary_dual_count 
+is suppressed when beneficiary_dual_count is between 1 and 10 and counter suppressed when 
+beneficiary_nondual_count is between 1 and 10. A blank indicates the value is suppressed. 
+beneficiary_average_risk_score – Average Hierarchical Condition Category (HCC) risk score of 
+beneficiaries. Please refer to the “Additional Information” section of this document for more details on 
+HCC risk scores. The beneficiary_average_risk_score is suppressed when bene_count is between 1 and 
+10. A blank indicates the value is suppressed. 
+Part D Drug National/State Summary Tables 
+ 
+The “Part D Drug National/State Summary Tables” contain information on number of beneficiaries, 
+number of prescribers, total drug claims, 30-day standardized fill counts and total drug costs for all 
+beneficiaries and for beneficiaries age 65 and older. Aggregate cost share amounts that beneficiaries are 
+responsible for paying also are included for both beneficiaries that receive a low-income subsidy and 
+beneficiaries that do not receive a low-income subsidy. In addition, flag indicators are included to 
+identify drugs as opioid, long-acting opioids, antibiotic and/or antipsychotic. The data are organized by 
+drug name and generic name in the national table and organized by provider state, drug name, and 
+generic name in the state table. 
+More detailed information on the Part D Drug National/State Summary tables are provided in the 
+“Methodology” and “Data Dictionary” tabs of each summary file. 
+6. Data Limitations 
+Although the Part D Prescriber PUF has a wealth of payment and utilization information about Medicare 
+prescription drug events (PDEs), the dataset also has a number of limitations that are worth noting. 
+First, the information presented in this file does not indicate the quality of care provided by individual 
+clinicians. Second, given that the data contain information only from Medicare beneficiaries with Part D 
+coverage, but clinicians typically treat many other patients who do not have that form of coverage, the 
+data in the Part D Prescriber PUF may not be representative of a prescriber’s entire prescribing pattern, 
+nor be fully inclusive of all prescriptions written by the provider. Additionally, the data in this file are 
+limited to medications covered by the Part D program and drugs statutorily excluded by the Part D 
+program, which may be covered by individual Part D prescription drug plans through supplemental 
+coverage. Since not all Part D plans have supplemental coverage for excluded products, utilization, and 
+cost statistics presented in the data likely underestimates the true use of these products in this 
+population. 
+The total drug costs included in these data reflect the prescription drug costs incurred by Medicare Part 
+D beneficiaries, including costs that are paid by Medicare, by beneficiaries, and by third-party payers. 
+18 
+ 
+The Part D prescription drug program is administered by private Part D plan insurers. Medicare pays Part 
+D plans a monthly, risk-adjusted capitation payment for each enrollee. Beneficiaries also pay a monthly 
+premium. In addition, Medicare pays Part D plans additional subsidies to cover reduced cost-sharing for 
+low-income beneficiaries and a portion of the costs for beneficiaries whose drug costs are very high. 
+Following each benefit year, CMS shares risk with plans by reconciling the capitation and various subsidy 
+payments to actual drug cost expenditures determined from PDE records and any manufacturer rebates 
+or other direct and indirect remunerations received by the plan. Therefore, because the drug 
+expenditures derived from the PDE data comprise only a piece of the payment process, it is not possible 
+to directly attribute total drug costs at the prescriber or drug level to payments from the Medicare Trust 
+Fund. Furthermore, these total drug costs do not reflect any manufacture rebates. 
+Also, there are known issues in the attribution of PDEs to a specific NPI. Some prescribers’ claims may be 
+listed under multiple NPIs, such as an organizational and individual NPI. In this case, users cannot 
+determine a prescriber’s actual total because it is not possible to identify the individual’s portion when 
+the claim is submitted under their organization. In addition, some of an individual’s prescriptions might 
+be erroneously attributed to a different prescriber due to errors that can occur in the transcription of 
+prescriber information at the point-of-sale. 
+If users attempt to link data from these files to other public datasets, please be aware of the particular 
+Medicare populations included and timeframes used in each file that will be merged, as well as the 
+identifiers used to merge data. For example, efforts to link the Part D Prescriber data to the Physician 
+and Other Supplier PUF data would need to account for the fact that some beneficiaries who have fee-
+for-service (FFS) Part B coverage (and are thus included in the Physician and Other Supplier PUF) do not 
+have Part D drug coverage (and thus not represented in the Part D Prescriber PUF). At the same time, 
+some beneficiaries that have Part D coverage (and are thus included in the Part D Prescriber PUF) do not 
+have FFS Part B coverage (and thus not included in the Physician and Other Supplier PUF). Another 
+example would be linking to data constructed from different or non-aligning time periods, such as 
+publically available data on physician referral patterns, which is based on an 18-month period. Users 
+attempting to merge data from the Part D Prescriber PUF to publicly available Open Payments data on 
+financial relationships should be aware that NPIs are not available in the Open Payments data and thus 
+merges must be conducted using text-string identification fields such as name and address. 
+Data Redaction and Suppression 
+ 
+As previously stated, the Part D Prescriber PUF detail file does not include drugs with fewer than 11 Part 
+D drug claims, so users should be aware that summing data in detail file will underestimate the true Part 
+D totals. In addition, in the detail file as well as the summary tables, beneficiary counts, claim counts, 30-
+day fill counts, drug costs, and day’s supply are suppressed if the value is between 1 and 10 and also 
+may be removed for counter-suppression purposes. Since total claim counts are available on the files 
+and some subgroups (e.g., brand, generic, and other) sum to the total claim count, if one of the sub-
+group categories is suppressed because it has a claim count between 1 and 10 (primary suppression), 
+then the next lowest claim count sub-group category must be suppressed to prevent disclosure of this 
+19 
+ 
+primary suppressed value. Since only one sub-group category is suppressed, you can mathematically 
+determine it using the values from the other claim count categories and the total claim count 
+information. To help users understand the reasons for suppression, suppression flag variables are 
+included. 
+Suppressed values represent values 1 to 10 and are indicated by a “blank” in the data files. When 
+analyzing the data, users should note that excluding the suppressed values will result in estimates that 
+are different from the true values. If users choose to retain the suppressed values in their analysis, 
+please note that most statistical software packages will treat the “blanks” as “zeroes”, resulting in 
+underestimates of the true values. Alternatively, users may assign an imputed value of their choosing, 
+e.g. five (5), for the suppressed value. 
+7. Additional Information 
+Other Data Sources: CMS also releases the “Medicare Fee-For-Service Public Provider Enrollment Data” 
+that include provider name and address information from the Provider Enrollment and Chain Ownership 
+System (PECOS). These data are updated on a quarterly basis and are available at data.cms.gov. 
+Opioid Classification: The opioid and long-acting opioid information presented in the “Part D Prescriber 
+Summary Table”, “Part D Drug National Summary” and “Part D Drug State Summary” tables is based 
+upon opioid drugs included in the Medicare Part D Overutilization Monitoring System (OMS), which can 
+change from year to year. The opioid information presented in the Part D PUF tables for calendar years 
+2013 through 2018 is based on the OMS list updated in 2019. For additional information on Medicare 
+Part D OMS visit: 
+https://www.cms.gov/Medicare/Prescription-Drug-
+Coverage/PrescriptionDrugCovContra/RxUtilization.html.  
+Long-acting opioid claims are identified using controlled substances including opioids with oral 
+morphine milligram equivalent (MME) data available for download on Centers for Disease Control and 
+Prevention (CDC) Opioid Overdose Data Resources web page at: 
+https://www.cdc.gov/drugoverdose/resources/data.html. 
+HCCs (hierarchical condition categories): CMS developed a risk-adjustment model that uses HCCs 
+(hierarchical condition categories) to assign risk scores. Those scores estimate how beneficiaries’ FFS 
+spending will compare to the overall average for the entire Medicare population. The average risk scores 
+of beneficiaries represented in each calendar year of the Physician and Other Supplier PUF data are 
+provided in Appendix B.  Beneficiaries with scores greater than the average risk score are expected to 
+have above-average spending, and vice versa. Risk scores are based on a beneficiary’s age and sex; 
+whether the beneficiary is eligible for Medicaid, first qualified for Medicare on the basis of disability, or 
+lives in an institution (usually a nursing home); and the beneficiary’s diagnoses from the previous year. 
+The HCC model was designed for risk adjustment on larger populations, such as the enrollees in a 
+Medicare Advantage plan, and generates more accurate results when used to compare groups of 
+20 
+ 
+beneficiaries rather than individuals. For more information on the HCC risk score, see: 
+https://www.cms.gov/Medicare/Health-Plans/MedicareAdvtgSpecRateStats/Risk-Adjustors.html. 
+8. Updates 
+November 2018 Updates 
+The Medicare Part D PUF data have been updated using a consistent definition of opioid drugs across all 
+data years in order to align with the 2018 opioid list used in the Medicare Part D Overutilization 
+Monitoring System (OMS). 
+The “Part D Prescriber Summary Table” has been updated to include long-acting opioid information for 
+years 2013 through 2016. The extended-release opioid information has been removed from the 2016 
+data. 
+The “Part D Drug National Summary” and “Part D Drug State Summary” tables for years 2013 through 
+2016 have been updated to include beneficiary cost share amounts classified by beneficiaries with low 
+income subsidies and beneficiaries with no low income subsidies. In addition, the tables now include a 
+flag indicator to identify drugs as long-acting opioid. 
+High-risk medication information has been removed from all data tables and summaries for years 2013 
+through 2015. 
+  
+21 
+ 
+APPENDIX A – File Attributes 
+Table 1. NPI / Drug Name / Generic Name Detail File Layout 
+# Variable Type Len Label
+1 npi Char 10 N ational Provide r Ide ntifie r
+2 nppes_provi der_l ast_org_name Char 70 Last Name/Organi zati on Name of the Provi der
+3 nppes_provider_first_name Char 20 Fi rst Name of the Provi der
+4 nppes_provider_city Char 40 Ci ty of the Provi der
+5 nppes_provider_state Char 2 State Code of the Provi der
+6 spe cialty_ de scription Char 75 Provider Specialty Type
+7 description_flag Char 1 Source of Provi der Speci al ty
+8 drug_name Char 30 Brand Name
+9 generi c_name Char 30 USAN Generi c Name - Short Versi on
+10 bene_count Num 8 Number of Medi care Benefi ci ari es
+11 total_ claim _ count Num 8 N um be r of Me dicare  Part D Claim s, Including Re fills
+12 total_30_day_fi l l_count Num 8 Number of Standardized 30-Day Fills, Including Refills
+13 total_day_supply Num 8 Number of Day’s Supply for All Claims
+14 total_drug_cost Num 8 A ggre gate  Cost Paid for A ll Claim s
+15 bene_count_ge65 Num 8 Number of Medi care Benefi ci ari es Age 65+
+16 bene_count_ge65_suppress _fl ag Char 1 Reason for Suppression of Bene_Count_Ge65
+17 total_cl ai m_count_ge65 Num 8 N um be r of Claim s, Including Re fills, for Be ne ficiarie s A ge  65+
+18 ge65_suppress_fl ag Char 1
+Reason for Suppression of Total_Claim_Count_Ge65, 
+Total _30_Day_Fi l l _Count_Ge65, Total _Day_Suppl y_Ge65, and 
+Total _Drug_Cost_Ge65
+19 total_30_day_fi l l_count_ge65 Num 8 Number of Standardized 30-Day Fills, Including Refills, for 
+Benefi ci ari es Age 65+
+20 total_day_suppl y_ge65 Num 8 N um be r of Day’s Supply for A ll Claim s for Be ne ficarie s A ge  65+
+21 total_drug_cost_ge65 Num 8 A ggre gate  Cost Paid for A ll Claim s for Be ne ficiarie s A ge  65+   
+22 
+ 
+Table 2. NPI Summary File Layout 
+ 
+# Variable Type Len Label
+1 npi Char 10 N ational Provide r Ide ntifie r
+2 nppes_provi der_l ast_org_name Char 70 Last Name/Organi zati on Name of the Provi der
+3 nppes_provider_first_name Char 20 Fi rst Name of the Provi der
+4 nppes_provider_mi Char 1 Middle  Initial of the  Provide r
+5 nppes_credentials Char 20 Credenti al s of the Provi der
+6 nppes_provider_gender Char 1 Gender of the Provi der
+7 nppes_entity_code Char 1 Entity Type of the Provider
+8 nppes_provi der_street1 Char 55 Street Address 1 of the Provi der
+9 nppes_provi der_street2 Char 55 Street Address 2 of the Provi der
+10 nppes_provider_city Char 40 Ci ty of the Provi der
+11 nppes_provider_zip5 Char 5 Zip Code  of the  Provide r (first five  digits)
+12 nppes_provider_zip4 Char 4 Zip Code of the Provider (last four digits)
+13 nppes_provider_state Char 2 State Code of the Provi der
+14 nppes_provider_country Char 2 Country Code of the Provider
+15 spe cialty_ de scription Char 75 Provider Specialty Type
+16 description_flag Char 1 Source of Provi der Speci al ty
+17 medi care_prvdr_enrol l _status Char 1 Enrollment Status of the Provider in the Medicare Program
+18 total_ claim _ count Num 8 N um be r of Me dicare  Part D Claim s, Including Re fills
+19 total_30_day_fi l l_count Num 8 Number of Standardized 30-Day Fills, Including Refills
+20 total_drug_cost Num 8 A ggre gate  Cost Paid for A ll Claim s
+21 total_day_supply Num 8 Number of Day’s Supply for All Claims
+22 bene_count Num 8 Number of Medi care Benefi ci ari es
+Reason for Suppression of Total_Claim_Count_Ge65, 
+23 ge65_suppress_fl ag Char 1 Total _30_Day_Fi l l _Count_Ge65, Total _Drug_Cost_Ge65 and 
+Total _Day_Suppl y_Ge65
+24 total_cl ai m_count_ge65 Num 8 N um be r of Claim s, Including Re fills, for Be ne ficiarie s A ge  65+
+25 total_30_day_fi l l_count_ge65 Num 8 Number of Standardized 30-Day Fills, Including Refills, for 
+Benefi ci ari es Age 65+
+26 total_drug_cost_ge65 Num 8 A ggre gate  Cost Paid for A ll Claim s for Be ne ficiarie s A ge  65+
+27 total_day_suppl y_ge65 Num 8 N um be r of Day’s Supply for A ll Claim s for Be ne ficarie s A ge  65+
+28 bene_count_ge65_suppress _fl ag Char 1 Reason for Suppression of Bene_Count_Ge65
+29 bene_count_ge65 Num 8 Number of Medi care Benefi ci ari es Age 65+
+30 brand_suppress _flag Char 1 Reason for Suppression of Brand_Claim_Count and Brand_Drug_Cost
+31 brand_claim_count Num 8 Total Claim s of Brand-N am e  Drugs, Including Re fills
+32 brand_drug_cost Num 8 Aggregate Cost Paid for Brand-Name Drugs
+33 generi c_suppress_fl ag Char 1 Reason for Suppression of Generic_Claim_Count and 
+Generi c_Drug_Cost
+34 generi c_cl ai m_count Num 8 Total Claim s of Ge ne ric Drugs, Including Re fills
+35 generi c_drug_cost Num 8 Aggregate Cost Pai d for Generi c Drugs
+36 other_suppress _fl ag Char 1 Reason for Suppression of Other_Claim_Count and Other_Drug_Cost
+37 other_cl ai m_count Num 8 Total Claim s of Othe r Drugs, Including Re fills
+38 other_drug_cost Num 8 Aggregate Cost Paid for Other Drugs
+39 mapd_suppress _flag Char 1 Reason for Suppression of MAPD_Claim_Count and MAPD_Drug_Cost
+40 mapd_claim_count Num 8 Number of Cl ai ms for Benefi ci ari es Covered by MAPD Pl ans
+23 
+ 
+Table 2. NPI Summary File Layout (Cont.) 
+# Variable Type Len Label
+41 mapd_drug_cost Num 8 A ggre gate  Cost Paid for Claim s Fille d by Be ne ficiarie s in MA PD Plans
+42 pdp_suppress _flag Char 1 Reason for Suppression of PDP_Claim_Count and PDP_Drug_Cost
+43 pdp_claim_count Num 8 Number of Claims for Beneficiaries Covered by Standalone PDP Plans
+44 pdp_drug_cost Num 8 A ggre gate  Cost Paid for Claim s Fille d by Be ne ficiarie s in Standalone  PDP Plans
+45 lis_suppress_flag Char 1 Reason for Suppression of Lis _Claim_Count and Lis _Drug_Cost
+46 lis _ claim _ count Num 8 Number of Claims for Beneficiaries Covered by Low-Income Subsidy
+47 l i s_drug_cost Num 8 Aggregate Cost Paid for Claims Covered by Low-Income Subsidy
+48 nonlis _suppress _flag Char 1 Reason for Suppression of Nonlis _Claim_Count and Nonlis _Drug_Cost
+49 nonlis _claim_count Num 8 Number of Claims for Beneficiaries Not Covered by Low-Income Subsidy
+50 nonlis _drug_cost Num 8 Aggregate Cost Paid for Claims Not Covered by Low-Income Subsidy
+51 opioid_claim_count Num 8 Total Claim s of Opioid Drugs, Including Re fills
+52 opioid_drug_cost Num 8 Aggregate Cost Paid for Opioid Drugs
+53 opioid_day_supply Num 8 Number of Day's Supply of All Opioid Drugs
+54 opioid_bene_count Num 8 N um be r of Me dicare  Be ne ficiarie s Filling Opioid Claim s
+55 opi oi d_prescri ber_rate Num 8 Opioid_Claim_Count divided by the Total _Claim_Count, multiplied by 100
+56 la _ opioid_ claim _ count Num 8 Total Claim s of L ong-A cting Opioid Drugs, Including Re fills
+57 la _opioid_drug_cost Num 8 Aggregate Cost Paid for Long-Acting Opioid Drugs
+58 la _opioid_day_supply Num 8 Number of Day's Supply of All Long-Acting Opioid Drugs
+59 la _opioid_bene_count Num 8 N um be r of Me dicare  Be ne ficiarie s Filling L ong-A cting Opioid Claim s
+60 l a_opi oi d_prescri ber_rate Num 8 la _Opioid_Claim_Count divided by the Opioid_Claim_Count, multiplied by 100
+61 antibiotic_ claim _ count Num 8 Total Claim s of A ntibiotic Drugs, Including Re fills
+62 antibiotic_drug_cost Num 8 Aggregate Cost Paid for Antibiotic Drugs
+63 antibiotic_bene_count Num 8 N um be r of Me dicare  Be ne ficiarie s Filling A ntibiotic Claim s
+69 antipsych_ge65_suppress _flag Char 1 Reason for Suppression of Antipsych_Claim_Count_Ge65 and 
+Anti psych_Drug_Cost_Ge65
+70 antipsych_claim_count_ge65 Num 8 Total Claim s of A ntipsychotic Drugs, Including Re fills, for Be ne ficiarie s A ge  65+
+71 antipsych_drug_cost_ge65 Num 8 Aggregate Cost Pai d for Anti psychoti c Drugs for Benefi ci ari es Age 65+
+72 anti psych_bene_ge65_suppress _fl g Char 1 Reason for Suppression of Antipsych_Bene_Count_Ge65
+73 antipsych_bene_count_ge65 Num 8 N um be r of Me dicare  Be ne ficiarie s A ge  65+  Filling A ntipsychotic Claim s
+74 average_age_benefi ci ari es Num 8 Average Age of Benefi ci ari es
+75 benefi ci ary_age_l ess_65_count Num 8 Number of Benefi ci ari es Age Less Than 65
+76 benefi ci ary_age_65_74_count Num 8 Number of Benefi ci ari es Age 65 to 74
+77 benefi ci ary_age_75_84_count Num 8 Number of Benefi ci ari es Age 75 to 84
+78 benefi ci ary_age_greater_84_count Num 8 Number of Benefi ci ari es Age Greater Than 84
+79 benefi ci ary_femal e_count Num 8 Number of Femal e Benefi ci ari es
+80 benefi ci ary_mal e_count Num 8 Number of Mal e Benefi ci ari es
+81 benefi ci ary_race_whi te_count Num 8 Number of Non-Hispanic White Beneficiaries
+82 benefi ci ary_race_bl ack_count Num 8 N um be r of Black or A frican A m e rican Be ne ficiarie s
+83 benefi ci ary_race_asi an_pi_count Num 8 N um be r of A sian Pacific Islande r Be ne ficiarie s
+84 beneficiary_race_hispanic_count Num 8 Number of Hispanic Beneficiaries
+85 benefi ci ary_race_nat_i nd_count Num 8 Number of American Indian/Alaskan Native Beneficiaries
+86 benefi ci ary_race_other_count Num 8 Number of Benefi ci ari es wi th Race Not El sewhere Cl assi fi ed
+87 beneficiary_nondual _count Num 8 Number of Benefi ci ari es wi th Medi care Onl y Enti tl ement
+88 beneficiary_dual _count Num 8 Number of Benefi ci ari es wi th Medi care & Medi cai d Enti tl ement
+89 benefi ci ary_average_ri sk_score Num 8 A ve rage  Hie rarchical Condition Cate gory (HCC) Risk Score  of Be ne ficiarie s  
+24 
+ 
+APPENDIX B – Distribution of HCC Risk Scores 
+Calendar 
+Year
+Number of 
+Medicare 
+Part D Users
+Minimum 
+Risk Score
+Percentile 
+01
+Percentile 
+05
+Percentile 
+10
+Percentile 
+25
+Percentile 
+50
+Percentile 
+75
+Percentile 
+90
+Percentile 
+95
+Percentile 
+99
+Maximum 
+Risk Score
+Average 
+Risk 
+Score
+2013 35,099,784 0.110 0.259 0.266 0.317 0.486 0.804 1.365 2.363 3.271 6.655 47.700 1.174
+2014 37,141,549 0.111 0.252 0.265 0.319 0.476 0.783 1.326 2.267 3.175 6.619 46.735 1.145
+2015 38,898,564 0.114 0.271 0.273 0.328 0.496 0.837 1.417 2.452 3.387 6.847 48.607 1.216
+2016 40,524,394 0.116 0.256 0.274 0.332 0.491 0.829 1.408 2.432 3.412 6.981 47.850 1.215
+2017 41,987,754 0.146 0.284 0.295 0.354 0.493 0.828 1.400 2.424 3.419 7.064 48.126 1.218
+2018 43,526,150 0.143 0.278 0.289 0.346 0.483 0.836 1.417 2.461 3.453 7.026 47.131 1.225  
+  
+25 
+ 
+APPENDIX C – Part D Prescriber PUF Technical Specifications 
+This programming specifications appendix provides users with additional information about how the 
+Part D Prescriber public use file (PUF) was developed. It describes the source data used in creating the 
+file, including any supplemental information beyond the Medicare Part D event data. This document 
+also describes the step-by-step methodology CMS used to create the Part D Prescriber PUF. 
+Source Data: 
+ 
+1. CMS Part D Event (PDE) Calendar Year Data available at: http://www.resdac.org/cms-
+data/files/pde. 
+ 
+2. Medicare Part D Drug Characteristics Data available at: https://www.resdac.org/cms-
+data/files/part-d-drug-characteristics-file-0. 
+ 
+3. Master Beneficiary Summary Calendar Year Data available at: https://www.resdac.org/cms-
+data/files/mbsf-base. 
+ 
+4. CMS National Plan and Provider Enumeration System (NPPES) Name and Address data available 
+at: http://download.cms.gov/nppes/NPI_Files.html. The most current NPPES name and address 
+information for active NPIs is in the “NPPES Data Dissemination (month, DD, YYYY)” full NPI 
+replacement file. 
+ 
+5. CMS Carrier Calendar Year Data see: https://www.resdac.org/cms-data/files/carrier-ffs.  
+ 
+6. CMS Durable Medical Equipment, Prosthetic, Orthotic and Other Supplies (DMEPOS) Calendar Year 
+Data see: http://www.resdac.org/cms-data/dme-ffs. 
+ 
+7. CMS Provider Specialty Descriptions available at: https://data.cms.gov/Medicare-
+Enrollment/CROSSWALK-MEDICARE-PROVIDER-SUPPLIER-to-HEALTHCARE/j75i-rw8y. The provider 
+specialty crosswalk is titled “Taxonomy Crosswalk (Updated MM-DD-YYY)”. 
+ 
+8. National Uniform Claim Committee (NUCC) taxonomy code set available at: 
+http://www.nucc.org/index.php?option=com_content&view=article&id=107&Itemid=132. 
+ 
+Methodology: 
+ 
+Step 1: Starting with the CMS PDE Calendar Year Data (which includes Part D Drug Characteristics Data 
+pre-merged when requested together), exclude over-the-counter drugs from this file using the following 
+criteria:  
+ 
+• Drug Coverage Status Code (DRCVSTCD) NOT = “O” (To exclude over-the-counter drugs) 
+ 
+Step 2: Create the following variables (and limit the file to only these variables) from CMS PDE Calendar 
+Year Data from Step 1: 
+26 
+ 
+ 
+• NPI = CCW Prescriber ID (CCW_PRSCRBR_ID) 
+• Beneficiary_id = Encrypted CCW Beneficiary ID (BENE_ID) 
+• drug_name = Brand Name (BN) 
+• generic_name = Generic Name (GNN) 
+• total_day_supply = Days Supply (DAYSSPLY) 
+• total_drug_cost = Gross Drug Cost (TOTALCST) 
+• Derive total_30_day_fill_count = total_day_supply / 30; when total_30_day_fill_count < 1 then 
+set total_30_day_fill_count = 1; when total_30_day_fill_count > 12 then set 
+total_30_day_fill_count = 12 
+ 
+Step 3: Merge output from Step 2 (retaining all data if matched) using Beneficiary_id with the Master 
+Beneficiary Summary Calendar Year Data using Encrypted CCW Beneficiary ID (BENE_ID) and attach the 
+following: 
+ 
+• Derive AgeGE65 = 1 when Age at End of Reference Year (AGE) > 64; otherwise AGEGE65 = 0 
+• Derive PartD_indicator = value of “PDP” when first character of any of the 12 monthly 
+Encrypted Contract ID (CNTRCT<month>) is equal to a value of “E”, “S”, or “X”; otherwise 
+PartD_indicator = value of “MAPD” when first character of any of the 12 monthly Encrypted 
+Contract ID (CNTRCT<month>) is equal to a value of “H”, or “R”; otherwise drop the record (not 
+Part D enrolled) 
+ 
+Step 4: Summarize the following variables from the output from Step 3 to the NPI, drug_name, and 
+generic_name: 
+ 
+• bene_count = distinct count of beneficiary_id 
+• total_claim_count = sum of 1 (represents count of prescription drug events) 
+• total_day_supply = sum of total_day_supply 
+• total_drug_cost = sum of total_drug_cost 
+• bene_count_ge65 = distinct count of beneficiary_id when AgeGE65 = 1 
+• total_claim_count_ge65 = sum of 1 (represents count of prescription drug events) when 
+AgeGE65 = 1 
+• total_day_supply_ge65 = sum of total_day_supply when AgeGE65 = 1 
+• total_drug_cost_ge65 = sum of total_drug_cost when AgeGE65 = 1 
+• total_30_day_fill_count_ge65 = sum of total_30_day_fill_count when AgeGE65 = 1 
+ 
+Step 5: Merge output from Step 4 (retaining all data if matched) using NPI with the NPPES Name and 
+Address Data using NPI and attach the following: 
+ 
+• nppes_provider_last_org_name = Provider Organization Name (Legal Business Name) when 
+Entity Type Code = “O”; else Provider Last Name (Legal Name) when Entity Type Code = “I” 
+• nppes_provider_first_name = Provider First Name 
+• nppes_provider_city = Provider Business Practice Location Address City Name 
+• nppes_provider_state = Provider Business Practice Location Address State Name 
+• Derive provider_taxonomy_code = Taxonomy Code when associated Primary Taxonomy = “Y” 
+27 
+ 
+ 
+Step 6: Derive a single specialty_description and description_flag based on the hierarchy described 
+below. 
+ 
+a. CMS Carrier Calendar data: 
+ 
+o Extract the following variables from the CMS Carrier Calendar Year Data 
+ NPI = Carrier Line Performing NPI Number (PRFNPI) 
+ Provider_specialty_code = Line HCFA Provider Specialty Code (HCFASPCL) 
+ line_srvc_cnt = Line Service Count (SRVC_CNT) 
+ 
+o Derive a single provider_specialty_code for each NPI record based on the 
+provider_specialty_code associated with the maximum line_srvc_cnt 
+ 
+o Derive specialty_description = “Medicare Provider/Supplier Type Description” from 
+CMS Provider Specialty Descriptions using provider_specialty_code 
+ 
+b. CMS DMEPOS Calendar Year data: 
+ 
+o Extract the following variables from the CMS DMEPOS Calendar Data 
+ NPI = DMERC Line Item Supplier NPI Number (SUP_NPI) 
+ Provider_specialty_code = Line HCFA Provider Specialty Code (HCFASPCL) 
+ line_srvc_cnt = Line Service Count (SRVC_CNT) 
+ 
+o Derive a single provider_specialty_code for each NPI record based on the 
+provider_specialty_code associated with the maximum line_srvc_cnt 
+ 
+o Derive specialty_description = “Medicare Provider/Supplier Type Description” from 
+CMS Provider Specialty Descriptions using provider_specialty_code 
+ 
+c. Merge output from Step 6 a. using NPI with the output from Step 6 b. using NPI. 
+ 
+o Derive a single NPI with specialty_description = specialty_description from Step 6 a.; 
+otherwise specialty_description = specialty_description from Step 6 b. 
+ 
+o Set description_flag = “S” 
+ 
+Step 7: Merge the NPI from the output from Step 5 (retaining all records) with the NPI from the output 
+from Step 6 c.: 
+ 
+• If NPI from the output from Step 5 = NPI from the output from Step 6 c. then attach 
+specialty_description and description_flag; otherwise 
+ 
+28 
+ 
+• When provider_taxonomy_code crosswalks to a single “Medicare Provider/Supplier Type 
+Description” from CMS Provider Specialty Descriptions then derive specialty_description =  
+“Medicare Provider/Supplier Type Description” and description_flag = “S”; otherwise 
+ 
+• Derive specialty_description = “Classification” from the NUCC Taxonomy Set using 
+provider_taxonomy_code and set description_flag = “T” 
+ 

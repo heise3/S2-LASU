@@ -1,0 +1,3 @@
+year_previous,year_current,age,scenario,matched_npi,spearman_rho
+2019,2024,all_age,primary,96607,0.672252772194
+2023,2024,all_age,primary,128206,0.852308001436

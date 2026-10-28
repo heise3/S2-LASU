@@ -1,0 +1,8 @@
+# 最终图号 F1–F4
+
+| 图号 | 图 | 对应表 | 解释 |
+| --- | --- | --- | --- |
+| F1 | [全国两年龄组长效SU份额](figures/F1_national_long_acting_share.pdf) | T1_national_age_trends.csv | 2013–2024；Beers2015/2019/2023节点。阴影为v1公开行宽松抑制界。 |
+| F2 | [glimepiride与glyburide份额](figures/F2_glimepiride_glyburide_share.pdf) | T1_national_age_trends.csv | 分母均为全部SU；原始年度份额，不是分段拟合线。 |
+| F3 | [2024州级年龄份额差](figures/F3_state_age_gap_2024.pdf) | ../details/lasu_v1/A2_state_gaps_2024.csv | 横线是v1宽松抑制界，不是统计CI；v1.1规则端点结果见T4a。 |
+| F4 | [修正版Beers同类内份额基准](figures/F4_BEERS_within_class_benchmark.pdf) | T6a_BEERS_three_approach_comparison.csv | 单张双面板log/logit；33条目+额外长效SU；两面板84.85百分位。 |

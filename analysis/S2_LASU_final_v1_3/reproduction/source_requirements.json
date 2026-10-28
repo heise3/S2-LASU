@@ -1,0 +1,1830 @@
+[
+  {
+    "path": "outputs/S2_BEERS_precheck/code/analyze_beers.py",
+    "sha256": "7a53074e71f6b21e4e8eb7c5e175e80cd82bc56ea4118a7ed03ee518eecc04d8"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/audit_definitions.py",
+    "sha256": "bc992666beed4085452bb4880cf7bbacd9d7f34fb939cf415f94684a2997342a"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/build_report.py",
+    "sha256": "caaf853614acca8518826b8a4ec8e8bc6bfdc84a00e0c7c2d150c80dfbd19dde"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/definitions.py",
+    "sha256": "e6d6adda71ff28ac130d5c62e80d06098c287f48ea40dcc0595dabce5fe258af"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/download_B_inputs.py",
+    "sha256": "d92f0f2bfa318b8aa927f239eb19996060007c2dda6ff52ed64c2f0e26f4e2b0"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/generic_filter_sensitivity.py",
+    "sha256": "031454ea07e3cfeb109e40b9c4ff86017168a98dc435441b8b45c9c8a2a9d690"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/get_candidate_sources.py",
+    "sha256": "dd249d57ca8d482d92a92decf40be10941e4d64680e590b9b67dde9e279eae60"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/get_sources.py",
+    "sha256": "edf1758f7f04b729786f9bb5d2afb93b34dc8e9d182a5b2e5bdf248d352ba63c"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/lasu_models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/literature_review.py",
+    "sha256": "5ea2562900110bba2727f3136aa7946a31a2962f966ac572360619e4b87ea7cd"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/package_bundle.py",
+    "sha256": "58c181fc749c4075b47868b0894f62bdf8e7333a6a0d12b4b46f4a7038fc41ed"
+  },
+  {
+    "path": "outputs/S2_BEERS_precheck/code/validate_bundle.py",
+    "sha256": "77e635b873e57e50ce5c8bab76fbb9fdecff34d3d09cf950c45733a04153c292"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/analysis_contract.json",
+    "sha256": "c4529e0b7156a2b3a3f27e8973d57dcff2238cbceafbecad89b87046430b0a9f"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/acquire_atc.py",
+    "sha256": "60efccf056fdd69365fdc56119d57eaa9e4e38a09387c960c58306fc0830c85c"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/analyze_benchmark.py",
+    "sha256": "2aced4f38c4aa36998a12b0fed23ee289581a993ea665528ecdd0746114cd05d"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/correct_name_collision.py",
+    "sha256": "220549b29705b6d7bf7b4030732dd1521edcd939582cbd2a06b9791d7401f493"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/definitions.py",
+    "sha256": "e6d6adda71ff28ac130d5c62e80d06098c287f48ea40dcc0595dabce5fe258af"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/lasu_models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/package_bundle.py",
+    "sha256": "22acf350b1d9011e2461d78c7df1bb0fc6aa15ed8e3900f8ba341dcacefbf2da"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/prepare_mapping.py",
+    "sha256": "732506d4c8b830898bc5090c5fdc720444de8addbd97473e0e4951c7ebee9cb8"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/update_literature.py",
+    "sha256": "ce0fdb6138ba16a15a25b1746c495e638fcbf340c91c550f1e7b6341e55cfdbb"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/code/validate_and_report.py",
+    "sha256": "1430a02b4cebe86de28c0c3542784a6a492996c76973b5169919dde066ee3fb9"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_A02_members.json",
+    "sha256": "8cdf0fd8520aabaa425bc842842be41482decf7a6216b16855de58b7f63ade4b"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_A03_members.json",
+    "sha256": "b3021c90314c58dd93d6be0b6122390f3c83fbb98fdf9347d09ed9815831864c"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_A10BB_members.json",
+    "sha256": "4ff2d5d353e595796cf73dbd9bc03d8f823e61378c014a71e77d671efbb63932"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_A10_members.json",
+    "sha256": "d4b11ec71b731a23ab240a9e3d0ce8fde29aac3fe7dcadaf0ca58da817de61be"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_B01_members.json",
+    "sha256": "bd8df4043c6a049b2959d58bb363ffe046f96d76b2003f8b1516cf78d56132ff"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_C01_members.json",
+    "sha256": "09b485a76efecceb28884092bae8a0207f52ca8866a19c3a400fb052f6eb4acf"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_C02_members.json",
+    "sha256": "850c3a578e524197532afa6211e41c4e173e8f3f7f37a2170d895d22e82217c3"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_C08_members.json",
+    "sha256": "c77803c54b67a3cde9212cd2ad51553d9bf84bd855553db7f8e659077e9f9f57"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_G03_members.json",
+    "sha256": "d38ad406b08af69b16e547f05da0dc83219f7114e60bff6c0324e1faff49d679"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_H01_members.json",
+    "sha256": "aaebfd571ad80781a4482069ae3f833f8d058181dac949203c17b1b9f892cd13"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_H03_members.json",
+    "sha256": "862eb97d052a1ac4a30db518b28fd5acc98e7ff0504de19c320b54da3dfe470c"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_J01_members.json",
+    "sha256": "e7c2bca53d6ff88878cec46ba17f66b4df211a844199d9c716e687c1f70e62c6"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_L02_members.json",
+    "sha256": "892b00aa192619e151861264dd636203ec300c7e4cc58e30a828cc967d90ec98"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_M01_members.json",
+    "sha256": "be056ff3e6498ce33fd66bcacb60532839ed67e6e71b861f78d9f786e733b62b"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_M03_members.json",
+    "sha256": "4f1c734f4091e3c2808243647261245dd3b28541a36f3ed07e00ca2c7735cb8e"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_N02_members.json",
+    "sha256": "81c975ea61d0e8baac5c6029d58948d324f14944d7db954c27b0613231f32e39"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_N03_members.json",
+    "sha256": "9cc9e83dc6b1bf4590cde1ad00f2d5b513b561f9044a97cf024329b8cdff2eb0"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_N04_members.json",
+    "sha256": "b0dd8ba8fdfadadc82109e4004ea2db63897141d4e2c55574d88be20db7ff523"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_N05_members.json",
+    "sha256": "7e0c3bd5e3dbdda51e1d5a3803a0d570db8e8c8a1d5ec69d460a0a0e9c9bf8e9"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_N06_members.json",
+    "sha256": "e99aa8266abe98daa86d5120f6c16886d264057d8458dc202a3794c74d80623f"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ATC_R06_members.json",
+    "sha256": "64d8101c03a0a00dda4ec10834a0912ab258d707cd5c20dfe7a8d2120693d914"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/evidence/ingredient_aliases_frozen.json",
+    "sha256": "7e5d5f39ff1ed364d462598424776127fa7e5a78acdf7ae0cb270b838e669062"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/tables/ATC_members_frozen.csv",
+    "sha256": "fa93cf64eea653cece9a07e0de202009e417e185249b49ae5b363edac73a51fd"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/tables/generic_atc_matches_frozen.csv",
+    "sha256": "e876253e6a0b408ba7e5cb36b77dd1752669cea3f40429c3ed831a6532a58d35"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/tables/numerator_membership_exceptions_frozen.csv",
+    "sha256": "1cff437c99c399bfca21d60e1dc8cccec2ae4860b29675ae3a2caf5390c2d491"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/tables/numerator_names_frozen.csv",
+    "sha256": "4c3860991a9578285885566c5290a783ea13534d8bff09c41e5d41bf0b985cfe"
+  },
+  {
+    "path": "outputs/S2_LASU_BEERS_benchmark/tables/therapeutic_class_map_frozen.csv",
+    "sha256": "29bd9cde049d0041af3d45b847a44b8f94ffecbca4d84b1409638943b1530799"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/DECISIONS.json",
+    "sha256": "f989e3d5c64a7ae27f75820d0ac188c5b3677a97de3198bf253cf7c5af9308ef"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/DEPRECATED.csv",
+    "sha256": "c1feb63c6d3abec58357dc8ac13244193b4c602488b986902900c7f7e5401b49"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/DEPRECATED.md",
+    "sha256": "a27ea37eabbb0dc19d59d7795925739c2a4f4d97d68f182317918cd96748e084"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/FIGURES.md",
+    "sha256": "c5e16c60c67dd39c51cc80f66ded0bba396124f0b9775b64ea7eb7eea04d53f3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/FIGURE_INDEX.csv",
+    "sha256": "854f7d7584ea29a5c6c4362aaf6d3afad14d49e863512ab32be97835982349db"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/README.md",
+    "sha256": "b113a997a4793b3d8c58ae289e12e0a424ea221711e0e6b2fc9315475ea76abe"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/TABLE_INDEX.csv",
+    "sha256": "f0fb5a3cabba16c3f401113f2421a1b6e0de6e529c842779088f9e7e504f48f5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/TABLE_INDEX.md",
+    "sha256": "ef691826e100a5c6d1e04e663438413ceda72d9eb3279470084dcf89873c937b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/code/assemble.py",
+    "sha256": "5d9b741bbf9f13be6c8712060aa9f4d674379865c16b17b108e0073b52336166"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/code/import_release.py",
+    "sha256": "da3a6ec7a2f76abaa221e00ea0112479861198808232c17b4d9d8760f849a2ef"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/code/reproduce.py",
+    "sha256": "a40af80aa07f22f996020e52853d546feccdf04eb52d1ac97feed372e3c156a2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/code/requirements.txt",
+    "sha256": "166e31d2e6882657a08a3fbd3105270057b3f0dbde20cf95f6e8b092e5b76f48"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/ATC_members_frozen.csv",
+    "sha256": "fa93cf64eea653cece9a07e0de202009e417e185249b49ae5b363edac73a51fd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/BEERS_numerator_manifest_effective.csv",
+    "sha256": "7e3443486a96afb5ae1deae15e496e49a27c7b23ebec4bcbff8fc59e4e53da94"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/BEERS_numerator_names_effective.csv",
+    "sha256": "8a70418a09c75fb47948e68b6685fc9db6f43aed266fe6f3c9e7c8c480815fc9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/LASU_field_inventory.csv",
+    "sha256": "9c1aa1a6e7afa7b54d3386b2dc0b72511f9665a1098e47b6bff6fcdb4c9dbf44"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/LASU_field_mapping.csv",
+    "sha256": "6f4e3af6ba564def57edf1badbfcd47b4006c742c65a3f18cbfc8c7f2007ca19"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/LASU_matched_generic_brand_names.csv",
+    "sha256": "71d228ad75a18915959882bba7a588844835a45dc92fb61d0867159c76eb38a9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/LASU_matched_generic_names.csv",
+    "sha256": "e3fa1787dfed9945ebc282364681ff3e507d4f9533b06031341355769058eb94"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/generic_atc_matches_frozen.csv",
+    "sha256": "e876253e6a0b408ba7e5cb36b77dd1752669cea3f40429c3ed831a6532a58d35"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/definitions/therapeutic_class_map_frozen.csv",
+    "sha256": "29bd9cde049d0041af3d45b847a44b8f94ffecbca4d84b1409638943b1530799"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/evidence/delivery_manifest.json",
+    "sha256": "86e837db87ea26f1998981cda2dc6fae2f0daed47b89ebad2118aadc94bf531e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/evidence/import_manifest.json",
+    "sha256": "e2a46c3e42b0cb2d274e1ad8ce59b86397e31d0a7fe99ef92b342411d36acb14"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/evidence/prior_outputs_manifest.json",
+    "sha256": "5189fe849888be3c789d7f92490f869ff2b4b24d99cc39a3d279a11e122e3f16"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/evidence/recompute_preflight.json",
+    "sha256": "bdf5a0a3a26d1d4e26ae4dfa7cc9ca9d13d267127d59d915baafdcc9727b9405"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/evidence/release_validation.json",
+    "sha256": "509ad7546fc23760d4616d72dd5de1f783d76ca1dd827330a4e19dcfca5f78da"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F1_national_long_acting_share.pdf",
+    "sha256": "3952c365f34e94cb35f400e5c204c60c161eac04274033ba6d292c209417df24"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F1_national_long_acting_share.png",
+    "sha256": "ffa8d6ece8f736da350e7d9bd8227ac65d1f956c691b1aa8544b345870f8c620"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F2_glimepiride_glyburide_share.pdf",
+    "sha256": "88cedc68fdba534d3cacb8657e33bca4402186af44b8afb2a96de1fdd4f9c6e5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F2_glimepiride_glyburide_share.png",
+    "sha256": "7350b5a25f4819f968800fac320642357c2bb76449e071a160fb909640e5d050"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F3_state_age_gap_2024.pdf",
+    "sha256": "032bce4bd9026a70df956796ee65eeeaff78da53709a8da51da4575b1aa92c62"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F3_state_age_gap_2024.png",
+    "sha256": "7a429aa0e2c4e42a53b63a6a1e1fe9a0ccaaf67757c2b3fac01eb79cc58fb473"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F4_BEERS_within_class_benchmark.pdf",
+    "sha256": "adb1834a3d471c80a242fd5da2f57b9614cf0a716b09d6c53642db3b65455e0f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/figures/F4_BEERS_within_class_benchmark.png",
+    "sha256": "461d47120b6bc0204713d383685065ee0bbbee14be695716faa27a0919c365b3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/CMS_source_manifest.json",
+    "sha256": "818d1c808c0bc689d1279f6aea830412267c50d4a393e59d27e40f6571be8f1d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A02_label.json",
+    "sha256": "786a36e15b056eea8cfd898cf9075090c7d34c0a14bfc63b5e0f87a2419a564a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A02_members.json",
+    "sha256": "8cdf0fd8520aabaa425bc842842be41482decf7a6216b16855de58b7f63ade4b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A03_label.json",
+    "sha256": "abb5bf647fa18a137bf82eeddfa4409fd47b646a7a225d9998fafca7e7c256bc"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A03_members.json",
+    "sha256": "b3021c90314c58dd93d6be0b6122390f3c83fbb98fdf9347d09ed9815831864c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A10BB_label.json",
+    "sha256": "856d2c4a97c57d79284d2e574f96b909755ec06a955ca58768187a082fc1e8fb"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A10BB_members.json",
+    "sha256": "4ff2d5d353e595796cf73dbd9bc03d8f823e61378c014a71e77d671efbb63932"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A10_label.json",
+    "sha256": "f824668965ba97b6798403651b5024bfd7dab6f52345a22449302dfde65a3292"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_A10_members.json",
+    "sha256": "d4b11ec71b731a23ab240a9e3d0ce8fde29aac3fe7dcadaf0ca58da817de61be"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_B01_label.json",
+    "sha256": "ad4ca69d9780342baf1f7ad4393f103caa58558a2a3f84cf4dc1fe2212263981"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_B01_members.json",
+    "sha256": "bd8df4043c6a049b2959d58bb363ffe046f96d76b2003f8b1516cf78d56132ff"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_C01_label.json",
+    "sha256": "64e58b7a4514ee13057ff9dc68de93a91beabda8161e69b93b8610513a7755c1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_C01_members.json",
+    "sha256": "09b485a76efecceb28884092bae8a0207f52ca8866a19c3a400fb052f6eb4acf"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_C02_label.json",
+    "sha256": "6156c2679c168e16ab1453f54bca5890803fe288a4bb0a986ff097b7ad27abb8"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_C02_members.json",
+    "sha256": "850c3a578e524197532afa6211e41c4e173e8f3f7f37a2170d895d22e82217c3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_C08_label.json",
+    "sha256": "5f652424fe584e75c637e2c869ebf344cc72fccdb19f2f0b67fd2aa30d09169d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_C08_members.json",
+    "sha256": "c77803c54b67a3cde9212cd2ad51553d9bf84bd855553db7f8e659077e9f9f57"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_G03_label.json",
+    "sha256": "d421d770a440154eedd78be3aa83371892e183373b4ec1dc82fb572043083fbd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_G03_members.json",
+    "sha256": "d38ad406b08af69b16e547f05da0dc83219f7114e60bff6c0324e1faff49d679"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_H01_label.json",
+    "sha256": "4ff309511b7380c49aeec2afa66609e01cc41a648161cacf52ff4ed814fc83eb"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_H01_members.json",
+    "sha256": "aaebfd571ad80781a4482069ae3f833f8d058181dac949203c17b1b9f892cd13"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_H03_label.json",
+    "sha256": "a17233f9ccfa60943dbe3af7fed593421d61a9a18144371a7df4cb2fdbce8e4a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_H03_members.json",
+    "sha256": "862eb97d052a1ac4a30db518b28fd5acc98e7ff0504de19c320b54da3dfe470c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_J01_label.json",
+    "sha256": "c8bd6727d5aad18c30d9914cfd3ba637c6824c3d470fdb070b4520db3ad0e0e4"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_J01_members.json",
+    "sha256": "e7c2bca53d6ff88878cec46ba17f66b4df211a844199d9c716e687c1f70e62c6"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_L02_label.json",
+    "sha256": "7a3f18bfab8a4a2a87d5ec2303678daaeca0704e3d0904370bb4380b42ed1fd8"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_L02_members.json",
+    "sha256": "892b00aa192619e151861264dd636203ec300c7e4cc58e30a828cc967d90ec98"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_M01_label.json",
+    "sha256": "0eb642f76d36a26a59a2db8f5a15bb88b3be7bb47efe611fc0c2b9ec3ff10106"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_M01_members.json",
+    "sha256": "be056ff3e6498ce33fd66bcacb60532839ed67e6e71b861f78d9f786e733b62b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_M03_label.json",
+    "sha256": "460737294eaef3a679857ceb5c756d5ef89710da027ec4a1999549392c0d5cae"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_M03_members.json",
+    "sha256": "4f1c734f4091e3c2808243647261245dd3b28541a36f3ed07e00ca2c7735cb8e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N02_label.json",
+    "sha256": "861639f45421f720b811e0ecab09e56046b72a08e5db056c7fb3206cfac0d61f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N02_members.json",
+    "sha256": "81c975ea61d0e8baac5c6029d58948d324f14944d7db954c27b0613231f32e39"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N03_label.json",
+    "sha256": "1f6651902851fff9cb35dad8d5a8a97d90af0bc3b7c14a29c1a547cd40c7ea9f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N03_members.json",
+    "sha256": "9cc9e83dc6b1bf4590cde1ad00f2d5b513b561f9044a97cf024329b8cdff2eb0"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N04_label.json",
+    "sha256": "7c0711698bde0c86ea1c0aa230274ebd83a26d897fe44e8b87d7539504603c01"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N04_members.json",
+    "sha256": "b0dd8ba8fdfadadc82109e4004ea2db63897141d4e2c55574d88be20db7ff523"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N05_label.json",
+    "sha256": "8f95c9ec017da60673ee0699e0997fada9a7f69d774f95758be1b906c82067b1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N05_members.json",
+    "sha256": "7e0c3bd5e3dbdda51e1d5a3803a0d570db8e8c8a1d5ec69d460a0a0e9c9bf8e9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N06_label.json",
+    "sha256": "6144c523aaa2bbeba67d0b600202efb7a005f08113e7f2dd8762da3f6cf12913"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_N06_members.json",
+    "sha256": "e99aa8266abe98daa86d5120f6c16886d264057d8458dc202a3794c74d80623f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_R06_label.json",
+    "sha256": "c51cfb648ba4419181eb08f8d21defb58873113e4fa68ecb74ab0f74b57f3028"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_R06_members.json",
+    "sha256": "64d8101c03a0a00dda4ec10834a0912ab258d707cd5c20dfe7a8d2120693d914"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_fetch_log.json",
+    "sha256": "675e049cf2a32f78aae8d639501a43f058c6c77abbd503ad02b5c956dc1905c7"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_fetch_log_sandbox.json",
+    "sha256": "7dd234209a432b69cf9965da72a618e2c9ce75bf2597ca073d1d3291bb046c03"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ATC_version.json",
+    "sha256": "7938336f53e76d22ec95a12e8bf6cd9ff8d4231094a874de39a8ba9e160eb231"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/Stuart2003_original_abstract.txt",
+    "sha256": "e190f205b1c32342fc1d3f618eb884999cf09cf53b808e3b05e15b9eed542b3e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/Stuart2003_original_pubmed.xml",
+    "sha256": "8e0b990a05875336678f1dbf605fdb9342f6e90a257725fee53c8e3b80c3c974"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/analysis_contract.json",
+    "sha256": "c4529e0b7156a2b3a3f27e8973d57dcff2238cbceafbecad89b87046430b0a9f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/analysis_started.json",
+    "sha256": "c338bf6772187812e1425a93768baed2e718a3a29d7503977bb954aa29b6d024"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/corrected_decision.json",
+    "sha256": "2d350a645f50d2d36a3922860f2fa660f86f36bc78eae77c66fdc3b394da84af"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/ingredient_aliases_frozen.json",
+    "sha256": "7e5d5f39ff1ed364d462598424776127fa7e5a78acdf7ae0cb270b838e669062"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/inherited_numerator_manifest_AUDIT_ONLY.csv",
+    "sha256": "286e3efcbac5b59eabb4430a89ba38f20fcd365983c108447a70b4fb986b610a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/initial_freeze.json",
+    "sha256": "4a19e264ae5a4a4c4d522d28473fb20091611ac31df34928c2b4df936b1fab50"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/literature_update_receipt.json",
+    "sha256": "6a46798470a254a8990c1592bf84124264170f8ec7e140271925f33e6b0a5f47"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/mapping_freeze.json",
+    "sha256": "339e84a1805a54abcb0199bfa3f9911bc5851dbafbad5c9c72049426a288e8f2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/numerator_names_frozen_AUDIT_ONLY.csv",
+    "sha256": "4c3860991a9578285885566c5290a783ea13534d8bff09c41e5d41bf0b985cfe"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/beers/validation.json",
+    "sha256": "5278357164d5a661a4c2dac354812fc64ad3dc723597bc64c9bcad3cc67c5edb"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/full_B_input_hashes.json",
+    "sha256": "f20e170a872b6e44e9c66b88b950a317a50a8a90df76195fb268a6605128122a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/A2_decision.json",
+    "sha256": "4d3859be5dbc301d0f83b7a537b785674640f6f47e55663178832d1913b3cf83"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/analysis_contract.md",
+    "sha256": "a47d47b230671dd61373ec81ed6c3905d09245f692635ae18c672b46ed57a8d2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/MDCR ENROLL D_CPS_03EPD_2024.xlsx",
+    "sha256": "7d334a47fb837b25aaf16e8676d787ceb45cf5e1ab8c3482236e151c9ea4104f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/PartD_enrollment_2024.zip",
+    "sha256": "2fe211432c720cc665a4382f79913a4d84367b7adce7970eaa4590dfdbb9ae1c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/enrollment_catalog_selected.json",
+    "sha256": "ec87f3bb884ee15b30e81b4d5a346375fc653faab95221e1732e73b3008c759c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/enrollment_denominator.json",
+    "sha256": "8696d28948f159ff5f21aff0023217a4f322b4058651437662c2eb83eb68c3c4"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/monthly_enrollment_actual_sample.json",
+    "sha256": "894dded6f52a0eb3d0b0199b37e543a3d61a37877135c1623096a195a26fab55"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/monthly_enrollment_dictionary.pdf",
+    "sha256": "e7f3f3f6f98c2c0f0b2bd74a20021d24f3e71900c71a9ba8c70348c21bc7e83c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/reused_input_manifest.json",
+    "sha256": "56bd8da18ba6bc26692b00606f98799d081e3e8ee20df62bec886ab0ab8e585a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/runtime.json",
+    "sha256": "dfc72bbdde09f5589117e5be57dac1832b7bae58f8602c765976527942739509"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/lasu_v1/evidence/validation.json",
+    "sha256": "4802a46e628ac08dbe19ed769215627615e7784d1d94d3d6e1d21791754ff7d9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/R2_decision.json",
+    "sha256": "e2f8dc53402ae8b89b9a54ebf819da0c9da4fef144df0728efce72e4eca89241"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/analysis_contract.md",
+    "sha256": "abc301e7133d0534a376b8e32d9537ecfaea90b947e9dcfab2be1fc392537087"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/CMS_geography_dictionary.pdf",
+    "sha256": "e424a1a7e9a3f9b451e750e3c22a0698962ede20b364f173c61a28e9957188a3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/CMS_geography_dictionary.txt",
+    "sha256": "02fd78a5121155b81a80c55c79c4b1ad7439f1996930d30fb1eb1004c964d97d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/CMS_methodology_2026.pdf",
+    "sha256": "1688e7f39399ddef9cac599d0c38d77728c22c4f7c5aa5117641436293eb68bc"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/CMS_methodology_2026.txt",
+    "sha256": "d1cedcd0f84cf64fea35ad79119fe128c60535d11e9abffa123cf983750b2028"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2013/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "3025215e740292b17707290261b3079fe22fc656c813b22d90aa37679f9d1535"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2013/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "d2ddb2aaf80aacc866cd8e520e8a10dd19eb51f3a7568195d6ae59936d60fe7b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2013/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "f93b7c461535c954c9f74d355b51e360ab067832422fa8241ab81afbce896b15"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2013/official.zip",
+    "sha256": "f2e92e66aa2e217feae8e2a9f341cd300b2f5598130923d06a4c2a8193c9b47e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2014/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "51f40f7f7dcd632fe9e6235ebfde3e0193ab3bb0a819c37e284a592b0003ed37"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2014/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "a38ce216dc9a46777dcfcdf8359339d3f8c5a68ba62dc7b3d1d26fa5e30f3fa2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2014/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "82e363737fc2101120d23fa6503d49ad268f6babe522c5179b9d93f37e56af94"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2014/official.zip",
+    "sha256": "6e1dcbac39f8eb23253264f1cbc9d69b5c296c9530ec9453c9f09c3405b539a1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2015/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "94b27436b03b2f7966787c87705e1583983c538c68ebcb3f03e7d9694336e249"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2015/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "26f94720b6d66de7c58d7d36a24e781f9050bacd68feac97c6e147d957ceb9b0"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2015/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "06bc7a76fec373c5a3c5861078c4419fe696d422f18db2303117b1bd069e0e47"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2015/official.zip",
+    "sha256": "c8771b38bb74c8fc3640806f57433b7c2679d7c87740c64bfecfe8b9a7c323d9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2016/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "ddd954e439ebad3f852b2aa1417ce34e0a0fc03cdd8425266ac52104ac193ec3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2016/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "cd1ff97875216f950a7d58eb51ef480d933c3bbea32e17248a1b3e79811cab11"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2016/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "bfccc9d96d55781fac5b7de91583854ba2d9bdf3e16ab7a1a937b15ef7b588d7"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2016/official.zip",
+    "sha256": "ae8d00ab14425243ad84a8e6590bf785611bd7bcf5f690ffd5a5660392f603fe"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2017/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "0821c8df435a24ac648c739778fe8f8621f44a03a6cb767e5ea0ea9cc8e03ddc"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2017/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "22a14f6262e8543a188c723b67d9ba9219a209a12458a6f91f367efdb7263d9b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2017/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "7dee013318eb687fded9106cd399239bf4462ea94a6b3729d57c01c8a3e8352e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2017/official.zip",
+    "sha256": "d3cc0a9eff6a4614be4c09eb4e68b73c2b8624cd4cad7b6f640b161c5cb6e279"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2018/CPS MDCR ENROLL D 1.XLSX",
+    "sha256": "5a3b0d7aa189721c0228026e4e6439d5e40afa42aca42d6d614f41fe045544d3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2018/CPS MDCR ENROLL D 2.XLSX",
+    "sha256": "567187b1e545bfe04cbc2fcde1a9716abc85d1b0a887d35ef400a3826b57ee5b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2018/CPS MDCR ENROLL D 3.XLSX",
+    "sha256": "33f04e2e5f722ac31f70e060e0a2ee8dd8fedf4de16b6d0698db4513773bf44a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2018/official.zip",
+    "sha256": "dfe5b87345352d8748c7168c4ed9da067278218cbd2ed32357602295e637d0a5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2019/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "223abfb8fd206bbd9b138e262fcb99b15ba640099129d87d25892e060d1f9e53"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2019/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "b2aecc02e74eab20325fda7734a6885466a3f23c16030bfc37f52a321a3fab8e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2019/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "b8ddcc564bd5551a3737ec9adddcf89332009a3e8120518168b82bfea28c250b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2019/official.zip",
+    "sha256": "246ff580d96b52996b2673a0e9e85aaf95d814cc3b53696244e009fe833a8ace"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2020/CPS MDCR ENROLL D 2020.xlsx",
+    "sha256": "dfdf73b4e75fa3d2c972a203597ed83d4fac053958dc5a97dc5fc32194e4d8ab"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2020/official.zip",
+    "sha256": "f2ad398c4ed784e21d3ad0ff322cd3b203c6bd094e5283b65c106367911f126b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2021/CPS MDCR ENROLL D 2021.xlsx",
+    "sha256": "0120f58eb823533b5d5e40a86fe5f57f629ae519ceac140534d643514d0d3bec"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2021/official.zip",
+    "sha256": "0925b07ce895a1e901f09c76f91d690293478202796365c5440109efc29124a1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2022/MDCR ENROLL D_CPS_03EPD_2022.xlsx",
+    "sha256": "9785d32f71b68cd147d090e779b25f03a7546f59b5d7758294f2a407009af799"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2022/official.zip",
+    "sha256": "48b14111ba48e0425e5678320e7e3c6e2016f36f8ceefaae6fef84a825d67fbc"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2023/MDCR ENROLL D_CPS_03EPD_2023.xlsx",
+    "sha256": "470eeb5a3ccfbd9add8ff7d931b7b912c2c2aeaee3e88205418f67afa040c8b2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2023/official.zip",
+    "sha256": "e1b0dfa92b707d44d2a2fe6f616bb1aa79393d1154a61dca362adea5e9178a22"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2024/MDCR ENROLL D_CPS_03EPD_2024.xlsx",
+    "sha256": "7d334a47fb837b25aaf16e8676d787ceb45cf5e1ab8c3482236e151c9ea4104f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment/2024/official.zip",
+    "sha256": "2fe211432c720cc665a4382f79913a4d84367b7adce7970eaa4590dfdbb9ae1c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment_extraction_notes.json",
+    "sha256": "0f03c29cb7f934f5554e8c8d6dd72c816cf8de81915fc415ee32cd5fd665c567"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment_methodology.html",
+    "sha256": "7063a115b8070d10f733e8652152674fb72b3e7aa6ec720bb4d27b63fd6b3cf9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/enrollment_sources.json",
+    "sha256": "9ff357545819f627b745ad88d23c159e95eb9b6b3306c71454c78eac2a6b3ca3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/input_manifest.json",
+    "sha256": "978bcb64a1f71c967203b9eae646598929f13fca69c67959babbe2d5ba448cd4"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/legacy_prescriber_methodology.pdf",
+    "sha256": "ac584dfe7f18602b3c085107155c87a32e1350759b011df45f24b9da8b50273d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/legacy_prescriber_methodology.txt",
+    "sha256": "59f5d4234f7b830f0ee3057d3697d87837a9f2fa9d0be6b767a61fa18a75f87e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/v1_before_manifest.json",
+    "sha256": "13e85aad5e8fb283847bbaaa861a56d391d08d8f2236bc2d34f287aa81830377"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/provenance/robustness_v1_1/evidence/validation.json",
+    "sha256": "4edad8153bc7c3d556bbcca8f4c66b01fb352aa1b41e31a0f5cf3f8f1310ad7d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/release.json",
+    "sha256": "917700940637fc71c06bd0d2cc82de2bccf4118ee4589667ddae68128ce6ba33"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/acquire_atc.py",
+    "sha256": "60efccf056fdd69365fdc56119d57eaa9e4e38a09387c960c58306fc0830c85c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/analyze_benchmark.py",
+    "sha256": "2aced4f38c4aa36998a12b0fed23ee289581a993ea665528ecdd0746114cd05d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/correct_name_collision.py",
+    "sha256": "220549b29705b6d7bf7b4030732dd1521edcd939582cbd2a06b9791d7401f493"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/definitions.py",
+    "sha256": "e6d6adda71ff28ac130d5c62e80d06098c287f48ea40dcc0595dabce5fe258af"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/lasu_models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/package_bundle.py",
+    "sha256": "22acf350b1d9011e2461d78c7df1bb0fc6aa15ed8e3900f8ba341dcacefbf2da"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/prepare_mapping.py",
+    "sha256": "732506d4c8b830898bc5090c5fdc720444de8addbd97473e0e4951c7ebee9cb8"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/requirements.txt",
+    "sha256": "166e31d2e6882657a08a3fbd3105270057b3f0dbde20cf95f6e8b092e5b76f48"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/run_all.sh",
+    "sha256": "390a0f8f7b5c7b99b35eaed2374ea9bd5f52f3b6b9bf389a3e03c1ded1f45871"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/update_literature.py",
+    "sha256": "ce0fdb6138ba16a15a25b1746c495e638fcbf340c91c550f1e7b6341e55cfdbb"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_BEERS_benchmark/validate_and_report.py",
+    "sha256": "1430a02b4cebe86de28c0c3542784a6a492996c76973b5169919dde066ee3fb9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/build_report.py",
+    "sha256": "482ff2e7994da7f88288caeb919af1007e9e9abda2c83faea75a4042c1dbabd6"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/check_enrollment.py",
+    "sha256": "3031d664bb521d1ac84381e1ba79ecbc89e628ade779db0e18a967b8eab919f5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/extract_enrollment.py",
+    "sha256": "095f9c629a1946f4f3cb703d90b2391f1a678f43c5ad03e8b8adc8ea279a3d9f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/package_outputs.py",
+    "sha256": "4b63a3d56876b7a779506a7e2ae68409a074073d24e42903437197fecd8a9559"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/plot_figures.py",
+    "sha256": "87f707504b16b8248ee9a9829a4092c3a6f7ce1ad13191b44446914d1e56d5c3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/requirements.txt",
+    "sha256": "166e31d2e6882657a08a3fbd3105270057b3f0dbde20cf95f6e8b092e5b76f48"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/run_analysis.py",
+    "sha256": "424409b5a1c31d799c924cff13037503e7262b27432ce76e142f10f07389d56b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1/validate.py",
+    "sha256": "2f2615264fb489b536b253dfa05812a9a3d743699bdc50dc2e313684f12dfc63"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/acquire_enrollment.py",
+    "sha256": "4220733027c23cfb395f2654e34439e50eaac95a3b48af250c919833bda61920"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/build_report.py",
+    "sha256": "4b315d1944a5a8cf03e82aad470755e1f2c22d134364d6605fa31661ac3f22c3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/extract_enrollment.py",
+    "sha256": "ddeb9820f772c7beb849a414566e6e5136b8981226323ba83abf61353bd70df3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/package_outputs.py",
+    "sha256": "7a2d637dfb4b19d4f9fe6e72ff796c2dab4b5d5add4c4dffedd3709f601d939c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/requirements.txt",
+    "sha256": "166e31d2e6882657a08a3fbd3105270057b3f0dbde20cf95f6e8b092e5b76f48"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/run_patch.py",
+    "sha256": "0bdf38a88668d3ef62194eedf3bac77eacb377fcede82e5a03f96debcd18f436"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/v1_analysis.py",
+    "sha256": "424409b5a1c31d799c924cff13037503e7262b27432ce76e142f10f07389d56b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/reproduction/upstream_code/S2_LASU_formal_v1_1/validate.py",
+    "sha256": "81de778e9bb433b823c354f752d20bfb6d1f141bf0da78eafc71f24ce9a93fa0"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/antispasmodic_model_exclusions.csv",
+    "sha256": "1371f32823d46d0b259251cdc65e4b1272178e85f20fbefca3e5784bfa48e76b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/corrected_all_approaches_percentiles.csv",
+    "sha256": "e37470905329176fe05c5414048840603426e39d43d8482bf52b60e5d14df4a6"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/corrected_all_approaches_sensitivity.csv",
+    "sha256": "142d036a18e4bb87554759790508d5b6830153a73c1f82a472d8b1e40cd502fe"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/excluded_false_positive_names.csv",
+    "sha256": "5468898f3d1a5db3a7ba0d282a5e41d4751fc25c32e328f0d6b2685f5c170981"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/excluded_false_positive_respiratory_rows.csv.gz",
+    "sha256": "f0fff0c54e1b8ca7ac62e0c321aaaa3bad02929107d1d69b74c41e1061c2aca7"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/fully_corrected_three_approach_comparison.csv",
+    "sha256": "7572a5e64f3d1e6c000918ee756e4795d2b3993608554df5c7125b3a845b0346"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/independent_model_checks.csv",
+    "sha256": "f3fa5ca08dca4caed38487b9340871253b8ed4a28e8bc8d28aeeef4cc69ac12f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/share_all_coefficients.csv",
+    "sha256": "59b77b1ab7d7728f8fd3d8c8360e482a0669a604921554cd7cdda20bb49923f2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/share_primary_model_panel.csv.gz",
+    "sha256": "92e35ded447a835ab2f06525310cf54c8939dc4d43091c354e4c3cc939a44dfb"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/beers_corrected/state_age_year_share_panel.csv",
+    "sha256": "a9cff34e1feadc8bb697bae7dea443eb2b6cac6f6bc6b28e1b327588887d6432"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_absolute_volumes.csv",
+    "sha256": "daa4ee3c8935da0a4eb1c59423d98a3be570f8ae497423a68cc218d617992c9f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_family_shares_wide.csv",
+    "sha256": "b8fe30a9ef8bc017606adf168ba07e267dd76d027b84f7874a48f37dcb360c23"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_fit_diagnostics.csv",
+    "sha256": "0f8feafa2df062be0ac3c6d6382b1500e45b8232ad1635a7c78e10e05ccbe153"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_fit_residuals.csv",
+    "sha256": "0a5d4ecab8242b90c5f53df2ad771ca0cf39bf658492e8db3a2808ad28c9a05a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_national_annual.csv",
+    "sha256": "4c2f4a3c3bb91e0f3228a9c8b20985026a364e84327a032f2e6455c344a8d0cf"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_national_long.csv",
+    "sha256": "0daebd2271aec6429f51f08314b4f5601ff8316d9915b9c43c8e8849da704dca"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_overall_slopes.csv",
+    "sha256": "028d9db41022a0949634f63d2b799f6d3d661fe1adb3a24e3de8e95535983d29"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_piecewise_fitted.csv",
+    "sha256": "324f23db55af4f43b4d535f1439224e27e3e96e76d7368d3b49fae6e4db359b1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_segment_slopes.csv",
+    "sha256": "469fb964f523b11c88ba4803796ce6140449a5bab3553d1cb3ffe3ffdf3d4b2a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A1_volume_changes.csv",
+    "sha256": "bde89e80055c1ce3176864c0d1190ea26e80cce094d32c2a9069e87c6ddb7101"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_excluded_age_cells.csv",
+    "sha256": "23717a30dfeb3f2cc6a246dc4a38c659ec3c63bfd7fa536139fe00573f7828a9"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_excluded_geographic_units.csv",
+    "sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_interaction_suppression_bounds.csv",
+    "sha256": "8eb4eef8ed824ce27c5057d902f7192d9eea0da9c1bec19ef7638ec4487e5818"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_model_coefficients.csv",
+    "sha256": "673754fc54cf7f349f808a6262075bbe464f7820b84ec98106c32863accd9c10"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_state_age_panel.csv",
+    "sha256": "a873fe3e8143563f557b92c6c99164f38d611bfa6ac729009e4770bd3ef56747"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_state_age_panel_all_scenarios.csv",
+    "sha256": "f9cd16cbc164bd97e3c4e272c7636b593387cf511a8ae6deb56628e23fa29b36"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_state_gaps_2024.csv",
+    "sha256": "501518d64dc65506e6a0eafda97ee43866ea002b132b5a1324c8b0b95f573a21"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A2_suppression_summary.csv",
+    "sha256": "0f264833281457f6d37c94c7db52314e7e309eb535c11d93f4084d73a58c1ce7"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A3_enrollment_demographic_sheet_raw.csv",
+    "sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A3_national_drug_rows_2024.csv",
+    "sha256": "684d445433cf12f016dcd84292612f57a822049511ac534e9b96e619ae5a98b8"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A3_national_scale_2024.csv",
+    "sha256": "59b9dc732bca5b827e476e1f2dfc7b210a6b11c4a9251504eb3dfa3af4490f40"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A3_scale_with_enrollment_2024.csv",
+    "sha256": "074867fdafa23ec66ea13226357370eb39aaa41f039fc23e233cfad245a0dc24"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_correlations.csv",
+    "sha256": "06a99930ed4f2a9abcdc119fb5696765d8db2d4491f2cad37589a10e5da24a7f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_mixed_fixed_effects.csv",
+    "sha256": "82d47fc56a815cf10ced8abcb8d8c3eb9f7baab37f2200d221ab2197912e53c2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_model_excluded_units.csv",
+    "sha256": "d243c1bdf072781c6b0960f2a81df77433a53ae6c9afe893247df49914e9d4d2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_profiles.csv",
+    "sha256": "70a81beec72356d150ba6a478e30cb33ab2f4c9f4a8cd019245ea844b4bf4d24"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_all_age_GE65_visible_subset_exclude_ER_XL.csv.gz",
+    "sha256": "9bfbdd32add16e20e9aa02eee3e8568793f2354fcfc73bbebe2c6b1b93a530dd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_all_age_GE65_visible_subset_primary.csv.gz",
+    "sha256": "21eddcae18fee683faa4a22d8af403f916c291c7971a2f56637d58fbc2faf2b3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_all_age_exclude_ER_XL.csv.gz",
+    "sha256": "a95047241d4c72bbbd34a35097de7e3084b0302d47960410f9d3ccca4d1ea975"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_all_age_primary.csv.gz",
+    "sha256": "0695ce2c24ed1cf819200a0fd0d529472e93016809e2d6a48394250f092e4250"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_ge65_visible_complete_published_SU_rows.csv.gz",
+    "sha256": "5d4209c3a0c67dffcfbb98dc64f49c3ff8230ca87687528ebd903dd4b18b4d5d"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_ge65_visible_exclude_ER_XL.csv.gz",
+    "sha256": "f48ab456f6ffe6734ec06979d039ffe0eedabb5259d85b2e30ed054874210219"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2019_ge65_visible_primary.csv.gz",
+    "sha256": "d2e3167c1a5b99f6cf7af7baf3bc6815f65db3767488f40ae3db4c51ad251aa3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_all_age_GE65_visible_subset_exclude_ER_XL.csv.gz",
+    "sha256": "45cfb5bc3c2c7b0cc137bd8b32f53b93b7bcaacdd7ace7844fcdf0eee05ab315"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_all_age_GE65_visible_subset_primary.csv.gz",
+    "sha256": "35fe63639576e423159c1f1f1ac982f45db92ee99d9da1946f78ba3511c1e879"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_all_age_exclude_ER_XL.csv.gz",
+    "sha256": "0009566462fd3a1a13a4cdd000d141c5ccb2f233236737398263d1b249b8a9b4"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_all_age_primary.csv.gz",
+    "sha256": "ef39f582727a1867e9ac853b1ed20745b05d9b0434a47a994d3f9c7a15a466ea"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_ge65_visible_complete_published_SU_rows.csv.gz",
+    "sha256": "fa56e17b001a40a9b965f111dd5d1159228f295eae38bd531bbc6944ac63b561"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_ge65_visible_exclude_ER_XL.csv.gz",
+    "sha256": "342e3ffbfd5ff39cd5b625fc401615f75ff3fd9af819522d3823f50bfb4dce9c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_providers_2024_ge65_visible_primary.csv.gz",
+    "sha256": "b40ddc1b546d2fdf9cf299aa066ac064febf079ff214ec799044720675d14d4a"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_recovery.csv",
+    "sha256": "4558eb9ee9dea94bede43d150cddf3586f73fdfbf64018e9c1e6f7e24ae99c56"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_specialties.csv",
+    "sha256": "71fff4f9254cdd8599e5c5ecbcde38447f5a44cf8b7c789be2de7201e8d79d87"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_state_ICC.csv",
+    "sha256": "4e61bfa95613110d2b8a11865ba041e05ffce11bd5978de528dbb988be8f61c5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_state_random_intercepts.csv",
+    "sha256": "c61fd53557311bc9c80b42e05622a57f93ef4cc849e5c54af250c6f2e2274696"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_suppressed_provider_drug_rows_2019.csv.gz",
+    "sha256": "0f23529041539b394d8ae20d95d3172603932c84c9e67dd61784b1364ca4a401"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_suppressed_provider_drug_rows_2023.csv.gz",
+    "sha256": "aa361df109418a5e203759d3256223a436dcf9ee84bf86569fdc11611466461c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_suppressed_provider_drug_rows_2024.csv.gz",
+    "sha256": "a386a1e0d7da35a41d9f2e3bfbcc066b16e5975c50de8808c3a268bcd68ec584"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_suppression_summary.csv",
+    "sha256": "e0e4a662319e674c264b3eefbe3923792639f0c1b4cd8435a578099fa12e9335"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_visibility_NPI_2019.csv.gz",
+    "sha256": "36f83d3c734a1ce167533f0b2a31eb02f37f156bbd07f547eb7a4a704de38d11"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_visibility_NPI_2024.csv.gz",
+    "sha256": "fb80b3f86e06de938da134fa14aa779bf96339b49719fb485ebb2fc886e8b023"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/A4_visibility_distributions.csv",
+    "sha256": "e66fd67b575aa7656cb1611b36d34bdd11a1866114f638785ca0d5aa50564984"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/B_age_suppression_rows.csv",
+    "sha256": "bc68ac649beb448ef25ae960fafebfb9e3b57a9c84ddbf418b80fa8788de4c79"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/lasu_v1/table_inventory.csv",
+    "sha256": "d1cb561720761c3a9eccf8b7f78df4225945365f1684b9c34b3b42994817e1dd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_direction_comparison.csv",
+    "sha256": "33308b70439713472438b52bb4cc4dd1715fb1934e310a7ed884a96f26c93834"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_denominators.csv",
+    "sha256": "6dab97405b7f5f6daee4891cb5cb50ea814798dd7ccc8d67c79bb3ae5b40c589"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_rounding_audit.csv",
+    "sha256": "52f7881c78418f5c3dc4fdfd590aa61f4bf61128367de9bb1e624bdb2b95c1b3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2013.csv",
+    "sha256": "141bcb36314f3130944ee6de3443888af06342634413d46dd0edad3328d6701f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2014.csv",
+    "sha256": "db91d1e5d8df760ece86a7953611393b23d3030009cad3f96be0d5b8ec756388"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2015.csv",
+    "sha256": "dec388cbf9bfc0fbf992d1e160b5cfe225413fa19b6f36e897b794f5628ac69b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2016.csv",
+    "sha256": "fcdcb8297f31287584b85b99d592d34bce64dbb3f61d4004de3768ab363df1ac"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2017.csv",
+    "sha256": "4c5759590fde44872369da5bf7b96a984778fd9f3f1b5a924fc4d01d08aea408"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2018.csv",
+    "sha256": "dd73a0aa9196843389e29c014910f9e25f4b1a05b68695b6648ae3e11ff2fde1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2019.csv",
+    "sha256": "081157568dccbcb23d038a742dae8ff4d5655042639bbe88e7882cf91bd2f3d4"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2020.csv",
+    "sha256": "af144af4eac486f888811a94398f14ab5977f29fe2e8487221b9723c55507bfd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2021.csv",
+    "sha256": "b1e1d400cf8124bc63e4584415052c8f692ec7989e720d86792bf52d6de77a44"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2022.csv",
+    "sha256": "ac2a97017f062dcf53cca9e9a1fa0da2f21b294a83abcac74bebfab1e06dd840"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2023.csv",
+    "sha256": "decca91ac85e2148c6370a5b1b9d24dc2feff5943f65e9c5ef0622abf7cc6b60"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_enrollment_sheet_2024.csv",
+    "sha256": "511ee46ce4a0539e90c203b9951309ab651323b09edd814aca4af865cc01d5d8"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_rates_long.csv",
+    "sha256": "5003b3528aedd0457e3df9869abba9fa721ee150709dd8beab538460e7881c08"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R1_rates_wide.csv",
+    "sha256": "d1a8d7552ab751afc618d2221b77eb18f1df359edecb358b6b75c9f982f3a17e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_allocation_QA.csv",
+    "sha256": "cb49fa6b4e4f2dff847f1b1346566a8c10ed72acf9ff6da3c68dd0ac2c342d91"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_complete_state_list.csv",
+    "sha256": "0ea83e11f206cecf911239f49ac134be4b5d5b38c46db3fc953249cc230e14b5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_complete_state_year_age_panel.csv",
+    "sha256": "11ff8e157678034145abfce4930324f7ef6ad610b06278f26e567d29df3b0184"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_complete_state_years.csv",
+    "sha256": "4c618ed7a18e02350848cbde37ea8f7d237e936c0b4ad695888ed14485a2f6f5"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_endpoint_panels.csv",
+    "sha256": "41fc94e56d83735ee95f7676322ce91f3899e04572347675ea1a18affdd8cecd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_imputed_drug_rows.csv",
+    "sha256": "34f04db9786e54583bb5048b61516a895dfa64bcbae6511d1a836f8c3f0178dd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_inherited_geographic_exclusions.csv",
+    "sha256": "6434e68563a4c384c949213459baa81b47b22bd96fdad4f654119ceda608b203"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_model2_coefficients.csv",
+    "sha256": "1cd6867355b88db09e0c2c1cd83b04b162534e141e78bfd6d240a84cd81cf1cf"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R2_suppressed_drug_row_bounds.csv",
+    "sha256": "3f8fe91cd63a2b2b96456fea5b9fb651e0724aff97f1dd2f140e63732055cc0b"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R3_ER_XL_reclassified_rows.csv",
+    "sha256": "8d9ac5aa43bb80e72e04e757dbd99337fc659538b5aa04090e93373fc4bda91f"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R3_excluded_combination_rows.csv",
+    "sha256": "7a8c9e76d2108820acc4dd410b20225988eb919b198a8c8322c9eb73bc21cc0c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R3_model2_coefficients.csv",
+    "sha256": "0d7229035fcad84b8b0b92a75a6f09be93893486da7df5de75e021e05b27d227"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R3_national_age_long.csv",
+    "sha256": "181cb34e61f5151de6f1b00641451d34276ded1eff866dc64be95bf65e1a9803"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R3_national_annual.csv",
+    "sha256": "d7a51685163dcf7f2393cc210cab0366ddc2004b8dd897e4f009da1fc0f8dad2"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R3_state_age_panels.csv",
+    "sha256": "7559e097a0651025e6805c7697423226b7c9f593effd711e11b9b3c84c004d63"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R4_segment_slopes.csv",
+    "sha256": "b98979cd575256460ef553e878bf57e380bc1ac59e786e3ca93fd0a004f36b3c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R4_v1_segment_slopes_long.csv",
+    "sha256": "b9472c127786c7c38ca2263d17e944491e208dbe60416a90b794ce3db45d9ea1"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R5_beneficiary_union_bounds.csv",
+    "sha256": "962b67f7f8146675cee55eba1a26dc737d5400062d2ebf6f0773043afebe08f3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/R5_long_drug_beneficiary_rows.csv",
+    "sha256": "390f68bccc2978b415d824dc2cd0812e86af6f1af044568cbffea7b6805c6711"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/drug_definition_audit.csv",
+    "sha256": "5c8e6e1ee2c11826eca326fe88cc794fcdc10bda941a766d27d9fba1006d15a7"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/independent_paired_model_checks.csv",
+    "sha256": "ea510eb6db4a0746d46b7ea13b083c1759b21cffcd7cddc55c12f5120deb085e"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/details/robustness_v1_1/table_inventory.csv",
+    "sha256": "16f1eef25f9d672f7222bfab136817ec722fc413bff19ac6d06f63b76bef5414"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/MAIN_RESULTS.csv",
+    "sha256": "485722dc3b4512f9380b9c0910d8f6dd4e4c49c890defdc1afed5d76823c53e7"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T1_national_age_trends.csv",
+    "sha256": "8bce1cbc2b1de25c669fea2163f6eeece2539d1eeadfd7bf182fe5bd7bbfef28"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T2_state_panel_main_and_post2023.csv",
+    "sha256": "cfa4301b7c933af0d9adecfc5c9d0b95c1180ca57c43056950bb49b4a9c46a42"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T3a_prescriber_profiles.csv",
+    "sha256": "b2e8daa6191e4811d50076440d2bd2ec73036a801933dda9f3bc8a577e0c35e0"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T3b_prescriber_coverage.csv",
+    "sha256": "aa88ba48d88b634563fa6ecec3492c44725d58fb526db87955efef124c23a3de"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T3c_prescriber_specialties.csv",
+    "sha256": "aac10f1dd6d3eb83385a1d930c292232e2dce279431a2ea4d949df15b26254cd"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T3d_prescriber_correlations.csv",
+    "sha256": "48b574d4557169bc8006e4d667628ae53941a9f7b7bf43451941368d0050dd89"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T3e_prescriber_state_ICC.csv",
+    "sha256": "03d1bad6e24fb992572a68cca2396f984267492d23dd36dffe6bf1e8c1fe6d72"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T4a_robustness_interactions.csv",
+    "sha256": "514a112faac1d3c11796faa88ba386e2356e9ba3077d12113520b3dd550c9ec0"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T4b_standardization_direction_checks.csv",
+    "sha256": "33308b70439713472438b52bb4cc4dd1715fb1934e310a7ed884a96f26c93834"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T4c_piecewise_slopes.csv",
+    "sha256": "b98979cd575256460ef553e878bf57e380bc1ac59e786e3ca93fd0a004f36b3c"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T5_beneficiary_scale_bounds.csv",
+    "sha256": "962b67f7f8146675cee55eba1a26dc737d5400062d2ebf6f0773043afebe08f3"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T6a_BEERS_three_approach_comparison.csv",
+    "sha256": "0944179db7af40b4e1c19c3eb8625ef76661979d1284c7830fab1450f3f5b856"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T6b_BEERS_three_approach_long.csv",
+    "sha256": "142d036a18e4bb87554759790508d5b6830153a73c1f82a472d8b1e40cd502fe"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T6c_BEERS_percentiles.csv",
+    "sha256": "e37470905329176fe05c5414048840603426e39d43d8482bf52b60e5d14df4a6"
+  },
+  {
+    "path": "outputs/S2_LASU_final_v1_2/tables/main/T7_literature_comparison.csv",
+    "sha256": "79b874e6841c8f97a6fbebf9ce3d7b6d18765f45bcf24223aaf9767792ac675a"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/build_report.py",
+    "sha256": "482ff2e7994da7f88288caeb919af1007e9e9abda2c83faea75a4042c1dbabd6"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/check_enrollment.py",
+    "sha256": "3031d664bb521d1ac84381e1ba79ecbc89e628ade779db0e18a967b8eab919f5"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/extract_enrollment.py",
+    "sha256": "095f9c629a1946f4f3cb703d90b2391f1a678f43c5ad03e8b8adc8ea279a3d9f"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/package_outputs.py",
+    "sha256": "4b63a3d56876b7a779506a7e2ae68409a074073d24e42903437197fecd8a9559"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/plot_figures.py",
+    "sha256": "87f707504b16b8248ee9a9829a4092c3a6f7ce1ad13191b44446914d1e56d5c3"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/run_analysis.py",
+    "sha256": "424409b5a1c31d799c924cff13037503e7262b27432ce76e142f10f07389d56b"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/code/validate.py",
+    "sha256": "2f2615264fb489b536b253dfa05812a9a3d743699bdc50dc2e313684f12dfc63"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1/evidence/MDCR ENROLL D_CPS_03EPD_2024.xlsx",
+    "sha256": "7d334a47fb837b25aaf16e8676d787ceb45cf5e1ab8c3482236e151c9ea4104f"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/acquire_enrollment.py",
+    "sha256": "4220733027c23cfb395f2654e34439e50eaac95a3b48af250c919833bda61920"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/build_report.py",
+    "sha256": "4b315d1944a5a8cf03e82aad470755e1f2c22d134364d6605fa31661ac3f22c3"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/extract_enrollment.py",
+    "sha256": "ddeb9820f772c7beb849a414566e6e5136b8981226323ba83abf61353bd70df3"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/models.py",
+    "sha256": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/package_outputs.py",
+    "sha256": "7a2d637dfb4b19d4f9fe6e72ff796c2dab4b5d5add4c4dffedd3709f601d939c"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/run_patch.py",
+    "sha256": "0bdf38a88668d3ef62194eedf3bac77eacb377fcede82e5a03f96debcd18f436"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/v1_analysis.py",
+    "sha256": "424409b5a1c31d799c924cff13037503e7262b27432ce76e142f10f07389d56b"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/code/validate.py",
+    "sha256": "81de778e9bb433b823c354f752d20bfb6d1f141bf0da78eafc71f24ce9a93fa0"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2013/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "3025215e740292b17707290261b3079fe22fc656c813b22d90aa37679f9d1535"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2013/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "d2ddb2aaf80aacc866cd8e520e8a10dd19eb51f3a7568195d6ae59936d60fe7b"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2013/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "f93b7c461535c954c9f74d355b51e360ab067832422fa8241ab81afbce896b15"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2014/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "51f40f7f7dcd632fe9e6235ebfde3e0193ab3bb0a819c37e284a592b0003ed37"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2014/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "a38ce216dc9a46777dcfcdf8359339d3f8c5a68ba62dc7b3d1d26fa5e30f3fa2"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2014/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "82e363737fc2101120d23fa6503d49ad268f6babe522c5179b9d93f37e56af94"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2015/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "94b27436b03b2f7966787c87705e1583983c538c68ebcb3f03e7d9694336e249"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2015/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "26f94720b6d66de7c58d7d36a24e781f9050bacd68feac97c6e147d957ceb9b0"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2015/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "06bc7a76fec373c5a3c5861078c4419fe696d422f18db2303117b1bd069e0e47"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2016/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "ddd954e439ebad3f852b2aa1417ce34e0a0fc03cdd8425266ac52104ac193ec3"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2016/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "cd1ff97875216f950a7d58eb51ef480d933c3bbea32e17248a1b3e79811cab11"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2016/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "bfccc9d96d55781fac5b7de91583854ba2d9bdf3e16ab7a1a937b15ef7b588d7"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2017/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "0821c8df435a24ac648c739778fe8f8621f44a03a6cb767e5ea0ea9cc8e03ddc"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2017/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "22a14f6262e8543a188c723b67d9ba9219a209a12458a6f91f367efdb7263d9b"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2017/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "7dee013318eb687fded9106cd399239bf4462ea94a6b3729d57c01c8a3e8352e"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2018/CPS MDCR ENROLL D 1.XLSX",
+    "sha256": "5a3b0d7aa189721c0228026e4e6439d5e40afa42aca42d6d614f41fe045544d3"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2018/CPS MDCR ENROLL D 2.XLSX",
+    "sha256": "567187b1e545bfe04cbc2fcde1a9716abc85d1b0a887d35ef400a3826b57ee5b"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2018/CPS MDCR ENROLL D 3.XLSX",
+    "sha256": "33f04e2e5f722ac31f70e060e0a2ee8dd8fedf4de16b6d0698db4513773bf44a"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2019/CPS_MDCR_ENROLL_D_1.XLSX",
+    "sha256": "223abfb8fd206bbd9b138e262fcb99b15ba640099129d87d25892e060d1f9e53"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2019/CPS_MDCR_ENROLL_D_2.XLSX",
+    "sha256": "b2aecc02e74eab20325fda7734a6885466a3f23c16030bfc37f52a321a3fab8e"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2019/CPS_MDCR_ENROLL_D_3.XLSX",
+    "sha256": "b8ddcc564bd5551a3737ec9adddcf89332009a3e8120518168b82bfea28c250b"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2020/CPS MDCR ENROLL D 2020.xlsx",
+    "sha256": "dfdf73b4e75fa3d2c972a203597ed83d4fac053958dc5a97dc5fc32194e4d8ab"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2021/CPS MDCR ENROLL D 2021.xlsx",
+    "sha256": "0120f58eb823533b5d5e40a86fe5f57f629ae519ceac140534d643514d0d3bec"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2022/MDCR ENROLL D_CPS_03EPD_2022.xlsx",
+    "sha256": "9785d32f71b68cd147d090e779b25f03a7546f59b5d7758294f2a407009af799"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2023/MDCR ENROLL D_CPS_03EPD_2023.xlsx",
+    "sha256": "470eeb5a3ccfbd9add8ff7d931b7b912c2c2aeaee3e88205418f67afa040c8b2"
+  },
+  {
+    "path": "outputs/S2_LASU_formal_v1_1/evidence/enrollment/2024/MDCR ENROLL D_CPS_03EPD_2024.xlsx",
+    "sha256": "7d334a47fb837b25aaf16e8676d787ceb45cf5e1ab8c3482236e151c9ea4104f"
+  },
+  {
+    "path": "outputs/code/acquire.py",
+    "sha256": "367d7f5c0450fb9c2a0ef689c0e3cd8617c0da9f91a5b638366c5c86a23bd226"
+  },
+  {
+    "path": "outputs/code/analyze.py",
+    "sha256": "0406dd29680ac773a148f056a734c783793222cfade8ff576979693011aec010"
+  },
+  {
+    "path": "outputs/code/download_su.py",
+    "sha256": "71521e617c555f79238eac2639d1352b46dc4d8875d1dbf5394ea25b357e0b91"
+  },
+  {
+    "path": "outputs/code/download_su_initial.py",
+    "sha256": "024dbeb112f2cc41b5d02decc71ddea599c0e8fc52b427bbfc0cc98a823042f5"
+  },
+  {
+    "path": "outputs/code/fetch_literature_extras.py",
+    "sha256": "4780b3e4de708a1e15e7494d15c949fbea1c6d98f43d5d790bab719a1f5fd7df"
+  },
+  {
+    "path": "outputs/code/fetch_pmc.py",
+    "sha256": "bbbe52293b4d71a7154e5fa5692d41d486bf479273ae6ccf029ada124acd0b09"
+  },
+  {
+    "path": "outputs/code/fetch_scholar_candidates.py",
+    "sha256": "72ce8640904e9b62fcf68a574826350a84b7216dbd495f9b4bc8b21ef30c2d8d"
+  },
+  {
+    "path": "outputs/code/finalize_scholar_review.py",
+    "sha256": "21b7b45b2e649901c9311e33c3b93099a83440432e94c4af54a5e6c3cebc8227"
+  },
+  {
+    "path": "outputs/code/get_docs.py",
+    "sha256": "1ed504fa0e6e365ca31345cd67d8b876280201b95f227da48e64f5d0056d6088"
+  },
+  {
+    "path": "outputs/code/hash_outputs.py",
+    "sha256": "cbe3b2f765ee9691a7a796541d4ff9b3081bb27e0a46f15902c8e95bec8cb33e"
+  },
+  {
+    "path": "outputs/code/literature.py",
+    "sha256": "2f30f686e488bdcd079f1ab7b12948cb99ba134a6d2e8979559ee9f2a5c82406"
+  },
+  {
+    "path": "outputs/code/literature_expanded.py",
+    "sha256": "753b8eddb6696b077efe8971835e03c32e03673225fc30df3a74523c9e9400c2"
+  },
+  {
+    "path": "outputs/code/probe_api.py",
+    "sha256": "2d61e02468b2a83d49f82be224ade2f6346772adf1dc582e29f3addf9d8fa10b"
+  },
+  {
+    "path": "outputs/code/probe_gzip.py",
+    "sha256": "eeaf50c4e1a67727c38389316e108b51ae995aae3a2147c3c66ad7d7ee0ed577"
+  },
+  {
+    "path": "outputs/code/probe_speed.py",
+    "sha256": "4d8f1ea6643f6cf57932de0b2a087abfef1f320af0af9f38ebcf3244c5b3f69a"
+  },
+  {
+    "path": "outputs/code/render_report.py",
+    "sha256": "22f469ab2606b8613034b1f685b18ed8517ee82921ed4d588181f1f92d4827f7"
+  },
+  {
+    "path": "outputs/code/validate_B_csv.py",
+    "sha256": "0d4a27d775fc148f93de91d826c6827074e3c51cd8f51d8847b9430e717c68b9"
+  },
+  {
+    "path": "outputs/code/validate_k4_update.py",
+    "sha256": "c7be7959bb2351086f082b31bf322e5aa148910acbad4830d3f58544d1616e65"
+  },
+  {
+    "path": "outputs/code/validate_outputs.py",
+    "sha256": "2246d790ab595398ca415ab659dfe4674f97368e11a8a541e938978a4b552f15"
+  },
+  {
+    "path": "outputs/code/write_abstract_exclusions.py",
+    "sha256": "8435bbda62366143d2f42f96e8afee99b1ae103053bc41de30649bc59705bcb3"
+  },
+  {
+    "path": "outputs/code/write_literature_review.py",
+    "sha256": "1fe67612fdeacdb8e8d01cf2378897a1525ccb5c68e50451aa4f09e53b975629"
+  },
+  {
+    "path": "outputs/data/A_2013_su.csv.gz",
+    "sha256": "3576daca43935cde9ce284d09fe68dbd1677972240c23cff7ce1794028997510"
+  },
+  {
+    "path": "outputs/data/A_2014_su.csv.gz",
+    "sha256": "aebff312083580d84f395c030bcd6a740e7cc9df7fc62c8051e698018982704c"
+  },
+  {
+    "path": "outputs/data/A_2015_su.csv.gz",
+    "sha256": "7e8f6935fb61883ead129dce7c0a94928cb28357f2575316f7431e15af2bd745"
+  },
+  {
+    "path": "outputs/data/A_2016_su.csv.gz",
+    "sha256": "f119ba35b279452bec7310c92f9b7138f36b67811509b174ed587d93431247a3"
+  },
+  {
+    "path": "outputs/data/A_2017_su.csv.gz",
+    "sha256": "4aba9aecb9f76c5b8902c65278231809206fa7eefd23fd747ae9d9ad764a25f7"
+  },
+  {
+    "path": "outputs/data/A_2018_su.csv.gz",
+    "sha256": "455104f96fb091db99d93f6d43fbd75574a17b70b1ed3329efdab520ae6c433c"
+  },
+  {
+    "path": "outputs/data/A_2019_su.csv.gz",
+    "sha256": "343c6fe9f2d4b72eadfff83c0baac18ebad27ded83ffcbfc3b5a355cc8ce1aa6"
+  },
+  {
+    "path": "outputs/data/A_2020_su.csv.gz",
+    "sha256": "5cb773352c6d82828bcdc450f29e6e606747e01cfceba8399830d7bf226c1168"
+  },
+  {
+    "path": "outputs/data/A_2021_su.csv.gz",
+    "sha256": "e81a4a13e3d055b85699878d34c9d32edae8d0e174c33143c07fca277529ba17"
+  },
+  {
+    "path": "outputs/data/A_2022_su.csv.gz",
+    "sha256": "d68489a5b2832232ad9b11f4aa05c66b3b4131ae7e0ceb912fa710f02dc5e293"
+  },
+  {
+    "path": "outputs/data/A_2023_su.csv.gz",
+    "sha256": "0e27bcd1de5c20bbe96e4a8405fe5aee85c58e899d3134ac1529ec245821e7c9"
+  },
+  {
+    "path": "outputs/data/A_2024_su.csv.gz",
+    "sha256": "76bd2eb90ca2211d946b886193b14d20c97079fd48c40f8edaf2a74e1bffd25b"
+  },
+  {
+    "path": "outputs/data/B_2013_su.csv.gz",
+    "sha256": "f828096dce2dfa188948231d9646dd6b7511680313d606998022c5d4095d40d3"
+  },
+  {
+    "path": "outputs/data/B_2014_su.csv.gz",
+    "sha256": "89d92f99acd3e552b7bf89e96e44ddf9eff75338bea2b46e509fc334d02088c8"
+  },
+  {
+    "path": "outputs/data/B_2015_su.csv.gz",
+    "sha256": "b4aa9253a2fd3059ba6230135cd3095b9ecac8661d36072f166896eec565b4c0"
+  },
+  {
+    "path": "outputs/data/B_2016_su.csv.gz",
+    "sha256": "b5795e9ae5de5b5ed48752e71499f5ea3103b826a5fee989f433d1e5391b2fc1"
+  },
+  {
+    "path": "outputs/data/B_2017_su.csv.gz",
+    "sha256": "983de1f4e703edf41481fa6600b0ae738b19742404c2671d6b1f1cca6b98042f"
+  },
+  {
+    "path": "outputs/data/B_2018_su.csv.gz",
+    "sha256": "1d19adfe2622ba3ebba8cc4292d28201c7a5c67c30e7cdbd3304078121de7276"
+  },
+  {
+    "path": "outputs/data/B_2019_su.csv.gz",
+    "sha256": "592a0bc150e9098706a003ef698c80d50a7aeddb3d05053ca0c96f185e0934ac"
+  },
+  {
+    "path": "outputs/data/B_2020_su.csv.gz",
+    "sha256": "f349fc29d2eef9cd1b84f9ead4d92cd5226ef43401a064bb302f188e41564167"
+  },
+  {
+    "path": "outputs/data/B_2021_su.csv.gz",
+    "sha256": "7b7f19abc7d71eb6920308e4822c1d3989025a9d5623554466d1b0e9edb53085"
+  },
+  {
+    "path": "outputs/data/B_2022_su.csv.gz",
+    "sha256": "41a7d2ff34453e81fa404ac8938b791653195482f29334f106f00790691ac839"
+  },
+  {
+    "path": "outputs/data/B_2023_su.csv.gz",
+    "sha256": "177e6dd7d5acb5d72d50d0cf1f885716139845c4f9f8d8e8f9d8e2c240ffa36a"
+  },
+  {
+    "path": "outputs/data/B_2024_su.csv.gz",
+    "sha256": "83b975527a287ac29b4d6dd0cd24ba8b2c4cc76a38515860525754661c78c609"
+  },
+  {
+    "path": "outputs/field_inventory.csv",
+    "sha256": "9c1aa1a6e7afa7b54d3386b2dc0b72511f9665a1098e47b6bff6fcdb4c9dbf44"
+  },
+  {
+    "path": "outputs/field_mapping.csv",
+    "sha256": "6f4e3af6ba564def57edf1badbfcd47b4006c742c65a3f18cbfc8c7f2007ca19"
+  },
+  {
+    "path": "outputs/matched_generic_brand_names.csv",
+    "sha256": "71d228ad75a18915959882bba7a588844835a45dc92fb61d0867159c76eb38a9"
+  },
+  {
+    "path": "outputs/matched_generic_names.csv",
+    "sha256": "e3fa1787dfed9945ebc282364681ff3e507d4f9533b06031341355769058eb94"
+  },
+  {
+    "path": "work/full_csv/B_2013.csv",
+    "sha256": "4c374c259f2e23c6ab580d9ee9559613f30e7cf4ae9a5f8cb8a3449662c547dd"
+  },
+  {
+    "path": "work/full_csv/B_2014.csv",
+    "sha256": "a9ae8dc7adfeacfaf27a2764c910b156a820efed19f2a8722f9550eaa84ed177"
+  },
+  {
+    "path": "work/full_csv/B_2015.csv",
+    "sha256": "a80dabcd5c6d34d49fe7ec0c70a8fe18994636c70e766b1ac095f7ce10d55f33"
+  },
+  {
+    "path": "work/full_csv/B_2016.csv",
+    "sha256": "c4e1dcf7df052f8061ea8aae4775cfaa231699f1ae35d2da4a767e3bc03242f5"
+  },
+  {
+    "path": "work/full_csv/B_2017.csv",
+    "sha256": "155212b8ec0e143728dc6be7df23a5d58335406bde6f44f7b16ebd8a3f316633"
+  },
+  {
+    "path": "work/full_csv/B_2018.csv",
+    "sha256": "ceae64852d4997c7d02bac64cc251861c5d897e0cd0a3b83c7b6ebc56c3d4123"
+  },
+  {
+    "path": "work/full_csv/B_2019.csv",
+    "sha256": "d87977e5aed2ba7c862165bba0a32e844823ecd1f8cbeebe52a8bcd4f1892e01"
+  },
+  {
+    "path": "work/full_csv/B_2020.csv",
+    "sha256": "28a7f5558435ac99cb98b113ad054e54cb4fa487b623ae55dc89f6b152a9f57b"
+  },
+  {
+    "path": "work/full_csv/B_2021.csv",
+    "sha256": "e345008b016df5d1e7362f82a0139a57f2d42ceae8f37c3ddc981168c9286535"
+  },
+  {
+    "path": "work/full_csv/B_2022.csv",
+    "sha256": "a26588a60a1e6dbb1d39b83d750ed68029b76d35bb08bd72a418172eca867f87"
+  },
+  {
+    "path": "work/full_csv/B_2023.csv",
+    "sha256": "876ff262c8a3eb0b8fca312f2004f14d42a8bfd01829e0695d64e34b5191f4f8"
+  },
+  {
+    "path": "work/full_csv/B_2024.csv",
+    "sha256": "c84a834ffb34fa1e46c6b8566d1e89d87f40390120393342e050f7203ef3ed68"
+  }
+]

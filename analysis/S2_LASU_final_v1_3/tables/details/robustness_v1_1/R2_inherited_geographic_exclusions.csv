@@ -1,0 +1,122 @@
+year,level,geo_code,unit,n_drug_rows,all_age_SU_fills30,reason
+2013,National,,National,20,29084400.7,National aggregate used in A1; not a state observation
+2013,State,11,District of Columbia,10,35339.5,Not one of the 50 US states
+2013,State,66,Guam,7,4083.3,Not one of the 50 US states
+2013,State,69,Northern Mariana Islands,6,759,Not one of the 50 US states
+2013,State,72,Puerto Rico,16,853354.2,Not one of the 50 US states
+2013,State,78,Virgin Islands,9,7626,Not one of the 50 US states
+2013,State,9B,Armed Forces Europe,3,126.5,Not one of the 50 US states
+2013,State,9C,Armed Forces Pacific,1,35,Not one of the 50 US states
+2013,State,9E,Foreign Country,7,1114.2,Not one of the 50 US states
+2014,National,,National,20,29332962.8,National aggregate used in A1; not a state observation
+2014,State,11,District of Columbia,10,34297.2,Not one of the 50 US states
+2014,State,66,Guam,7,4216.4,Not one of the 50 US states
+2014,State,69,Northern Mariana Islands,5,512,Not one of the 50 US states
+2014,State,72,Puerto Rico,15,867224.6,Not one of the 50 US states
+2014,State,78,Virgin Islands,11,12264.4,Not one of the 50 US states
+2014,State,9B,Armed Forces Europe,4,310.1,Not one of the 50 US states
+2014,State,9C,Armed Forces Pacific,1,32,Not one of the 50 US states
+2014,State,9D,Unknown,2,32,Not one of the 50 US states
+2014,State,9E,Foreign Country,6,718.3,Not one of the 50 US states
+2015,National,,National,20,29760380.1,National aggregate used in A1; not a state observation
+2015,State,11,District of Columbia,10,34382.2,Not one of the 50 US states
+2015,State,66,Guam,7,3869.5,Not one of the 50 US states
+2015,State,69,Northern Mariana Islands,5,504,Not one of the 50 US states
+2015,State,72,Puerto Rico,14,900635.6,Not one of the 50 US states
+2015,State,78,Virgin Islands,10,11887.9,Not one of the 50 US states
+2015,State,9B,Armed Forces Europe,5,886.9,Not one of the 50 US states
+2015,State,9C,Armed Forces Pacific,1,11,Not one of the 50 US states
+2015,State,9D,Unknown,5,564.5,Not one of the 50 US states
+2015,State,9E,Foreign Country,6,638.3,Not one of the 50 US states
+2016,National,,National,19,30621936.7,National aggregate used in A1; not a state observation
+2016,State,11,District of Columbia,11,35840.3,Not one of the 50 US states
+2016,State,66,Guam,7,3433.4,Not one of the 50 US states
+2016,State,69,Northern Mariana Islands,3,443.5,Not one of the 50 US states
+2016,State,72,Puerto Rico,14,920638.1,Not one of the 50 US states
+2016,State,78,Virgin Islands,9,11088.9,Not one of the 50 US states
+2016,State,9B,Armed Forces Europe,4,666.1,Not one of the 50 US states
+2016,State,9C,Armed Forces Pacific,2,111,Not one of the 50 US states
+2016,State,9D,Unknown,4,619,Not one of the 50 US states
+2016,State,9E,Foreign Country,5,857.4,Not one of the 50 US states
+2017,National,,National,18,31422525.1,National aggregate used in A1; not a state observation
+2017,State,11,District of Columbia,10,35474.4,Not one of the 50 US states
+2017,State,66,Guam,5,3242,Not one of the 50 US states
+2017,State,69,Northern Mariana Islands,4,396,Not one of the 50 US states
+2017,State,72,Puerto Rico,15,932250.3,Not one of the 50 US states
+2017,State,78,Virgin Islands,8,9685.7,Not one of the 50 US states
+2017,State,9B,Armed Forces Europe,5,834.2,Not one of the 50 US states
+2017,State,9C,Armed Forces Pacific,4,270,Not one of the 50 US states
+2017,State,9D,Unknown,4,598.8,Not one of the 50 US states
+2017,State,9E,Foreign Country,5,1089.7,Not one of the 50 US states
+2018,National,,National,18,31951350.7,National aggregate used in A1; not a state observation
+2018,State,11,District of Columbia,8,36962.3,Not one of the 50 US states
+2018,State,66,Guam,5,3504.9,Not one of the 50 US states
+2018,State,69,Northern Mariana Islands,3,316.9,Not one of the 50 US states
+2018,State,72,Puerto Rico,14,938883.8,Not one of the 50 US states
+2018,State,78,Virgin Islands,7,9906.8,Not one of the 50 US states
+2018,State,9A,Armed Forces Central/South America,1,23,Not one of the 50 US states
+2018,State,9B,Armed Forces Europe,4,824,Not one of the 50 US states
+2018,State,9C,Armed Forces Pacific,3,395,Not one of the 50 US states
+2018,State,9D,Unknown,6,3830,Not one of the 50 US states
+2018,State,9E,Foreign Country,5,1160.4,Not one of the 50 US states
+2019,National,,National,18,32393523.4,National aggregate used in A1; not a state observation
+2019,State,11,District of Columbia,9,35611.4,Not one of the 50 US states
+2019,State,66,Guam,6,3226.7,Not one of the 50 US states
+2019,State,69,Northern Mariana Islands,3,265.6,Not one of the 50 US states
+2019,State,72,Puerto Rico,12,993199.8,Not one of the 50 US states
+2019,State,78,Virgin Islands,7,9900.9,Not one of the 50 US states
+2019,State,9B,Armed Forces Europe,4,847.7,Not one of the 50 US states
+2019,State,9C,Armed Forces Pacific,3,629.5,Not one of the 50 US states
+2019,State,9D,Unknown,3,653.2,Not one of the 50 US states
+2019,State,9E,Foreign Country,4,848.6,Not one of the 50 US states
+2020,National,,National,15,33047945.1,National aggregate used in A1; not a state observation
+2020,State,11,District of Columbia,8,34173.2,Not one of the 50 US states
+2020,State,66,Guam,5,3642.4,Not one of the 50 US states
+2020,State,69,Northern Mariana Islands,4,356.3,Not one of the 50 US states
+2020,State,72,Puerto Rico,12,1033350.3,Not one of the 50 US states
+2020,State,78,Virgin Islands,6,10030.3,Not one of the 50 US states
+2020,State,9B,Armed Forces Europe,3,936.2,Not one of the 50 US states
+2020,State,9C,Armed Forces Pacific,3,616.8,Not one of the 50 US states
+2020,State,9D,Unknown,3,1133.9,Not one of the 50 US states
+2020,State,9E,Foreign Country,3,768.1,Not one of the 50 US states
+2021,National,,National,14,32681730.5,National aggregate used in A1; not a state observation
+2021,State,11,District of Columbia,7,32329.5,Not one of the 50 US states
+2021,State,66,Guam,5,3954.3,Not one of the 50 US states
+2021,State,69,Northern Mariana Islands,3,305.6,Not one of the 50 US states
+2021,State,72,Puerto Rico,12,1030896,Not one of the 50 US states
+2021,State,78,Virgin Islands,7,9665.3,Not one of the 50 US states
+2021,State,9B,Armed Forces Europe,3,884.5,Not one of the 50 US states
+2021,State,9C,Armed Forces Pacific,3,700.4,Not one of the 50 US states
+2021,State,9D,Unknown,3,1206,Not one of the 50 US states
+2021,State,9E,Foreign Country,3,855.9,Not one of the 50 US states
+2022,National,,National,12,32038709.1,National aggregate used in A1; not a state observation
+2022,State,11,District of Columbia,7,32336.6,Not one of the 50 US states
+2022,State,66,Guam,5,3689.4,Not one of the 50 US states
+2022,State,69,Northern Mariana Islands,3,197,Not one of the 50 US states
+2022,State,72,Puerto Rico,11,1039570.7,Not one of the 50 US states
+2022,State,78,Virgin Islands,6,8589,Not one of the 50 US states
+2022,State,9A,Armed Forces Central/South America,1,39,Not one of the 50 US states
+2022,State,9B,Armed Forces Europe,3,697.3,Not one of the 50 US states
+2022,State,9C,Armed Forces Pacific,3,652.9,Not one of the 50 US states
+2022,State,9D,Unknown,3,1222.5,Not one of the 50 US states
+2022,State,9E,Foreign Country,3,1196,Not one of the 50 US states
+2023,National,,National,12,31260747.5,National aggregate used in A1; not a state observation
+2023,State,11,District of Columbia,8,30203.6,Not one of the 50 US states
+2023,State,66,Guam,5,3364.3,Not one of the 50 US states
+2023,State,69,Northern Mariana Islands,3,128,Not one of the 50 US states
+2023,State,72,Puerto Rico,11,1012375,Not one of the 50 US states
+2023,State,78,Virgin Islands,6,8169.3,Not one of the 50 US states
+2023,State,9B,Armed Forces Europe,3,439,Not one of the 50 US states
+2023,State,9C,Armed Forces Pacific,3,745.3,Not one of the 50 US states
+2023,State,9D,Unknown,4,1181.8,Not one of the 50 US states
+2023,State,9E,Foreign Country,3,1070.8,Not one of the 50 US states
+2024,National,,National,10,31224753,National aggregate used in A1; not a state observation
+2024,State,11,District of Columbia,9,32187.4,Not one of the 50 US states
+2024,State,66,Guam,4,3429.4,Not one of the 50 US states
+2024,State,69,Northern Mariana Islands,3,180,Not one of the 50 US states
+2024,State,72,Puerto Rico,10,991980.9,Not one of the 50 US states
+2024,State,78,Virgin Islands,7,7606.3,Not one of the 50 US states
+2024,State,9B,Armed Forces Europe,3,608.6,Not one of the 50 US states
+2024,State,9C,Armed Forces Pacific,4,668.5,Not one of the 50 US states
+2024,State,9D,Unknown,4,1239,Not one of the 50 US states
+2024,State,9E,Foreign Country,4,1222.9,Not one of the 50 US states

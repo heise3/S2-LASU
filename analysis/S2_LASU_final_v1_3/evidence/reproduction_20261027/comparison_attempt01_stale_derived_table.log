@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_audit_20261027/code/rebuild_and_compare.py", line 85, in <module>
+    assert fresh or static, f'Unregenerated statistical source: {p}'
+           ^^^^^^^^^^^^^^^
+AssertionError: Unregenerated statistical source: /Users/feishuduobang/Documents/Codex/2026-10-26/s2-lasu-medicare-part-d-k0-2/work/S2_LASU_v1_2_reproduction_20261027/outputs/S2_LASU_formal_v1/tables/A1_absolute_volumes.csv

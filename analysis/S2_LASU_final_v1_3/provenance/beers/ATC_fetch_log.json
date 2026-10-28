@@ -1,0 +1,260 @@
+[
+  {
+    "file": "ATC_version.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/version/ATC.json",
+    "status": "OK",
+    "sha256": "7938336f53e76d22ec95a12e8bf6cd9ff8d4231094a874de39a8ba9e160eb231"
+  },
+  {
+    "file": "ATC_A02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A02&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "8cdf0fd8520aabaa425bc842842be41482decf7a6216b16855de58b7f63ade4b"
+  },
+  {
+    "file": "ATC_A03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A03&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "b3021c90314c58dd93d6be0b6122390f3c83fbb98fdf9347d09ed9815831864c"
+  },
+  {
+    "file": "ATC_A10_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "d4b11ec71b731a23ab240a9e3d0ce8fde29aac3fe7dcadaf0ca58da817de61be"
+  },
+  {
+    "file": "ATC_A10BB_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BB&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "4ff2d5d353e595796cf73dbd9bc03d8f823e61378c014a71e77d671efbb63932"
+  },
+  {
+    "file": "ATC_B01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B01&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "bd8df4043c6a049b2959d58bb363ffe046f96d76b2003f8b1516cf78d56132ff"
+  },
+  {
+    "file": "ATC_C01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C01&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "09b485a76efecceb28884092bae8a0207f52ca8866a19c3a400fb052f6eb4acf"
+  },
+  {
+    "file": "ATC_C02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C02&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "850c3a578e524197532afa6211e41c4e173e8f3f7f37a2170d895d22e82217c3"
+  },
+  {
+    "file": "ATC_C08_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C08&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "c77803c54b67a3cde9212cd2ad51553d9bf84bd855553db7f8e659077e9f9f57"
+  },
+  {
+    "file": "ATC_G03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=G03&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "d38ad406b08af69b16e547f05da0dc83219f7114e60bff6c0324e1faff49d679"
+  },
+  {
+    "file": "ATC_H01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H01&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "aaebfd571ad80781a4482069ae3f833f8d058181dac949203c17b1b9f892cd13"
+  },
+  {
+    "file": "ATC_H03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H03&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "862eb97d052a1ac4a30db518b28fd5acc98e7ff0504de19c320b54da3dfe470c"
+  },
+  {
+    "file": "ATC_J01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J01&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "e7c2bca53d6ff88878cec46ba17f66b4df211a844199d9c716e687c1f70e62c6"
+  },
+  {
+    "file": "ATC_L02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L02&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "892b00aa192619e151861264dd636203ec300c7e4cc58e30a828cc967d90ec98"
+  },
+  {
+    "file": "ATC_M01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M01&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "be056ff3e6498ce33fd66bcacb60532839ed67e6e71b861f78d9f786e733b62b"
+  },
+  {
+    "file": "ATC_M03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M03&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "4f1c734f4091e3c2808243647261245dd3b28541a36f3ed07e00ca2c7735cb8e"
+  },
+  {
+    "file": "ATC_N02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N02&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "81c975ea61d0e8baac5c6029d58948d324f14944d7db954c27b0613231f32e39"
+  },
+  {
+    "file": "ATC_N03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N03&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "9cc9e83dc6b1bf4590cde1ad00f2d5b513b561f9044a97cf024329b8cdff2eb0"
+  },
+  {
+    "file": "ATC_N04_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N04&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "b0dd8ba8fdfadadc82109e4004ea2db63897141d4e2c55574d88be20db7ff523"
+  },
+  {
+    "file": "ATC_N05_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N05&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "7e0c3bd5e3dbdda51e1d5a3803a0d570db8e8c8a1d5ec69d460a0a0e9c9bf8e9"
+  },
+  {
+    "file": "ATC_N06_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N06&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "e99aa8266abe98daa86d5120f6c16886d264057d8458dc202a3794c74d80623f"
+  },
+  {
+    "file": "ATC_R06_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R06&relaSource=ATC&trans=0",
+    "status": "OK",
+    "sha256": "64d8101c03a0a00dda4ec10834a0912ab258d707cd5c20dfe7a8d2120693d914"
+  },
+  {
+    "file": "ATC_A02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A02",
+    "status": "OK",
+    "sha256": "786a36e15b056eea8cfd898cf9075090c7d34c0a14bfc63b5e0f87a2419a564a"
+  },
+  {
+    "file": "ATC_A03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A03",
+    "status": "OK",
+    "sha256": "abb5bf647fa18a137bf82eeddfa4409fd47b646a7a225d9998fafca7e7c256bc"
+  },
+  {
+    "file": "ATC_A10_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A10",
+    "status": "OK",
+    "sha256": "f824668965ba97b6798403651b5024bfd7dab6f52345a22449302dfde65a3292"
+  },
+  {
+    "file": "ATC_A10BB_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A10BB",
+    "status": "OK",
+    "sha256": "856d2c4a97c57d79284d2e574f96b909755ec06a955ca58768187a082fc1e8fb"
+  },
+  {
+    "file": "ATC_B01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=B01",
+    "status": "OK",
+    "sha256": "ad4ca69d9780342baf1f7ad4393f103caa58558a2a3f84cf4dc1fe2212263981"
+  },
+  {
+    "file": "ATC_C01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=C01",
+    "status": "OK",
+    "sha256": "64e58b7a4514ee13057ff9dc68de93a91beabda8161e69b93b8610513a7755c1"
+  },
+  {
+    "file": "ATC_C02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=C02",
+    "status": "OK",
+    "sha256": "6156c2679c168e16ab1453f54bca5890803fe288a4bb0a986ff097b7ad27abb8"
+  },
+  {
+    "file": "ATC_C08_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=C08",
+    "status": "OK",
+    "sha256": "5f652424fe584e75c637e2c869ebf344cc72fccdb19f2f0b67fd2aa30d09169d"
+  },
+  {
+    "file": "ATC_G03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=G03",
+    "status": "OK",
+    "sha256": "d421d770a440154eedd78be3aa83371892e183373b4ec1dc82fb572043083fbd"
+  },
+  {
+    "file": "ATC_H01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=H01",
+    "status": "OK",
+    "sha256": "4ff309511b7380c49aeec2afa66609e01cc41a648161cacf52ff4ed814fc83eb"
+  },
+  {
+    "file": "ATC_H03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=H03",
+    "status": "OK",
+    "sha256": "a17233f9ccfa60943dbe3af7fed593421d61a9a18144371a7df4cb2fdbce8e4a"
+  },
+  {
+    "file": "ATC_J01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=J01",
+    "status": "OK",
+    "sha256": "c8bd6727d5aad18c30d9914cfd3ba637c6824c3d470fdb070b4520db3ad0e0e4"
+  },
+  {
+    "file": "ATC_L02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=L02",
+    "status": "OK",
+    "sha256": "7a3f18bfab8a4a2a87d5ec2303678daaeca0704e3d0904370bb4380b42ed1fd8"
+  },
+  {
+    "file": "ATC_M01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=M01",
+    "status": "OK",
+    "sha256": "0eb642f76d36a26a59a2db8f5a15bb88b3be7bb47efe611fc0c2b9ec3ff10106"
+  },
+  {
+    "file": "ATC_M03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=M03",
+    "status": "OK",
+    "sha256": "460737294eaef3a679857ceb5c756d5ef89710da027ec4a1999549392c0d5cae"
+  },
+  {
+    "file": "ATC_N02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N02",
+    "status": "OK",
+    "sha256": "861639f45421f720b811e0ecab09e56046b72a08e5db056c7fb3206cfac0d61f"
+  },
+  {
+    "file": "ATC_N03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N03",
+    "status": "OK",
+    "sha256": "1f6651902851fff9cb35dad8d5a8a97d90af0bc3b7c14a29c1a547cd40c7ea9f"
+  },
+  {
+    "file": "ATC_N04_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N04",
+    "status": "OK",
+    "sha256": "7c0711698bde0c86ea1c0aa230274ebd83a26d897fe44e8b87d7539504603c01"
+  },
+  {
+    "file": "ATC_N05_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N05",
+    "status": "OK",
+    "sha256": "8f95c9ec017da60673ee0699e0997fada9a7f69d774f95758be1b906c82067b1"
+  },
+  {
+    "file": "ATC_N06_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N06",
+    "status": "OK",
+    "sha256": "6144c523aaa2bbeba67d0b600202efb7a005f08113e7f2dd8762da3f6cf12913"
+  },
+  {
+    "file": "ATC_R06_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=R06",
+    "status": "OK",
+    "sha256": "c51cfb648ba4419181eb08f8d21defb58873113e4fa68ecb74ab0f74b57f3028"
+  }
+]

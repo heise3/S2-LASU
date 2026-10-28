@@ -1,0 +1,260 @@
+[
+  {
+    "file": "ATC_version.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/version/relaSource.json?relaSource=ATC",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A02&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A03&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A10_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A10BB_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A10BB&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_B01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B01&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_C01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C01&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_C02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C02&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_C08_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C08&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_G03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=G03&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_H01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H01&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_H03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H03&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_J01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J01&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_L02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L02&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_M01_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M01&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_M03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M03&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N02_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N02&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N03_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N03&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N04_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N04&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N05_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N05&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N06_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N06&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_R06_members.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R06&relaSource=ATC&trans=0",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A02",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A03",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A10_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A10",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_A10BB_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=A10BB",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_B01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=B01",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_C01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=C01",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_C02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=C02",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_C08_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=C08",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_G03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=G03",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_H01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=H01",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_H03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=H03",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_J01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=J01",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_L02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=L02",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_M01_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=M01",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_M03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=M03",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N02_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N02",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N03_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N03",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N04_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N04",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N05_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N05",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_N06_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=N06",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  },
+  {
+    "file": "ATC_R06_label.json",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byId.json?classId=R06",
+    "status": "ERROR",
+    "error": "<urlopen error [Errno 1] Operation not permitted>"
+  }
+]
