@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "protected_files": 563,
+  "protected_changes": 0,
+  "original_complete_subset_state_years": 103,
+  "complete_states": 41,
+  "primary_cells": 1200,
+  "independent_max_beta_error": 7.993605777301127e-15,
+  "independent_max_cov_error": 2.3314683517128287e-15,
+  "ER_reclassification_invariant": true,
+  "national_matches_frozen": true,
+  "state_denominators_match_frozen": true,
+  "unmatched_drug_names": 0,
+  "excluded_age_cells": 0,
+  "contract_sha256": "3d7d1f2a0eb779b6618fbee1bf0de99476fdf4cfd7578ab90f6a9ebe63b020f5",
+  "coefficient_rows": 36,
+  "model_fits": 18
+}

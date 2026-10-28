@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "table_checks": 27,
+  "numeric_cells": 372617,
+  "model_coefficient_rows": 36,
+  "protected_reference_files": 410,
+  "protected_changes": 0,
+  "figures": [
+    {
+      "file": "F1_molecule_shares_and_age_gaps.png",
+      "pixel_identical": true,
+      "expected_shape": [
+        2408,
+        2880,
+        4
+      ],
+      "actual_shape": [
+        2408,
+        2880,
+        4
+      ]
+    },
+    {
+      "file": "F2_state_glimepiride_gaps_2019_2024.png",
+      "pixel_identical": true,
+      "expected_shape": [
+        2928,
+        2880,
+        4
+      ],
+      "actual_shape": [
+        2928,
+        2880,
+        4
+      ]
+    }
+  ],
+  "scope": "New addenda replay from included CMS public SU extracts; does not re-run the historical full v1.3 pipeline",
+  "source_code": "Byte-identical v1.6 scientific code; wrapper only stages relative layout and compiles the main result projection"
+}

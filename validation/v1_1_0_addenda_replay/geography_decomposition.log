@@ -1,0 +1,5 @@
+ year  national_published_gap_pp  state50_pooled_gap_pp  state50_within_harmonic_gap_pp  state50_geographic_weight_component_pp  observed_non50_addition_pp  publication_suppression_residual_pp
+ 2013                   2.448951               2.520694                        3.170439                               -0.649745                   -0.063803                            -0.007939
+ 2019                   3.427341               3.580924                        4.372307                               -0.791382                   -0.151845                            -0.001738
+ 2024                   2.563222               2.823918                        3.909925                               -1.086008                   -0.251496                            -0.009199
+PASS pooled 4.0398638248425245 maxerror 7.385203559806541e-13

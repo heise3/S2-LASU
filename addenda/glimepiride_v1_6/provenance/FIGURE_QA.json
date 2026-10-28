@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "skill": "academic-figure-skill",
+  "figure_names": [
+    "F1_molecule_shares_and_age_gaps",
+    "F2_state_glimepiride_gaps_2019_2024"
+  ],
+  "F1_national_years": 12,
+  "F2_states": 50,
+  "all_data_included": true,
+  "truncation": "2014 glyburide minimum included after expanding lower axis",
+  "panel_color_semantics": "blue glimepiride, purple glyburide, green glipizide; age uses solid-circle/dashed-square; F2 years use hollow circles/blue squares",
+  "font_floor_pt": 6.5,
+  "physical_width_mm_approximately": 183,
+  "vector_fonts_embedded": true,
+  "PNG_dpi": 400,
+  "visual_review": "Full figures and native Word contact sheet inspected; no clipping. Two-panel state layout retains all50 labels. Reference lines do not imply policy tests.",
+  "automated_validator": "Invoked scripts/qa_validator.py with exit0 and no stdout; manual protocol recorded here rather than inventing individual auto-test output.",
+  "national_glimepiride_positive_all12": true
+}

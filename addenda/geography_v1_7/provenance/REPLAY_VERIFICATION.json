@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checked_csvs": 5,
+  "checks": [
+    {
+      "file": "annual_geographic_decomposition.csv",
+      "original_sha256": "e0039c6c77f24258de9e4952f60ca4e272aa7e3a79c012d56fa1fd4b166a3c0d",
+      "replay_sha256": "e0039c6c77f24258de9e4952f60ca4e272aa7e3a79c012d56fa1fd4b166a3c0d",
+      "same": true
+    },
+    {
+      "file": "excluded_geographic_units.csv",
+      "original_sha256": "79eedc485b8b8a815878e3a2f5784ce12cb2a2947353aee404d3e55de08a84a8",
+      "replay_sha256": "79eedc485b8b8a815878e3a2f5784ce12cb2a2947353aee404d3e55de08a84a8",
+      "same": true
+    },
+    {
+      "file": "national_subnational_drug_volume_audit.csv",
+      "original_sha256": "f1e25059623925b57318425a84bf4394c077b4a1cc3229e0382eccba90a1297d",
+      "replay_sha256": "f1e25059623925b57318425a84bf4394c077b4a1cc3229e0382eccba90a1297d",
+      "same": true
+    },
+    {
+      "file": "publication_universe_coverage.csv",
+      "original_sha256": "a00e507236bbb1e3324faa1effc848d08dc3273bbf99f07790591a487978719b",
+      "replay_sha256": "a00e507236bbb1e3324faa1effc848d08dc3273bbf99f07790591a487978719b",
+      "same": true
+    },
+    {
+      "file": "state_year_weights_and_components.csv",
+      "original_sha256": "56ea5c883cafc57605a90a7a08e3473b5ca5478955a1025af44dd91f1c09871c",
+      "replay_sha256": "56ea5c883cafc57605a90a7a08e3473b5ca5478955a1025af44dd91f1c09871c",
+      "same": true
+    }
+  ],
+  "protected_source_files": 7,
+  "source_changes": 0
+}

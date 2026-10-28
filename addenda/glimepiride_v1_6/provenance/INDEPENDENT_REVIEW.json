@@ -1,0 +1,37 @@
+{
+  "status": "PASS_NO_MATERIAL_STATISTICAL_ERROR",
+  "date": "2026-10-28",
+  "review_scope": "Frozen contract, code, resulting tables, manual paired-gap calculation and interpretation",
+  "manual_calculation": {
+    "method": "Paired-gap harmonic-volume weighting; manual state cluster scores; prespecified full-FE CR1; t49",
+    "estimate_pp": 4.03986382484251,
+    "se": 0.7226684679065906,
+    "ci_low": 2.5876071670833,
+    "ci_high": 5.4921204826018,
+    "CR1_factor": 2.04251984600184,
+    "matches_main_output": true,
+    "used_analysis_fit_function": false,
+    "used_statsmodels_for_manual_calculation": false
+  },
+  "fully_visible_sample": {"state_years": 103, "states": 41, "matches_original_membership": true},
+  "geographic_counts": {
+    "total_states": 50,
+    "point_positive_all_12_years": 42,
+    "lower_endpoint_positive_all_12_years": 41,
+    "point_positive_2024": 48,
+    "lower_endpoint_positive_2024": 47
+  },
+  "four_primary_allocation_CIs_positive": true,
+  "ER_XL_relabeling_invariant": true,
+  "caveats": [
+    "Weighted pooled state-year level difference; not a 2024 national gap or individual probability",
+    "Full-FE CR1 is the inherited conservative correction",
+    "Suppression allocations are not global missing-data bounds and do not cover entirely omitted products",
+    "Period estimates are descriptive; no policy effect or tested period contrast",
+    "97.840856 percent glyburide contribution is an endpoint arithmetic decomposition, not causal attribution",
+    "Older-group glipizide share was higher in 2013 through 2016; persistent positive gradient refers to glimepiride",
+    "Renal and clinical composition are unmeasured potential explanations; comparability is not established"
+  ],
+  "analysis_or_manuscript_files_modified_by_reviewer": false,
+  "minor_output_schema_issue": "Zero-row exclusion CSV header suggestion reported applied by parent"
+}

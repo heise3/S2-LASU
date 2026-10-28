@@ -1,0 +1,15 @@
+                       scenario  estimate_pp   ci_low  ci_high
+                       observed     4.039864 2.587607 5.492120
+          old_lower_young_upper     4.034869 2.585606 5.484132
+          old_upper_young_lower     4.038690 2.587460 5.489920
+            primary_small_lower     4.038228 2.587009 5.489446
+            primary_small_upper     4.035330 2.586055 5.484606
+target_share_old_high_young_low     4.076787 2.624834 5.528740
+target_share_old_low_young_high     3.996751 2.548111 5.445390
+              fully_visible_103     4.565498 3.377752 5.753245
+        ER_XL_as_long_invariant     4.039864 2.587607 5.492120
+   period  estimate_pp   ci_low  ci_high
+2013-2018     4.175891 2.731902 5.619880
+2019-2022     3.967637 2.440259 5.495015
+2023-2024     3.680231 2.169903 5.190559
+DECISION SUPPORTED_STATE_LEVEL

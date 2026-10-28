@@ -1,21 +1,22 @@
 # S2-LASU: age differences in sulfonylurea dispensing in Medicare Part D
 
-Code, frozen aggregate results, definitions, and reproducibility evidence for **Age Differences in Long-Acting Sulfonylurea Dispensing in Medicare Part D, 2013–2024**.
+Release **v1.1.0** adds the post hoc glimepiride analysis and an annual geographical-composition decomposition. It preserves the original frozen v1.3 analysis from public release v1.0.0. This repository contains scientific code and aggregate results, not the unpublished manuscript or an indication of journal submission or acceptance.
 
-Authors: Peng Liang, Jie Wu, BaoLong Li, XiangYan Wu, and Xiaona Zhu. Peng Liang and Jie Wu share first authorship. This repository is a research resource; it is not a clinical decision tool or a statement that the manuscript has been published or accepted.
+Authors: Peng Liang, Jie Wu, BaoLong Li, XiangYan Wu, and Xiaona Zhu. Peng Liang and Jie Wu share first authorship.
 
-## What is available
+## Contents
 
-- `analysis/S2_LASU_final_v1_3/`: the byte-for-byte frozen analysis package, including 16 main tables, 100 supporting tables, F1–F4, drug definitions, analysis code, environment pins, and prior complete-replay evidence.
-- `analysis/S2_LASU_final_v1_3/code/reproduce.py`: the authoritative frozen analysis entry.
-- `analysis/S2_LASU_final_v1_3/reproduction/upstream_code/`: source scripts used by the analysis modules, including acquisition and schema harmonization.
-- `compatibility/S2_LASU_final_v1_2/code/`: historical compatibility code required by the complete replay. It is not an alternative current analysis entry.
-- `presentation/`: the two figures used in the concise manuscript and their numerical plotting data. Manuscript Figure 1 combines national trends and drug-family differences; manuscript Figure 2 corresponds to the frozen analysis state comparison (F3).
-- `CITATION.cff`: author and release metadata; no DOI is claimed.
+- `analysis/S2_LASU_final_v1_3/`: unchanged original frozen analysis, 16 main tables, 100 supporting tables, F1–F4, corrected Beers definitions, and prior reproduction evidence.
+- `addenda/glimepiride_v1_6/`: specification, byte-identical scientific code, 12 official CMS sulfonylurea extracts, all generated tables, two current presentation figures, and scientific QA.
+- `addenda/geography_v1_7/`: exact annual arithmetic decomposition separating within-state differences, geographic volume composition, observed nonstate addition, and publication/suppression-universe residuals.
+- `presentation/`: historical v1.0.0 presentation figures, retained for provenance. The current manuscript figure data and graphics are in `addenda/glimepiride_v1_6/figures/`.
+- `compatibility/`: unchanged historical adapter code; not an alternative current entry.
+- `reproduce.py`: unified verification and isolated new-addenda recomputation.
+- `RIGHTS.md`: existing rights retained, with no additional reuse license.
 
-## Verify this public release
+## Verify the public package
 
-Use Python 3.12 and the versions recorded in `requirements.txt` for the original analysis environment. Create a virtual environment outside the frozen analysis folder.
+Use Python 3.12 and the pinned versions in `requirements.txt`. Create the environment outside the frozen analysis directory.
 
 ```sh
 python -m venv .venv
@@ -24,36 +25,36 @@ python -m pip install -r requirements.txt
 python reproduce.py verify
 ```
 
-The command checks the public file manifest and the original frozen manifest, then verifies the canonical tables, corrected Beers definitions, and figures. It does **not** fit statistical models. The frozen analysis directory must remain unchanged, including its file set; do not create virtual environments or logs inside it.
+Verification checks every release manifest entry and invokes the authoritative frozen v1.3 verification. It does not refit models.
 
-## Complete statistical replay: additional inputs are required
-
-This repository is **not a self-contained download of every original CMS cache and historical project output**. The small `verify` command works from this repository; full statistical recomputation requires the original source-project layout and cached inputs described in `analysis/S2_LASU_final_v1_3/README.md` and `reproduction/source_requirements.json`. The latter records 457 hashed source requirements. The historical adapter additionally expects the source project's prior-output provenance and layout; copying only those 457 files is not guaranteed to reconstruct that full project.
-
-Once that original source-project layout is available, use the authoritative entry:
+## Self-contained recomputation of the new addenda
 
 ```sh
-python analysis/S2_LASU_final_v1_3/code/reproduce.py preflight \
-  --source-project /absolute/path/to/source_project
-python analysis/S2_LASU_final_v1_3/code/reproduce.py recompute \
-  --source-project /absolute/path/to/source_project \
-  --workspace /absolute/path/to/source_project/work/new_replay \
-  --audit-dir /absolute/path/to/source_project/work/new_audit \
-  --dry-run
+python reproduce.py recompute-addenda --workspace /absolute/path/to/new_replay_directory
 ```
 
-The two output directories must not exist. Remove `--dry-run` only to execute the full pipeline. Prior full-replay evidence is preserved in the frozen package; the GitHub publication step checks packaging and integrity and does not constitute a new statistical rerun. Some provenance records retain original local paths as historical evidence, not portable commands.
+The destination must not exist and must be outside this release directory. The entry reconstructs the original v1.6 relative execution layout using the included public CMS SU extracts and immutable original reference tables. It executes the unchanged scientific code, regenerates tables and figures, and then runs the geographical decomposition on the newly regenerated results. It also regenerates `MAIN_RESULTS.csv` as a deterministic projection of all model rows.
 
-## Data and interpretation
+The replay compares every generated numeric/statistical CSV with the released reference and checks the two PNG figures pixel by pixel. `audit/REPLAY_STATUS.json`, `audit/TABLE_COMPARISON.csv`, and execution logs appear in the new workspace. Figure pixel identity depends on available fonts; if numeric checks pass but a font changes rendering, the report records `PASS_NUMERICS_FIGURE_FONT_REVIEW_REQUIRED`. Original figures remain available for visual comparison. PDF creation metadata can differ without changing content. No source-project cache or beneficiary-level data is needed for **these new addenda**.
 
-CMS public sources are Medicare Part D Prescribers by Geography and Drug, by Provider and Drug, and official Part D enrollment tables. Dataset URLs and versions are in `analysis/S2_LASU_final_v1_3/provenance/CMS_source_manifest.json` and the associated evidence files. These are published aggregates, not beneficiary-level records. Some supporting provider summaries contain publicly released National Provider Identifiers; they are prescriber identifiers, not patient identifiers. CMS suppression is retained; omitted cells must not be interpreted as zero.
+This is not a fresh download and nationwide extraction of all original CMS files. Included extracts are published aggregate rows selected by the frozen SU definitions; source versions and hashes remain documented in the original frozen provenance. It is also not a replay of the full original prescriber/Beers pipeline. That older pipeline still requires the historical source-project inputs and layout specified in `analysis/S2_LASU_final_v1_3/README.md` and `reproduction/source_requirements.json`.
 
-The primary outcome is long-acting sulfonylurea 30-day fills divided by all sulfonylurea 30-day fills. The under-65 Part D group is predominantly disability-eligible. Interactions describe age-group trend differences, not a causal Beers policy effect. The 103 fully visible state-year sensitivity has a confidence interval crossing zero; ER/XL reclassification attenuates the estimate. See the frozen report for the full limitations.
+## Interpretation
+
+The new primary estimand is the pooled volume-weighted within-state-year glimepiride-family share difference, +4.04 percentage points (95% CI 2.59–5.49), across 2013–2024. It is a level difference, not a per-year trend, a 2024 national difference, or a patient probability. It is a post hoc analysis: the added-state-model specification was frozen before fitting, after review of known national and combined-long-acting results. Neither this repository nor the timestamp represents prospective preregistration.
+
+Glimepiride shares use 30-day fills divided by all sulfonylurea fills and include combination products. State weights reflect dispensing volumes classified by **prescriber location**, not the geographic distribution of unique beneficiaries. The under-65 Part D group is predominantly disability-eligible and is not clinically exchangeable with older beneficiaries. Comparisons cannot identify an age effect or Beers policy effect. Suppression is retained; missing values are not zero, and allocations cannot recover entirely omitted drug rows.
+
+The geographical decomposition is an exact arithmetic reconciliation. National published aggregates and sums of state rows can differ because of geography coverage and publication/suppression universes. A remaining discrepancy must not be attributed solely to nonstate units without evidence. The 12-year pooled estimate must not be confused with a single-year comparison.
 
 ## Deprecated clidinium matching
 
-Historical substring rules incorrectly captured aclidinium and umeclidinium as clidinium products. **Do not use affected old tables, rankings, plots, or standalone historical scripts as current results.** `DEPRECATED.md`, effective definitions, the corrected T6 tables, and the unified entry identify the valid analysis. The four corrected Beers percentiles are 78.79, 84.85, 84.85, and 78.79; each is in Q4. The old 75.76 percentile is not valid.
+Historical substring rules captured aclidinium and umeclidinium as clidinium products. **Affected old Beers tables, rankings, figures, and standalone historical scripts remain deprecated and must not be used.** The retained v1.3 effective definitions and corrected T6 outputs are authoritative. Corrected Beers percentiles are 78.79, 84.85, 84.85, and 78.79, all Q4; the old 75.76 value is invalid.
 
-## Publication and rights
+## Archiving and rights
 
-This repository does not include the unpublished manuscript, private author contact sheets, or internal writing-review files. Authors report no specific funding for this secondary analysis and no conflicts of interest. CMS source materials retain their original provenance and applicable terms. No new license for third-party materials is asserted here; a reuse license for project-authored code has not been specified. Repository publication does not register a protocol or assign a DOI.
+Original release v1.0.0: https://doi.org/10.5281/zenodo.23727072 . This v1.1.0 release retains it and adds the new analyses without overwriting that historical record. Version-specific v1.1.0 DOI: https://doi.org/10.5281/zenodo.23732736 (reserved when this package was prepared; it resolves after archive publication).
+
+No beneficiary-level records, unpublished manuscript, private author contact sheets, or publisher full-text PDFs are included in the new addenda. Some unchanged original provider-summary tables contain publicly released NPIs, which are prescriber rather than patient identifiers. Historical v1.3 provenance records retain some original local paths as audit evidence; these are not portable commands. New addenda have no workstation-specific private paths.
+
+No new reuse license is granted. Existing rights and third-party terms remain unchanged. See `RIGHTS.md`. Authors report no specific funding for this secondary analysis and no conflicts of interest.

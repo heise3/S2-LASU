@@ -1,0 +1,122 @@
+year,level,code,name,n_rows,reason
+2013,National,,National,20,National used separately
+2013,State,11,District of Columbia,10,Not one of50 states
+2013,State,66,Guam,7,Not one of50 states
+2013,State,69,Northern Mariana Islands,6,Not one of50 states
+2013,State,72,Puerto Rico,16,Not one of50 states
+2013,State,78,Virgin Islands,9,Not one of50 states
+2013,State,9B,Armed Forces Europe,3,Not one of50 states
+2013,State,9C,Armed Forces Pacific,1,Not one of50 states
+2013,State,9E,Foreign Country,7,Not one of50 states
+2014,National,,National,20,National used separately
+2014,State,11,District of Columbia,10,Not one of50 states
+2014,State,66,Guam,7,Not one of50 states
+2014,State,69,Northern Mariana Islands,5,Not one of50 states
+2014,State,72,Puerto Rico,15,Not one of50 states
+2014,State,78,Virgin Islands,11,Not one of50 states
+2014,State,9B,Armed Forces Europe,4,Not one of50 states
+2014,State,9C,Armed Forces Pacific,1,Not one of50 states
+2014,State,9D,Unknown,2,Not one of50 states
+2014,State,9E,Foreign Country,6,Not one of50 states
+2015,National,,National,20,National used separately
+2015,State,11,District of Columbia,10,Not one of50 states
+2015,State,66,Guam,7,Not one of50 states
+2015,State,69,Northern Mariana Islands,5,Not one of50 states
+2015,State,72,Puerto Rico,14,Not one of50 states
+2015,State,78,Virgin Islands,10,Not one of50 states
+2015,State,9B,Armed Forces Europe,5,Not one of50 states
+2015,State,9C,Armed Forces Pacific,1,Not one of50 states
+2015,State,9D,Unknown,5,Not one of50 states
+2015,State,9E,Foreign Country,6,Not one of50 states
+2016,National,,National,19,National used separately
+2016,State,11,District of Columbia,11,Not one of50 states
+2016,State,66,Guam,7,Not one of50 states
+2016,State,69,Northern Mariana Islands,3,Not one of50 states
+2016,State,72,Puerto Rico,14,Not one of50 states
+2016,State,78,Virgin Islands,9,Not one of50 states
+2016,State,9B,Armed Forces Europe,4,Not one of50 states
+2016,State,9C,Armed Forces Pacific,2,Not one of50 states
+2016,State,9D,Unknown,4,Not one of50 states
+2016,State,9E,Foreign Country,5,Not one of50 states
+2017,National,,National,18,National used separately
+2017,State,11,District of Columbia,10,Not one of50 states
+2017,State,66,Guam,5,Not one of50 states
+2017,State,69,Northern Mariana Islands,4,Not one of50 states
+2017,State,72,Puerto Rico,15,Not one of50 states
+2017,State,78,Virgin Islands,8,Not one of50 states
+2017,State,9B,Armed Forces Europe,5,Not one of50 states
+2017,State,9C,Armed Forces Pacific,4,Not one of50 states
+2017,State,9D,Unknown,4,Not one of50 states
+2017,State,9E,Foreign Country,5,Not one of50 states
+2018,National,,National,18,National used separately
+2018,State,11,District of Columbia,8,Not one of50 states
+2018,State,66,Guam,5,Not one of50 states
+2018,State,69,Northern Mariana Islands,3,Not one of50 states
+2018,State,72,Puerto Rico,14,Not one of50 states
+2018,State,78,Virgin Islands,7,Not one of50 states
+2018,State,9A,Armed Forces Central/South America,1,Not one of50 states
+2018,State,9B,Armed Forces Europe,4,Not one of50 states
+2018,State,9C,Armed Forces Pacific,3,Not one of50 states
+2018,State,9D,Unknown,6,Not one of50 states
+2018,State,9E,Foreign Country,5,Not one of50 states
+2019,National,,National,18,National used separately
+2019,State,11,District of Columbia,9,Not one of50 states
+2019,State,66,Guam,6,Not one of50 states
+2019,State,69,Northern Mariana Islands,3,Not one of50 states
+2019,State,72,Puerto Rico,12,Not one of50 states
+2019,State,78,Virgin Islands,7,Not one of50 states
+2019,State,9B,Armed Forces Europe,4,Not one of50 states
+2019,State,9C,Armed Forces Pacific,3,Not one of50 states
+2019,State,9D,Unknown,3,Not one of50 states
+2019,State,9E,Foreign Country,4,Not one of50 states
+2020,National,,National,15,National used separately
+2020,State,11,District of Columbia,8,Not one of50 states
+2020,State,66,Guam,5,Not one of50 states
+2020,State,69,Northern Mariana Islands,4,Not one of50 states
+2020,State,72,Puerto Rico,12,Not one of50 states
+2020,State,78,Virgin Islands,6,Not one of50 states
+2020,State,9B,Armed Forces Europe,3,Not one of50 states
+2020,State,9C,Armed Forces Pacific,3,Not one of50 states
+2020,State,9D,Unknown,3,Not one of50 states
+2020,State,9E,Foreign Country,3,Not one of50 states
+2021,National,,National,14,National used separately
+2021,State,11,District of Columbia,7,Not one of50 states
+2021,State,66,Guam,5,Not one of50 states
+2021,State,69,Northern Mariana Islands,3,Not one of50 states
+2021,State,72,Puerto Rico,12,Not one of50 states
+2021,State,78,Virgin Islands,7,Not one of50 states
+2021,State,9B,Armed Forces Europe,3,Not one of50 states
+2021,State,9C,Armed Forces Pacific,3,Not one of50 states
+2021,State,9D,Unknown,3,Not one of50 states
+2021,State,9E,Foreign Country,3,Not one of50 states
+2022,National,,National,12,National used separately
+2022,State,11,District of Columbia,7,Not one of50 states
+2022,State,66,Guam,5,Not one of50 states
+2022,State,69,Northern Mariana Islands,3,Not one of50 states
+2022,State,72,Puerto Rico,11,Not one of50 states
+2022,State,78,Virgin Islands,6,Not one of50 states
+2022,State,9A,Armed Forces Central/South America,1,Not one of50 states
+2022,State,9B,Armed Forces Europe,3,Not one of50 states
+2022,State,9C,Armed Forces Pacific,3,Not one of50 states
+2022,State,9D,Unknown,3,Not one of50 states
+2022,State,9E,Foreign Country,3,Not one of50 states
+2023,National,,National,12,National used separately
+2023,State,11,District of Columbia,8,Not one of50 states
+2023,State,66,Guam,5,Not one of50 states
+2023,State,69,Northern Mariana Islands,3,Not one of50 states
+2023,State,72,Puerto Rico,11,Not one of50 states
+2023,State,78,Virgin Islands,6,Not one of50 states
+2023,State,9B,Armed Forces Europe,3,Not one of50 states
+2023,State,9C,Armed Forces Pacific,3,Not one of50 states
+2023,State,9D,Unknown,4,Not one of50 states
+2023,State,9E,Foreign Country,3,Not one of50 states
+2024,National,,National,10,National used separately
+2024,State,11,District of Columbia,9,Not one of50 states
+2024,State,66,Guam,4,Not one of50 states
+2024,State,69,Northern Mariana Islands,3,Not one of50 states
+2024,State,72,Puerto Rico,10,Not one of50 states
+2024,State,78,Virgin Islands,7,Not one of50 states
+2024,State,9B,Armed Forces Europe,3,Not one of50 states
+2024,State,9C,Armed Forces Pacific,4,Not one of50 states
+2024,State,9D,Unknown,4,Not one of50 states
+2024,State,9E,Foreign Country,4,Not one of50 states

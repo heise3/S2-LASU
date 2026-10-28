@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-10-28T13:47:14.567054+00:00",
+  "years": 12,
+  "state_years": 600,
+  "exact_identity_tolerance_pp": 1e-09,
+  "max_validation_error": 7.385203559806541e-13,
+  "inputs_unchanged": true,
+  "input_sha256": {
+    "state_age_year_observed.csv": "db8213b814b3991d7a8a745f46aa5041d79748673c818a81b45a72cc78efcd9b",
+    "national_family_shares.csv": "a4def63b4823aaf0b0835f31afee2a80fc6d9e6c882b8d591ec91d3dbab1d654",
+    "matched_geography_drug_rows.csv.gz": "c12815a1df3dbf4e2c19c03ff4af180d7e7451c3a4d5fcbb5255ddb000c30127",
+    "glimepiride_state_models.csv": "f3aa90c17fbbb9a24331e1d0ece14686eff14c139f6201d224378746fa1765a0",
+    "excluded_geographic_units.csv": "07469e3e74cc151c64a7f97aeb64a047ae3d11171a05d123e3da00b850509117"
+  },
+  "pooled_from_state_years_pp": 4.0398638248425245,
+  "pooled_from_annual_pp": 4.039863824842526,
+  "pooled_v16_model_pp": 4.0398638248425,
+  "composition_negative_all12": true,
+  "annual_within_exceeds_national_all12": true,
+  "inference": "Exact arithmetic only; no new model,CI,p-value or causal attribution",
+  "national_bridge": "national=harmonic within+geographic weight component+observed non50 addition+publication/suppression residual"
+}

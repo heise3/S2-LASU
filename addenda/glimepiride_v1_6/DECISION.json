@@ -1,0 +1,27 @@
+{
+  "status": "SUPPORTED_STATE_LEVEL",
+  "primary": {
+    "period": "overall",
+    "estimate_pp": 4.039863824842526,
+    "se": 0.7226684679066218,
+    "ci_low": 2.587607167083253,
+    "ci_high": 5.4921204826018,
+    "p_value": 9.949137492329387e-07,
+    "n_cells": 1200,
+    "n_state_years": 600,
+    "n_states": 50,
+    "full_FE_rank": 601,
+    "CR1_factor": 2.04251984600184,
+    "df_cluster": 49,
+    "paired_beta_max_error": 8.881784197001252e-16,
+    "paired_cov_max_error": 1.1102230246251565e-16,
+    "scenario": "observed",
+    "model": "pooled_level"
+  },
+  "four_allocation_CIs_positive": true,
+  "states_positive_all12": 42,
+  "states_2024_positive": 48,
+  "states_2019_to2024_gap_decreased": 30,
+  "ER_XL": "EXACT_INVARIANCE_NOT_DISTINCT_SENSITIVITY",
+  "scope": "Descriptive weighted within-state-year level difference, no causal age effect or Beers policy effect"
+}

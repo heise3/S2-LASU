@@ -1,0 +1,7 @@
+{
+  "analyze.py": "92e98161eb9e098bf0e5117bbcbe7b0f7680786ba0e713287452ace3d3b84e6a",
+  "plot_figures.py": "29b530b83b439b8b2b4ad03168576ab65f9b9d13186930b2ac4dc0489ff2cf8f",
+  "legacy/loader.py": "0406dd29680ac773a148f056a734c783793222cfade8ff576979693011aec010",
+  "legacy/original_models.py": "e9fab3d4669c395b6dbb17fdc2e7993ee766b1ad661862833bf496af45700463",
+  "legacy/rule_bounds.py": "fd6cb4844d8140d05db4e41ea056a0aee5c6695c64d098f2065e6cd668356b8e"
+}
